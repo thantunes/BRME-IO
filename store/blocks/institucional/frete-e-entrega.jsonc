@@ -1,0 +1,101 @@
+{
+    "store.custom#frete-e-entrega": {
+      "blocks": ["flex-layout.row#frete-e-entrega"]
+    },
+    "flex-layout.row#frete-e-entrega": {
+      "children": ["flex-layout.col#text-frete-e-entrega"]
+    },
+    "flex-layout.col#text-frete-e-entrega": {
+      "children": [
+        
+        "rich-text#about-title", 
+        "rich-text#about-subtitle-calculo", 
+        "rich-text#about-content-calculo",
+        "rich-text#about-subtitle-entrega", 
+        "rich-text#about-content-entrega",
+        "rich-text#about-subtitle-politica-de-frete-gratis",
+        "image#politica-de-frete",
+        "rich-text#about-subtitle-prazo-de-entrega", 
+        "rich-text#about-subtitle-prazo-medio-sedex",
+        "rich-text#about-content-prazo-medio-sedex",
+        "rich-text#about-subtitle-prazo-medio-correios",
+        "rich-text#about-content-prazo-medio-correios"
+      ],
+      "props": {
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#about-title": {
+      "props": {
+        "text": "INFORMAÇÕES SOBRE ENTREGA E FRETE:",
+        "blockClass": "titulo"
+      }
+    },
+
+    "rich-text#about-subtitle-calculo": {
+      "props": {
+        "text": "Cálculo para frete:",
+        "blockClass": "subtitulo"
+      }
+    },
+    "rich-text#about-content-calculo": {
+      "props": {
+        "text": "Para o cálculo do frete, basta informar seu CEP durante o processo de compra. O valor do frete está relacionado a distância do local de entrega, forma de entrega, peso e dimensões do produto.*\n**O sistema fará o cálculo automático do frete, apresentará a previsão de entrega e o valor, que será somado ao valor da compra, fornecendo assim o total a ser paga pelo pedido."
+      }
+    },
+    "rich-text#about-subtitle-entrega": {
+      "props": {
+        "text": "Entrega:",
+        "blockClass": "subtitulo"
+      }
+    },
+    "rich-text#about-content-entrega": {
+      "props": {
+        "text": "Após a confirmação do pagamento do pedido (produto frete) a entrega será realizada. \n O prazo de envio se inicia a partir da confirmação de pagamento pela instituição financeira. \n Para mais informações entre em contato com o nosso atendimento! \n Política de frete grátis."}
+    },
+    "rich-text#about-subtitle-politica-de-frete-gratis": {
+      "props": {
+        "text": "POLÍTICA DE FRETE GRÁTIS:",
+        "blockClass": "subtitulo"
+      }
+    },
+
+
+    "image#politica-de-frete": {
+      "props": {
+        "src": "https://stevia.vteximg.com.br/arquivos/Frete_Biost%C3%A9vi-5.jpg?v=637686261077670000",
+        "maxHeight": "600px"
+      }
+    },
+
+
+
+
+    "rich-text#about-subtitle-prazo-de-entrega": {
+      "props": {
+        "text": "PRAZO DE ENTREGA :",
+        "blockClass": "subtitulo"
+      }
+    },
+    "rich-text#about-subtitle-prazo-medio-sedex": {
+      "props": {
+        "text": "Prazo médio de envio via Sedex pelos Correios:"
+      }
+    },
+    "rich-text#about-content-prazo-medio-sedex": {
+      "props": {
+        "text": "São Paulo – Capital: De 1 a 3 dias úteis. \n Interior de São Paulo: De 2 a 4 dias úteis. \n Região Sul e Centro-Oeste: De 2 a 5 dias úteis. \n Rio de Janeiro: De 1 a 3 dias úteis. \n Norte e Nordeste: De 2 a 6 dias úteis."}
+    },
+    "rich-text#about-subtitle-prazo-medio-correios": {
+      "props": {
+        "text": "Prazo médio de envio via PAC pelos Correios:",
+        "blockClass": "subtitulo"
+      }
+    },
+    "rich-text#about-content-prazo-medio-correios": {
+      "props": {
+        "text": "São Paulo – Capital: De 3 a 8 dias úteis. \n Interior de São Paulo: De 3 a 6 dias úteis. \n Região Sul e Centro-Oeste: De 3 a 12 dias úteis. \n Nordeste: De 3 a 15 dias úteis. \n  Norte: De 3 a 20 dias úteis. \n *O prazo de entrega pode sofrer variações de acordo com mudanças na política de entregas dos Correios"}
+    }
+
+ 
+  }

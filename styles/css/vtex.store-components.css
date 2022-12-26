@@ -1,0 +1,2029 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300&family=Roboto:wght@100;400;500;700;900&display=swap');
+
+.notificationBarContainer {
+    background-color: #e6f1e6;
+    color: #03034e;
+    font-weight: 700;
+    font-size: 12px;
+    text-decoration: underline;
+  }
+
+
+
+:global(.vtex-store-components-3-x-productDescriptionTitle){    font-family: Roboto,sans-serif;
+  margin-left: 14px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;}
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--productSpecificationGroup)
+  :global(.vtex-flex-layout-0-x-flexColChild){    margin-top: 0px!important;}
+ 
+  
+
+  :global(.vtex-flex-layout-0-x-flexRow--productSpecificationGroup) {
+    margin-top: 0px!important;
+}
+
+
+
+  .hover-c-link:focus, .hover-c-link:hover {
+    color: #000;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--login-menu-retratil){flex-direction: inherit;}
+
+
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--topomenuretratil){background-color:#1D1D1B;}
+  
+  .infoCardContainer--info-card-home {
+    max-width: 1520px;
+    margin: 0 auto;
+    background-color: #e6f1e6;
+    padding: 0px;
+  }
+  
+  .vtex-sticky-layout-0-x-wrapper--stuck {box-shadow: none;}
+
+  .newsletter {
+    background-color: #03054e;
+    max-width: 1528px;
+    margin: 0 auto;
+  }
+  
+  .newsletter .container {
+    padding: 60px 10px;
+  }
+  
+  .label {
+    color: #fff;
+    font-size: 26px;
+  }
+  
+  .inputGroup {
+    padding-bottom: 4px;
+    display: flex;
+    color: #fff;
+  }
+  
+  .inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+  }
+  
+  .inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .inputGroup :global(.vtex-button) {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    margin-right: -24px;
+  }
+
+  
+  
+  .buttonContainer {
+    padding-top: 0px;
+  }
+  
+  .imageElement--storePrint {
+    max-height: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .skuSelectorContainer {
+    margin: 1rem 0;
+  }
+
+
+  
+  
+  @media only screen and (min-width: 640px) {
+
+
+    :global(.vtex-store-components-3-x-productImageTag){max-height: 420px!important;}
+
+    .newsletter .container {
+      padding: 140px;
+    }
+  
+    .label {
+      font-size: 40px;
+    }
+  
+    .infoCardContainer--info-card-home .infoCardTextContainer {
+      width: 30%;
+    }
+  
+    .infoCardContainer--info-card-home .infoCardImageContainer {
+      width: 70%;
+    }
+  
+    .imageElement--storePrint {
+      margin-bottom: 0px;
+      max-height: 600px;
+    }
+  }
+  
+  .productImagesContainer--quickview .carouselContainer {
+    justify-content: flex-start;
+  }
+  
+  .productImagesContainer--quickview .productImageTag {
+    object-fit: cover !important;
+  }
+  
+  .productImagesContainer--quickview .carouselGaleryThumbs {
+    display: none;
+  }
+  
+  .productImagesContainer--quickview .carouselGaleryCursor {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .productNameContainer {
+    color: #3f3f40;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  .vtex-store-components-3-x-notificationBarContainer {display: none!important;}
+  
+  .c-action-primary {
+    color: #b42c2c;
+  } 
+
+
+
+  :global(.vtex-flex-layout-0-x-flexRow--texto-informativo-footer)
+  :global(.vtex-breadcrumb-1-x-container)
+  :global(.vtex-breadcrumb-1-x-arrow){display:none;}
+
+  :global(.vtex-flex-layout-0-x-flexRow--texto-informativo-footer)
+  :global(.vtex-breadcrumb-1-x-container)
+  :global(.vtex-breadcrumb-1-x-homeLink){display:none;}
+
+  :global(.vtex-flex-layout-0-x-flexRow--texto-informativo-footer)
+  :global(.vtex-breadcrumb-1-x-container)
+  :global(.vtex-breadcrumb-1-x-term){ display: block;font-size: 15px;white-space: nowrap;margin-top: 1px;}
+
+
+ 
+  :global(.vtex-rich-text-0-x-paragraph--small-text){display: block;font-size: 15px;    white-space: inherit;margin: 0px;    padding-bottom: 10px;}
+
+
+
+
+
+
+
+
+  :global(.vtex-store-drawer-0-x-closeIconContainer){right: 0;position: absolute;z-index: 999;}
+
+
+  :global(.vtex-flex-layout-0-x-flexRow--topomenuretratil){margin-bottom: 15px;position: absolute; top: 0;left: 0;width: 100%;}
+
+  :global(.vtex-store-drawer-0-x-drawerContent)
+  :global(.vtex-menu-2-x-menuItem--menuimunidade){margin-top: 80px;}
+
+
+
+  :global(.vtex-flex-layout-0-x-flexRow--texto-informativo-footer)
+  :global(.vtex-rich-text-0-x-container--small-text){    margin: 0px!important;padding-top: 0px!important;white-space: nowrap;}
+
+  :global(.vtex-flex-layout-0-x-flexRow--texto-informativo-footer)
+  :global(.vtex-breadcrumb-1-x-container){padding-top: 2px!important;    padding-bottom: 0px;white-space: nowrap;}
+  
+:global(.vtex-flex-layout-0-x-flexRow--topomenuretratil){    margin-bottom: 15px;}
+
+:global(.vtex-flex-layout-0-x-flexCol--login-menu-retratil)
+:global(.vtex-flex-layout-0-x-flexColChild--login-menu-retratil):first-child{     margin-right: 15px;  margin-top: 0px;padding: 0px; width: 170px;}
+
+
+:global(.vtex-flex-layout-0-x-flexCol--login-menu-retratil)
+:global(.vtex-flex-layout-0-x-flexColChild--login-menu-retratil){width: 53px;margin-top: 26px;    padding: 0px 12px;}
+
+  
+:global(.vtex-flex-layout-0-x-flexRow--texto-informativo-footer){margin-left: 13px;}
+
+  :global(.vtex-flex-layout-0-x-flexRow--texto-informativo-footer)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth){width:auto!important;}
+  
+  
+
+  :global(.vtex-flex-layout-0-x-flexRow--descricao-do-produto)
+  :global(.vtex-flex-layout-0-x-flexRowContent--descricao-do-produto){    border-top: 1px solid!important;
+    border-bottom: 1px solid!important;
+    padding: 10px 0px!important;
+    color: #000;
+    font-size: 16px!important;}
+
+    :global(.vtex-flex-layout-0-x-flexRow--descricao-do-produto)
+    :global(.vtex-menu-2-x-submenuAccordion){    border-top: 1px solid;    margin-top: 10px;    padding-left: 0px;}
+
+   /* :global(.vtex-flex-layout-0-x-flexRow--descricao-do-produto)
+    :global(.vtex-menu-2-x-submenuAccordion)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth){padding-bottom: 20px;}*/
+
+    :global(.vtex-flex-layout-0-x-flexRow--descricao-do-produto)
+    :global(.vtex-menu-2-x-styledLinkContainer){margin-left: 0px;}
+    
+    :global(.vtex-flex-layout-0-x-flexRow--descricao-do-produto)
+    :global(.vtex-store-components-3-x-content){padding-left: 0px!important;}
+
+    :global(.vtex-store-components-3-x-productBrand){color:#000;}
+
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--ficha-do-produto)
+    :global(.vtex-menu-2-x-styledLinkContent) {color: #000;}
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--descricao-do-produto)
+    :global(.vtex-menu-2-x-styledLinkContent) {color: #000;}
+
+
+    :global(.vtex-flex-layout-0-x-flexRow--descricao-do-produto)
+    :global(.vtex-store-components-3-x-productDescriptionText){line-height: 26px; color: #000;    padding-left: 20px;
+      font-size: 14px;font-weight: 500!important;
+      font-family: Roboto,sans-serif!important;}
+
+
+    :global(.vtex-flex-layout-0-x-flexRow--ficha-do-produto)
+    :global(.vtex-flex-layout-0-x-flexRowContent--ficha-do-produto){
+    
+  
+      padding: 10px 0;
+      color: #000;
+      font-size: 16px;}
+
+
+    :global(.vtex-flex-layout-0-x-flexRow--ficha-do-produto)
+    :global(.vtex-menu-2-x-submenuAccordion){    border-top: 1px solid;    margin-top: 10px;    padding-left: 0px;}
+
+   :global(.vtex-flex-layout-0-x-flexRow--ficha-do-produto)
+    :global(.vtex-menu-2-x-submenuAccordion)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth){padding-bottom: 0px!important;}
+     
+
+    :global(.vtex-flex-layout-0-x-flexRow--ficha-do-produto)
+    :global(.vtex-menu-2-x-styledLinkContainer){margin-left: 0px;    font-weight: 500!important;
+      font-family: Roboto,sans-serif!important;}
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--descricao-do-produto)
+:global(.vtex-menu-2-x-styledLinkContainer){margin-left: 0px;    font-weight: 500!important;
+  font-family: Roboto,sans-serif!important;}
+
+
+
+
+
+    :global(.vtex-flex-layout-0-x-flexRow--ficha-do-produto)
+    :global(.vtex-menu-2-x-menuContainerNav){width:100%;}
+
+    :global(.vtex-flex-layout-0-x-flexRow--ficha-do-produto)
+    :global(.vtex-flex-layout-0-x-flexRow--productSpecificationGroupName){padding-left: 0px!important;}
+
+    :global(.vtex-flex-layout-0-x-flexRow--ficha-do-produto)
+    :global(.vtex-flex-layout-0-x-flexCol--productSpecificationName){padding-left: 0px!important;}
+    
+
+    :global(.vtex-flex-layout-0-x-flexRow--productSpecificationGroupName) {padding: 0!important;}
+    :global(.vtex-flex-layout-0-x-flexCol--productSpecificationName),
+    :global(.vtex-flex-layout-0-x-flexCol--productSpecificationValue){padding:10px!important;}
+
+
+
+
+
+:global(.vtex-store-components-3-x-productDescriptionTitle){display:none;}
+
+
+  
+
+:global(.vtex-styleguide-9-x-input){    background-color: #d6c8bf;}
+ 
+
+:global(.vtex-flex-layout-0-x-flexRow--espacamento-footer){padding-bottom:15px;}
+
+:global(.vtex-store-footer-2-x-socialNetworkWrapper){      max-width: 236px;margin: auto;}
+
+
+  :global(.vtex-flex-layout-0-x-flexRow--bloco-quem-somos-espacamento){    padding-bottom: 45px;}
+
+  :global(.vtex-flex-layout-0-x-flexColChild--bloco-quem-somos)
+  :global(.vtex-rich-text-0-x-container){text-align:right!important;}
+
+:global(.vtex-rich-text-0-x-wrapper--titulo-quem-somos){ text-transform: uppercase;font-weight: bold;color: #555;font-size: 26px;}
+
+:global(.vtex-flex-layout-0-x-flexColChild--bloco-quem-somos)
+:global(.vtex-rich-text-0-x-container){justify-content: end!important;}
+
+:global(.vtex-flex-layout-0-x-flexCol--bloco-quem-somos){border-right:1px solid #333;    padding: 20px 55px 20px 20px;margin: 20px;}
+
+:global(.vtex-flex-layout-0-x-flexCol--bloco-diferenciais){padding: 20px;margin: 20px;}
+
+
+
+
+
+
+:global(.vtex-flex-layout-0-x-flexRow--sobre-por-tras-da-brme)
+:global(.vtex-store-components-3-x-imageElement){    max-width: 203px;}
+
+
+
+
+:global(.vtex-flex-layout-0-x-flexColChild--bloco-quem-somos)
+:global(.vtex-rich-text-0-x-paragraph){justify-content: end!important;}
+
+  :global(.vtex-flex-layout-0-x-flexRowContent){padding-bottom: 0px; margin-bottom: 0px;}
+
+:global(.vtex-tabs__nav){max-width: 820px;margin: auto;}
+
+:global(.vtex-tab__button--active) {background: #009fc2;color: #fff;border-bottom: none;text-transform: uppercase;border-radius: 5px;}
+:global(.vtex-tab__button--inactive){color: #009fc2!important;border:1px solid #009fc2;text-transform: uppercase;border-radius: 5px;}
+
+:global(.vtex-tab__button){    margin: 0px 3px;width: 245px;}    
+
+
+
+
+  :global(.vtex-flex-layout-0-x-flexRow--productSpecificationGroup):last-child
+  :global(.vtex-flex-layout-0-x-flexRow--productSpecification)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child{width:100%!important;}
+
+
+ 
+
+
+:global(.vtex-store-components-3-x-imageElement--whatsapp-flutuante-icon){position: fixed;bottom: 37px;right: 43px;    max-width: 50px;}
+
+ :global(.vtex-store-components-3-x-showMoreButton){    background-color: transparent;color: #ff6c00!important;}
+
+  :global(.vtex-store-components-3-x-productImagesGallerySwiperContainer){padding-bottom: 20px;}
+
+  :global(.vtex-store-components-3-x-swiperBullet--active){color: #ff6c00;}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile){color:#a47c33;background-color: #1D1D1B;border-bottom:none!important;}
+
+:global(.vtex-store-components-3-x-searchBarContainer){    max-width: 100%!important;
+  background-color: #D6C8BF;
+  padding: 0pc;}
+
+
+
+.bg-emphasis {background-color: #b48736!important;}
+
+:global(.vtex-minicart-2-x-minicartCheckoutButton){background-color: #00c231;}
+:global(.vtex-login-2-x-formFooter){background-color: #00c231;}
+:global(.vtex-sticky-layout-0-x-wrapper--stuck) {box-shadow: none!important;}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header){background-color:#1D1D1B!important;}
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-home-mosaico){    padding-top: 50px;}
+
+
+:global(.vtex-store-components-3-x-specificationsTitle--especificacao-do-produto-2){display:none;}
+:global(.vtex-store-components-3-x-specificationsTablePropertyHeading--especificacao-do-produto-2){display:none;}
+:global(.vtex-store-components-3-x-specificationsTableSpecificationHeading--especificacao-do-produto-2){display:none;}
+
+
+
+:global(.vtex-store-components-3-x-specificationsTableContainer--especificacao-do-produto-2){padding-left: 0px;    margin-top: 0px;}
+
+
+
+
+
+
+:global(.vtex-search-result-3-x-buttonShowMore)
+:global(.vtex-button)
+:global(.vtex-button__label){color:#7A2F44;border: 1px solid #7A2F44;
+  padding: 15px 20px!important;    letter-spacing: 2px;transition:0.2s;}
+
+  :global(.vtex-search-result-3-x-buttonShowMore)
+  :global(.vtex-button)
+  :global(.vtex-button__label):hover{background-color:#7A2F44;color:#fff;border: 1px solid #7A2F44;
+    padding: 15px 20px!important;    letter-spacing: 2px;transition:0.2s;}
+  
+
+
+
+:global(.vtex-flex-layout-0-x-flexRow--main-header){background-color:#1D1D1B;}
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header){    max-width: 1200px;margin: auto;}
+
+:global(.vtex-store-footer-2-x-footerLayout)
+:global(.vtex-menu-2-x-styledLinkContent){color: #555;font-size: 14px;font-weight: normal;padding-bottom: 5px}
+
+
+
+:global(.vtex-flex-layout-0-x-flexColChild){position: relative;}
+
+
+/*:global(.vtex-flex-layout-0-x-flexRow--botoes-topo-mobile)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth){    width: 50%!important;float: left;}*/
+
+/* habilitar o de cima e ocultar o de baixo quando a botão de clube de assinaturas for liberado */
+
+:global(.vtex-flex-layout-0-x-flexRow--botoes-topo-mobile)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 90%!important;
+  /* float: left; */
+  margin: auto;
+  margin-top: -10px;
+}
+
+
+
+
+:global(.vtex-store-components-3-x-searchIcon) { color: #009fc2!important;}
+
+:global(.vtex-slider__base-internal){background-color:#00c231;}
+
+:global(.vtex-store-components-3-x-searchBarContainer)
+:global(.vtex-input-prefix__group){    background-color: #D6C8BE;    border: none;}
+
+:global(.vtex-locale-switcher-0-x-container){display:none;}
+:global(.vtex-menu-2-x-menuItem--menu-top) 
+:global(.vtex-menu-2-x-styledLinkContent){color: #fff!important;font-size: 11px!important;text-transform: uppercase;    padding-top: 0px;}
+
+
+
+
+:global(.vtex-menu-2-x-menuContainerNav)
+:global(.vtex-menu-2-x-styledLinkContent):hover {color: #a47c33;}
+
+:global(.vtex-rich-text-0-x-wrapper--shelfTitle){max-width: 1140px!important;margin-bottom:35px!important;}
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-home-mosaicoeuquero)
+:global(.vtex-store-components-3-x-imageElement) {width: 90%!important;padding-bottom: 25px; margin: auto; display: block;    opacity: 0.6;transition:0.2s;}
+
+
+:global(.vtex-search-result-3-x-galleryItem){position: relative;    margin-top: 30px;}
+
+:global(.vtex-menu-2-x-submenu)
+:global(.vtex-flex-layout-0-x-flexRow){width:97%;}
+
+:global(.vtex-reviews-and-ratings-3-x-reviewsHeading){font-weight: 400;
+  text-transform: uppercase;
+  color: #000!important;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-family: Roboto,sans-serif;}
+
+
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header)
+:global(.vtex-menu-2-x-styledLink) {
+  color: #D6C8BF;}
+
+
+
+
+:global(.vtex-menu-2-x-styledLinkContent--menuvinhos),
+:global(.vtex-menu-2-x-styledLinkContent--menucafes),
+:global(.vtex-menu-2-x-styledLinkContent--menudestilados),
+:global(.vtex-menu-2-x-styledLinkContent--menuazeites),
+:global(.vtex-menu-2-x-styledLinkContent--menusaude),
+:global(.vtex-menu-2-x-styledLinkContent--menuchocolate),
+:global(.vtex-menu-2-x-styledLinkContent--menuexperiencias),
+:global(.vtex-menu-2-x-styledLinkContent--menusobre){text-align: center;display: block;}
+
+:global(.vtex-menu-2-x-submenuWrapper){max-width: 1280px;left: 50%;transform: translate(-50%, 0%);box-shadow: #333 0 6px 11px -3px;min-height: 350px;border:none;}
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-home-mosaicoeuquero)
+:global(.vtex-store-components-3-x-imageElement):hover {opacity: 1;}
+
+:global(.vtex-reviews-and-ratings-3-x-reviewsHeading){border-bottom: none;}
+
+:global(.vtex-menu-2-x-styledLinkContent--link-megamenu){font-weight:normal!important;}
+
+:global(.vtex-reviews-and-ratings-3-x-container){max-width: 1140px;}
+
+:global(.vtex-shelf-1-x-shelfContentContainer){max-width: 1140px;margin: auto;}
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-home-informativos){background-color:#171714;    margin-top: -4px;
+  z-index: 9;
+  position: relative;}
+
+
+
+
+:global(.vtex-rich-text-0-x-wrapper--texto-informativo-entrega),
+:global(.vtex-rich-text-0-x-wrapper--texto-informativo-parcelamento),
+:global(.vtex-rich-text-0-x-wrapper--texto-informativo-seguranca),
+:global(.vtex-rich-text-0-x-wrapper--texto-informativo-desconto),
+:global(.vtex-rich-text-0-x-wrapper--texto-informativo-investimento) {margin:auto;}
+
+
+
+:global(.vtex-rich-text-0-x-paragraph--texto-informativo-entrega),
+:global(.vtex-rich-text-0-x-paragraph--texto-informativo-parcelamento),
+:global(.vtex-rich-text-0-x-paragraph--texto-informativo-seguranca),
+:global(.vtex-rich-text-0-x-paragraph--texto-informativo-desconto),
+:global(.vtex-rich-text-0-x-paragraph--texto-informativo-investimento){margin-top:0px;}
+
+
+:global(.vtex-rich-text-0-x-paragraph--texto-informativo-entrega),
+:global(.vtex-rich-text-0-x-wrapper--texto-informativo-parcelamento),
+:global(.vtex-rich-text-0-x-wrapper--texto-informativo-seguranca),
+:global(.vtex-rich-text-0-x-wrapper--texto-informativo-desconto),
+:global(.vtex-rich-text-0-x-wrapper--texto-informativo-investimento){color: #d6c8bf;text-align: center; font-size: 14px;max-width:200px; }
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--menu-link){justify-content: left!important;}
+
+:global(.vtex-store-components-3-x-searchBarInnerContainer){    width: 99%; max-width: 1160px; margin: auto;}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--menu-link)
+:global(.vtex-menu-2-x-menuContainerNav)
+:global(.vtex-menu-2-x-styledLinkContent--menu-top-pedidos){background-image: url("https://stevia.vteximg.com.br/arquivos/cart.png");background-repeat: no-repeat; background-position: top center;padding-top: 40px;font-size: 13px!important;color: #fff!important;font-weight: normal!important;background-size: 36px;}
+
+
+
+:global(.vtex-minicart-2-x-minicartWrapperContainer){width: 65px;}
+
+:global(.vtex-store-footer-2-x-footerLayout)
+:global(.vtex-menu-2-x-menuContainerNav)
+:global(.vtex-menu-2-x-styledLinkContent--menu-top-pedidos){background-image:none!important;padding-top: 0px;font-size: 14px!important;color: #555!important;font-weight: normal!important;}
+
+
+
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--menu-link)
+:global(.vtex-menu-2-x-menuContainerNav)
+:global(.vtex-menu-2-x-styledLinkContent--menu-top-receita){background-image: url("https://stevia.vteximg.com.br/arquivos/envie-receita-br.png");background-repeat: no-repeat; background-position: top center;padding-top: 40px;font-size: 13px!important;color: #fff!important;font-weight: normal!important;background-size: 36px;}
+
+
+
+
+
+
+
+
+
+
+:global(.vtex-product-price-1-x-listPriceValue--summary)
+:global(.vtex-product-price-1-x-currencyContainer)
+:global(.vtex-product-price-1-x-currencyCode--summary){color:#555!important;    font-size: 12px;}
+
+
+
+:global(.vtex-product-price-1-x-listPriceValue--summary)
+:global(.vtex-product-price-1-x-currencyContainer)
+:global(.vtex-product-price-1-x-currencyInteger--summary){color:#000!important;    font-size: 12px;}
+
+
+:global(.vtex-product-price-1-x-listPriceValue--summary)
+:global(.vtex-product-price-1-x-currencyContainer)
+:global(.vtex-product-price-1-x-currencyDecimal--summary){color:#000!important;    font-size: 12px;}
+
+:global(.vtex-rich-text-0-x-strong--titulo-vitrines-verao){font-family: 'Noto Serif Display', serif;font-weight:400; font-size: 41px;color: #000;}
+
+:global(.vtex-product-price-1-x-listPriceValue--summary)
+:global(.vtex-product-price-1-x-currencyContainer)
+:global(.vtex-product-price-1-x-currencyFraction--summary){color:#000!important;font-size: 12px;}
+
+
+:global(.vtex-product-price-1-x-installments--summary)
+:global(.vtex-product-price-1-x-currencyCode--summary){color:#000!important;}
+
+
+:global(.vtex-modal-layout-0-x-actionsContentWrapper)
+:global(.vtex-add-to-cart-button-0-x-buttonText){background-color:#b48736;}
+
+:global(.vtex-modal-layout-0-x-actionsContentWrapper)
+:global(.vtex-product-quantity-1-x-quantitySelectorContainer){ margin-top: 0px!important;}
+
+
+:global(.vtex-flex-layout-0-x-flexColChild--quickviewDetails):first-child {
+  height: 48%!important;
+}
+
+
+:global(.vtex-product-price-1-x-installments--summary)
+:global(.vtex-product-price-1-x-currencyInteger--summary){color:#000!important;}
+
+
+:global(.vtex-menu-2-x-styledLinkContainer--vegano){background: #00C234;border-radius: 30px;padding: 5px 10px 5px 33px;margin-top: 10px;background-image: url(https://stevia.vteximg.com.br/arquivos/vegano-icon.png);background-repeat: no-repeat;background-position: 9px;background-size: 19px;}
+
+:global(.vtex-menu-2-x-styledLinkContent--vegano){color:#fff!important;   }
+
+
+:global(.vtex-product-price-1-x-installments--summary)
+:global(.vtex-product-price-1-x-currencyDecimal--summary){color:#555!important;}
+
+
+
+
+:global(.vtex-menu-2-x-menuContainer--menu-vinhos-mobile)
+:global(.vtex-menu-2-x-menuItem--isOpen){background-color:#7A3138!important;}
+
+:global(.vtex-menu-2-x-menuContainer--menu-vinhos-mobile)
+:global(.vtex-menu-2-x-menuItem--isOpen)
+:global(.vtex-menu-2-x-styledLinkContent){color:#D6C8BF;}
+
+
+:global(.vtex-menu-2-x-menuContainer--menu-cafe-mobile)
+:global(.vtex-menu-2-x-menuItem--isOpen){background-color:#50413E!important;}
+
+:global(.vtex-menu-2-x-menuContainer--menu-cafe-mobile)
+:global(.vtex-menu-2-x-menuItem--isOpen)
+:global(.vtex-menu-2-x-styledLinkContent){color:#D6C8BF;}
+
+:global(.vtex-menu-2-x-menuContainer--menu-destilados-mobile)
+:global(.vtex-menu-2-x-menuItem--isOpen){background-color:#895501!important;}
+
+:global(.vtex-menu-2-x-menuContainer--menu-destilados-mobile)
+:global(.vtex-menu-2-x-menuItem--isOpen)
+:global(.vtex-menu-2-x-styledLinkContent){color:#D6C8BF;}
+
+:global(.vtex-menu-2-x-menuContainer--menu-azeites-mobile)
+:global(.vtex-menu-2-x-menuItem--isOpen){background-color:#4F4D1A!important;}
+
+:global(.vtex-menu-2-x-menuContainer--menu-azeites-mobile)
+:global(.vtex-menu-2-x-menuItem--isOpen)
+:global(.vtex-menu-2-x-styledLinkContent){color:#D6C8BF;}
+
+:global(.vtex-menu-2-x-menuContainer--menu-saudebeleza-mobile)
+:global(.vtex-menu-2-x-menuItem--isOpen){background-color:#85786F!important;}
+
+:global(.vtex-menu-2-x-menuContainer--menu-saudebeleza-mobile)
+:global(.vtex-menu-2-x-menuItem--isOpen)
+:global(.vtex-menu-2-x-styledLinkContent){color:#D6C8BF;}
+
+:global(.vtex-menu-2-x-menuContainer--menu-chocolate-mobile)
+:global(.vtex-menu-2-x-menuItem--isOpen){background-color:#50413E!important;}
+
+:global(.vtex-menu-2-x-menuContainer--menu-chocolate-mobile)
+:global(.vtex-menu-2-x-menuItem--isOpen)
+:global(.vtex-menu-2-x-styledLinkContent){color:#D6C8BF;}
+
+:global(.vtex-menu-2-x-menuContainer--menu-experiencias-mobile)
+:global(.vtex-menu-2-x-menuItem--isOpen){background-color:#62647D!important;}
+
+:global(.vtex-menu-2-x-menuContainer--menu-experiencias-mobile)
+:global(.vtex-menu-2-x-menuItem--isOpen)
+:global(.vtex-menu-2-x-styledLinkContent){color:#D6C8BF;}
+
+:global(.vtex-menu-2-x-menuContainer--menu-sobre-mobile)
+:global(.vtex-menu-2-x-menuItem--isOpen){background-color:#B48736!important;}
+
+:global(.vtex-menu-2-x-menuContainer--menu-sobre-mobile)
+:global(.vtex-menu-2-x-menuItem--isOpen)
+:global(.vtex-menu-2-x-styledLinkContent){color:#D6C8BF;}
+
+:global(.vtex-product-price-1-x-installments--summary)
+:global(.vtex-product-price-1-x-currencyFraction--summary){color:#000!important;}
+
+
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-top-clubedeassinaturas){     display: block; text-align: center;   font-size: 12px;  text-transform: uppercase; padding:10px 30px;color:#a47c33; border: 1px solid #a47c33;}
+
+
+
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-top-botaoselecoes){     display: block;text-align: center;   font-size: 12px;text-transform: uppercase; padding:10px 30px;color:#a47c33; border: 1px solid #a47c33;}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-top-minha-conta){background-image: url(https://tfcuey.vteximg.com.br/arquivos/user-io-icon-v2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 40px;
+  font-size: 0px!important;
+  color: #fff!important;
+  font-weight: normal!important;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-size: initial;
+}
+
+:global(.vtex-minicart-2-x-minicartQuantityBadgeDefault){
+  top: -0.7rem;
+  right: -1.8rem;
+  font-size: 10px!important;
+  padding-top: 3px;
+  padding-bottom: 3px!important;
+  width: 19px;
+}
+  :global(.vtex-rich-text-0-x-paragraph--shelfTitle){color: #000;  margin-bottom: 5px!important; font-size: 30px!important;     font-family: 'Noto Serif Display', serif;}
+  :global(.vtex-rich-text-0-x-headingLevel2--shelfTitle){
+    color: #000;
+    /* text-transform: uppercase; */
+    margin-bottom: 5px;
+    font-size: 30px!important;
+    /* font-weight: bold!important; */
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 400;
+    margin-top: 50px;
+  }
+ :global(.vtex-store-components-3-x-logoImage){max-width: 155px;margin-top: 10px;}
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--menu-link) {    height: 65px;background-color: #1D1D1B!important;max-width: 1240px;margin: auto;}
+ 
+:global(.vtex-store-components-3-x-searchBarIcon--search){    background: url(https://tfcuey.vteximg.com.br/arquivos/search-io-icon-v2.png) no-repeat; background-position: center!important;
+  width: 35px;}
+
+:global(.vtex-store-components-3-x-searchIcon){    display: none;}
+
+  :global(.vtex-minicart-2-x-minicartContainer) { 
+    background: url(https://tfcuey.vteximg.com.br/arquivos/cart-io-icon-v2.png) no-repeat;
+    background-position: center;
+    /* background-size: 35px; */
+    width: 100px;
+    /* background-size: 35px; */
+    /* margin-top: -5px;*/
+
+  }
+  
+  :global(.vtex-login-2-x-box){left:0;}
+  :global(.vtex-login-2-x-arrowUp){left: 40px;}
+  
+  /*:global(.vtex-slider-layout-0-x-slide--shelf)
+  :global(.vtex-button) {background: #4caf50;border:none;}*/
+  
+  :global(.vtex-store-components-3-x-container){max-width: 1140px!important;margin: auto;  }
+  :global(.vtex-rich-text-0-x-wrapper--shelfTitle){text-align: left;width: 100%;max-width: 1367px;
+  }
+  :global(.vtex-rich-text-0-x-paragraph--shelfTitle){margin-bottom: 15px;margin-top:30px;font-size:18px;}
+  :global(.vtex-rich-text-0-x-paragraph--help-message),
+  :global(.vtex-login-2-x-label){color: #b19e8a;font-size: 11px;text-transform: inherit!important;}
+  :global(.vtex-store-components-3-x-searchBarContainer)
+  :global(.vtex-styleguide-9-x-input){background-color: transparent;}
+  :global(.vtex-store-components-3-x-searchBarContainer)
+  :global(.vtex-input__suffix){    background-color: transparent;}
+  :global(.vtex-store-components-3-x-searchIcon){color:#fff;}
+  :global(.vtex-store-components-3-x-productNameContainer){font-weight: bold;font-size: 24px;width: 100%;border-radius: 5px;}
+  :global(.vtex-product-price-1-x-sellingPriceValue){color:#000;}
+  :global(.vtex-sticky-layout-0-x-wrapper--sticky-header){background-color: #d2d3d3!important;}
+  :global(.vtex-sticky-layout-0-x-wrapper--sticky-header)
+  :global(.vtex-flex-layout-0-x-flexRowContent--main-header){background-color: rgba(0,0,0,0);}
+:global(.vtex-menu-2-x-menuItem){font-weight: normal;}
+  :global(.vtex-search-result-3-x-filterItem--selected)
+  :global(.vtex-checkbox__inner-container){background-color: #00c231;border: none;}
+
+
+  :global(.vtex-search-result-3-x-galleryTitle--layout){display:none;}
+
+  :global(.vtex-add-to-cart-button-0-x-buttonDataContainer){width: 100%;}
+
+  :global(.vtex-product-price-1-x-sellingPrice){padding-top: 5px;padding-bottom: 5px;}
+
+  :global(.vtex-add-to-cart-button-0-x-buttonText){font-size: 14px;padding: 10px 22px!important;     letter-spacing: 2px;   width: 100%;    letter-spacing: 2px;}
+  :global(.vtex-product-summary-2-x-brandName) {font-weight: normal;font-size: 15px;color: #000; letter-spacing: 2px;overflow: hidden;text-overflow: ellipsis;/*display: -webkit-box;*/    line-height: 22px;max-height: 40px;-webkit-line-clamp: 2; -webkit-box-orient: vertical;}
+  :global(.vtex-reviews-and-ratings-2-x-inlineContainer){display:none;}
+  :global(.vtex-numeric-stepper__plus-button){background-color: #009fc2;color: #fff;border: none;}
+  :global(.vtex-numeric-stepper__minus-button ){background-color: #fff;color: #555;border: none;    border: 1px solid #555;}
+  :global(.vtex-numeric-stepper__input){border:1px solid #ccc!important;}
+
+  :global(.vtex-product-identifier-0-x-product-identifier--productReference){display:none;}
+
+  :global(.vtex-numeric-stepper__minus-button){border: 1px solid #ccc!important; height: 50px; max-width: 30px; border-right: none!important;}
+  
+
+:global(.vtex-numeric-stepper__plus-button){border: 1px solid #ccc!important;height: 50px;max-width: 30px;border-left:none!important;}
+  :global(.vtex-numeric-stepper__input ){border: 1px solid #ccc!important;height: 45px;}
+
+  :global(.vtex-numeric-stepper__plus-button){background-color: #fff;border: 1px solid #555;color:#555;}
+
+  :global(.vtex-numeric-stepper__input){color:#555;}
+
+  :global(.vtex-numeric-stepper__input ){border:1px solid #ccc!important;height: 50px;max-width: 45px;color: #000!important;}
+  :global(.vtex-product-quantity-1-x-quantitySelectorTitle){font-size: 13px;color:#555;font-weight: bold;    margin-top: 30px;text-transform:uppercase;}
+  :global(.vtex-store-components-3-x-shareLabel){display:none;}
+  :global(.vtex-address-form__postalCode)
+  :global(.vtex-input__label) {font-size: 13px;color:#555;font-weight: bold;text-transform:uppercase;display:none!important;}
+  :global(.vtex-address-form__postalCode)
+  :global(.vtex-input-prefix__group) {border:1px solid #777;    border-radius: 0px;}
+  :global(.vtex-rich-text-0-x-heading-level-5){color: #555;font-weight: bold;}
+
+:global(.vtex-product-quantity-1-x-quantitySelectorTitle){display:none;}
+
+
+
+
+
+  :global(.vtex-store-components-3-x-shippingContainer)
+  :global(.vtex-button){margin-bottom: 25px;
+    background-color: #000;
+    border: none;
+    color: #fff;
+    max-width: 45px;
+    border-radius: 0px;
+    padding: 20px 0px;
+    font-size: 0px;
+    background-image: url(https://tfcuey.vtexassets.com/arquivos/imagem-seta-cep-io-v2.png);
+    background-repeat: no-repeat;
+    background-position: center;    background-size: 19px;}
+
+
+
+  :global(.vtex-add-to-cart-button-0-x-buttonText){font-size: 20px;padding: 15px;}
+  :global(.vtex-slider-layout-0-x-slideChildrenContainer)
+  :global(.vtex-add-to-cart-button-0-x-buttonText){font-size: 13px;padding: 0px;color:#b48736;}
+  :global(.vtex-search-result-3-x-gallery)
+  :global(.vtex-add-to-cart-button-0-x-buttonText){font-size: 13px;padding: 0px;}
+
+
+  :global(.vtex-product-price-1-x-listPrice)
+  :global(.vtex-product-price-1-x-currencyCode){color:#555;}
+
+  :global(.vtex-product-price-1-x-listPrice)
+  :global(.vtex-product-price-1-x-currencyLiteral){color:#555;}
+
+  :global(.vtex-product-price-1-x-listPrice)
+  :global(.vtex-product-price-1-x-currencyInteger){color:#555;}
+
+  :global(.vtex-product-price-1-x-listPrice)
+  :global(.vtex-product-price-1-x-currencyDecimal){color:#555;}
+
+  :global(.vtex-product-price-1-x-listPrice)
+  :global(.vtex-product-price-1-x-currencyFraction){color:#555;}
+
+  :global(.vtex-product-price-1-x-savings){color:#555;}
+
+  :global(.vtex-product-price-1-x-savingsValue)
+  :global(.vtex-product-price-1-x-currencyCode){color:#555;}
+
+
+
+  :global(.vtex-product-price-1-x-savingsValue)
+  :global(.vtex-product-price-1-x-currencyLiteral){color:#555;}
+
+  :global(.vtex-product-price-1-x-savingsValue)
+  :global(.vtex-product-price-1-x-currencyInteger){color:#555;}
+
+  :global(.vtex-product-price-1-x-savingsValue)
+  :global(.vtex-product-price-1-x-currencyDecimal){color:#555;}
+
+  :global(.vtex-product-price-1-x-savingsValue)
+  :global(.vtex-product-price-1-x-currencyFraction){color:#555;}
+
+
+  :global(.vtex-menu-2-x-menuItem--title-megamenu){margin-top: 20px;    pointer-events: none;}
+
+
+  :global(.vtex-menu-2-x-menuItem--menuvinhos--isOpen){background-color:#7A3138!important;}
+
+
+
+
+
+  :global(.vtex-menu-2-x-menuItem--menuvinhos--isOpen)
+  :global(.vtex-menu-2-x-submenuWrapper--isOpen)
+  :global(.vtex-menu-2-x-submenu)
+  :global(.vtex-menu-2-x-menuContainerNav){min-height: 450px;}
+
+
+  :global(.vtex-menu-2-x-menuItem--menucafes--isOpen)
+  :global(.vtex-menu-2-x-submenuWrapper--isOpen)
+  :global(.vtex-menu-2-x-submenu)
+  :global(.vtex-menu-2-x-menuContainerNav){min-height: 450px;}
+
+
+
+  :global(.vtex-menu-2-x-submenuWrapper--isOpen){background-color:#7A3138!important;min-height: 450px;}
+  :global(.vtex-menu-2-x-menuItem--menuvinhos--isOpen)
+  :global(.vtex-menu-2-x-styledLinkContent--link-megamenu){color: #D6C8BF;}
+
+  
+
+  :global(.vtex-menu-2-x-menuItem--menudestilados--isOpen){background-color:#895501!important;}
+ :global(.vtex-menu-2-x-menuItem--menudestilados--isOpen)
+  :global(.vtex-menu-2-x-submenuWrapper--isOpen){background-color:#895501!important;}
+  :global(.vtex-menu-2-x-menuItem--menudestilados--isOpen)
+  :global(.vtex-menu-2-x-styledLinkContent--link-megamenu){color: #D6C8BF;}
+
+
+  :global(.vtex-menu-2-x-menuItem--menucafes--isOpen){background-color:#50413E!important;}
+ :global(.vtex-menu-2-x-menuItem--menucafes--isOpen)
+  :global(.vtex-menu-2-x-submenuWrapper--isOpen){background-color:#50413E!important;}
+  :global(.vtex-menu-2-x-menuItem--menucafes--isOpen)
+  :global(.vtex-menu-2-x-styledLinkContent--link-megamenu){color: #D6C8BF;}
+  
+  
+  
+  :global(.vtex-menu-2-x-menuItem--menuchocolate--isOpen){background-color:#50413E!important;}
+  :global(.vtex-menu-2-x-menuItem--menuchocolate--isOpen)
+   :global(.vtex-menu-2-x-submenuWrapper--isOpen){background-color:#50413E!important;}
+   :global(.vtex-menu-2-x-menuItem--menuchocolate--isOpen)
+   :global(.vtex-menu-2-x-styledLinkContent--link-megamenu){color: #D6C8BF;}
+
+
+
+  :global(.vtex-menu-2-x-menuItem--menuazeites--isOpen){background-color:#4F4D1A!important;}
+  :global(.vtex-menu-2-x-menuItem--menuazeites--isOpen)
+   :global(.vtex-menu-2-x-submenuWrapper--isOpen){background-color:#4F4D1A!important;}
+   :global(.vtex-menu-2-x-menuItem--menuazeites--isOpen)
+   :global(.vtex-menu-2-x-styledLinkContent--link-megamenu){color: #D6C8BF;}
+
+
+   :global(.vtex-menu-2-x-menuItem--menusaude--isOpen){background-color:#85786F!important;}
+   :global(.vtex-menu-2-x-menuItem--menusaude--isOpen)
+    :global(.vtex-menu-2-x-submenuWrapper--isOpen){background-color:#85786F!important;}
+    :global(.vtex-menu-2-x-menuItem--menusaude--isOpen)
+    :global(.vtex-menu-2-x-styledLinkContent--link-megamenu){color: #D6C8BF;}
+
+    
+ 
+
+    :global(.vtex-menu-2-x-menuItem--menuexperiencias--isOpen){background-color:#62647D!important;}
+    :global(.vtex-menu-2-x-menuItem--menuexperiencias--isOpen)
+     :global(.vtex-menu-2-x-submenuWrapper--isOpen){background-color:#62647D!important;}
+     :global(.vtex-menu-2-x-menuItem--menuexperiencias--isOpen)
+     :global(.vtex-menu-2-x-styledLinkContent--link-megamenu){color: #D6C8BF;}
+
+
+
+     :global(.vtex-menu-2-x-menuItem--menusobre--isOpen){background-color: #B48736!important;}
+    :global(.vtex-menu-2-x-menuItem--menusobre--isOpen)
+     :global(.vtex-menu-2-x-submenuWrapper--isOpen){background-color: #B48736!important;}
+     :global(.vtex-menu-2-x-menuItem--menusobre--isOpen)
+     :global(.vtex-menu-2-x-styledLinkContent--link-megamenu){color: #D6C8BF;}
+
+    
+
+
+
+
+
+  :global(.vtex-checkbox__label){font-weight: normal;font-size: 12px;color: #777777;}
+  :global(.vtex-search-result-3-x-galleryTitle--layout){border-bottom: 2px dotted #777;font-size: 18px;color: #777;padding: 15px 0px;}
+  :global(.vtex-breadcrumb-1-x-link){font-size: 12px;text-transform: uppercase;color: #000;}
+
+  :global(.vtex-breadcrumb-1-x-link):hover{color:#b48736;} 
+
+  :global(.vtex-menu-2-x-styledLinkContent--title-megamenu){font-style: italic;
+    border-bottom: 1px solid;
+    max-width: 215px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 15px;}
+
+
+  :global(.vtex-store-drawer-0-x-opened){background-color:#D6C8BF!important;}
+  :global(.vtex-rich-text-0-x-container--shelfTitle){padding: 0px 10px;}
+  :global(.vtex-search-result-3-x-filter)
+  :global(.vtex-search-result-3-x-filterTitle){color:#000;font-size:18px;  padding-bottom: 5px;}
+  :global(.vtex-search-result-3-x-categoryItemName){color:#777;font-size: 12px;}
+  :global(.vtex-login-2-x-inputContainerAccessCode) {font-size: 14px;}
+  :global(.vtex-login-2-x-profile) {font-size: 10px;color: #777;max-width: 200px;}
+  :global(.vtex-minicart-2-x-cartIcon) {color:transparent;}
+  /*:global(.vtex-flex-layout-0-x-flexRow--main-header-mobile){padding-bottom: 104px;}*/
+  :global(.vtex-rich-text-0-x-heading-level-5){display:none;}
+
+  :global(.vtex-flex-layout-0-x-flexRow--productSpecificationGroupName){background-color: #fff!important;color:#000;}
+  :global(.vtex-product-specifications-1-x-specificationName){color: #000;font-size: 14px;    font-family: Roboto,sans-serif;    font-weight: 500!important;}
+  
+:global(.vtex-store-components-3-x-specificationsTab){color: #000; border: 1px solid #ededed;padding: 25px 20px;border-radius:10px;margin-top:18px;white-space: break-spaces;line-height: 30px;}
+
+:global(.vtex-tabs__nav){border:none;}
+
+
+
+
+
+
+
+
+:global(.vtex-slider__selector){background-color: #00c231;}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--bloco-home-informativos)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(even){width: 17%!important;}
+
+:global(.vtex-store-components-3-x-productDescriptionText){margin-top:10px;}
+
+:global(.vtex-flex-layout-0-x-flexColChild)
+:global(.vtex-reviews-and-ratings-3-x-container)
+:global(.vtex-reviews-and-ratings-3-x-reviewsHeading){display:none;}
+
+:global(.vtex-flex-layout-0-x-flexColChild)
+:global(.vtex-reviews-and-ratings-3-x-container)
+:global(.vtex-reviews-and-ratings-3-x-reviewsRatingAverage){display:none;}
+
+:global(.vtex-flex-layout-0-x-flexColChild)
+:global(.vtex-reviews-and-ratings-3-x-container)
+:global(.vtex-reviews-and-ratings-3-x-reviewsRatingCount){display:none;}
+
+:global(.vtex-store-components-3-x-specificationsTabsContainer)
+:global(.vtex-store-components-3-x-specificationsTitle){display:none;}
+
+
+:global(.vtex-flex-layout-0-x-flexColChild)
+:global(.vtex-reviews-and-ratings-3-x-container)
+:global(.vtex-reviews-and-ratings-3-x-reviewsOrderBy){display:none;}
+
+:global(.vtex-flex-layout-0-x-flexColChild)
+:global(.vtex-reviews-and-ratings-3-x-container)
+:global(.vtex-reviews-and-ratings-3-x-reviewComment){display:none;}
+
+:global(.vtex-flex-layout-0-x-flexColChild)
+:global(.vtex-reviews-and-ratings-3-x-container)
+:global(.vtex-reviews-and-ratings-3-x-reviewsPaging){display:none;}
+
+
+
+:global(.vtex-flex-layout-0-x-flexColChild)
+:global(.vtex-reviews-and-ratings-2-x-container)
+:global(.vtex-reviews-and-ratings-2-x-reviewsHeading){display:none;}
+
+:global(.vtex-flex-layout-0-x-flexColChild)
+:global(.vtex-reviews-and-ratings-2-x-container)
+:global(.vtex-reviews-and-ratings-2-x-reviewsRatingAverage){display:none;}
+
+:global(.vtex-flex-layout-0-x-flexColChild)
+:global(.vtex-reviews-and-ratings-2-x-container)
+:global(.vtex-reviews-and-ratings-2-x-reviewsRatingCount){display:none;}
+
+:global(.vtex-store-components-2-x-specificationsTabsContainer)
+:global(.vtex-store-components-2-x-specificationsTitle){display:none;}
+
+
+:global(.vtex-flex-layout-0-x-flexColChild)
+:global(.vtex-reviews-and-ratings-2-x-container)
+:global(.vtex-reviews-and-ratings-2-x-reviewsOrderBy){display:none;}
+
+:global(.vtex-flex-layout-0-x-flexColChild)
+:global(.vtex-reviews-and-ratings-2-x-container)
+:global(.vtex-reviews-and-ratings-2-x-reviewComment){display:none;}
+
+:global(.vtex-flex-layout-0-x-flexColChild)
+:global(.vtex-reviews-and-ratings-2-x-container)
+:global(.vtex-reviews-and-ratings-2-x-reviewsPaging){display:none;}
+
+
+
+:global(.vtex-flex-layout-0-x-flexColChild)
+:global(.vtex-reviews-and-ratings-3-x-container)
+:global(.vtex-reviews-and-ratings-3-x-reviewsRating){float:left;    margin-top: 10px;    margin-left: -20px;}
+
+:global(.vtex-reviews-and-ratings-3-x-writeReviewButton) {color: #000!important;}
+
+:global(.vtex__icon-caret-down){    color: #000;}
+
+
+
+
+:global(.vtex-slider-layout-0-x-slide)
+:global(.vtex-reviews-and-ratings-3-x-reviewsHeading){display:none;}
+
+:global(.vtex-slider-layout-0-x-slide)
+:global(.vtex-reviews-and-ratings-3-x-reviewsRatingAverage){display:none;}
+
+:global(.vtex-slider-layout-0-x-slide)
+:global(.vtex-reviews-and-ratings-3-x-reviewsRatingCount){display:none;}
+
+:global(.vtex-slider-layout-0-x-slide)
+:global(.vtex-reviews-and-ratings-3-x-writeReviewContainer){display:none;}
+
+:global(.vtex-slider-layout-0-x-slide)
+:global(.vtex-reviews-and-ratings-3-x-reviewsOrderBy){display:none;}
+
+:global(.vtex-slider-layout-0-x-slide)
+:global(.vtex-reviews-and-ratings-3-x-reviewCommentsContainer){display:none;}
+
+:global(.vtex-slider-layout-0-x-slide)
+:global(.vtex-reviews-and-ratings-3-x-container){    margin-left: 0px;    padding-left: 0px;}
+
+
+:global(.vtex-search-result-3-x-galleryItem)
+:global(.vtex-reviews-and-ratings-3-x-container){    margin-left: 0px;    padding-left: 0px;}
+
+:global(.vtex-search-result-3-x-galleryItem)
+:global(.vtex-reviews-and-ratings-3-x-reviewsRating){margin-left: 0px!important;}
+
+
+
+
+
+:global(.vtex-product-summary-2-x-nameContainer){min-height: 64px;    padding-bottom: 0px;}
+
+
+:global(.vtex-flex-layout-0-x-flexColChild)
+:global(.vtex-reviews-and-ratings-3-x-container)
+:global(.vtex-reviews-and-ratings-3-x-writeReviewContainer){float: right;max-width: 200px;display:none;}
+
+:global(.vtex-reviews-and-ratings-3-x-star) { color: #fbbc04;}
+
+:global(.vtex-flex-layout-0-x-flexColChild)
+:global(.vtex-reviews-and-ratings-3-x-container)
+:global(.vtex-reviews-and-ratings-3-x-reviewCommentsContainer){display:none;}
+
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-home-banner-curso){    background-color: #1d1d1b;}
+
+
+:global(.vtex-store-components-3-x-specificationsTab)
+:global(.vtex-store-components-3-x-content){    line-height: 25px;color: #555;}
+
+:global(.vtex-store-components-3-x-specificationItemSpecifications--especificacao-do-produto-2){line-height: 40px;line-height: 25px;color: #555;}
+
+  :global(.vtex-rich-text-0-x-wrapper--informativo-frete){background-image: url("https://stevia.vtexassets.com/arquivos/icon-frete-gratis.png");background-size: contain;background-repeat: no-repeat;background-position: left center;padding-left: 74px; width: 100%;}
+  :global(.vtex-rich-text-0-x-wrapper--informativo-desconto-progressivo){background-image: url("https://stevia.vtexassets.com/arquivos/icon-desconto-progressivo.png");background-size: 65px;background-repeat: no-repeat;background-position: left center;padding-left: 74px;  width: 100%;} 
+  :global(.vtex-rich-text-0-x-wrapper--informativo-desconto){background-image: url("https://stevia.vtexassets.com/arquivos/icon-desconto.png");background-size: 65px;background-repeat: no-repeat;background-position: left center;padding-left: 74px;width: 100%;}
+  :global(.vtex-rich-text-0-x-container--informativo-parcelamento){background-image: url("https://stevia.vtexassets.com/arquivos/icon-parcele.png");background-size: 65px;background-repeat: no-repeat;background-position: left center;padding-left: 74px;width: 100%;}
+  :global(.vtex-rich-text-0-x-container--informativo-site-seguro){background-image: url("https://stevia.vtexassets.com/arquivos/icon-site-seguro.png");background-size: 65px;background-repeat: no-repeat;background-position: left center;padding-left: 74px;width: 100%;}
+  :global(.vtex-rich-text-0-x-container--informativo-whats){background-image: url("https://stevia.vtexassets.com/arquivos/icon-whatsapp.png");background-size: 65px;background-repeat: no-repeat;background-position: left center;padding-left: 74px;width: 100%;}
+
+  :global(.vtex-flex-layout-0-x-flexRow--bloco-home-informativos)
+  :global(.vtex-store-components-3-x-container){width: 100%;}
+
+  :global(.vtex-store-components-3-x-imageElement--imagem-dimensao){max-width: 495px;max-height: 504px; width: 100%;}
+  :global(.vtex-product-specifications-1-x-groupName){font-size: 14px!important;font-weight: bold;margin-top: 10px; text-transform: uppercase;}
+  :global(.vtex-product-specifications-1-x-specificationValue ){color: #000;font-size: 14px!important;    font-family: Roboto,sans-serif!important;font-weight: normal;margin-top: 10px;    font-weight: 500!important;}
+  /*:global(.vtex-flex-layout-0-x-flexRow--productSpecificationGroup) {margin-top: -105px;}*/
+  :global(.vtex-flex-layout-0-x-flexRowContent--productSpecificationGroup)
+  :global(.vtex-flex-layout-0-x-flexColChild){margin-top: 5px;}
+  :global(.vtex-flex-layout-0-x-flexRow--productSpecification){    background-color: #fff!important;border-bottom: 1px solid #000;    padding-left: 20px;}
+  
+
+
+  :global(.vtex-flex-layout-0-x-flexRow--topo-clube-de-assinaturas){background-color:#000;}
+
+  :global(.vtex-flex-layout-0-x-flexRow--topo-clube-de-assinaturas)
+  :global(.vtex-rich-text-0-x-headingLevel1--assinaturas-titulo){color: #a47c33;    font-size: 48px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+  :global(.vtex-flex-layout-0-x-flexRow--topo-clube-de-assinaturas)
+  :global(.vtex-rich-text-0-x-paragraph){color:#fff;    font-size: 16px;}
+
+ 
+:global(.vtex-flex-layout-0-x-flexRow--beneficios-clube-de-assinaturas){
+  background: url(https://tfcuey.vtexassets.com/arquivos/bg-bloco-beneficios-topo.png) center top no-repeat, url(https://tfcuey.vtexassets.com/arquivos/bg-bloco-beneficios-rodape.png) center bottom no-repeat;
+  background-size: contain;
+  background-color: #E4CAC1;
+  padding-top: 50px;
+  padding-bottom: 115px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-clube-essencial){    background-color: #000!important;
+  padding-bottom: 60px;
+  background: url(https://tfcuey.vtexassets.com/arquivos/Clube-Essencial-Circulo.png?v=637805301268000000);
+  background-repeat: no-repeat;
+  background-position: right bottom;}
+
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-clube-essencial) 
+:global(.vtex-store-components-3-x-imageElement){    position: absolute;
+  right: 115px;max-width: 275px!important;}
+
+
+:global(.vtex-rich-text-0-x-paragraph--assinaturas-beneficios-linha-condicao){    font-weight: bold;
+  color: #000;}
+
+:global(.vtex-rich-text-0-x-headingLevel2--clube-essencial-titulo){/*color: #FFD900;*/color: #f5f5f5;    font-size: 30px;    margin-bottom: 5px;}
+
+:global(.vtex-rich-text-0-x-paragraph--clube-essencial-conteudo){color:#fff;font-size: 18px;}
+
+
+:global(.vtex-rich-text-0-x-headingLevel2--clube-plano-mensal-titulo){font-weight: normal;margin-bottom: 0px;color:#fff;font-size: 20px;
+  font-family: Roboto,sans-serif;}
+
+:global(.vtex-rich-text-0-x-strong--clube-plano-mensal-titulo){font-weight: bold;}
+
+:global(.vtex-rich-text-0-x-paragraph--clube-plano-mensal-texto){
+  margin: 0px;
+  color:#fff;
+  font-size: 14px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--clube-essencial-receba-titulo){
+  margin: 0px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+
+}
+:global(.vtex-rich-text-0-x-paragraph--clube-essencial-produto){
+  margin: 0px;
+  color:#fff;
+  font-size: 14px;
+
+}
+
+:global(.vtex-rich-text-0-x-paragraph--assinaturas-beneficios-titulo){color:#000;    margin-bottom: 5px;}
+:global(.vtex-rich-text-0-x-paragraph--assinaturas-beneficios-titulo){font-size: 16px;}
+:global(.vtex-rich-text-0-x-strong--assinaturas-beneficios-titulo){font-size: 24px;}
+
+:global(.vtex-rich-text-0-x-paragraph--assinaturas-beneficios-valor-fixo){
+
+  font-size: 12px;
+  margin-top: 0px;
+  color: #000;
+  font-weight: bold;
+}
+
+:global(.vtex-rich-text-0-x-link--assinaturas-beneficios-botao){
+
+  background-color: #a47c33;
+    padding: 10px 40px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+:global(.vtex-rich-text-0-x-paragraph--assinaturas-beneficios-linha){margin:0px; color:#000;font-size: 18px;    padding-bottom: 10px;}
+
+
+:global(.vtex-rich-text-0-x-paragraph--assinaturas-beneficios-linha)::before {
+  content: " ";
+  display: block;
+  width: 12px;
+  height: 12px;
+  background-color: #a47c33;
+  float: left;
+  margin-top: 8px;
+  margin-left: 20px;
+  margin-right: 30px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+
+
+:global(.vtex-rich-text-0-x-headingLevel2--assinaturas-beneficios-titulo){color: #000;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: Roboto,sans-serif;margin-bottom: 20px;}
+
+:global(.vtex-flex-layout-0-x-flexRow--valores-clube-de-assinaturas){background-color: #E4D5C0; }
+
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-clube-sensacional){    background-color: #000!important;
+  padding-bottom: 60px;
+  background: url(https://tfcuey.vtexassets.com/arquivos/Clube-Sensacional-Circulo.png?v=637805301268000000);
+  background-repeat: no-repeat;
+  background-position: right bottom;}
+
+:global(.vtex-rich-text-0-x-headingLevel2--clube-sensacional-titulo){color:#83A3F6;    font-size: 30px;
+  margin-bottom: 5px;}
+
+
+:global(.vtex-rich-text-0-x-paragraph--clube-sensacional-conteudo){color:#fff;    font-size: 18px;}
+
+:global(.vtex-rich-text-0-x-paragraph--clube-sensacional-receba-titulo){    
+  margin: 0px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+  :global(.vtex-rich-text-0-x-wrapper--clube-sensacional-receba-titulo){    margin: 0px;
+    color: #fff;}
+
+:global(.vtex-rich-text-0-x-paragraph--clube-sensacional-produto){
+
+  margin: 0px;
+    color: #fff;
+    font-size: 14px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--clube-sensacional-produto){
+  margin: 0px;
+  color: #fff;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-clube-sensacional)
+:global(.vtex-store-components-3-x-imageElement){    position: absolute;
+  right: 115px;    max-width: 275px!important;
+  top: 25px;}
+
+
+
+
+  :global(.vtex-flex-layout-0-x-flexRow--bloco-clube-fenomenal){    background-color: #000!important;
+    padding-bottom: 60px;
+    background: url(https://tfcuey.vtexassets.com/arquivos/Clube-Fenomenal-Circulo.png?v=637805301268000000);
+    background-repeat: no-repeat;
+    background-position: right bottom;}
+
+  :global(.vtex-rich-text-0-x-headingLevel2--clube-fenomenal-titulo){/*color: #00FF88; */ color: #a47c33;  font-size: 30px;
+    margin-bottom: 5px;}
+
+  :global(.vtex-rich-text-0-x-paragraph--clube-fenomenal-conteudo){color:#fff;font-size: 18px;}
+
+  :global(.vtex-rich-text-0-x-paragraph--clube-fenomenal-receba-titulo){    margin: 0px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;}
+
+  :global(.vtex-rich-text-0-x-paragraph--clube-fenomenal-produto){color:#fff;margin:0px;    font-size: 14px;}
+
+
+  :global(.vtex-flex-layout-0-x-flexRow--bloco-clube-fenomenal)
+  :global(.vtex-store-components-3-x-imageElement){    position: absolute;    max-width: 275px!important;
+    right: 115px;
+    top: 25px;}
+
+
+    :global(.vtex-store-components-3-x-infoCardSubhead--bloco-editoriais){    font-weight: 700;
+      color: #000;
+      padding-top: 53px;}
+
+
+    @media (max-width: 769px){
+    :global(.vtex-flex-layout-0-x-flexRow--titulo-nome-colecao-busca-personalizada)
+    :global(.vtex-rich-text-0-x-paragraph--titulo){padding: 0px 10px!important;}
+    
+    :global(.vtex-flex-layout-0-x-flexRow--bloco-clube-fenomenal)
+    :global(.vtex-store-components-3-x-imageElement),
+    :global(.vtex-flex-layout-0-x-flexRow--bloco-clube-sensacional) 
+    :global(.vtex-store-components-3-x-imageElement),
+    :global(.vtex-flex-layout-0-x-flexRow--bloco-clube-essencial)
+    :global(.vtex-store-components-3-x-imageElement) {
+      margin: auto;
+      display: block;
+      max-width: 175px!important;
+      margin-top: 25px;
+      margin-bottom: 25px;
+      position: initial!important;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--topo-clube-de-assinaturas){padding: 0px 20px;}
+  :global(.vtex-flex-layout-0-x-flexRow--beneficios-clube-de-assinaturas){    padding: 0px 20px;}
+  :global(.vtex-rich-text-0-x-headingLevel2--assinaturas-beneficios-titulo){padding-top: 25px;}
+  :global(.vtex-rich-text-0-x-paragraph--assinaturas-beneficios-linha)::before{    margin-left: 0px!important; margin-right: 12px!important;    margin-bottom: 0px!important;}
+  :global(.vtex-rich-text-0-x-paragraph--assinaturas-beneficios-linha){    padding-bottom: 20px!important;}
+
+  :global(.vtex-flex-layout-0-x-flexRow--bloco-clube-essencial),
+  :global(.vtex-flex-layout-0-x-flexRow--valores-clube-de-assinaturas),
+  :global(.vtex-flex-layout-0-x-flexRow--bloco-clube-fenomenal),
+  :global(.vtex-flex-layout-0-x-flexRow--bloco-clube-sensacional){padding: 0px 20px!important;}
+
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--assinaturas-barra-final){    background-color: #000;
+  height: 70px;}
+
+  :global(.vtex-search-result-3-x-galleryItem)
+  :global(.vtex-product-summary-2-x-container)
+  :global(.vtex-add-to-cart-button-0-x-buttonText){opacity: 1;transition:0.2s;color: #b48736;}
+
+  :global(.vtex-search-result-3-x-galleryItem)
+:global(.vtex-product-summary-2-x-container):hover
+:global(.vtex-add-to-cart-button-0-x-buttonText){opacity: 1;color:#fff!important;background-color:#b48736;;}
+
+:global(.vtex-product-price-1-x-installments){    font-size: 13px;}
+
+:global(.vtex-product-price-1-x-installments--summary){margin-bottom: 15px;color: #000;}
+
+:global(.vtex-product-summary-2-x-description){text-align: left;}
+
+:global(.vtex-reviews-and-ratings-3-x-reviewsRatingAverage){font-size:12px;}
+:global(.vtex-reviews-and-ratings-3-x-reviewsRatingCount){font-size:12px;}
+
+:global(.vtex-store-newsletter-1-x-nameInputContainer)
+:global(.vtex-input-prefix__group){border:none;border-radius:0px;}
+
+
+:global(.vtex-store-newsletter-1-x-emailInputContainer)
+:global(.vtex-input-prefix__group){border:none;border-radius:0px;}
+
+
+:global(.vtex-product-price-1-x-savings--summary)
+:global(.vtex-product-price-1-x-currencyCode){color:#fff!important;}
+
+:global(.vtex-product-price-1-x-listPrice--summary){text-align: left;}
+
+:global(.vtex-reviews-and-ratings-3-x-loginLink){color: #000;padding-left: 0px;text-decoration: none;}
+
+
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--banner-departamento-footer-seo){max-width: 1150px;margin: auto;padding: 15px 5px 15px 5px;}
+
+
+
+
+:global(.vtex-product-price-1-x-savings--summary)
+:global(.vtex-product-price-1-x-currencyInteger){color:#fff!important;}
+
+
+:global(.vtex-product-price-1-x-savings--summary)
+:global(.vtex-product-price-1-x-currencyDecimal){color:#fff!important;}
+
+
+
+:global(.vtex-product-price-1-x-savings--summary)
+:global(.vtex-product-price-1-x-currencyFraction){color:#fff!important;}
+
+
+  :global(.vtex-flex-layout-0-x-flexRow--menu-link){background-color:#1D1D1B!important;}
+  
+  :global(.vtex-search-result-3-x-container--layout)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) { min-width: auto!important;}
+  
+  :global(.vtex-store-components-3-x-productDescriptionContainer)
+  :global(.vtex-store-components-3-x-content){color: #3f3f40;padding: 0px 15px;    /*white-space: break-spaces;*/line-height: 23px;}
+
+
+  :global(.vtex-flex-layout-0-x-flexCol--mosaico-bloco-1){width: 100%!important;}
+  :global(.vtex-flex-layout-0-x-flexCol--mosaico-bloco-2){width: 100%!important;}
+  :global(.vtex-flex-layout-0-x-flexCol--mosaico-bloco-3){width: 100%!important;}
+
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--bloco-home-mosaico)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth){width: auto!important;padding: 5px;}
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--bloco-home-informativos){justify-content: center!important; margin: auto;   max-width: 1370px;}
+
+  :global(.vtex-rich-text-0-x-container--informativo-frete){justify-content: center!important;}
+
+:global(.vtex-flex-layout-0-x-flexRow--credits){background-color: #fff;}
+
+:global(.vtex-rich-text-0-x-paragraph--footer-aling-center){    font-size: 12px;color:#85786F;}
+  :global(.vtex-rich-text-0-x-headingLevel3--informativo-frete){font-size: 14px;margin-bottom: 0px;}
+  :global(.vtex-rich-text-0-x-headingLevel3--informativo-desconto-progressivo){font-size: 14px;margin-bottom: 0px;}
+  :global(.vtex-rich-text-0-x-headingLevel3--informativo-desconto){font-size: 14px;margin-bottom: 0px;}
+  :global(.vtex-rich-text-0-x-headingLevel3--informativo-parcelamento){font-size: 14px;margin-bottom: 0px;}
+  :global(.vtex-rich-text-0-x-headingLevel3--informativo-site-seguro){font-size: 14px;margin-bottom: 0px;}
+  :global(.vtex-rich-text-0-x-heading--informativo-whats){font-size: 14px;margin-bottom: 0px;}
+
+
+  :global(.vtex-store-components-3-x-infoCardContainer--bloco-editoriais){ width: 220px;   height: 227px;    background-color: transparent;
+    border: none;    width: 100%;
+  }
+
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--editoriais)
+  :global(.vtex-slider-layout-0-x-paginationDotsContainer){bottom:80px;}
+
+
+:global(.vtex-slider-layout-0-x-imageElement--carousel){    max-height: inherit!important;}
+
+   
+  :global(.vtex-store-components-3-x-infoCardContainer--bloco-editoriais)
+    :global(.vtex-store-components-3-x-infoCardTextContainer){       padding-top: 250px;
+      width: 100%;
+      line-height: 34px;
+      position: absolute;
+      margin: auto;}
+      @media (max-width: 600px)
+      {
+      :global(.vtex-store-components-3-x-infoCardContainer--bloco-editoriais)
+      :global(.vtex-store-components-3-x-infoCardTextContainer){       padding-top: 185px;}
+
+      :global(.vtex-slider-layout-0-x-sliderLayoutContainer--editoriais)
+      :global(.vtex-slider-layout-0-x-paginationDotsContainer) {top: 230px;}
+
+      :global(.vtex-minicart-2-x-minicartQuantityBadgeDefault){
+        right: -1.3rem!important;
+      }
+
+
+      }
+
+
+      :global(.vtex-store-components-3-x-infoCardImageContainer--bloco-editoriais){    width: 100%;}
+
+      :global(.vtex-store-components-3-x-infoCardImage--bloco-editoriais){       margin: auto;
+        display: block; width: 205px;}
+
+      :global(.vtex-store-components-3-x-infoCardContainer--bloco-editoriais)
+      :global(.vtex-button__label){    color: #000;
+        text-transform: initial;
+        font-size: 16px;    line-height: 20px;
+        font-weight: 600;}
+
+  :global(.vtex-store-footer-2-x-footerLayout){background-color: #1D1D1B;    }
+  :global(.vtex-store-components-3-x-newsletter){background-color: #1D1D1B!important;border-top: 2px solid #ff6c00;}
+  :global(.vtex-slider-layout-0-x-sliderLayoutContainer--carrousel-influencers){max-width: 1140px;margin: auto;margin-bottom: 35px!important;margin: auto;padding-bottom: 30px;}
+  :global(.vtex-store-components-3-x-newsletter)
+  :global(.vtex-store-components-3-x-container){padding: 25px!important;}
+:global(.vtex-slider-layout-0-x-sliderTrackContainer--editoriais){padding-bottom:20px;margin-bottom:30px;}
+:global(.vtex-slider-layout-0-x-slideChildrenContainer--carrousel-editoriais){max-width: 121px;margin:auto;}
+:global(.vtex-slider-layout-0-x-slideChildrenContainer--editoriais){margin: auto;}
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--editoriais){     padding-bottom: 90px;  z-index: 33;     background-size: cover;background-image: url(https://tfcuey.vtexassets.com/arquivos/bg-melhores-bebidas-home-2-v2.png?v=6378053012680000001);    margin-top: -1px;}
+  :global(.vtex-product-price-1-x-currencyCode){color:#1d1d1b;    font-weight: 500;}
+
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--slidertresimagens){margin-top: -85px;}
+
+  :global(.vtex-product-price-1-x-currencyInteger){color:#1d1d1b;font-weight: 500;}
+  :global(.vtex-product-price-1-x-currencyDecimal){color:#1d1d1b;font-weight: 500;}
+  :global(.vtex-product-price-1-x-currencyFraction){color:#1d1d1b;font-weight: 500;}
+:global(.vtex-flex-layout-0-x-flexRow--footer-aling-center-devs){background-color:#fff;}
+  :global(.vtex-flex-layout-0-x-flexRow--espacamento-footer){background-color: #d6c8bf;}
+  :global(.vtex-flex-layout-0-x-flexRow--area-central-de-atendimento){background-color: #d6c8bf;}
+  :global(.vtex-flex-layout-0-x-flexRow--payment-methods){background-color: #d6c8bf;}
+  :global(.vtex-flex-layout-0-x-flexRow--central-de-atendimento){background-color: #d6c8bf;}
+:global(.vtex-flex-layout-0-x-flexRow--logo-footer-brme){background-color:#1D1D1B}
+:global(.vtex-rich-text-0-x-container--titulo-vitrines-verao){    background-image: url(https://tfcuey.vtexassets.com/arquivos/bg-melhores-bebidas-home-1.png);
+  background-position: top center;
+  background-size: cover;
+  padding-top: 60px;}
+  :global(.vtex-rich-text-0-x-wrapper--titulo-vitrines-verao) {
+    max-width: 1140px!important;
+    margin: auto;
+    width: 100%;
+    color: #000;
+    font-family: Open Sans,sans-serif;
+ 
+    font-size: 20px!important;
+ 
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--logo-footer-brme)
+:global(.vtex-store-components-3-x-imageElement--footer-logo-vtex){height:auto!important;}
+
+:global(.vtex-rich-text-0-x-container--central-atendimento){ display: block; margin: auto;max-width: 220px;text-align: center;text-decoration: none;}
+
+:global(.vtex-rich-text-0-x-paragraph--central-atendimento)
+:global(.vtex-rich-text-0-x-paragraph--central-atendimento){margin-bottom: 0px; margin-top: 0px;}
+
+
+:global(.vtex-rich-text-0-x-link--central-atendimento){    background-color: #000;
+  padding: 10px;
+  margin: auto;text-decoration:none;
+  display: block;
+  color: #d6c8bf;}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--central-de-atendimento)
+:global(.vtex-rich-text-0-x-container--footer-aling-center){    text-align: center;
+  margin: auto;
+  display: block;}
+
+  :global(.vtex-search-result-3-x-filterTitleSpan){font-weight: normal;
+    text-transform: uppercase;
+    font-size: 17px;}
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--footer-aling-center-devs){padding-bottom: 10px;}
+
+  :global(.vtex-store-footer-2-x-footerLayout)
+  :global(.vtex-menu-2-x-styledLinkContent) {    color: #d6c8bf;}
+
+  :global(.vtex-menu-2-x-styledLinkContent--tituloinstitucional){color: #d6c8bf!important;font-size: 19px!important;font-weight: 600!important;cursor: default;padding-bottom: 12px!important;}
+
+ :global(.vtex-button){border:none;background-color:transparent;}
+  :global(.vtex-add-to-cart-button-0-x-buttonText){border:1px solid #b48736;font-size: 18px;color:#b48736}
+  :global(.vtex-button__label){padding:0px;}
+
+
+  :global(.vtex-slider-layout-0-x-slide--shelf)
+:global(.vtex-add-to-cart-button-0-x-buttonText){transition:0.2s;}
+
+:global(.vtex-slider-layout-0-x-slide--shelf):hover
+:global(.vtex-add-to-cart-button-0-x-buttonText){background-color: #b48736;color:#fff!important;}
+
+
+  :global(.vtex-product-price-1-x-savings--summary){background: #8BC34A;  font-size: 12px;  font-weight: normal;border-radius: 1000px;align-items: center;display: flex;position: absolute; top: 0px; padding: 5px; right: 10px;color: #fff;}
+
+:global(.vtex-store-components-3-x-newsletter){    margin-top: 55px;}
+  :global(.vtex-store-components-3-x-newsletter)
+  :global(.vtex-store-components-3-x-label){color: #555!important;font-size: 0px!important;}
+
+
+  :global(.vtex-store-components-3-x-newsletter)
+  :global(.vtex-store-components-3-x-label)::before{content: "Receba Ofertas Exclusivas";color: #555!important;font-size: 20px!important;}
+:global(.vtex-store-footer-2-x-paymentMethodIcon){float:left;}
+:global(.vtex-store-footer-2-x-acceptedPaymentMethodContainer){display:block;}
+
+
+:global(.vtex-store-footer-2-x-acceptedPaymentMethodContainer--payment-methods-title)::before{display:block;content:"Formas de Pagamento";color: #555!important; font-size: 19px!important; font-weight: 600!important;cursor: default; padding-bottom: 12px!important;}
+
+ :global(.vtex-flex-layout-0-x-flexColChild)
+:global(.vtex-rich-text-0-x-wrapper--subtitulo){ line-height: 0!important;   width: fit-content;color: #555;font-size: 16px;font-weight: 700;margin: 15px 0;text-transform: uppercase;border-bottom: 2px solid #ff6c00; padding-bottom: 0px;}
+
+:global(.vtex-rich-text-0-x-paragraph--subtitulo-bold){font-weight: bold;}
+
+:global(.vtex-rich-text-0-x-paragraph--titulo){font-weight: bold; color: #555;font-size: 24px; margin-top: 45px;}
+
+  :global(.vtex-flex-layout-0-x-flexColChild--mosaico-bloco-1)
+  :global(.vtex-store-components-3-x-imageElement){max-height: 258px;padding-bottom: 5px;}
+
+  :global(.vtex-rich-text-0-x-link--envie-sua-receita-mobile-texto){padding-top: 5px;color: #fff;font-size: 14px;text-decoration: none;font-weight: bold;}
+
+:global(.vtex-rich-text-0-x-container--envie-sua-receita-mobile-texto){background-image: url(/arquivos/envie-receita-br.png?v=637412198317900000);background-repeat: no-repeat;background-size: 30px;background-position: center left;padding-left: 35px;}
+  :global(.vtex-rich-text-0-x-paragraph--envie-sua-receita-mobile-texto){    line-height: 10px;    font-size: 14px;}
+  :global(.vtex-flex-layout-0-x-flexRowContent--main-header-envie-sua-receita-mobile){background-color:#ff6c00;width: 100%;justify-content: center;text-align: center;}
+
+  :global(.vtex-flex-layout-0-x-flexColChild--mosaico-bloco-2)
+  :global(.vtex-store-components-3-x-imageElement){max-height: 526px;}
+
+  :global(.vtex-flex-layout-0-x-flexColChild--mosaico-bloco-3)
+  :global(.vtex-store-components-3-x-imageElement){max-height: 258px;padding-bottom: 5px;}
+
+
+
+:global(.vtex-rich-text-0-x-wrapper--titulo-news){text-align: center;    width: 100%;font-size:20px;}
+
+
+
+:global(.vtex-search-result-3-x-gallery)
+:global(.vtex-reviews-and-ratings-3-x-reviewsHeading){display:none;}
+
+:global(.vtex-search-result-3-x-gallery)
+:global(.vtex-reviews-and-ratings-3-x-reviewsRatingAverage){display:none;}
+
+
+
+
+
+:global(.vtex-search-result-3-x-gallery)
+:global(.vtex-reviews-and-ratings-3-x-writeReviewContainer){display:none;}
+
+
+
+:global(.vtex-search-result-3-x-gallery)
+:global(.vtex-reviews-and-ratings-3-x-reviewsRatingCount){display:none;}
+
+:global(.vtex-rich-text-0-x-container--small-text){font-size: 10px;max-width: 1120px;margin: auto;padding-top: 10px;}
+:global(.vtex-rich-text-0-x-paragraph--small-text){    margin: 0px;}
+
+:global(.vtex-search-result-3-x-gallery)
+:global(.vtex-reviews-and-ratings-3-x-reviewCommentsContainer){display:none;}
+
+:global(.vtex-store-components-3-x-imageElement--bandeira){    max-width: 46px;}
+
+:global(.vtex-search-result-3-x-gallery)
+:global(.vtex-reviews-and-ratings-3-x-reviewsOrderBy){display:none;}
+
+:global(.vtex-store-newsletter-1-x-nameInputContainer)
+:global(.vtex-input-prefix__group){border:none!important;}
+
+
+
+
+:global(.vtex-rich-text-0-x-wrapper--titulo-news)
+:global(.vtex-rich-text-0-x-heading-level-3){    font-size: 41px;
+  color: #d6c8bf;
+  text-align: left;
+  padding: 0px;
+  margin: 0px 0px 20px 0px;
+  font-family: 'Noto Serif Display',serif;
+  font-weight: 300;}
+
+
+:global(.vtex-store-newsletter-1-x-formSubmitContainer)
+:global(.vtex-button__label){    color: #d6c8bf;}
+
+:global(.vtex-store-newsletter-1-x-nameInputContainer){float:left;padding-right: 15px;}
+:global(.vtex-store-newsletter-1-x-emailInputContainer){float:left;padding-right: 15px;}
+:global(.vtex-store-newsletter-1-x-formSubmitContainer){border: 2px solid #d6c8bf;    float: left;    padding: 0px 15px;}
+
+:global(.vtex-store-newsletter-1-x-defaultSuccessMessage){text-align: center;    margin-top: 40px;}
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-home-news){padding-bottom: 20px;margin-top: 20px;}
+:global(.vtex-store-newsletter-1-x-newsletterForm){background-color: #1D1D1B;max-width: 640px;    position: relative;}
+
+
+:global(.vtex-rich-text-0-x-paragraph--footer-bandeiras-titulo){    margin-top: 0px;    margin-bottom: 0;color: #555!important;font-size: 19px!important;font-weight: 600!important;}
+
+  :global(.vtex-store-components-3-x-newsletter)
+  :global(.vtex-button){    background-color: #ff6c00!important;    padding: 0px 15px;}
+
+  :global(.vtex-store-components-3-x-newsletter)
+  :global(.vtex-styleguide-9-x-input){background-color:#fff!important;color:#555;}
+
+
+
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--productSpecification)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth){width:auto!important;}
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--productSpecification)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{min-width: 25%;}
+
+
+  :global(.vtex-store-components-3-x-newsletter)
+  :global(.vtex-styleguide-9-x-input)::placeholder{color:#555!important;}
+
+
+
+  :global(.vtex-reviews-and-ratings-3-x-star) {color: #1d1d1b;}
+
+
+  :global(.vtex-store-components-3-x-productNameContainer){font-family: Roboto,sans-serif!important;font-weight: 500;}
+
+  :global(.vtex-rich-text-0-x-paragraph--informativo-frete){color: #949494;font-size: 11px;letter-spacing: 1px;margin-top: 5px;}
+  :global(.vtex-rich-text-0-x-paragraph--informativo-desconto-progressivo){color: #949494;font-size: 11px;letter-spacing: 1px;margin-top: 5px;}
+  :global(.vtex-rich-text-0-x-paragraph--informativo-desconto){color: #949494;font-size: 11px;letter-spacing: 1px;margin-top: 5px;}
+  :global(.vtex-rich-text-0-x-paragraph--informativo-parcelamento){color: #949494;font-size: 11px;letter-spacing: 1px;margin-top: 5px;}
+  :global(.vtex-rich-text-0-x-paragraph--informativo-site-seguro){color: #949494;font-size: 11px;letter-spacing: 1px;margin-top: 5px;}
+  :global(.vtex-rich-text-0-x-paragraph--informativo-whats){color: #949494;font-size: 11px;letter-spacing: 1px;margin-top: 5px;}
+  :global(.vtex-store-components-3-x-imageElement--footer-logo-vtex){height: 16px;    margin-top: 10px;    float: right;}
+  :global(.vtex-store-components-3-x-imageElement--footer-logo-evision){height: 16px;    margin-top: 10px;    float: right;}
+
+  :global(.vtex-rich-text-0-x-container--selos-de-seguranca-text-footer){    color: #fff;    display: block;}
+
+:global(.vtex-store-components-3-x-imageElement--logo-footer-brme){    height: 40px!important;
+  width: 180px!important;
+  margin-top: 20px;}
+
+:global(.vtex-store-components-3-x-imageElement--selo-let-encrypt) {width: 75px;
+  height: 55px!important;
+  margin-top: 10px;
+}
+
+:global(.vtex-store-components-3-x-imageElement--selo-Kontudo){    width: 104px;
+  height: 47px;
+  margin-top: 10px;}
+
+  :global(.vtex-store-components-3-x-imageElement--imagem-formas-de-pagamento){    width: 255px;
+    height: 33px;
+    margin-top: 24px;}
+
+  :global(.vtex-rich-text-0-x-paragraph--footer-formas-pagamento-text){color:#fff;}
+
+  @media only screen and (max-width: 480px) {
+  :global(.vtex-flex-layout-0-x-flexRow--bloco-home-banner-curso){display:none;}
+  :global(.vtex-flex-layout-0-x-flexRow--bloco-home-informativos){display:none;}
+  }
+  @media only screen and (min-width: 480px) {
+  :global(.vtex-flex-layout-0-x-flexRow--bloco-home-banner-curso-mobile){display:none;}
+  :global(.vtex-flex-layout-0-x-flexRow--bloco-home-informativos-mobile){display:none;}
+
+
+  :global(.vtex-flex-layout-0-x-flexRow--menu-footer-row){background-image:url(https://tfcuey.vteximg.com.br/arquivos/bg-footer-io.png?v=637698192286270000);background-repeat: no-repeat;    background-position: bottom left;    background-size: contain;}
+  
+
+}
+
+  @media only screen and (min-width: 640px) {
+
+
+    :global(.vtex-flex-layout-0-x-flexCol--espacamento-topo-logo){    width: 545px;}
+    :global(.vtex-store-newsletter-1-x-confirmationCheckboxContainer){display: block;  right: 204px;  position: absolute;    margin-top: 50px;}
+
+
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--credits)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{width: 50%!important; padding-right: 7%;}
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-home-mosaicoeuquero)
+:global(.vtex-store-components-3-x-container) {max-width: 1190px!important;}
+
+:global(.vtex-flex-layout-0-x-flexRow--redes-sociais-pdp),
+:global(.vtex-store-components-3-x-shippingTable){margin-bottom: 15px;}
+
+:global(.vtex-menu-2-x-accordionIcon){color:#000;}
+
+
+:global(.vtex-store-components-3-x-shareSocialButton){margin-right: 10px!important;}
+    
+:global(.vtex-store-components-3-x-shareSocialButton--facebook){    background-image: url(https://tfcuey.vtexassets.com/arquivos/icon-face-pdp.png);
+  background-position: center;
+  background-repeat: no-repeat;    width: 30px;
+  height: 30px;
+  background-size: auto;}
+:global(.vtex-store-components-3-x-shareSocialButton--twitter){    background-image: url(https://tfcuey.vtexassets.com/arquivos/icon-twitter-pdp.png);
+  background-position: center;
+  background-repeat: no-repeat;    width: 30px;
+  height: 30px;
+  background-size: auto;}
+:global(.vtex-store-components-3-x-shareSocialButton--pinterest){    background-image: url(https://tfcuey.vtexassets.com/arquivos/icon-instagram-pdp.png);
+  background-position: center;
+  background-repeat: no-repeat;    width: 30px;
+  height: 30px;
+  background-size: auto;}
+
+  :global(.vtex-store-components-3-x-shareSocialIcon){display:none;}
+
+
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-home-mosaicoeuquero) 
+:global(.vtex-store-components-3-x-imageElement) { width: 85%!important; padding-bottom: 30px;margin: auto; display: block;opacity: 0.6;transition: 0.2s;}
+    :global(.vtex-slider-layout-0-x-sliderLayoutContainer--carrousel-euquero-mobile){display:none;}
+    :global(.vtex-slider-layout-0-x-sliderLayoutContainer--carrousel-mosaico-mobile){display:none;}
+    :global(.vtex-slider-layout-0-x-sliderLayoutContainer--carrousel-mobile){display:none;}
+    :global(.vtex-product-quantity-1-x-quantitySelectorContainer){margin-top: 20px;}
+    :global(.vtex-address-form__postalCode){float:left;width: 87%;}
+   /* :global(.vtex-flex-layout-0-x-flexRow--pdp-botao-add-carrinho){ float: left; position: absolute; top: -77px; right: 95px!important;}*/
+    :global(.vtex-flex-layout-0-x-flexRow--pdp-botao-add-carrinho)
+    :global(.vtex-add-to-cart-button-0-x-buttonText) {    /* border: 1px solid #b48736; */
+      color: #fff;
+      font-size: 15px;
+      /* border-radius: 5px; */
+      font-weight: 400;
+      background-color: #1d1d1b;}
+    :global(.vtex-flex-layout-0-x-flexColChild)
+   
+    :global(.vtex-flex-layout-0-x-flexRowContent--payment-methods){margin: auto;
+      display: block;
+      max-width: 235px;}
+
+    :global(.vtex-flex-layout-0-x-flexRow--bloco-home-mosaicoeuqueromobile){display:none;}
+  }
+  
+
+
+  @media only screen and (max-width: 980px) {
+
+
+    :global(.vtex-store-components-3-x-infoCardImage--bloco-editoriais) {    width: 200px!important;}
+
+
+    :global(.vtex-slider-layout-0-x-sliderLayoutContainer--editoriais)
+    :global(.vtex-slider-layout-0-x-paginationDotsContainer){display:none!important;}
+   
+
+:global(.vtex-address-form__postalCode){float:left;}
+
+
+    :global(.vtex-store-components-3-x-searchBarContainer)
+    :global(.vtex-styleguide-9-x-input) {border-radius: 0px!important;}
+
+:global(.vtex-store-newsletter-1-x-confirmationCheckboxContainer){ padding-top: 15px;}
+    
+
+:global(.vtex-rich-text-0-x-paragraph--small-text){white-space: initial;padding-bottom: 0px;}
+
+    /*:global(.vtex-store-components-3-x-productImage) { width: 170%; margin: auto;display: block; margin-left: -32%;}*/
+
+    :global(.vtex-breadcrumb-1-x-termArrow){display:none;}
+    :global(.vtex-breadcrumb-1-x-term){display:none;}
+
+:global(.vtex-product-quantity-1-x-quantitySelectorStepper){position: fixed; bottom: 5px;z-index: 2;}
+:global(.vtex-flex-layout-0-x-flexRow--pdp-botao-add-carrinho){position: fixed;z-index: 2; bottom: 0;right: 10px;min-height: 50px;}
+
+
+
+
+    :global(.vtex-store-components-3-x-searchBarContainer){padding-top: 0px;}
+:global(.vtex-store-components-3-x-autoCompleteOuterContainer){    padding: 0px;}
+
+    :global(.vtex-sticky-layout-0-x-wrapper) {background-color: #1D1D1B;}
+    :global(.vtex-sticky-layout-0-x-container) {background-color: #1D1D1B;}
+
+:global(.vtex-store-components-3-x-searchBarInnerContainer){    margin-top: 0px;}
+   :global(.vtex-flex-layout-0-x-flexRow--texto-informativo-footer)
+   :global(.vtex-rich-text-0-x-container--small-text){padding: 0px;}
+
+   :global(.vtex-flex-layout-0-x-flexRow--texto-informativo-footer)
+   :global(.vtex-flex-layout-0-x-stretchChildrenWidth){float:left;min-height: 23px;}
+
+    :global(.vtex-flex-layout-0-x-flexRow--bloco-home-mosaicoeuqueromobile)
+    :global(.vtex-flex-layout-0-x-flexCol){flex-direction: inherit!important;}
+
+    :global(.vtex-flex-layout-0-x-flexRow--bloco-home-mosaicoeuqueromobile)
+    :global(.vtex-flex-layout-0-x-flexColChild){float: left;width: 48%;padding: 2%;}
+
+
+    :global(.vtex-slider-layout-0-x-slide--shelf)
+    :global(.vtex-add-to-cart-button-0-x-buttonText){    opacity: 1!important;}
+
+
+    :global(.vtex-slider-layout-0-x-sliderLeftArrow){display:none;}
+    :global(.vtex-slider-layout-0-x-sliderRightArrow){display:none;}
+
+    :global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf){padding-left: 10px!important;padding-right: 10px!important;} 
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--bandeiras-cartoes)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth){float:left;width: 20%!important;}
+
+    :global(.vtex-rich-text-0-x-wrapper--footer-bandeiras-titulo){width: 100%;    text-align: center;display: block;}
+
+
+
+:global(.vtex-store-footer-2-x-socialNetworksContainer){    flex-direction: row;justify-content: center;}
+
+
+    :global(.vtex-menu-2-x-submenuAccordion){margin-top:10px;    padding-left: 15px;}
+    :global(.vtex-store-newsletter-1-x-formSubmitContainer){border: 2px solid #d6c8bf;float: inherit;padding: 0px 15px;text-align: center;border-radius: 4px;margin-top: 5px;}
+    :global(.vtex-store-newsletter-1-x-nameInputContainer){float: inherit;padding-right: 0px;padding-bottom: 5px;}
+    :global(.vtex-store-newsletter-1-x-emailInputContainer){float: inherit;padding-right: 0px;padding-bottom: 5px;}
+    :global(.vtex-minicart-2-x-minicartContainer){margin-top: 3px;}
+    :global(.vtex-minicart-2-x-minicartContainer)::before{display:none;}
+    :global(.vtex-flex-layout-0-x-flexRow--bloco-home-news){margin-top: 30px;}
+    :global(.vtex-flex-layout-0-x-flexRowContent--bloco-home-mosaicoeuquero){display:none;}
+
+
+
+    :global(.vtex-slider-layout-0-x-sliderLayoutContainer--carrousel-mosaico-mobile)
+    :global(.vtex-slider-layout-0-x-slideChildrenContainer--carrousel-mosaico-mobile)
+    :global(.vtex-store-components-3-x-imageElement){width:100%;height: 260px;  max-width: 350px!important;  padding-bottom: 15px;    padding: 20px;}
+
+
+
+
+    :global(.vtex-slider-layout-0-x-sliderLayoutContainer--carrousel-euquero-mobile)
+    :global(.vtex-store-components-3-x-imageElement){width:100%;    padding-bottom: 15px;    padding: 20px;}
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--bloco-home-mosaico){display:none;}
+    :global(.vtex-rich-text-0-x-container--informativo-parcelamento){justify-content: center!important;    width: auto;}
+    :global(.vtex-slider-layout-0-x-sliderTrackContainer){padding-bottom: 20px;}
+    :global(.vtex-slider-layout-0-x-sliderTrackContainer){max-width: inherit!important;}
+    :global(.vtex-rich-text-0-x-container--informativo-whats){justify-content: center!important;    width: auto;}
+    :global(.vtex-rich-text-0-x-container--informativo-site-seguro){justify-content: center!important;    width: auto;}
+    :global(.vtex-rich-text-0-x-wrapper--informativo-parcelamento){justify-content: center!important;}
+    :global(.vtex-slider-layout-0-x-slide--carrousel-mobile--firstVisible)
+    :global(.vtex-rich-text-0-x-heading-level-3){font-size: 15px;padding-top: 0px; margin-bottom: 0px;}
+    :global(.vtex-flex-layout-0-x-flexRowContent--bloco-home-informativos){display:none;}
+    :global(.vtex-rich-text-0-x-container--small-text){padding: 10px 20px;}
+    :global(.vtex-tabs__nav) {-webkit-box-orient: vertical; flex-direction: column!important;}
+    :global(.vtex-flex-layout-0-x-flexColChild--mosaico-bloco-1)
+    :global(.vtex-store-components-3-x-imageElement){width: 100%;}
+    :global(.vtex-menu-2-x-submenuAccordion)
+    :global(.vtex-menu-2-x-menuItem){border:none;padding: 0px;}
+
+
+    
+    :global(.vtex-menu-2-x-accordionIcon--isClosed){margin-right: 10px;    color: #979899!important;
+      font-weight: bold;
+      font-family: arial;}
+    :global(.vtex-menu-2-x-accordionIcon--isOpen){color:#D6C8BF!important;margin-right: 10px;
+      font-weight: bold;
+      font-family: arial;}
+   
+
+    :global(.vtex-store-footer-2-x-acceptedPaymentMethodContainer--payment-methods-title)::before{text-align:center;font-size: 20px;}
+    :global(.vtex-store-footer-2-x-socialNetworkWrapper)::before{text-align:center;font-size: 20px;}
+
+
+    
+
+    :global(.vtex-menu-2-x-submenuAccordion)
+    :global(.vtex-menu-2-x-menuItem)
+    :global(.vtex-menu-2-x-styledLinkContent){font-size: 16px;    color: #D6C8BF;}
+    :global(.vtex-menu-2-x-menuItemInnerDiv)
+    :global(.vtex-menu-2-x-styledLinkContent){margin-left: 13px;font-size: 22px;    padding-bottom: 0px;    font-family: 'Noto Serif Display',serif;
+      font-weight: 900;    font-style: italic;}
+
+    :global(.vtex-store-drawer-0-x-childrenContainer)
+    :global(.vtex-menu-2-x-styledLinkContent){font-style: normal!important;}
+
+
+
+    :global(.vtex-store-drawer-0-x-childrenContainer){margin-top: 50px;}
+    :global(.vtex-slider-layout-0-x-sliderLayoutContainer--carousel){ margin-top: 0px!important;}
+    :global(.vtex-store-components-3-x-logoImage){margin: auto;max-width: initial;}
+    :global(.vtex-menu-2-x-menuContainerNav){width: 100%;}
+    :global(.vtex-menu-2-x-menuItem ) { color: #555;font-size: 18px;font-weight: 700; padding: 10px 5px;}
+    :global(.vtex-menu-2-x-styledLinkContainer){margin:0px;}
+    :global(.vtex-menu-2-x-menuItem--vegano){    background-color: #00C234;}
+    :global(.vtex-store-drawer-0-x-closeIconButton){color: #000;
+      margin-top: 10px;
+      padding-right: 10px;}
+    :global(.vtex-search-result-3-x-galleryItem) 
+    :global(.vtex-product-summary-2-x-container )
+    :global(.vtex-add-to-cart-button-0-x-buttonText) {opacity: 1;transition: 0.2s; line-height: 15px;padding: 9px!important;}
+    :global(.vtex-store-components-3-x-searchBarInnerContainer){width: 100%;margin-left: 0px;}
+    :global(.vtex-flex-layout-0-x-flexRow--footer-aling-center-devs)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth){float:left;width: 50%!important;}
+    :global(.vtex-flex-layout-0-x-flexRow--footer-aling-center-devs)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{float:left;width: 50%!important;}
+
+  }
+
+  :global(.vtex-slider-layout-0-x-sliderLayoutContainer--slidertresimagens)
+  :global(.vtex-store-components-3-x-imageElement) {
+    width: 100%;
+    height: 100%;
+}
+
+
+  :global(.vtex-menu-2-x-submenu)
+  :global(.vtex-menu-2-x-menuContainerNav){max-height: 350px;overflow: auto;}
+
+  :global(.vtex-store-components-3-x-imageElement--banner-influenciador-desktop){ max-height: initial!important;}
+ 
+
+  :global(.vtex-product-highlights-2-x-productHighlightText) {    background: #000;
+    border-radius: 0px;
+    padding: 5px 10px;
+    color: #fff;
+    display:none;
+    font-size: 12px;}
+
+
+  @media only screen and (max-width: 860px) {
+    :global(.vtex-store-components-3-x-imageElement--banner-influenciador-desktop){display:none;}
+    :global(.vtex-store-components-3-x-searchBarContainer){    background-color: #1D1D1B;}
+    :global(.vtex-rich-text-0-x-paragraph--footer-aling-center) {    text-align: center;}
+  }
+  @media only screen and (min-width: 860px) {
+    :global(.vtex-store-components-3-x-imageElement--banner-influenciador-mobile){display:none;}
+  }
+
+
+ 
+
+
+
+  :global(.vtex-store-components-3-x-imageElement--bandeira-mastercard){max-height: 21px;margin-top: 5px;}
+  :global(.vtex-store-components-3-x-imageElement--bandeira-visa){max-height: 25px;margin-top: 3px;}
+  :global(.vtex-store-components-3-x-imageElement--bandeira-amex){    max-height: 26px;margin-top: 3px;}
+  :global(.vtex-store-components-3-x-imageElement--bandeira-elo){    max-height: 24px; margin-top: 4px;}
+  :global(.vtex-store-components-3-x-imageElement--bandeira-hipercard){max-height: 24px; margin-top: 4px;}
+  :global(.vtex-store-components-3-x-imageElement--bandeira-aura){    max-height: 23px;margin-top: 3px;}
+  :global(.vtex-store-components-3-x-imageElement--bandeira-jcb){    max-height: 24px;margin-top: 2px;}
+  :global(.vtex-store-components-3-x-imageElement--bandeira-boleto){    max-height: 21px;margin-top: 4px;}
+
+
+
+  :global(.vtex-store-footer-2-x-socialNetworkLink){margin:5px 14px;}
+
+

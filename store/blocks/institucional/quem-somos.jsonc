@@ -1,0 +1,126 @@
+{
+    "store.custom#quem-somos": {
+      "blocks": ["flex-layout.row#quem-somos","flex-layout.row#espaco","flex-layout.row#tres-blocos","flex-layout.row#espaco"]
+    },
+    "flex-layout.row#quem-somos": {
+      "children": ["flex-layout.col#text-quem-somos", "flex-layout.col#text-diferenciais"]
+    },
+    "flex-layout.col#text-quem-somos": {
+      "children": ["rich-text#quem-somos-title", "rich-text#quem-somos-content"],
+      "props": {
+        "blockClass": "bloco-quem-somos",
+        "preventVerticalStretch": true
+      }
+    },
+
+
+
+    "flex-layout.row#espaco":{
+      "props": {
+        "blockClass": "bloco-quem-somos-espacamento",
+        "preventVerticalStretch": true
+      }
+
+    },
+
+
+    "rich-text#quem-somos-title": {
+      "props": {
+        "text": "Sobre a BR-ME",
+        "blockClass": "titulo-quem-somos"
+      }
+    },
+    "rich-text#quem-somos-content": {
+      "props": {
+        "text": "texto"
+      }
+    },
+    "flex-layout.col#text-diferenciais": {
+      "children": ["rich-text#diferenciais-title", "rich-text#diferenciais-content"],
+      "props": {
+        "blockClass": "bloco-diferenciais",
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#diferenciais-title": {
+      "props": {
+        "text": "DEFERENCIAIS",
+        "blockClass": "titulo-quem-somos"
+      }
+    },
+    "rich-text#diferenciais-content": {
+      "props": {
+        "text": "texto"
+      }
+    },
+
+
+
+
+
+    "flex-layout.row#tres-blocos": {
+      "children": ["flex-layout.col#missao", "flex-layout.col#visao", "flex-layout.col#valores"]
+    },
+
+
+
+    "flex-layout.col#missao": {
+      "children": ["rich-text#missao-title", "rich-text#missao-content"],
+      "props": {
+        "blockClass": "bloco-missao",
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#missao-title": {
+      "props": {
+        "text": "MISSÃO",
+        "blockClass": "titulo-quem-somos"
+      }
+    },
+    "rich-text#missao-content": {
+      "props": {
+        "text": "texto"
+      }
+    },
+
+
+    "flex-layout.col#visao": {
+      "children": ["rich-text#visao-title", "rich-text#visao-content"],
+      "props": {
+        "blockClass": "bloco-visao",
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#visao-title": {
+      "props": {
+        "text": "VISÃO",
+        "blockClass": "titulo-quem-somos"
+      }
+    },
+    "rich-text#visao-content": {
+      "props": {
+        "text": "texto"
+      }
+    },
+
+    "flex-layout.col#valores": {
+      "children": ["rich-text#valores-title", "rich-text#valores-content"],
+      "props": {
+        "blockClass": "bloco-valores",
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#valores-title": {
+      "props": {
+        "text": "VALORES",
+        "blockClass": "titulo-quem-somos"
+      }
+    },
+    "rich-text#valores-content": {
+      "props": {
+        "text": "texto"
+      }
+    }
+
+    
+  }

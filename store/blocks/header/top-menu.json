@@ -1,0 +1,143 @@
+{
+  "vtex.menu@2.x:menu#websites": {
+    "children": [
+     "flex-layout.col#logo-desktop",
+     "flex-layout.col#spacerlogo"
+    ]
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "area-logo-desktop"
+    },
+    "children": ["logo#desktop"]
+  },
+
+
+  "flex-layout.col#spacerlogo": {
+    "props": {
+      "width": "grow",
+      "blockClass":"espacamento-topo-logo"
+    }
+  },
+
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+     
+    }
+  },
+ 
+
+"search-bar":{
+  "blocks": ["autocomplete-result-list.v2"],
+  "props": {
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "openAutocompleteOnFocus": true,
+    "text": "",
+    "placeholder":"O que você procura hoje?"
+   
+  }
+},
+
+ 
+
+
+  "vtex.menu@2.x:menu#institutional": {
+    "children": [
+      "menu-item#clubedeassinaturas",
+      "menu-item#botaoselecoes",
+      "menu-item#minhaconta",
+    
+      "rich-text#institutional",
+      "minicart.v2"
+    ]
+  },
+
+
+  "menu-item#clubedeassinaturas": {
+    "props": {
+      "id": "menu-item-clubedeassinaturas",
+      "blockClass": "menu-top-clubedeassinaturas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clube-br-me",
+        "noFollow": false,
+        "tagTitle": "Clube de assinaturas",
+        "text": "Clube de assinaturas"
+      }
+    }
+  },
+
+
+  "menu-item#botaoselecoes": {
+    "props": {
+      "id": "menu-item-botaoselecoes",
+      "blockClass": "menu-top-botaoselecoes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/1299?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "DESCONTOS",
+        "text": "DESCONTOS"
+      }
+    }
+  },
+
+
+  "menu-item#meuspedidos": {
+    "props": {
+      "id": "menu-item-meuspedidos",
+      "blockClass": "menu-top-pedidos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account/orders",
+        "noFollow": false,
+        "tagTitle": "Meus \n Pedidos",
+        "text": "Meus \n Pedidos"
+      }
+    }
+  },
+
+
+
+  "rich-text#institutional": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      
+      "textColor": "#b19e8a",
+      "blockClass": "help-message"
+    }
+  },
+
+
+  "menu-item#minhaconta": {
+    "props": {
+      "id": "menu-item-shop",
+      "blockClass": "menu-top-minha-conta",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account#/profile",
+        "noFollow": false,
+        "tagTitle": "Minha Conta",
+        "text": "Minha Conta"
+       
+      }
+    }
+  }
+
+}

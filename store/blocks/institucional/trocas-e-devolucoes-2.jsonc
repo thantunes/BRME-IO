@@ -1,0 +1,86 @@
+{
+    "store.custom#trocas-e-devolucoes-2": {
+      "blocks": ["flex-layout.row#trocas-e-devolucoes-2"]
+    },
+    "flex-layout.row#trocas-e-devolucoes-2": {
+      "children": ["flex-layout.col#text-trocas-e-devolucoes-2"]
+    },
+    "flex-layout.col#text-trocas-e-devolucoes-2": {
+      "children": [
+        
+        "rich-text#meuspedidos-trocas-title-1",
+        "rich-text#meuspedidos-troca-subtitulo-1",
+        "rich-text#meuspedidos-trocaa-content-texto-1",
+        "rich-text#meuspedidos-devolver-subtitulo-1",
+         "rich-text#meuspedidos-devolver-content-texto-1",
+        "rich-text#meuspedidos-trocarproduto-subtitulo-1",
+        "rich-text#meuspedidos-trocarproduto-content-texto-1",
+         "rich-text#meuspedidos-errado-subtitulo-1",
+         "rich-text#meuspedidos-errado-content-texto-1"
+    
+    
+    ],
+      "props": {
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#meuspedidos-trocas-title-1": {
+        "props": {
+          "text": "Trocas, devoluções ou cancelamentos ",
+          "blockClass": "titulo-institucional"
+        }
+      },
+
+      "rich-text#meuspedidos-troca-subtitulo-1": {
+        "props": {
+          "text": "E se o produto que eu quiser trocar não estiver mais no estoque?  ",
+          "blockClass": "subtitulo-perguntas-e-respostas"
+        }
+      },
+      "rich-text#meuspedidos-trocaa-content-texto-1": {
+        "props": {
+          "text": "Podemos conceder um crédito em nossa loja para futuras compras, gerando um cupom válido por 30 dias.  ",
+          "blockClass": "texto-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-devolver-subtitulo-1": {
+        "props": {
+          "text": "Como devolver um produto? ",
+          "blockClass": "subtitulo-perguntas-e-respostas"
+        }
+      },
+      "rich-text#meuspedidos-devolver-content-texto-1": {
+        "props": {
+          "text": "Se você está na região da Grande SP, podemos fazer a coleta em sua casa dentro de até 5 dias úteis, ou você pode devolver o produto direto em Centro de Distribuição, localizado no bairro Vila Maria (São Paulo – SP), de segunda à sexta, das 8:00h às 16h30. Em caso de dúvidas, entre em contato conosco pelo WhatsApp (11) 94220-7805 ou pelo e-mail contato@brme.com.br ",
+          "blockClass": "texto-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-trocarproduto-subtitulo-1": {
+        "props": {
+          "text": "Como trocar um produto?  ",
+          "blockClass": "subtitulo-perguntas-e-respostas"
+        }
+      },
+      "rich-text#meuspedidos-trocarproduto-content-texto-1": {
+        "props": {
+          "text": "Você tem até 3 dias úteis para trocar seu produto sem custo após entrega, passado este período a troca será cobrada. Para efetivar a troca, entre em contato conosco pelo WhatsApp (11) 94220-7805 ou pelo e-mail contato@brme.com.br  ",
+          "blockClass": "texto-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-errado-subtitulo-1": {
+        "props": {
+          "text": "Meu pedido veio errado, como prosseguir?  ",
+          "blockClass": "subtitulo-perguntas-e-respostas"
+        }
+      },
+      "rich-text#meuspedidos-errado-content-texto-1": {
+        "props": {
+          "text": "Entre em contato conosco pelo nosso WhatsApp (11) 94220-7805 ou pelo e-mail contato@brme.com.br e solicite a troca de seu produto.  ",
+          "blockClass": "texto-perguntas-e-respostas"
+        }
+      }
+
+  }

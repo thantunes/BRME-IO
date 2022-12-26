@@ -1,0 +1,11 @@
+{
+  "store.custom#about-us": {
+    "path": "/institucional/about-us"
+  },
+  "store.custom#landing": {
+    "path": "/landing"
+  }
+
+}
+
+

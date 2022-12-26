@@ -1,0 +1,1540 @@
+{
+    "store.custom#curadoria": {
+      "blocks": [
+          "flex-layout.row#curadoria-banner-topo",
+          "flex-layout.row#curadoria-banner-img",
+          "flex-layout.row#curadoria-texto-introducao",
+          "flex-layout.row#curadoria-titulo-conheca-nossos-especialistas-e-curadores",
+          "flex-layout.row#accordion-vinhos-pg-comite",
+          "flex-layout.row#accordion-azeites-pg-comite",
+          "flex-layout.row#accordion-destilados-pg-comite",
+          "flex-layout.row#accordion-cafes-pg-comite"
+
+        ],
+      "props": {
+        "blockClass": "pagina-de-curadoria"
+      }
+    },
+
+"flex-layout.row#curadoria-banner-topo": {
+    "children": ["rich-text#curadoria-banner-topo"],
+    "props": {
+      "blockClass": "curadoria-banner-principal",
+      "preventVerticalStretch": true
+    }
+  },
+"rich-text#curadoria-banner-topo": {
+    "props": {
+      "text": "# Os conselheiros da BR-ME",
+      "blockClass": "titulo-curadoria-banner-principal"
+    }
+  },
+
+  "flex-layout.row#curadoria-banner-img":{
+  
+    "props": {
+      "blockClass": "curadoria-banner-principal-imagem",
+      "preventVerticalStretch": true
+    }
+
+  },
+
+  "flex-layout.row#curadoria-texto-introducao": {
+    "children": ["rich-text#curadoria-texto-introducao"],
+    "props": {
+      "blockClass": "curadoria-texto-introducao",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#curadoria-texto-introducao": {
+    "props": {
+      "text": "Como é feita nossa curadoria? Todos os produtos e serviços que entram no nosso portfólio são escolhidos e selecionados pelos nossos Especialistas. Numa segunda etapa, alguns dos produtos passam pelo nosso Comitê de Avaliação e Recomendação. Os conselheiros opinam sobre os produtos selecionados e nos ajudam a validar a qualidade e a desenvolver conteúdo sobre as mais diferentes categorias. Se de forma unanime algum produto for reprovado pelo Comitê, ele não fará parte do portfólio da BR-ME. \n \n Com isso, queremos criar uma comunidade de apreciadores e principalmente difusores dos produtos de excelência feitos no Brasil.",
+      "blockClass": "titulo-curadoria-banner-principal"
+    }
+  },
+
+  "flex-layout.row#curadoria-titulo-conheca-nossos-especialistas-e-curadores": {
+    "children": ["rich-text#curadoria-titulo-conheca-nossos-especialistas-e-curadores"],
+    "props": {
+      "blockClass": "curadoria-titulo-conheca-nossos-especialistas-e-curadores",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#curadoria-titulo-conheca-nossos-especialistas-e-curadores": {
+    "props": {
+      "text": "## Conheça nossos especialistas e curadores",
+      "blockClass": "titulo-conheca-nossos-especialistas-e-curadores"
+    }
+  },
+
+  "flex-layout.row#accordion-vinhos-pg-comite": {
+    "props": {
+      "blockClass": "accordion-vinhos"
+    },
+    "children": ["menu-item#accordion-vinhos-pg-comite"]
+  },
+
+  "menu-item#accordion-vinhos-pg-comite": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Vinhos",
+        "text": "Vinhos"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#vinho-pg-comite"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#vinho-pg-comite": {
+    "children": ["vtex.menu@2.x:menu#vinho-curadoria"]
+  },
+
+  "vtex.menu@2.x:menu#vinho-curadoria": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#description-vinhos"
+    ]
+  },
+  "flex-layout.row#description-vinhos": {
+    "props": {
+      "blockClass": "conteudo-descricao-do-produto",
+      "marginBottom": 7
+    },
+    "children": ["flex-layout.row#product-description-vinhos"]
+  },
+
+"flex-layout.row#product-description-vinhos":{
+  "props": {
+    "collapseContent":false,
+    "preventVerticalStretch": true
+  },
+  "children": [
+    "flex-layout.row#slider-videos-vinhos",
+    "flex-layout.row#slider-texto-vinhos",
+    "flex-layout.row#slider-especialista-vinhos"
+  ]
+  },
+
+  "flex-layout.row#slider-videos-vinhos": {
+    "children": ["slider-layout#video-vinhos"],
+    "props": {
+      "blockClass": "slider-videos-vinhos",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "slider-layout#video-vinhos": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": ["video#vinho1"]
+  },
+
+  "video#vinho1": {
+    "props": {
+      "width": "100%",
+      "height": "250px",
+      "autoPlay": false,
+      "loop": true,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=eb4B_1GlSYE",
+      "blockClass": "videoEl"
+    }
+  },
+  "video#vinho2": {
+    "props": {
+      "width": "100%",
+      "height": "250px",
+      "autoPlay": false,
+      "loop": true,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=fLbY3qOfWCA",
+      "blockClass": "videoEl"
+    }
+  },
+  "video#vinho3": {
+    "props": {
+      "width": "100%",
+      "height": "250px",
+      "autoPlay": false,
+      "loop": true,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=fLbY3qOfWCA",
+      "blockClass": "videoEl"
+    }
+  },
+  "video#vinho4": {
+    "props": {
+      "width": "100%",
+      "height": "250px",
+      "autoPlay": false,
+      "loop": true,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=fLbY3qOfWCA",
+      "blockClass": "videoEl"
+    }
+  },
+
+  "flex-layout.row#slider-texto-vinhos": {
+    "children": ["rich-text#slider-texto-vinhos"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#slider-texto-vinhos": {
+    "props": {
+      "text": "A curadoria de vinhos BR-ME busca identificar os vinhos mais especiais dentro de categorias específicas e características diferentes, para encontrar produtos capazes de encantar os consumidores, sejam eles iniciantes, iniciados e especialistas. É um mergulho buscando sempre pela qualidade que visa emergir com o que há de mais especial e cativante na vitivinicultura brasileira. \n \n Primeiro, identificamos os produtores que se encaixam nas diretrizes BR-ME e verificamos a disponibilidade dos rótulos para fornecimento, em seguida, é iniciada a primeira degustação para processo seletivo, feita pelo Especialista, que faz uma peneira nos rótulos disponíveis. \n \n Após a primeira análise da qualidade do produto final, o Comitê se reúne para degustação e avaliação em grupo, entendendo as principais características de cada vinho, atribuindo nota a cada um deles e direcionando-os para Seleções específicas. \n \n Buscamos vinícolas que produzam vinhos de classe mundial e que encantem os mais apurados apreciadores de vinhos, seguindo critérios éticos e de responsabilidade socioambiental. ",
+      "blockClass": "cont-curadoria-texto-vinhos"
+    }
+  },
+  "flex-layout.row#slider-especialista-vinhos": {
+    "children": ["slider-layout#especialista-vinhos"],
+    "props": {
+      "blockClass": "slider-especialista-vinhos",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "slider-layout#especialista-vinhos": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": [
+      "flex-layout.row#especialista-leandro-baena",
+      "flex-layout.row#especialista-aguinaldo-zackia",
+      "flex-layout.row#especialista-alexandre-fialho",
+      "flex-layout.row#especialista-almir-meireles",
+      "flex-layout.row#especialista-eduardo-strazza",
+      "flex-layout.row#especialista-marta-poit"
+    
+    ]
+  },
+  "flex-layout.row#especialista-leandro-baena":{
+    "children": [
+      "flex-layout.col#especialista-leandro-baena-imagem",
+      "flex-layout.col#especialista-leandro-baena-informacoes"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#especialista-leandro-baena-imagem": {
+    "children": ["image#curadoria-page-leandro-baena"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+
+  },
+
+  "image#curadoria-page-leandro-baena": {
+    "props": {
+      "src": "https://tfcuey.vtexassets.com/arquivos/curador-Leandro.png"
+    }
+  },
+
+  "flex-layout.col#especialista-leandro-baena-informacoes": {
+      "children": ["rich-text#curadoria-page-leandro-baena"]
+
+  },
+
+
+  "rich-text#curadoria-page-leandro-baena": {
+    "props": {
+      "text": "### Leandro Baena \n #### especialista \n Leandro Baena é médico e sommelier formado pela ABS-SP. Mais conhecido, nas redes sociais, como Choro da Videira. É o maior conhecedor de vinhos brasileiros e, atualmente, divide sua vida entre suas grandes paixões: medicina e vinho brasileiro. Desde 2021 atua como especialista em vinhos da BR-ME, viajando pelo Brasil e provando vinhos de vários estilos, de todos os cantos do Brasil. ",
+      "blockClass": "titulo-curadoria-banner-principal"
+    }
+  },
+
+  "flex-layout.row#especialista-aguinaldo-zackia":{
+    "children": [
+      "flex-layout.col#especialista-aguinaldo-zackia-imagem",
+      "flex-layout.col#especialista-aguinaldo-zackia-informacoes"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#especialista-aguinaldo-zackia-imagem": {
+    "children": ["image#curadoria-page-aguinaldo"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+
+  },
+
+  "image#curadoria-page-aguinaldo": {
+    "props": {
+      "src": "https://tfcuey.vtexassets.com/arquivos/foto-curadoria-aguinaldo.png"
+    }
+  },
+
+  "flex-layout.col#especialista-aguinaldo-zackia-informacoes": {
+      "children": ["rich-text#curadoria-page-aguinaldo"]
+
+  },
+
+  "rich-text#curadoria-page-aguinaldo": {
+    "props": {
+      "text": "### Aguinaldo Zackia Albert \n #### especialista \n Aguinaldo Záckia Albert é escritor e professor de enologia formado pela École Du Vin De Bordeaux e Chevalier D´Ordre Des Coteaux de Champagne. Foi jurado de vários concursos internacionais como a VINEXPO (Bordeaux), Concorso Internacionale Viniltaly (Itália) e Citadelles Du Vin (Bourg et Blaye). Autor de três livros publicados pela Editora Senac, organiza viagens internacionais de enoturismo há mais de 20 anos por meio de seu site degustadoresemfronteiras.com.br ",
+      "blockClass": "titulo-curadoria-banner-principal"
+    }
+  },
+
+  "flex-layout.row#especialista-alexandre-fialho":{
+    "children": [
+      "flex-layout.col#especialista-alexandre-fialho-imagem",
+      "flex-layout.col#especialista-alexandre-fialho-informacoes"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#especialista-alexandre-fialho-imagem": {
+    "children": ["image#curadoria-page-alexandre-fialho"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+
+  },
+
+  "image#curadoria-page-alexandre-fialho": {
+    "props": {
+      "src": "https://tfcuey.vtexassets.com/arquivos/especialista-Alexandre.png"
+    }
+  },
+
+  "flex-layout.col#especialista-alexandre-fialho-informacoes": {
+      "children": ["rich-text#curadoria-page-alexandre-fialho"]
+
+  },
+
+
+  "rich-text#curadoria-page-alexandre-fialho": {
+    "props": {
+      "text": "### Alexandre Fialho \n #### especialista \n Empresário, consultor, professor e um dos principais mentores de grandes líderes no Brasil, Alexandre Fialho teve sua trajetória mudada pelo envolvimento com vinhos nacionais há mais de três anos, depois de décadas visitando vinícolas ao redor do mundo e degustando preponderantemente vinhos de outros países. Poder apresentar o valor da brasilidade por meio de itens que reflitam a nossa cultura de excelência e personalidade é o que o move, sendo um dos sócios-fundadores e especialista em vinhos da BR-ME. ",
+      "blockClass": "titulo-curadoria-banner-principal"
+    }
+  },
+
+  "flex-layout.row#especialista-almir-meireles":{
+    "children": [
+      "flex-layout.col#especialista-almir-meireles-imagem",
+      "flex-layout.col#especialista-almir-meireles-informacoes"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#especialista-almir-meireles-imagem": {
+    "children": ["image#curadoria-page-almir-meireles"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+
+  },
+
+  "image#curadoria-page-almir-meireles": {
+    "props": {
+      "src": "https://tfcuey.vtexassets.com/arquivos/especialista-almir.png"
+    }
+  },
+
+  "flex-layout.col#especialista-almir-meireles-informacoes": {
+      "children": ["rich-text#curadoria-page-almir-meireles"]
+
+  },
+
+  "rich-text#curadoria-page-almir-meireles": {
+    "props": {
+      "text": "### Almir Meireles \n #### especialista \n Almir Meireles é economista, escritor e historiador diletante. É ainda Conselheiro em duas vinícolas européias. Devido à sua trajetória, Almir Meireles carrega um domínio profundo e minucioso das estatísticas relativas à produção, consumo e tendências relacionadas ao vinho, além, é claro, de ser um grande apreciador da bebida. ",
+      "blockClass": "titulo-curadoria-banner-principal"
+    }
+  },
+
+  "flex-layout.row#especialista-eduardo-strazza":{
+    "children": [
+      "flex-layout.col#especialista-eduardo-strazza-imagem",
+      "flex-layout.col#especialista-eduardo-strazza-informacoes"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#especialista-eduardo-strazza-imagem": {
+    "children": ["image#curadoria-page-eduardo-strazza"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+
+  },
+
+  "image#curadoria-page-eduardo-strazza": {
+    "props": {
+      "src": "https://tfcuey.vtexassets.com/arquivos/curador-Eduardo.png"
+    }
+  },
+
+  "flex-layout.col#especialista-eduardo-strazza-informacoes": {
+      "children": ["rich-text#curadoria-page-eduardo-strazza"]
+
+  },
+
+  "rich-text#curadoria-page-eduardo-strazza": {
+    "props": {
+      "text": "### Eduardo Strazza \n #### especialista \n Diretor de Vendas para América do Sul na Lexis Nexis Risk Solutions, Eduardo é um amante fiel dos vinhos que, de tanto amar, passou a estudá-los a fundo por hobby e hoje influencia e auxilia pessoas na escolha de produtos de qualidade adequados para cada ocasião. Strazza integra o time da BR-ME, carregando o objetivo de trazer um olhar jovem e inovador ao Comitê. ",
+      "blockClass": "titulo-curadoria-banner-principal"
+    }
+  },
+
+  "flex-layout.row#especialista-marta-poit":{
+    "children": [
+      "flex-layout.col#especialista-marta-poit-imagem",
+      "flex-layout.col#especialista-marta-poit-informacoes"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#especialista-marta-poit-imagem": {
+    "children": ["image#curadoria-page-marta-poit"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+
+  },
+
+  "image#curadoria-page-marta-poit": {
+    "props": {
+      "src": "https://tfcuey.vtexassets.com/arquivos/especialista-Marta.png"
+    }
+  },
+
+  "flex-layout.col#especialista-marta-poit-informacoes": {
+      "children": ["rich-text#curadoria-page-marta-poit"]
+
+  },
+
+  "rich-text#curadoria-page-marta-poit": {
+    "props": {
+      "text": "### Marta Poit \n #### especialista \n Apaixonada por pessoas, seus comportamentos e culturas, Marta Poit é coach, consultora em desenvolvimento pessoal, psicóloga transpessoal e gestora de negócios, além de ser sommelier formada pela Associação Brasileira de Sommeliers (ABS). Marta integra o time de conselheiros da BR-ME com a missão de trazer o olhar para as pessoas e a palavra feminina para o debate. ",
+      "blockClass": "titulo-curadoria-banner-principal"
+    }
+  },
+
+  "flex-layout.row#accordion-azeites-pg-comite": {
+    "props": {
+      "blockClass": "accordion-azeites"
+    },
+    "children": ["menu-item#accordion-azeites-pg-comite"]
+  },
+
+  "menu-item#accordion-azeites-pg-comite": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Azeites",
+        "text": "Azeites"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#azeites-pg-comite"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#azeites-pg-comite": {
+    "children": ["vtex.menu@2.x:menu#azeites-curadoria"]
+  },
+
+  "vtex.menu@2.x:menu#azeites-curadoria": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#description-azeites"
+    ]
+  },
+  "flex-layout.row#description-azeites": {
+    "props": {
+      "blockClass": "conteudo-descricao-do-produto",
+      "marginBottom": 7
+    },
+    "children": ["flex-layout.row#product-description-azeites"]
+  },
+
+"flex-layout.row#product-description-azeites":{
+  "props": {
+    "collapseContent":false,
+    "preventVerticalStretch": true
+  },
+  "children": [
+    "flex-layout.row#slider-videos-azeites",
+    "flex-layout.row#slider-texto-azeites",
+    "flex-layout.row#slider-especialista-azeites"
+  
+  ]
+
+  },
+
+  "flex-layout.row#slider-videos-azeites": {
+    "children": ["slider-layout#video-azeites"],
+    "props": {
+      "blockClass": "slider-videos-azeites",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "slider-layout#video-azeites": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": ["video#azeites1"]
+  },
+
+  "video#azeites1": {
+    "props": {
+      "width": "100%",
+      "height": "250px",
+      "autoPlay": false,
+      "loop": true,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=umn-o2uX92k",
+      "blockClass": "videoEl"
+    }
+  },
+  "video#azeites2": {
+    "props": {
+      "width": "100%",
+      "height": "250px",
+      "autoPlay": false,
+      "loop": true,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=fLbY3qOfWCA",
+      "blockClass": "videoEl"
+    }
+  },
+  "video#azeites3": {
+    "props": {
+      "width": "100%",
+      "height": "250px",
+      "autoPlay": false,
+      "loop": true,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=fLbY3qOfWCA",
+      "blockClass": "videoEl"
+    }
+  },
+  "video#azeites4": {
+    "props": {
+      "width": "100%",
+      "height": "250px",
+      "autoPlay": false,
+      "loop": true,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=fLbY3qOfWCA",
+      "blockClass": "videoEl"
+    }
+  },
+
+  "flex-layout.row#slider-texto-azeites": {
+    "children": ["rich-text#slider-texto-azeites"],
+    "props": {
+      "blockClass": "curadoria-texto-azeites",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#slider-texto-azeites": {
+    "props": {
+      "text": "A harmonia e a complexidade são dois elementos de avaliação fundamentais para a seleção dos nossos azeites. Nós também buscamos trazer para nosso portfólio azeites de aromas e intensidade diferentes, para que o consumidor possa formar um repertório e explorar diferentes combinações. \n \n A ideia é criar uma seleção representativa de todas as regiões produtoras do Brasil e incluir tanto rótulos premiados internacionalmente como amostras de pequenos produtores familiares. ",
+      "blockClass": "cont-curadoria-texto-vinhos"
+    }
+  },
+
+  "flex-layout.row#slider-especialista-azeites": {
+    "children": ["slider-layout#especialista-azeites"],
+    "props": {
+      "blockClass": "slider-especialista-vinhos",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "slider-layout#especialista-azeites": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": [
+      "flex-layout.row#especialista-sandro-marques",
+      "flex-layout.row#especialista-alexandre-bronzatto",
+      "flex-layout.row#especialista-jean-ponce",
+      "flex-layout.row#especialista-livia-marques",
+      "flex-layout.row#especialista-saiko-desu",
+      "flex-layout.row#especialista-vitor-pompeu"
+    
+    ]
+  },
+
+  "flex-layout.row#especialista-sandro-marques":{
+    "children": [
+      "flex-layout.col#especialista-sandro-marques-imagem-1",
+      "flex-layout.col#especialista-sandro-marques-informacoes-1"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#especialista-sandro-marques-imagem-1": {
+    "children": ["image#curadoria-page-sandro-marques"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+
+  },
+
+  "image#curadoria-page-sandro-marques": {
+    "props": {
+      "src": "https://tfcuey.vtexassets.com/arquivos/especialista-sandro.png"
+    }
+  },
+
+  "flex-layout.col#especialista-sandro-marques-informacoes-1": {
+      "children": ["rich-text#curadoria-page-sandro-marques"]
+
+  },
+
+  "rich-text#curadoria-page-sandro-marques": {
+    "props": {
+      "text": "### Sandro Marques \n #### especialista \n Especialista BR-ME. Sandro Marques é graduado e mestre em Língua e Literatura pela USP e professor da pós-graduação em Gastronomia no SENAC-SP. Formou-se como degustador de azeites pela Organizzazzione Nazionale Olio Oliva, na Itália. É editor do blog UMLITRODEAZEITE.COM.BR e a cada dois anos prova todos os azeites brasileiros para publicar o Extrafresco: O Guia de Azeites do Brasil. Também é autor de livros infantis e já foi jurado dos principais prêmios de gastronomia de SP, além de ser o único brasileiro a fazer parte do júri do NYIOOC (New York International Olive Oil Competition). ",
+      "blockClass": "titulo-curadoria-banner-principal"
+    }
+  },
+
+  "flex-layout.row#especialista-alexandre-bronzatto":{
+    "children": [
+      "flex-layout.col#especialista-alexandre-bronzatto-imagem-1",
+      "flex-layout.col#especialista-alexandre-bronzatto-informacoes-1"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#especialista-alexandre-bronzatto-imagem-1": {
+    "children": ["image#curadoria-page-alexandre-bronzatto"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+
+  },
+
+  "image#curadoria-page-alexandre-bronzatto": {
+    "props": {
+      "src": "https://tfcuey.vtexassets.com/arquivos/especialista-Alexandre-Bronzzato.png"
+    }
+  },
+
+  "flex-layout.col#especialista-alexandre-bronzatto-informacoes-1": {
+      "children": ["rich-text#curadoria-page-alexandre-bronzatto"]
+
+  },
+
+  "rich-text#curadoria-page-alexandre-bronzatto": {
+    "props": {
+      "text": "### Alexandre Bronzatto \n #### especialista \n Advogado e professor na pós-graduação da ESA-OAB/SP, Alexandre Bronzatto, o Bronza, como é conhecido nas redes sociais, é degustador e colaborador de publicações brasileiras de vinho e gastronomia. Foi jurado de prêmios como o do Paladar - Estadão e das revistas Época SP, Gosto e Gula. Membro do grupo de degustadores do guia de vinhos italianos Gambero Rosso nas edições 2014 e 2015; integrante do painel de jurados dos concursos Vinhos de Portugal 2015 e 2016 da Wines of Portugal - A Essência do Vinho 2012 - Top 10 e Alba Wines Exhibition (Nebbiolo Prima) 2008 e 2009, além de confrade honorário da Confraria do Vinho do Porto e da Confraria do Vinho da Madeira, de Portugal. ",
+      "blockClass": "titulo-curadoria-banner-principal"
+    }
+  },
+
+  "flex-layout.row#especialista-jean-ponce":{
+    "children": [
+      "flex-layout.col#especialista-jean-ponce-imagem-1",
+      "flex-layout.col#especialista-jean-ponce-informacoes-1"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#especialista-jean-ponce-imagem-1": {
+    "children": ["image#curadoria-page-jean-ponce"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+
+  },
+
+  "image#curadoria-page-jean-ponce": {
+    "props": {
+      "src": "https://tfcuey.vtexassets.com/arquivos/especialista-Jean-Ponce.png"
+    }
+  },
+
+  "flex-layout.col#especialista-jean-ponce-informacoes-1": {
+      "children": ["rich-text#curadoria-page-jean-ponce"]
+
+  },
+
+
+  "rich-text#curadoria-page-jean-ponce": {
+    "props": {
+      "text": "### Jean Ponce \n #### especialista \n Formado em Hotelaria em 2001, Jean atuou como Chefe de Bar por restaurantes como Brasil a Gosto e D.O.M. Ponce é bartender a mais de 19 anos e hoje está à frente de seu bar, Guarita, que é referência em coquetéis no Brasil. Jean Ponce recebeu o prêmio de Bartender do Ano em 2013, 2014, 2015, 2018 e 2020 concedidos pelos veículos de comunicação Prazeres da Mesa e Veja São Paulo ",
+      "blockClass": "titulo-curadoria-banner-principal"
+    }
+  },
+
+  "flex-layout.row#especialista-livia-marques":{
+    "children": [
+      "flex-layout.col#especialista-livia-marques-imagem-1",
+      "flex-layout.col#especialista-livia-marques-informacoes-1"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#especialista-livia-marques-imagem-1": {
+    "children": ["image#curadoria-page-livia-marques"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+
+  },
+
+  "image#curadoria-page-livia-marques": {
+    "props": {
+      "src": "https://tfcuey.vtexassets.com/arquivos/especialista-Livia.png"
+    }
+  },
+
+  "flex-layout.col#especialista-livia-marques-informacoes-1": {
+      "children": ["rich-text#curadoria-page-livia-marques"]
+
+  },
+
+  "rich-text#curadoria-page-livia-marques": {
+    "props": {
+      "text": "### Lívia Marques \n #### especialista \n Estudante do ensino médio, Lívia está se preparando para cursar Arquitetura. Acompanha os pais em viagens de turismo gastronômico desde a infância e já provou azeites e visitou produtores em diversos países. No Brasil, visitou diversos olivais e auxiliou na produção de eventos de degustação, se interessando e descobrindo sobre o universo dos azeites na prática. ",
+      "blockClass": "titulo-curadoria-banner-principal"
+    }
+  },
+
+  "flex-layout.row#especialista-saiko-desu":{
+    "children": [
+      "flex-layout.col#especialista-saiko-desu-imagem-1",
+      "flex-layout.col#especialista-saiko-desu-informacoes-1"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#especialista-saiko-desu-imagem-1": {
+    "children": ["image#curadoria-page-saiko-desu"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+
+  },
+
+  "image#curadoria-page-saiko-desu": {
+    "props": {
+      "src": "https://tfcuey.vtexassets.com/arquivos/especialista-Saiko.png"
+    }
+  },
+
+  "flex-layout.col#especialista-saiko-desu-informacoes-1": {
+      "children": ["rich-text#curadoria-page-saiko-desu"]
+
+  },
+
+
+  "rich-text#curadoria-page-saiko-desu": {
+    "props": {
+      "text": "### Saiko Desu \n #### especialista \n Saiko mora no Brasil há 42 anos e foi aqui que construiu sua família e passou a ser uma profissional do ramo da alimentação. Depois de 15 anos na área de confeitaria e panificação sob encomenda em São Paulo foi a busca de mais aprimoramento no Japão e na França. Depois do retorno à São Paulo, os trabalhos realizados nos melhores restaurantes do Brasil foram se desenvolvendo no sentido de fusões de culturas e dos ingredientes locais. Recentemente de volta a sua escola de formação, Le Cordon Bleu de São Paulo, para lecionar as aulas, Desu sente-se realizada também por participar da formação de futuros profissionais na área de gastronomia brasileira. Em 2021, completa 30 anos como confeiteira. ",
+      "blockClass": "titulo-curadoria-banner-principal"
+    }
+  },
+
+  "flex-layout.row#especialista-vitor-pompeu":{
+    "children": [
+      "flex-layout.col#especialista-vitor-pompeu-imagem-1",
+      "flex-layout.col#especialista-vitor-pompeu-informacoes-1"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#especialista-vitor-pompeu-imagem-1": {
+    "children": ["image#curadoria-page-vitor-pompeu"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+
+  },
+
+  "image#curadoria-page-vitor-pompeu": {
+    "props": {
+      "src": "https://tfcuey.vtexassets.com/arquivos/foto-curadoria-aguinaldo.png"
+    }
+  },
+
+  "flex-layout.col#especialista-vitor-pompeu-informacoes-1": {
+      "children": ["rich-text#curadoria-page-vitor-pompeu"]
+
+  },
+
+  "rich-text#curadoria-page-vitor-pompeu": {
+    "props": {
+      "text": "### Vitor Pompeu \n #### especialista \n Chef de cozinha e sócio do restaurante Sauá e da Pousada Bicho do Mato em Gonçalves - MG, além de sócio do Restaurante Moringa Mantiqueira em Campos do Jordão - SP. Com 19 anos de experiência no meio gastronômico da Serra da Mantiqueira, realiza um trabalho de fortalecimento e valorização de produtores e elementos conectados a cultura caipira da região. Foi um dos responsáveis pelo projeto Saberes da Mantiqueira, com o apoio do Senac Campos do Jordão, onde foi docente no curso de Gastronomia por 7 anos. Foi um dos idealizadores e realizadores do Festival de Gastronomia e Cultura da Roça de Gonçalves-MG. Em sua formação técnica possui graduação de Tecnologia em Gastronomia, pós-graduação em Gastronomia: História e Cultura, ambos pelo Senac. ",
+      "blockClass": "titulo-curadoria-banner-principal"
+    }
+  },
+
+  "flex-layout.row#accordion-destilados-pg-comite": {
+    "props": {
+      "blockClass": "accordion-destilados"
+    },
+    "children": ["menu-item#accordion-destilados-pg-comite"]
+  },
+
+  "menu-item#accordion-destilados-pg-comite": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Destilados",
+        "text": "Destilados"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#destilados-pg-comite"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#destilados-pg-comite": {
+    "children": ["vtex.menu@2.x:menu#destilados-curadoria"]
+  },
+
+  "vtex.menu@2.x:menu#destilados-curadoria": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#description-destilados"
+    ]
+  },
+  "flex-layout.row#description-destilados": {
+    "props": {
+      "blockClass": "conteudo-descricao-do-produto",
+      "marginBottom": 7
+    },
+    "children": ["flex-layout.row#product-description-destilados"]
+  },
+
+"flex-layout.row#product-description-destilados":{
+  "props": {
+    "collapseContent":false,
+    "preventVerticalStretch": true
+  },
+  "children": [
+    "flex-layout.row#slider-videos-destilados",
+    "flex-layout.row#slider-texto-destilados",
+    "flex-layout.row#slider-especialista-destilados"
+  ]
+
+  },
+
+  "flex-layout.row#slider-videos-destilados": {
+    "children": ["slider-layout#video-destilados"],
+    "props": {
+      "blockClass": "slider-videos-destilados",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "slider-layout#video-destilados": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": ["video#destilados1"]
+  },
+
+  "video#destilados1": {
+    "props": {
+      "width": "100%",
+      "height": "250px",
+      "autoPlay": false,
+      "loop": true,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=TG1pplacbSY",
+      "blockClass": "videoEl"
+    }
+  },
+  "video#destilados2": {
+    "props": {
+      "width": "100%",
+      "height": "250px",
+      "autoPlay": false,
+      "loop": true,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=fLbY3qOfWCA",
+      "blockClass": "videoEl"
+    }
+  },
+  "video#destilados3": {
+    "props": {
+      "width": "100%",
+      "height": "250px",
+      "autoPlay": false,
+      "loop": true,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=fLbY3qOfWCA",
+      "blockClass": "videoEl"
+    }
+  },
+  "video#destilados4": {
+    "props": {
+      "width": "100%",
+      "height": "250px",
+      "autoPlay": false,
+      "loop": true,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=fLbY3qOfWCA",
+      "blockClass": "videoEl"
+    }
+  },
+
+  "flex-layout.row#slider-texto-destilados": {
+    "children": ["rich-text#slider-texto-destilados"],
+    "props": {
+      "blockClass": "curadoria-texto-destilados",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#slider-texto-destilados": {
+    "props": {
+      "text": "A curadoria de destilados BR-ME busca identificar produtores nas mais diversas regiões do Brasil, com suas diferentes receitas, denominações de origem e estilos que resultam em cores, aromas e sabores típicos de cada local. \n \n Outro olhar está voltado para a flora brasileira presente nas madeiras usadas para o envelhecimento de algumas bebidas e nos mais diversos botânicos que compõem essas bebidas regionais. \n \n A seleção será de produtores posicionados como artesanais e premium, que representem um território e um estilo de produção. \n \n Primeiro, serão identificados os produtores que se encaixam nas diretrizes BR-ME e verificada a disponibilidade dos rótulos para fornecimento. Em seguida, é iniciada a primeira degustação para o processo seletivo, feita pelo Especialista, que faz uma peneira nos rótulos disponíveis. \n \n Após a primeira análise da qualidade, os membros do Comitê de Destilados degustam e avaliam as bebidas selecionadas. ",
+      "blockClass": "cont-curadoria-texto-vinhos"
+    }
+  },
+
+  "flex-layout.row#slider-especialista-destilados": {
+    "children": ["slider-layout#especialista-destilados"],
+    "props": {
+      "blockClass": "slider-layout#especialista-destilados",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "slider-layout#especialista-destilados": {
+    "props": {
+      "itemsPerPage": {
+        "desktop":1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel",
+     "centerMode":"center"
+    },
+    "children": [
+      "flex-layout.row#especialista-felipe-jannuzzi",
+      "flex-layout.row#especialista-carolina-tavares",
+      "flex-layout.row#especialista-eduardo-souza-martins",
+      "flex-layout.row#especialista-jean-ponce",
+      "flex-layout.row#especialista-mauricio-ayer",
+      "flex-layout.row#especialista-carolina-bastos"
+    ]
+  },
+
+  "flex-layout.row#especialista-felipe-jannuzzi":{
+    "children": [
+      "flex-layout.col#especialista-felipe-jannuzzi-imagem-2",
+      "flex-layout.col#especialista-felipe-jannuzzi-informacoes-2"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#especialista-felipe-jannuzzi-imagem-2": {
+    "children": ["image#curadoria-page-felipe-jannuzzi-2"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+
+  },
+
+  "image#curadoria-page-felipe-jannuzzi-2": {
+    "props": {
+      "src": "https://tfcuey.vtexassets.com/arquivos/especialista-felipe.png"
+    }
+  },
+
+  "flex-layout.col#especialista-felipe-jannuzzi-informacoes-2": {
+      "children": ["rich-text#curadoria-felipe-jannuzzi-2"]
+
+  },
+
+  "rich-text#curadoria-felipe-jannuzzi-2": {
+    "props": {
+      "text": "### Felipe Jannuzzi \n #### especialista \n Empresário, pesquisador, palestrante e produtor de destilados e bebidas especiais, Felipe Jannuzzi fundou o Mapa da Cachaça, premiado projeto cultural com reconhecimento internacional e a principal referência sobre cachaça. Ele é um dos sócios fundadores da Espíritos Brasileiros, empresa pioneira no mercado de produção e importação de gins no Brasil, responsável pelo premiado Virga, primeiro gin artesanal brasileiro. Desde 2021, é um dos sócios da BR-ME. ",
+      "blockClass": "titulo-curadoria-banner-principal"
+    }
+  },
+
+  "flex-layout.row#especialista-carolina-tavares":{
+    "children": [
+      "flex-layout.col#especialista-carolina-tavares-imagem-2",
+      "flex-layout.col#especialista-carolina-tavares-informacoes-2"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#especialista-carolina-tavares-imagem-2": {
+    "children": ["image#curadoria-page-carolina-tavares-2"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+
+  },
+
+  "image#curadoria-page-carolina-tavares-2": {
+    "props": {
+      "src": "https://tfcuey.vtexassets.com/arquivos/especialista-Carolina.png"
+    }
+  },
+
+  "flex-layout.col#especialista-carolina-tavares-informacoes-2": {
+      "children": ["rich-text#curadoria-carolina-tavares-2"]
+
+  },
+
+  "rich-text#curadoria-carolina-tavares-2": {
+    "props": {
+      "text": "### Carolina Oda Tavares \n #### especialista \n Carolina tem desempenhado um importante papel na cena gastronômica brasileira. Com mais de onze anos de carreira, passando de atendente em um bar de cervejas artesanais para a posição de consultora e professora de tendências em bebidas, hospitalidade e gestão de atendimento. Passou por importadoras, bares, grupos de restaurantes e escolas. Carolina busca pela relevância igualitária entre bebida e comida na gastronomia, revelando aspectos e valores muito além do líquido. Procura pela conscientização de que a hospitalidade interna e o cuidado com a equipe são os segredos da hospitalidade externa, repassada ao cliente. ",
+      "blockClass": "titulo-curadoria-banner-principal"
+    }
+  },
+
+  "flex-layout.row#especialista-eduardo-souza-martins":{
+    "children": [
+      "flex-layout.col#especialista-eduardo-souza-martins-imagem-2",
+      "flex-layout.col#especialista-eduardo-souza-martins-informacoes-2"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#especialista-eduardo-souza-martins-imagem-2": {
+    "children": ["image#curadoria-page-eduardo-souza-martins-2"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+
+  },
+
+  "image#curadoria-page-eduardo-souza-martins-2": {
+    "props": {
+      "src": "https://tfcuey.vtexassets.com/arquivos/especialista-Eduardo.png"
+    }
+  },
+
+  "flex-layout.col#especialista-eduardo-souza-martins-informacoes-2": {
+      "children": ["rich-text#curadoria-eduardo-souza-martins-2"]
+
+  },
+
+  "rich-text#curadoria-eduardo-souza-martins-2": {
+    "props": {
+      "text": "### Eduardo de Souza Martins \n #### especialista \n Eduardo de Souza Martins é Biólogo, Mestre em Ecologia pela Universidade de Brasília (UnB). Atuou na área de Gestão Pública com pesquisa e meio ambiente. Atualmente, é produtor rural na área de florestas plantadas, pecuária e cachaça orgânica na região do Norte de Minas. Participa da Dornas Havana, tanoaria dedicada ao envelhecimento e maturação de bebidas em madeiras, principalmente brasileiras. Colabora com o Mapa da Cachaça, ferramenta para conhecimento, uso e valorização da cachaça e faz parte da coordenação do Grupo Associado de Agricultura Sustentável - GAAS, movimento dedicado a promover a sustentabilidade da agricultura no Brasil. ",
+      "blockClass": "titulo-curadoria-banner-principal"
+    }
+  },
+
+  "flex-layout.row#especialista-mauricio-ayer":{
+    "children": [
+      "flex-layout.col#especialista-mauricio-ayer-imagem-2",
+      "flex-layout.col#especialista-mauricio-ayer-informacoes-2"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#especialista-mauricio-ayer-imagem-2": {
+    "children": ["image#curadoria-page-mauricio-ayer-2"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+
+  },
+
+  "image#curadoria-page-mauricio-ayer-2": {
+    "props": {
+      "src": "https://tfcuey.vtexassets.com/arquivos/especialista-Mauricio.png"
+    }
+  },
+
+  "flex-layout.col#especialista-mauricio-ayer-informacoes-2": {
+      "children": ["rich-text#curadoria-mauricio-ayer-2"]
+
+  },
+
+  "rich-text#curadoria-mauricio-ayer-2": {
+    "props": {
+      "text": "### Maurício Ayer \n #### especialista \n Maurício Ayer é professor e pesquisador na área de literatura na Universidade de São Paulo, além de escritor, tradutor e músico. É um dos principais pesquisadores sobre cachaça e cultura no país, e ministra cursos sobre o tema desde 2015. ",
+      "blockClass": "titulo-curadoria-banner-principal"
+    }
+  },
+
+  "flex-layout.row#especialista-carolina-bastos":{
+    "children": [
+      "flex-layout.col#especialista-carolina-bastos-imagem-2",
+      "flex-layout.col#especialista-carolina-bastos-informacoes-2"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#especialista-carolina-bastos-imagem-2": {
+    "children": ["image#curadoria-page-carolina-bastos-2"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+
+  },
+
+  "image#curadoria-page-carolina-bastos-2": {
+    "props": {
+      "src": "https://tfcuey.vtexassets.com/arquivos/especialista-nina.png"
+    }
+  },
+
+  "flex-layout.col#especialista-carolina-bastos-informacoes-2": {
+      "children": ["rich-text#curadoria-carolina-bastos-2"]
+
+  },
+
+
+  "rich-text#curadoria-carolina-bastos-2": {
+    "props": {
+      "text": "### Carolina Bastos \n #### especialista \n Carolina Bastos é Sócia-Proprietária do renomado restaurante Jiquitaia de São Paulo. Nascida em Londrina, no Paraná, formou-se em Economia e desde que abriu o Jiquitaia, juntamente com seu irmão e chef do restaurante Marcelo Bastos, se aprofundou no mundo da cachaça e da coquetelaria. Desenvolveu a caipirinha do restaurante que hoje é considerada uma das melhores da cidade. ",
+      "blockClass": "titulo-curadoria-banner-principal"
+    }
+  },
+
+  "flex-layout.row#accordion-cafes-pg-comite": {
+    "props": {
+      "blockClass": "accordion-cafes"
+    },
+    "children": ["menu-item#accordion-cafes-pg-comite"]
+  },
+
+  "menu-item#accordion-cafes-pg-comite": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Cafés",
+        "text": "Cafés"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#cafes-pg-comite"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#cafes-pg-comite": {
+    "children": ["vtex.menu@2.x:menu#cafes-curadoria"]
+  },
+
+  "vtex.menu@2.x:menu#cafes-curadoria": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#description-cafes"
+    ]
+  },
+  "flex-layout.row#description-cafes": {
+    "props": {
+      "blockClass": "conteudo-descricao-do-produto",
+      "marginBottom": 7
+    },
+    "children": ["flex-layout.row#product-description-cafes"]
+  },
+
+"flex-layout.row#product-description-cafes":{
+  "props": {
+    "collapseContent":false,
+    "preventVerticalStretch": true
+  },
+  "children": [
+    "flex-layout.row#slider-videos-cafes",
+    "flex-layout.row#slider-texto-cafes",
+    "flex-layout.row#slider-especialista-cafes"
+  
+  ]
+
+  },
+
+  "flex-layout.row#slider-videos-cafes": {
+    "children": ["slider-layout#video-cafes"],
+    "props": {
+      "blockClass": "slider-videos-cafes",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "slider-layout#video-cafes": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": ["video#cafes1"]
+  },
+
+  "video#cafes1": {
+    "props": {
+      "width": "100%",
+      "height": "250px",
+      "autoPlay": false,
+      "loop": true,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=aTu8nFzzJZA",
+      "blockClass": "videoEl"
+    }
+  },
+  "video#cafes2": {
+    "props": {
+      "width": "100%",
+      "height": "250px",
+      "autoPlay": false,
+      "loop": true,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=fLbY3qOfWCA",
+      "blockClass": "videoEl"
+    }
+  },
+  "video#cafes3": {
+    "props": {
+      "width": "100%",
+      "height": "250px",
+      "autoPlay": false,
+      "loop": true,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=fLbY3qOfWCA",
+      "blockClass": "videoEl"
+    }
+  },
+  "video#cafes4": {
+    "props": {
+      "width": "100%",
+      "height": "250px",
+      "autoPlay": false,
+      "loop": true,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=fLbY3qOfWCA",
+      "blockClass": "videoEl"
+    }
+  },
+
+  "flex-layout.row#slider-texto-cafes": {
+    "children": ["rich-text#slider-texto-cafes"],
+    "props": {
+      "blockClass": "curadoria-texto-cafes",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#slider-texto-cafes": {
+    "props": {
+      "text": "A curadoria de cafés BR-ME busca identificar alguns dos melhores cafés especiais produzidos em solo brasileiro. É um mergulho técnico com um filtro rigoroso de qualidade que visa emergir com o que há de mais cativante na produção nacional, com reconhecimento mundial. \n \n Primeiro, identificamos os produtores que se encaixam nas diretrizes BR-ME e verificamos a disponibilidade dos rótulos para fornecimento, em seguida, é iniciada a primeira degustação para processo seletivo, feita pelo Especialista, que faz uma peneira nos rótulos disponíveis. \n \n Após a análise inicial de qualidade, o Comitê faz degustações e avaliações, entendendo as principais características dos cafés. ",
+      "blockClass": "cont-curadoria-texto-vinhos"
+    }
+  },
+
+  "flex-layout.row#slider-especialista-cafes": {
+    "children": ["slider-layout#especialista-cafes"],
+    "props": {
+      "blockClass": "slider-especialista-cafes",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "slider-layout#especialista-cafes": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": [
+      "flex-layout.row#especialista-alexandre-gonzaga-3",
+      "flex-layout.row#especialista-fernanda-gandra-3",
+      "flex-layout.row#especialista-raymond-rebetez-3",
+      "flex-layout.row#especialista-rodrigo-branco-3",
+      "flex-layout.row#especialista-vitor-leardi-3"
+    
+    ]
+  },
+
+  "flex-layout.row#especialista-alexandre-gonzaga-3":{
+    "children": [
+      "flex-layout.col#especialista-alexandre-gonzaga-imagem-3",
+      "flex-layout.col#especialista-alexandre-gonzaga-informacoes-3"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#especialista-alexandre-gonzaga-imagem-3": {
+    "children": ["image#curadoria-page-alexandre-gonzaga-3"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+
+  },
+
+  "image#curadoria-page-alexandre-gonzaga-3": {
+    "props": {
+      "src": "https://tfcuey.vtexassets.com/arquivos/especialista-alexandre-gonzaga.png"
+    }
+  },
+
+  "flex-layout.col#especialista-alexandre-gonzaga-informacoes-3": {
+      "children": ["rich-text#curadoria-page-alexandre-gonzaga-3"]
+
+  },
+
+
+  "rich-text#curadoria-page-alexandre-gonzaga-3": {
+    "props": {
+      "text": "### Alexandre Gonzaga \n #### especialista \n Engenheiro Agrônomo, Alexandre foi Diretor Executivo da Fazenda Vista Alegre, a primeira fazendo da Cafés Especiais do Brasil, por 17 anos. Atualmente, é sócio da Minas Estate Coffee, uma consultoria em cafés especiais e torrefadora artesanal sob demanda apenas como “private label”. Foi também Diretor Executivo da BSCA, sendo importador exclusivo de cafés especiais descafeinados naturais e exportador de cafés especiais sob demanda. É o especialista BR-ME da categoria cafés. ",
+      "blockClass": "titulo-curadoria-banner-principal"
+    }
+  },
+
+  "flex-layout.row#especialista-fernanda-gandra-3":{
+    "children": [
+      "flex-layout.col#especialista-fernanda-gandra-imagem-3",
+      "flex-layout.col#especialista-fernanda-gandra-informacoes-3"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#especialista-fernanda-gandra-imagem-3": {
+    "children": ["image#curadoria-page-fernanda-gandra-3"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+
+  },
+
+  "image#curadoria-page-fernanda-gandra-3": {
+    "props": {
+      "src": "https://tfcuey.vtexassets.com/arquivos/especialista-Fernanda.png"
+    }
+  },
+
+  "flex-layout.col#especialista-fernanda-gandra-informacoes-3": {
+      "children": ["rich-text#curadoria-page-fernanda-gandra-3"]
+
+  },
+
+
+  "rich-text#curadoria-page-fernanda-gandra-3": {
+    "props": {
+      "text": "### Fernanda Gandra \n #### especialista \n Nutricionista formada pela Universidade Federal dos Vales do Jequitinhonha e Mucuri, Fernanda também é Mestre e Doutora em Ciência de Alimentos, com linha de pesquisa sobre Café e Saúde. Realizou doutorado sanduíche na Universidade de Aveiro/Portugal, onde trabalhou com análises químicas de café torrado. Docente de Graduação e Pós-Graduação, é Coordenadora Acadêmica do Centro de Treinamentos em Nutrição no Centro Universitário Estácio de Sá - Belo Horizonte. Possui experiência com qualidade de café, análise sensorial e bioquímica de alimentos. ",
+      "blockClass": "titulo-curadoria-banner-principal"
+    }
+  },
+
+  "flex-layout.row#especialista-raymond-rebetez-3":{
+    "children": [
+      "flex-layout.col#especialista-raymond-rebetez-imagem-3",
+      "flex-layout.col#especialista-raymond-rebetez-informacoes-3"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#especialista-raymond-rebetez-imagem-3": {
+    "children": ["image#curadoria-page-raymond-rebetez-3"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+
+  },
+
+  "image#curadoria-page-raymond-rebetez-3": {
+    "props": {
+      "src": "https://tfcuey.vtexassets.com/arquivos/especialista-raymond.png"
+    }
+  },
+
+  "flex-layout.col#especialista-raymond-rebetez-informacoes-3": {
+      "children": ["rich-text#curadoria-page-raymond-rebetez-3"]
+
+  },
+
+  "rich-text#curadoria-page-raymond-rebetez-3": {
+    "props": {
+      "text": "### Raymond Rebetéz \n #### especialista \n Graduado em Administração de Empresas pela Fundação Getúlio Vargas e com Mestrado em Ciência Política na UNICAMP, Raymond foi Diretor Executivo do Banco BBM por 11 anos, sendo responsável pelas áreas Internacional e Comercial. Sua experiência com Café se dá como Sócio Diretor do Projeto Fazenda Lambari, Irarema e Fazenda Rancho Grande, iniciado em 1995 em Espírito Santo do Pinhal e Poços de Caldas. Em 2000, tornou-se Sócio Diretor Responsável pelo desenvolvimento do Astro Café, e em 2006 virou sócio investidor da Ipanema Coffees, onde atualmente é Presidente do Conselho de Administração ",
+      "blockClass": "titulo-curadoria-banner-principal"
+    }
+  },
+
+  "flex-layout.row#especialista-rodrigo-branco-3":{
+    "children": [
+      "flex-layout.col#especialista-rodrigo-branco-imagem-3",
+      "flex-layout.col#especialista-rodrigo-branco-informacoes-3"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#especialista-rodrigo-branco-imagem-3": {
+    "children": ["image#curadoria-page-rodrigo-branco-3"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+
+  },
+
+  "image#curadoria-page-rodrigo-branco-3": {
+    "props": {
+      "src": "https://tfcuey.vtexassets.com/arquivos/especialista-Rodrigo.png"
+    }
+  },
+
+  "flex-layout.col#especialista-rodrigo-branco-informacoes-3": {
+      "children": ["rich-text#curadoria-page-rodrigo-branco-3"]
+
+  },
+
+
+  "rich-text#curadoria-page-rodrigo-branco-3": {
+    "props": {
+      "text": "### Rodrigo Branco Peres \n #### especialista \n Administrador de Empresas pela PUC, Rodrigo começou sua carreira em 1995 recuperando uma empresa em crise para conquistar o mercado brasileiro de cafés especiais. Juntamente com seu sócio e primo, Rafael Branco Peres, a marca Café do Centro foi a precursora de cafés premium para restaurantes e cafeterias chegando a exportar cafés torrados para o mercado japonês, onde foram abertas 10 cafeterias com a marca Café do Centro, em 2009. A empresa foi comprada por um fundo de Private equity em 2013 e Rodrigo continuou na empresa até 2016. Atualmente está envolvido com agronegócios e incorporação, sem abdicar de sua paixão por provar excelentes cafés. ",
+      "blockClass": "titulo-curadoria-banner-principal"
+    }
+  },
+
+  "flex-layout.row#especialista-vitor-leardi-3":{
+    "children": [
+      "flex-layout.col#especialista-vitor-leardi-imagem-3",
+      "flex-layout.col#especialista-vitor-leardi-informacoes-3"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#especialista-vitor-leardi-imagem-3": {
+    "children": ["image#curadoria-page-vitor-leardi-3"],
+    "props": {
+      "blockClass": "curadoria-texto-vinhos",
+      "preventVerticalStretch": true
+    }
+
+  },
+
+  "image#curadoria-page-vitor-leardi-3": {
+    "props": {
+      "src": "https://tfcuey.vtexassets.com/arquivos/especialista-vitor-leardi.png"
+    }
+  },
+
+  "flex-layout.col#especialista-vitor-leardi-informacoes-3": {
+      "children": ["rich-text#curadoria-page-vitor-leardi-3"]
+
+  },
+
+
+  "rich-text#curadoria-page-vitor-leardi-3": {
+    "props": {
+      "text": "### Vitor Leardi \n #### especialista \n Formado em Administração de Empresas pela Universidade de São Paulo (FEA - USP), Vitor Leardi é atualmente CFO/COO da Astoria S/A, tendo desenhado o plano estratégico que levou a empresa à liderança do mercado de máquinas de café expresso. Vitor é sócio da Baraúna Gestora, fundo de Private Equity, onde faz parte do time de investimentos. Antes de se juntar à Baraúna e à Astoria, Vitor ocupou várias posições ao longo de mais de dez anos de experiência no Patria Investimentos. Atuou como Diretor de Inovação e M&A na Brasil Espresso, onde introduziu as primeiras cápsulas de café compatíveis com Nespresso no mercado nacional, bem como ajudou a marca Café do Centro a se tornar o principal player do setor durante sua gestão. ",
+      "blockClass": "titulo-curadoria-banner-principal"
+    }
+  }
+}

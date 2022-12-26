@@ -1,0 +1,25 @@
+{
+    "store.custom#politica-de-privacidade": {
+      "blocks": ["flex-layout.row#politica-de-privacidade"]
+    },
+    "flex-layout.row#politica-de-privacidade": {
+      "children": ["flex-layout.col#text-politica-de-privacidade"]
+    },
+    "flex-layout.col#text-politica-de-privacidade": {
+      "children": ["rich-text#about-title", "rich-text#about-content"],
+      "props": {
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#about-title": {
+      "props": {
+        "text": "Política de Privacidade",
+        "blockClass": "titulo"
+      }
+    },
+    "rich-text#about-content": {
+      "props": {
+        "text": "Acreditamos que é essencial para nosso cliente ter segurança em suas transações e garantir que autoridades certificadoras estão desempenhando seu papel naquele domínio. \n Dentro do nosso site as informações obtidas dos clientes passam por diversos processos eletrônicos de codificação e segurança.  \n Uma das tecnologias é a encriptação, ou seja, o sistema embaralha as informações de forma que, os dados são truncados, não podendo, portanto, serem utilizados.\n Ao preencher qualquer formulário em nosso site você estará protegido através do certificado SSL (Secure Socket Layer). Além de todos esses cuidados, a Biostévi adquiriu alguns sistemas anti-fraude com um modelo estatístico mais preciso do mercado e o maior data lake de consumo do país." }
+    }
+
+  }

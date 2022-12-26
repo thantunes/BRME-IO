@@ -1,0 +1,59 @@
+{
+    "store.custom#parceiro": {
+      "blocks": [
+          "flex-layout.row#sejanossofornecedor",
+          "flex-layout.row#fornecedorcontados",
+          "slider-layout#categoriasbaixo"
+        
+        ]
+    },
+
+
+
+    "flex-layout.row#sejanossofornecedor": {
+        "children": ["flex-layout.row#text-sejanossofornecedor"],
+        "props": {
+          "blockClass": "sobre-sejanossofornecedor"
+        }
+      },
+
+
+      "flex-layout.row#text-sejanossofornecedor": {
+        "children": ["flex-layout.col#text-sejanossofornecedor"]
+      },
+
+      "flex-layout.col#text-sejanossofornecedor": {
+        "children": ["rich-text#sejanossofornecedor-title", "rich-text#sejanossofornecedor-content"],
+        "props": {
+          "preventVerticalStretch": true
+        }
+      },
+      "rich-text#sejanossofornecedor-title": {
+        "props": {
+          "text": "Seja nosso fornecedor",
+          "blockClass": "titulo"
+        }
+      },
+      "rich-text#sejanossofornecedor-content": {
+        "props": {
+          "text": "A BR-ME e seus Especialistas acreditam no potencial do Brasil e na qualidade dos produtos e serviços criados aqui. \n \n Produtores de vinhos, cafés, chocolates, destilados e azeites, entre outros, podem contar com a estrutura da BR-ME para oferecer seus produtos em nosso site, eventos online e presenciais e kits corporativos. \n \n Buscamos produtores que além da qualidade, sejam conscientes, com práticas sustentáveis, condições favoráveis de trabalho e cuidados com a biodiversidade. \n \n Todos os produtos que entram no nosso portfólio passam pela curadoria dos nossos Especialistas e Comitês de Avaliação."}
+      },
+
+
+
+
+      "flex-layout.row#fornecedorcontados": {
+        "children": ["rich-text#fornecedor-telefone"],
+        "props": {
+          "blockClass": "seja-fornecedor-barra-contato"
+        }
+      },
+
+        "rich-text#fornecedor-telefone": {
+          "props": {
+            "text": "Entre em contato com a nossa equipe: \n \n Rebeca: [+55 (11) 94468-9410](tel:+5511944689410)"}
+        }
+
+}
+
+

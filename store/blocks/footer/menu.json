@@ -1,0 +1,242 @@
+{
+  "vtex.menu@2.x:menu#Products": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#tituloinstitucional",
+      "menu-item#Blog",
+      "menu-item#QuemSomos",
+      "menu-item#faqfooter",
+      "menu-item#politicafooter",
+      "menu-item#politicareenbolsofooter",
+      "menu-item#trocas-e-devolucoesfooter"
+
+    ]
+  },
+
+  "menu-item#tituloinstitucional": {
+    "props": {
+      "id": "menu-item-tituloinstitucional",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "tituloinstitucional",
+      "itemProps": {
+       
+        "tagTitle": "GRUPO BR-ME",
+        "text": "GRUPO BR-ME"
+      }
+    }
+  },
+
+  "menu-item#Blog": {
+    "props": {
+      "id": "menu-rodape-item-blog",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://blog.brme.com.br/",
+        "noFollow": false,
+        "tagTitle": "Blog",
+        "text": "Blog"
+      }
+    }
+  },
+  "menu-item#QuemSomos": {
+    "props": {
+      "id": "menu-item-news",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sobre-a-brme",
+        "noFollow": false,
+        "tagTitle": "Sobre a BR-ME",
+        "text": "Sobre a BR-ME"
+      }
+    }
+  },
+
+  "menu-item#faqfooter": {
+    "props": {
+      "id": "menu-item-meuspedidos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/perguntas-e-respostas",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "FAQ"
+      }
+    }
+  },
+
+
+
+
+  "menu-item#politicareenbolsofooter": {
+    "props": {
+      "id": "menu-item-meuspedidos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politicas-de-reembolso",
+        "noFollow": true,
+        "tagTitle": "Políticas de Reembolso",
+        "text": "Políticas de Reembolso"
+      }
+    }
+  },
+
+
+
+  "menu-item#trocas-e-devolucoesfooter": {
+    "props": {
+      "id": "menu-item-meuspedidos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/trocas-e-devolucoes",
+        "noFollow": true,
+        "tagTitle": "Trocas e Devoluções",
+        "text": "Trocas e Devoluções"
+      }
+    }
+  },
+
+
+  
+
+
+
+  "menu-item#politicafooter": {
+    "props": {
+      "id": "menu-item-meuspedidos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politica-de-privacidade",
+        "noFollow": true,
+        "tagTitle": "Política de privacidade",
+        "text": "Política de privacidade"
+      }
+    }
+  },
+  
+ 
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#institucional-mobile"
+    ]
+  },
+
+  "menu-item#institucional-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Grupo BR-ME",
+        "text": "Grupo BR-ME"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#institucional"]
+  },
+  "vtex.menu@2.x:submenu.accordion#institucional": {
+    "children": ["vtex.menu@2.x:menu#footer-institucional-mobile"],
+    "props": {
+      "orientation": "vertical",
+      "isOpen": true
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-institucional-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "isOpen": true
+    },
+    "children": [
+      "menu-item#blogmobile",
+      "menu-item#quemsomos",
+      "menu-item#faq",
+      "menu-item#politica"
+    ]
+  },
+
+  "menu-item#blogmobile": {
+    "props": {
+      "id": "menu-item-shorts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://blog.brme.com.br/",
+        "noFollow": false,
+        "tagTitle": "Blog",
+        "text": "Blog"
+      }
+    }
+  },
+  "menu-item#quemsomos": {
+    "props": {
+      "id": "menu-item-shorts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sobre-a-brme",
+        "noFollow": false,
+        "tagTitle": "Sobre a BR-ME",
+        "text": "Sobre a BR-ME"
+      }
+    }
+  },
+
+  "menu-item#faq": {
+    "props": {
+      "id": "menu-item-shorts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/perguntas-e-respostas",
+        "noFollow": false,
+        "tagTitle": "FAQ",
+        "text": "FAQ"
+      }
+    }
+  },
+  "menu-item#politica": {
+    "props": {
+      "id": "menu-item-shorts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politica-de-privacidade",
+        "noFollow": false,
+        "tagTitle": "Política de privacidade",
+        "text": "Política de privacidade"
+      }
+    }
+  }
+
+
+  
+}

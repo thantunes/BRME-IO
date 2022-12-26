@@ -1,0 +1,427 @@
+{
+    "store.custom#produtores": {
+      "blocks": [
+          "flex-layout.row#produtores-banner-topo",
+          "flex-layout.row#pagina-de-produtores-conteudo1",
+          "flex-layout.row#pagina-de-produtores-conteudo2",
+          "flex-layout.row#colecao-do-produtor-title",
+          "flex-layout.row#shelfprateleiracolecaoprodutor",
+          "flex-layout.row#colecao-de-produtos-title",
+          "flex-layout.row#shelfprateleiracolecao-de-produtos",
+          "flex-layout.row#videosobre",
+          "flex-layout.row#nossosconteudostitle",
+          "flex-layout.row#nossosconteudos"
+
+        ],
+      "props": {
+        "blockClass": "pagina-de-produtores"
+      }
+    },
+"flex-layout.row#produtores-banner-topo": {
+    "children": ["rich-text#produtores-banner-topo"],
+    "props": {
+      "blockClass": "produtores-banner-principal"
+    }
+  },
+"rich-text#produtores-banner-topo": {
+    "props": {
+      "text": "Conheça os vinhos \n mais desejados do Brasil.[confira as novidades](#colecaodoprodutor)",
+      "blockClass": "titulo-banner-produtores"
+    }
+  },
+
+
+
+  "link#colecaoprodutor": {
+    "props": {
+      "href":"#colecaodoprodutor",
+      "displayMode":"anchor",
+      "target":"_self",
+      "scrollTo":"#colecaodoprodutor",
+      "label": "confira as novidades"
+    }
+  },
+
+
+
+
+  "link.product#confira-as-novidades": {
+    "props": {
+      "href": "#colecaoprodutor",
+      "scrollTo": "#colecaoprodutor",
+      "target":"_self",
+      "displayMode":"anchor",
+      "label": "Confira as Novidades"
+    }
+  },
+
+  "flex-layout.row#pagina-de-produtores-conteudo1":{
+  "children":  ["flex-layout.col#pagina-de-produtores-conteudo1","flex-layout.col#pagina-de-produtores-conteudo2"],
+   "props": {
+    "blockClass": "pagina-de-produtores-conteudo1"
+  }
+  },
+  "flex-layout.col#pagina-de-produtores-conteudo1":{
+  "children":  ["slider-layout#pagina-de-produtores-conteudo1"]
+
+  },
+
+  "slider-layout#pagina-de-produtores-conteudo1": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay":{
+        "timeout":5000,
+        "stopOnHover":true
+     },
+      "infinite": true,
+      "showNavigationArrows": "false",
+      "blockClass": "sliderpagina-de-produtores-conteudo"
+    },
+    "children": ["image#produtorslider1","image#produtorslider2"]
+  },
+  "image#produtorslider1": {
+    "props": {
+      "src": "/arquivos/BRME_Site_Produtor_Desktop1.png",
+      "maxWidth": "100%"
+    }
+  },
+  "image#produtorslider2": {
+    "props": {
+      "src": "/arquivos/BRME_Site_Produtor_Desktop1.png",
+      "maxWidth": "100%"
+    }
+  },
+
+  "flex-layout.col#pagina-de-produtores-conteudo2": {
+    "children": ["rich-text#pagina-de-produtores-conteudo---1"]
+
+
+  },
+
+  "rich-text#pagina-de-produtores-conteudo---1": {
+    "props": {
+      "text": "**Felipe Jannuzzy** \n Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget justo quis ex tincidunt commodo. Vestibulum lorem libero, lacinia at diam quis, molestie bibendum justo. Donec vehicula condimentum dui eu luctus. Phasellus euismod sagittis odio, in scelerisque leo blandit sit amet. Etiam velit ligula, aliquet at dictum vitae, ornare vitae purus. Etiam dolor tellus, commodo non lectus eu, facilisis porta ex. Praesent tempus erat in lectus vulputate ornare. Maecenas turpis lectus, venenatis ac bibendum eget, feugiat eget neque. Vivamus auctor luctus ligula, id sagittis mauris aliquam eleifend. Vivamus non tristique metus.",
+      "blockClass": "texto-produtores"
+    }
+  },
+
+
+
+  "flex-layout.row#pagina-de-produtores-conteudo2":{
+    "children":  ["flex-layout.col#pagina-de-produtores-conteudo4","flex-layout.col#pagina-de-produtores-conteudo3"],
+     "props": {
+      "blockClass": "pagina-de-produtores-conteudo2"
+    }
+    },
+    "flex-layout.col#pagina-de-produtores-conteudo3":{
+    "children":  ["slider-layout#pagina-de-produtores-conteudo1"]
+  
+    },
+  
+    "slider-layout#pagina-de-produtores-conteudo3": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 1,
+          "tablet": 1,
+          "phone": 1
+        },
+        "autoplay":{
+          "timeout":5000,
+          "stopOnHover":true
+       },
+        "infinite": true,
+        "showNavigationArrows": "desktopOnly",
+        "blockClass": "sliderpagina-de-produtores-conteudo"
+      },
+      "children": ["image#produtorslider3","image#produtorslider4"]
+    },
+    "image#produtorslider3": {
+      "props": {
+        "src": "/arquivos/BRME_Site_Produtor_Desktop2.png",
+        "maxWidth": "100%"
+      }
+    },
+    "image#produtorslider4": {
+      "props": {
+        "src": "/arquivos/BRME_Site_Produtor_Desktop2.png",
+        "maxWidth": "100%"
+      }
+    },
+  
+    "flex-layout.col#pagina-de-produtores-conteudo4": {
+      "children": ["rich-text#pagina-de-produtores-conteudo4"]
+  
+  
+    },
+  
+    "rich-text#pagina-de-produtores-conteudo4": {
+      "props": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget justo quis ex tincidunt commodo. Vestibulum lorem libero, lacinia at diam quis, molestie bibendum justo. Donec vehicula condimentum dui eu luctus. Phasellus euismod sagittis odio, in scelerisque leo blandit sit amet. Etiam velit ligula, aliquet at dictum vitae, ornare vitae purus. Etiam dolor tellus, commodo non lectus eu, facilisis porta ex. Praesent tempus erat in lectus vulputate ornare. Maecenas turpis lectus, venenatis ac bibendum eget, feugiat eget neque. Vivamus auctor luctus ligula, id sagittis mauris aliquam eleifend. Vivamus non tristique metus.",
+        "blockClass": "texto-produtores"
+      }
+    },
+  
+  "flex-layout.row#colecao-do-produtor-title": {
+    "children": ["rich-text#colecaodoprodutor"],
+    "props": {
+        "blockClass": "titulo-colecao", 
+        "id":"colecaoprodutor"
+       
+    }
+
+  },
+
+  "rich-text#colecaodoprodutor": {
+    "props": {
+      "text": "Coleção do produtor:",
+      "blockClass": "titulo-colecao-produtores",
+      "htmlId":"colecaodoprodutor"
+    }
+  },
+
+
+  "flex-layout.row#shelfprateleiracolecaoprodutor": {
+    "children": ["list-context.product-list#prateleiracolecaoprodutor"]
+  },
+  "list-context.product-list#prateleiracolecaoprodutor": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#prateleiralancamentos"],
+    "props": {
+      "orderBy": "OrderByReleaseDateDESC",
+      "collection": "1276"
+    }
+  },
+ 
+
+  "flex-layout.row#colecao-de-produtos-title": {
+    "children": ["rich-text#colecao-de-produtos"],
+    "props": {
+        "blockClass": "titulo-colecao"
+    }
+
+  },
+
+  "rich-text#colecao-de-produtos": {
+    "props": {
+      "text": "Coleção de produtos:",
+      "blockClass": "titulo-colecao-produtores"
+    }
+  },
+
+
+  "flex-layout.row#shelfprateleiracolecao-de-produtos": {
+    "children": ["list-context.product-list#prateleiracolecao-de-produtos"]
+  },
+  "list-context.product-list#prateleiracolecao-de-produtos": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#prateleiralancamentos"],
+    "props": {
+      "orderBy": "OrderByReleaseDateDESC",
+      "collection": "1276"
+    }
+  },
+
+  "flex-layout.row#videosobre": {
+    "children": ["video#background"],
+    "props": {
+        "blockClass": "videosprodutores"
+      }
+
+  },
+"video#background": {
+    "props": {
+      "width": "100%",
+      "height": "600px",
+      "loop": true,
+      "autoPlay": true,
+      "muted": false,  
+      "src": "https://www.youtube.com/watch?v=t5JvMY9V6pc&t=16s",
+      "blockClass": "videoEl"
+    }
+  },
+
+
+
+  "flex-layout.row#nossosconteudostitle":{
+    "children": ["rich-text#nossosconteudostitle"],
+    "props": {
+      "blockClass": "nossos-conteudos-title"
+    }
+  },
+
+
+  "rich-text#nossosconteudostitle":{
+    "props": {
+      "text": "Nossos conteúdos"
+     
+     }
+    },
+
+  "flex-layout.row#nossosconteudos":{
+    "children": ["slider-layout#nossosconteudos"],
+    "props": {
+      "blockClass": "nossos-conteudos"
+    }
+  },
+
+  "slider-layout#nossosconteudos": {
+    "children": ["flex-layout.row#noticia1","flex-layout.row#noticia2","flex-layout.row#noticia3","flex-layout.row#noticia4"],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+
+
+     
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+     
+   
+   
+  
+  },
+
+  "flex-layout.row#noticia1": {
+    "children": ["image#noticia1", "rich-text#noticia1","link#noticia1"],
+    "props": {
+      "blockClass": "noticia1"
+    }
+  },
+
+
+
+
+
+  "image#noticia1": {
+    "props": {
+      "src": "https://blog.brme.com.br/wp-content/uploads/2022/06/191130_GG__226.jpg"
+     
+    }
+  },
+
+  "rich-text#noticia1":{
+  "props": {
+    "text": "Coquetel: o famoso Rabo de Galo",
+    "blockClass": "title-noticia"
+   }
+  },
+
+  "link#noticia1": {
+    "props": {
+      "href": "https://blog.brme.com.br/destilados/coquetel-o-famoso-rabo-de-galo/",
+      "label": "Leia mais"
+    }
+ 
+},
+
+
+"flex-layout.row#noticia2": {
+  "children": ["image#noticia2", "rich-text#noticia2","link#noticia2"],
+  "props": {
+    "blockClass": "noticia1"
+  }
+},
+
+
+"image#noticia2": {
+  "props": {
+    "src": "https://blog.brme.com.br/wp-content/uploads/2022/06/191130_GG__226.jpg"
+   
+  }
+},
+
+"rich-text#noticia2":{
+"props": {
+  "text": "Coquetel: o famoso Rabo de Galo",
+  "blockClass": "title-noticia"
+ }
+},
+
+"link#noticia2": {
+  "props": {
+    "href": "https://blog.brme.com.br/destilados/coquetel-o-famoso-rabo-de-galo/",
+    "label": "Leia mais"
+  }
+
+},
+
+
+
+
+"flex-layout.row#noticia3": {
+  "children": ["image#noticia3", "rich-text#noticia3","link#noticia3"],
+  "props": {
+    "blockClass": "noticia1"
+  }
+},
+
+
+"image#noticia3": {
+  "props": {
+    "src": "https://blog.brme.com.br/wp-content/uploads/2022/06/191130_GG__226.jpg"
+   
+  }
+},
+
+"rich-text#noticia3":{
+"props": {
+  "text": "Coquetel: o famoso Rabo de Galo",
+  "blockClass": "title-noticia"
+ }
+},
+
+"link#noticia3": {
+  "props": {
+    "href": "https://blog.brme.com.br/destilados/coquetel-o-famoso-rabo-de-galo/",
+    "label": "Leia mais"
+  }
+
+},
+
+
+
+
+
+"flex-layout.row#noticia4": {
+  "children": ["image#noticia4", "rich-text#noticia4","link#noticia4"],
+  "props": {
+    "blockClass": "noticia1"
+  }
+},
+
+
+"image#noticia4": {
+  "props": {
+    "src": "https://blog.brme.com.br/wp-content/uploads/2022/06/191130_GG__226.jpg"
+   
+  }
+},
+
+"rich-text#noticia4":{
+"props": {
+  "text": "Coquetel: o famoso Rabo de Galo",
+  "blockClass": "title-noticia"
+ }
+},
+
+"link#noticia4": {
+  "props": {
+    "href": "https://blog.brme.com.br/destilados/coquetel-o-famoso-rabo-de-galo/",
+    "label": "Leia mais"
+  }
+
+}
+
+
+
+
+
+}

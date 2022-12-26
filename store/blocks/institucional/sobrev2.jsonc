@@ -1,0 +1,1115 @@
+{
+    "store.custom#sobrev2": {
+      "blocks": [
+       
+          "flex-layout.row#video",
+          "flex-layout.row#sobre",
+          "flex-layout.row#descobrir",
+          "slider-layout#imagensdescobrirmobile",
+          "flex-layout.row#degustar",
+          "flex-layout.row#tresimagens",
+          "slider-layout#imagensdegustarmobile",
+          "flex-layout.row#selecionar",
+          "slider-layout#imagensselecionarmobile",
+          "flex-layout.row#compartilhar",
+          "slider-layout#imagenscompartiharmobile",
+          "flex-layout.row#oferecer-titulo",
+          "flex-layout.row#oferecer-conteudo",
+          "flex-layout.row#shelfprateleirainsobre",
+          "flex-layout.row#cincoimagens",
+          "flex-layout.row#cincoimagens-mobile-col-1",
+          "flex-layout.row#cincoimagens-mobile-col-2",
+        //  "flex-layout.row#portrasdabrme",
+          "flex-layout.row#portrasdabrmev2"
+
+         
+         
+         
+         
+          
+        
+        ]
+    },
+
+
+
+ 
+
+  
+
+
+
+   
+    "flex-layout.row#video": {
+        "children": ["video#background"]
+      },
+
+
+    "video#background": {
+        "props": {
+          "width": "100%",
+          "height": "600px",
+          "loop": true,
+          "autoPlay": true,
+          "muted": false,  
+          "src": "https://www.youtube.com/watch?v=t5JvMY9V6pc&t=16s",
+          "blockClass": "videoEl"
+        }
+      },
+
+
+      "flex-layout.row#sobre": {
+        "children": ["breadcrumb"],
+        "props": {
+          "preserveLayoutOnMobile": true,
+          "fullWidth": true
+        }
+      },
+
+
+      
+    "flex-layout.row#descobrir": {
+        "children": ["flex-layout.col#primeirobloco", "flex-layout.col#segundobloco"],
+        "props": {
+          "blockClass": "sobre-descobrir"
+        }
+      },
+
+
+    "flex-layout.col#primeirobloco": {
+        "children": ["flex-layout.col#textodescobrir","flex-layout.col#primeiraimagemdescobrir"]
+      },
+  
+  
+  
+      "flex-layout.col#textodescobrir": {
+        "children": ["rich-text#descobir-title", "rich-text#missao-content"],
+        "props": {
+          "blockClass": "bloco-descobrir",
+          "preventVerticalStretch": true
+        }
+      },
+
+
+      "rich-text#descobir-title": {
+        "props": {
+          "text": "Descobrir",
+          "blockClass": "titulo-descobrir"
+        }
+      },
+
+
+
+
+      "rich-text#missao-content": {
+        "props": {
+          "text": "Nossa equipe percorre todo o Brasil em busca de produtos e experiências 100% brasileiras para oferecer para nossos clientes.Estamos em contato com os principais produtores do país, das diferentes categorias que trabalhamos, para nos atualizarmos e expandirmos nossas seleções todos os meses. Queremos sempre descobrir o que há de melhor–se você oferece um produto ou serviço de qualidade e feito no Brasil, entre em contato com a gente. "
+        }
+      },
+
+      "flex-layout.col#primeiraimagemdescobrir": {
+        "children": ["image#descobrirprimeiraimagem"],
+        "props": {
+          "blockClass": "bloco-missao",
+          "preventVerticalStretch": true
+        }
+      },
+
+      "image#descobrirprimeiraimagem": {
+        "props": {
+          "src": "https://tfcuey.vteximg.com.br/arquivos/banner-descobrir-2.png?v=637643186869730000",
+          "maxWidth": "100%"
+        }
+      },    
+    "flex-layout.col#segundobloco": {
+        "children": ["flex-layout.col#segundaimagemdescobrir","flex-layout.col#terceiraimagemdescobrir"]
+      },
+  
+      "flex-layout.col#segundaimagemdescobrir": {
+        "children": ["image#descobrirsegundaimagem"],
+        "props": {
+          "blockClass": "bloco-missao",
+          "preventVerticalStretch": true
+        }
+      },
+
+      "image#descobrirsegundaimagem": {
+        "props": {
+          "src": "https://tfcuey.vteximg.com.br/arquivos/banner-descobrir-1.png?v=637643186869730000",
+          "maxWidth": "100%"
+        }
+      },
+      
+      "flex-layout.col#terceiraimagemdescobrir": {
+        "children": ["image#descobrirterceiraimagem"],
+        "props": {
+          "blockClass": "bloco-missao",
+          "preventVerticalStretch": true
+        }
+      },
+
+      "image#descobrirterceiraimagem": {
+        "props": {
+          "src": "https://tfcuey.vteximg.com.br/arquivos/banner-descobrir-3.png?v=637643186869730000",
+          "maxWidth": "100%"
+        }
+      },
+
+
+
+      "slider-layout#imagensdescobrirmobile": {
+        "children": ["image#descobrirprimeiraimagem", "image#descobrirsegundaimagem","image#descobrirterceiraimagem"],
+        "props": {
+          "autoplay": {
+            "blockClass": "sobre-3-imagens-mobile",
+            "timeout": 5000,
+            "stopOnHover": false
+          },
+          "blockClass": "imagensdescobrirmobile"
+        }
+      },
+
+
+
+
+
+
+      "flex-layout.row#degustar": {
+        "children": ["flex-layout.row#text-degustar"],
+        "props": {
+          "blockClass": "sobre-degustar"
+        }
+      },
+
+
+      "flex-layout.row#text-degustar": {
+        "children": ["flex-layout.col#text-degustar"]
+      },
+
+      "flex-layout.col#text-degustar": {
+        "children": ["rich-text#degustar-title", "rich-text#degustar-content"],
+        "props": {
+          "preventVerticalStretch": true
+        }
+      },
+      "rich-text#degustar-title": {
+        "props": {
+          "text": "Degustar",
+          "blockClass": "titulo"
+        }
+      },
+      "rich-text#degustar-content": {
+        "props": {
+          "text": "Ao lado dos nossos especialistas e membros dos comitês, degustamos todos os produtos do nosso portfólio. \n Para todas as categorias são criados comitês especializados que nos ajudam nas degustações e avaliações. " }
+      },
+
+      "flex-layout.row#tresimagens": {
+        "children": ["flex-layout.col#primeiraimagemdegustar","flex-layout.col#segundaimagemdegustar","flex-layout.col#terceiraimagemdegustar"],
+        "props": {
+          "blockClass": "sobre-3-imagens"
+        }
+      },
+
+      "flex-layout.col#primeiraimagemdegustar": {
+        "children": ["image#primeiraimagemdegustar"],
+        "props": {
+          "blockClass": "bloco-missao",
+          "preventVerticalStretch": true
+        }
+      },
+
+      "image#primeiraimagemdegustar": {
+        "props": {
+          "src": "https://tfcuey.vteximg.com.br/arquivos/banner-degustar-1.png",
+          "maxWidth": "100%"
+        }
+      },
+
+      "flex-layout.col#segundaimagemdegustar": {
+        "children": ["image#segundaimagemdegustar"],
+        "props": {
+          "blockClass": "bloco-missao",
+          "preventVerticalStretch": true
+        }
+      },
+
+      "image#segundaimagemdegustar": {
+        "props": {
+          "src": "https://tfcuey.vteximg.com.br/arquivos/banner-degustar-2.png",
+          "maxWidth": "100%"
+        }
+      },
+
+      "flex-layout.col#terceiraimagemdegustar": {
+        "children": ["image#terceiraimagemdegustar"],
+        "props": {
+          "blockClass": "bloco-missao",
+          "preventVerticalStretch": true
+        }
+      },
+
+      "image#terceiraimagemdegustar": {
+        "props": {
+          "src": "https://tfcuey.vteximg.com.br/arquivos/big-choro-degustar-v3.png",
+          "maxWidth": "100%"
+        }
+      },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      "slider-layout#imagensdegustarmobile": {
+        "children": ["image#primeiraimagemdegustar", "image#segundaimagemdegustar","image#terceiraimagemdegustar"],
+        "props": {
+          "autoplay": {
+            "blockClass": "sobre-3-imagens-mobile",
+            "timeout": 5000,
+            "stopOnHover": false
+          },
+          "blockClass": "imagensdegustarmobile"
+        }
+      },
+
+
+
+
+
+
+      "flex-layout.row#selecionar": {
+        "children": ["flex-layout.col#selecionar","flex-layout.col#simagemselecionar"],
+        "props": {
+          "blockClass": "sobre-selecionar"
+        }
+      },
+  
+      "flex-layout.col#selecionar": {
+        "children": ["flex-layout.row#tituloselecionar","flex-layout.row#textoselecionar","flex-layout.row#simagemdegustacaoselecionar"]
+      },
+      "flex-layout.row#tituloselecionar": {
+        "children": ["rich-text#selecionar-title"]
+      },
+      "rich-text#selecionar-title": {
+        "props": {
+          "text": "Selecionar",
+          "blockClass": "titulo"
+        }
+      },
+
+      "flex-layout.row#textoselecionar": {
+        "children": ["rich-text#selecionar-texto"]
+      },
+
+      "rich-text#selecionar-texto": {
+        "props": {
+          "text": "A seleção criteriosa é feita por nossos especialistas, profissionais com muita experiência na sua área de atuação. Além da qualidade, nossa seleção privilegia os produtores que trabalham com consciência ecológica e social, estimulam a econômica local e exaltam uma tipicidade regional. " }
+      },
+
+
+      "flex-layout.row#simagemdegustacaoselecionar": {
+        "children": ["image#imagemdegustacaoselecionar"]
+      },
+
+      "image#imagemdegustacaoselecionar": {
+        "props": {
+          "src": "https://tfcuey.vteximg.com.br/arquivos/banner-selecionar-1.png",
+          "maxWidth": "100%"
+        }
+      },
+
+      "flex-layout.col#simagemselecionar": {
+        "children": ["image#simagemselecionar"]
+      },
+
+      "image#simagemselecionar": {
+        "props": {
+          "src": "https://tfcuey.vteximg.com.br/arquivos/banner-selecionar-2.png",
+          "maxWidth": "100%"
+        }
+      },
+
+
+
+
+      
+      "slider-layout#imagensselecionarmobile": {
+        "children": ["image#imagemdegustacaoselecionarmobile", "image#simagemselecionar","image#terceiraimagemdegustar"],
+        "props": {
+          "autoplay": {
+            "timeout": 5000,
+            "stopOnHover": false
+          },
+          "blockClass": "imagensselecionarmobile"
+        }
+      },
+
+
+      
+
+
+      "image#imagemdegustacaoselecionarmobile": {
+        "props": {
+          "src": "https://tfcuey.vteximg.com.br/arquivos/homem-bebendo-cafe.png",
+          "maxWidth": "100%"
+        }
+      },
+
+
+
+
+      "flex-layout.row#compartilhar": {
+        "children": ["flex-layout.col#simagemcompartilhar","flex-layout.col#compartilhar"],
+        "props": {
+          "blockClass": "sobre-compartilhar"
+        }
+      },
+  
+      "flex-layout.col#compartilhar": {
+        "children": ["flex-layout.row#titulocompartilhar","flex-layout.row#textocompartilhar","flex-layout.row#simagemdegustacaocompartilhar"]
+      },
+      "flex-layout.row#titulocompartilhar": {
+        "children": ["rich-text#compartilhar-title"]
+      },
+      "rich-text#compartilhar-title": {
+        "props": {
+          "text": "Compartilhar",
+          "blockClass": "titulo"
+        }
+      },
+
+      "flex-layout.row#textocompartilhar": {
+        "children": ["rich-text#compartilhar-texto"]
+      },
+
+      "rich-text#compartilhar-texto": {
+        "props": {
+          "text": "Em parceria com nossos especialistas e embaixadores, compartilhamos nossas seleções em eventos e vivências presenciais ou online. Nos eventos, apresentamos nosso portfólio no formato de degustações conduzidas. Nós também produzimos conteúdos (artigos para nosso blog, vídeos no Youtube, livros produzidos por nossos especialistas e parceiros, postagens nas redes sociais, como no nosso Instagram, LinkedIn e Facebook)" }
+      },
+
+
+      "flex-layout.row#simagemdegustacaocompartilhar": {
+        "children": ["image#imagemdegustacaocompartilhar"]
+      },
+
+      "image#imagemdegustacaocompartilhar": {
+        "props": {
+          "src": "https://tfcuey.vteximg.com.br/arquivos/banner-compartilhar-3.png",
+          "maxWidth": "100%"
+        }
+      },
+
+      "flex-layout.col#simagemcompartilhar": {
+        "children": ["flex-layout.row#simagemcompartilhar","flex-layout.row#simagemcompartilhar2"]
+      },
+
+
+      "flex-layout.row#simagemcompartilhar": {
+        "children": ["image#simagemcompartilhar"]
+      },
+
+      "image#simagemcompartilhar": {
+        "props": {
+          "src": "https://tfcuey.vteximg.com.br/arquivos/banner-compartilhar-1.png",
+          "maxWidth": "100%"
+        }
+      },
+
+
+      "flex-layout.row#simagemcompartilhar2": {
+        "children": ["image#simagemcompartilhar2"]
+      },
+
+
+      "image#simagemcompartilhar2": {
+        "props": {
+          "src": "https://tfcuey.vteximg.com.br/arquivos/banner-compartilhar-2.png",
+          "maxWidth": "100%"
+        }
+      },
+
+
+
+
+      "slider-layout#imagenscompartiharmobile": {
+        "children": ["image#imagemdegustacaocompartilhar", "image#simagemcompartilhar2","image#imagemdegustacaocompartilhar"],
+        "props": {
+          "autoplay": {
+            "timeout": 5000,
+            "stopOnHover": false
+          },
+          "blockClass": "imagensselecionarmobile"
+        }
+      },
+
+
+
+
+"flex-layout.row#oferecer-titulo": {
+  "children": ["rich-text#oferecer-title"],
+  "props": {
+    "blockClass": "sobre-oferecer-titulo"
+  }
+},
+"rich-text#oferecer-title": {
+  "props": {
+    "text": "Oferecer",
+    "blockClass": "titulo-oferecer"
+  }
+},
+
+"flex-layout.row#oferecer-conteudo": {
+  "children": ["rich-text#oferecer-content"],
+  "props": {
+    "blockClass": "sobre-oferecer-conteudo"
+  }
+},
+
+"rich-text#oferecer-content": {
+  "props": {
+    "text": "Nossos produtos e serviços brasileiros de excelência podem ser encontrados em multicanais: no site da BR-ME,nos nossos clientes B2B (distribuímos para bares, empórios e restaurantes) e nos eventos realizados todos os meses oferecidos de forma presencial ou virtual. Oferecemos também kits para empresas e kits para presentes – uma seleção brasileira para datas especiais.",
+    "blockClass": "sobre-oferecer-conteudo"
+  }
+},
+
+    "flex-layout.row#shelfprateleirainsobre": {
+        "children": ["list-context.product-list#prateleirasobre"],
+        "props": {
+          "blockClass": "sobre-prateleira"
+        }
+      },
+      "list-context.product-list#prateleirasobre": {
+        "blocks": ["product-summary.shelf"],
+        "children": ["slider-layout#prateleiralancamentos"],
+        "props": {
+          "orderBy": "OrderByReleaseDateDESC",
+          "collection": "1276"
+        }
+      
+
+  },
+
+  "slider-layout#prateleiralancamentos": {
+    "props": {
+      "itemsPerPage": {
+        "desktop":4,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+  "flex-layout.row#cincoimagens": {
+    "children": ["flex-layout.col#cincoimagens1","flex-layout.col#cincoimagens2","flex-layout.col#cincoimagens3","flex-layout.col#cincoimagens4","flex-layout.col#cincoimagens5"],
+    "props": {
+      "blockClass": "sobre-5-imagens"
+    }
+  },
+
+  "flex-layout.col#cincoimagens1": {
+    "children": ["image#cincoimagens1"],
+    "props": {
+      "blockClass": "sobre-5-banners-informativos",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#cincoimagens1": {
+    "props": {
+      "src": "https://tfcuey.vteximg.com.br/arquivos/sobre-curadoria-qualificada.png?v=6376431868697300",
+      "maxWidth": "100%"
+    }
+  },
+
+  "flex-layout.col#cincoimagens2": {
+    "children": ["image#cincoimagens2"],
+    "props": {
+      "blockClass": "sobre-5-banners-informativos",
+      "preventVerticalStretch": true
+    }
+  },
+
+
+  "image#cincoimagens2": {
+    "props": {
+      "src": "https://tfcuey.vteximg.com.br/arquivos/sobre-entrega-rapida.png?v=6376431868697300",
+      "maxWidth": "100%"
+    }
+  },
+
+
+  "flex-layout.col#cincoimagens3": {
+    "children": ["image#cincoimagens3"],
+    "props": {
+      "blockClass": "sobre-5-banners-informativos",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#cincoimagens3": {
+    "props": {
+      "src": "https://tfcuey.vteximg.com.br/arquivos/sobre-acessibilidade-de-produtos.png?v=6376431868697300",
+      "maxWidth": "100%"
+    }
+  },
+
+  "flex-layout.col#cincoimagens4": {
+    "children": ["image#cincoimagens4"],
+    "props": {
+      "blockClass": "sobre-5-banners-informativos",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#cincoimagens4": {
+    "props": {
+      "src": "https://tfcuey.vteximg.com.br/arquivos/sobre-produtos.png?v=6376431868697300",
+      "maxWidth": "100%"
+    }
+  },
+
+  "flex-layout.col#cincoimagens5": {
+    "children": ["image#cincoimagens5"],
+    "props": {
+      "blockClass": "sobre-5-banners-informativos",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#cincoimagens5": {
+    "props": {
+      "src": "https://tfcuey.vteximg.com.br/arquivos/sobre-experiencia-completa.png?v=6376431868697300",
+      "maxWidth": "100%"
+    }
+  },
+
+
+
+  "flex-layout.row#cincoimagens-mobile-col-1": {
+    "children": ["flex-layout.col#cincoimagensmobile1","flex-layout.col#cincoimagensmobile2"],
+    "props": {
+      "blockClass": "sobre-5-imagens-mobile-coluna1"
+    }
+  },
+
+  "flex-layout.col#cincoimagensmobile1": {
+    "children": ["image#cincoimagensmobile1"],
+    "props": {
+      "blockClass": "sobre-5-banners-mobile-informativos",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#cincoimagensmobile1": {
+    "props": {
+      "src": "https://tfcuey.vteximg.com.br/arquivos/5-banners-sobre-mobile-1.png?v=6376431868697300755",
+      "maxWidth": "100%"
+    }
+  },
+
+  "flex-layout.col#cincoimagensmobile2": {
+    "children": ["image#cincoimagensmobile2"],
+    "props": {
+      "blockClass": "sobre-5-banners-mobile-informativos",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#cincoimagensmobile2": {
+    "props": {
+      "src": "https://tfcuey.vteximg.com.br/arquivos/5-banners-sobre-mobile-2.png?v=63764318686973007565",
+      "maxWidth": "100%"
+    }
+  },
+
+
+
+  "flex-layout.row#cincoimagens-mobile-col-2": {
+    "children": ["flex-layout.col#cincoimagensmobile3","flex-layout.col#cincoimagensmobile4","flex-layout.col#cincoimagensmobile5"],
+    "props": {
+      "blockClass": "sobre-5-imagens-mobile-coluna2"
+    }
+  },
+
+  "flex-layout.col#cincoimagensmobile3": {
+    "children": ["image#cincoimagensmobile3"],
+    "props": {
+      "blockClass": "sobre-5-banners-mobile-informativos",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#cincoimagensmobile3": {
+    "props": {
+      "src": "https://tfcuey.vteximg.com.br/arquivos/5-banners-sobre-mobile-3.png?v=6376431868697300756756",
+      "maxWidth": "100%"
+    }
+  },
+
+  "flex-layout.col#cincoimagensmobile4": {
+    "children": ["image#cincoimagensmobile4"],
+    "props": {
+      "blockClass": "sobre-5-banners-mobile-informativos",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#cincoimagensmobile4": {
+    "props": {
+      "src": "https://tfcuey.vteximg.com.br/arquivos/5-banners-sobre-mobile-4.png?v=6376431868697300765",
+      "maxWidth": "100%"
+    }
+  },
+  "flex-layout.col#cincoimagensmobile5": {
+    "children": ["image#cincoimagensmobile5"],
+    "props": {
+      "blockClass": "sobre-5-banners-mobile-informativos",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#cincoimagensmobile5": {
+    "props": {
+      "src": "https://tfcuey.vteximg.com.br/arquivos/5-banners-sobre-mobile-5.png?v=637643186869730076575",
+      "maxWidth": "100%"
+    }
+  },
+
+
+
+
+
+  "flex-layout.row#portrasdabrme": {
+    "children": ["flex-layout.row#contsobreportrasdabrmetitulo"],
+    "props": {
+      "blockClass": "sobre-por-tras-da-brme"
+    }
+  },
+
+
+
+
+
+
+  "flex-layout.row#contsobreportrasdabrmetitulo": {
+    "children": ["flex-layout.col#blococontsobreportrasdabrmetitulo"]
+  },
+
+  "flex-layout.col#blococontsobreportrasdabrmetitulo": {
+    "children": ["rich-text#por-tras-da-brme-title", "list-context.image-list#portrasdabrme"],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#por-tras-da-brme-title": {
+    "props": {
+      "text": "Por trás da BR-ME",
+      "blockClass": "titulo-por-tras-da-brme"
+    }
+  },
+
+
+
+  "list-context.image-list#portrasdabrme": {
+    "children": ["slider-layout#demo-portrasdabrme"],
+    "props": {
+      "height": 650,
+      "images": [
+        {
+          "image": "https://tfcuey.vteximg.com.br/arquivos/adriano-soncini.png",
+          "description": "Adriano Soncini"
+        },
+        {
+          "image": "https://tfcuey.vteximg.com.br/arquivos/Alexandre_fialho_pg_sobre.png",
+          "description": "Alexandre Fialho"
+        },
+        {
+          "image": "https://tfcuey.vteximg.com.br/arquivos/felipe-jannuzzi.png",
+          "description": "Felipe Jannuzzi"
+        },
+        {
+          "image": "https://tfcuey.vteximg.com.br/arquivos/Guga_valente_pg_sobre.png",
+          "description": "Guga Valente"
+        },
+        {
+          "image": "https://tfcuey.vteximg.com.br/arquivos/karen-guedes.png",
+          "description": "Karen Guedes"
+        },
+        {
+          "image": "https://tfcuey.vteximg.com.br/arquivos/Laercio_cosentino_pg_sobre.png",
+          "description": "Laercio Cosentino"
+        },
+        {
+          "image": "https://tfcuey.vteximg.com.br/arquivos/Rodrigo_vella_pg_sobre.png",
+          "description": "Rodrigo Vella"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-portrasdabrme": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true
+    }
+
+
+
+    
+  },
+
+
+
+
+
+
+
+
+
+
+  "flex-layout.row#portrasdabrmev2": {
+    "children": ["flex-layout.row#contsobreportrasdabrmetitulov2"],
+    "props": {
+      "blockClass": "sobre-por-tras-da-brme"
+    }
+  },
+
+
+
+
+
+
+  "flex-layout.row#contsobreportrasdabrmetitulov2": {
+    "children": ["flex-layout.col#blococontsobreportrasdabrmetitulov2"]
+  },
+
+  "flex-layout.col#blococontsobreportrasdabrmetitulov2": {
+    "children": ["rich-text#por-tras-da-brme-titlev2", "flex-layout.row#portrasdabrmebloco1","flex-layout.row#portrasdabrmebloco2","flex-layout.row#portrasdabrmebloco3"],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#por-tras-da-brme-titlev2": {
+    "props": {
+      "text": "Por trás da BR-ME",
+      "blockClass": "titulo-por-tras-da-brme"
+    }
+  },
+
+  "flex-layout.row#portrasdabrmebloco1":{
+    "children": ["modal-trigger#adriano","modal-trigger#alexandre","modal-trigger#caio","modal-trigger#felipe"],
+    "props": {
+        "blockClass": "portrasdabrmebloco1"
+      }
+  },
+  "flex-layout.row#portrasdabrmebloco2":{
+    "children": ["modal-trigger#guga","modal-trigger#karen","modal-trigger#laercio","modal-trigger#rodrigo"],
+    "props": {
+        "blockClass": "portrasdabrmebloco2"
+      }
+  },
+
+  "flex-layout.row#portrasdabrmebloco3":{
+    "children": ["slider-layout#portrasdabrmemobile"],
+    "props": {
+        "blockClass": "portrasdabrmebloco3"
+      }
+
+
+
+
+  },
+
+
+  /*teste modal*/
+
+ "modal-trigger#adriano": {
+    "children": ["image#adrianotrigger", "modal-layout#adriano"]
+
+  },
+  "modal-layout#adriano": {
+    "children": [ "modal-header#adriano","rich-text#adriano"]
+
+  },
+
+  "modal-header#adriano":{
+    "props": {
+        "showCloseButton":"true"
+    }
+
+  },
+
+  "image#adrianotrigger": {
+    "props": {
+      "src": "https://tfcuey.vtexassets.com/arquivos/adriano-soncini.png"
+    
+    }
+  },
+  "rich-text#adriano": {
+    "props": {
+      "text": "**ADRIANO SONCINI**  \n \n Fundador do Calçadão, espaço de lazer que foca na prática de esportes de areia referência no Brasil. Com carreira profissional diversificada, passando por startups de tecnologia, real estate e organização de eventos, Adriano agora encabeça a criação de uma Vinícola Boutique na represa de Avaré, a Casa Soncini. \n Adriano enxerga na BR-ME grande potencial de unir sofisticação com simplicidade e revolucionar o mercado de produtos e experiências com DNA brasileiro."
+     
+    }
+  },
+
+
+
+
+  "modal-trigger#alexandre": {
+    "children": ["image#alexandretrigger", "modal-layout#alexandre"]
+  },
+  "modal-layout#alexandre": {
+    "children": ["modal-header#alexandre","rich-text#alexandre"]
+  },
+  "modal-header#alexandre":{
+    "props": {
+        "showCloseButton":"true"
+    }
+
+  },
+  "image#alexandretrigger": {
+    "props": {
+      "src": "https://tfcuey.vtexassets.com/arquivos/Alexandre_fialho_pg_sobre.png"
+    }
+  },
+  "rich-text#alexandre": {
+    "props": {
+      "text": "**ALEXANDRE FIALHO** \n \n Empresário, consultor, professor e um dos principais mentores de grandes líderes no Brasil, Alexandre Fialho teve sua trajetória mudada pelo envolvimento com vinhos nacionais há mais de três anos, depois de décadas visitando vinícolas ao redor do mundo e degustando preponderantemente vinhos de outros países. Poder apresentar o valor da brasilidade por meio de itens que reflitam a nossa cultura de excelência e personalidade é o que o move. Fialho é um dos sócios-fundadores da BR-ME. "
+    }
+  },
+
+
+
+
+
+
+  "modal-trigger#caio": {
+    "children": ["image#caiotrigger", "modal-layout#caio"]
+  },
+  "modal-layout#caio": {
+    "children": ["modal-header#caio","rich-text#caio"]
+  },
+  "modal-header#caio":{
+    "props": {
+        "showCloseButton":"true"
+    }
+
+  },
+  "image#caiotrigger": {
+    "props": {
+      "src": "https://tfcuey.vtexassets.com/arquivos/caio-david.png"
+    }
+  },
+  "rich-text#caio": {
+    "props": {
+      "text": "**CAIO DAVID** \n \n Caio David é sócio-fundador da GHT4, the Family Company. Com uma carreira de mais de 30 anos no Itaú Unibanco, atuou em diferentes funções, inclusive como Diretor Geral do Banco de Atacado e Presidente e CEO do Itaú BBA. Atualmente preside o Conselho de Administração da Dimensa, empresa de tecnologia pertencente à TOTVS e B3. \n \n Com sua ampla experiência profissional em tecnologia e finanças, com cursos de especialização e mestrado no Brasil e nos EUA, Caio exerce, como sócio da BR-ME, papel fundamental na agenda de inovação, modelo de negócios e plataforma digital, mostrando ao mercado o que o Brasil produz de melhor."
+    }
+  },
+
+
+
+  
+  "modal-trigger#felipe": {
+    "children": ["image#felipetrigger", "modal-layout#felipe"]
+  },
+  "modal-layout#felipe": {
+    "children": ["modal-header#felipe","rich-text#felipe"]
+  },
+  "modal-header#felipe":{
+    "props": {
+        "showCloseButton":"true"
+    }
+
+  },
+  "image#felipetrigger": {
+    "props": {
+      "src": "https://tfcuey.vtexassets.com/arquivos/felipe-jannuzzi.png"
+    }
+  },
+  "rich-text#felipe": {
+    "props": {
+      "text": "**FELIPE JANNUZZI** \n \n Em 2010, Felipe Jannuzzi fundou o Mapa da Cachaça, premiado projeto cultural com reconhecimento internacional e a principal referência sobre cachaça no mundo. Felipe é um dos sócios fundadores da Espíritos Brasileiros, empresa pioneira no mercado de produção e importação de gins no Brasil, responsável pelo premiado Virga, primeiro gin artesanal brasileiro. Desde 2021, é um dos sócios da BR-ME. "
+    }
+  },
+
+
+
+
+  "modal-trigger#guga": {
+    "children": ["image#gugatrigger", "modal-layout#guga"]
+  },
+  "modal-layout#guga": {
+    "children": ["modal-header#guga","rich-text#guga"]
+  },
+  "modal-header#guga":{
+    "props": {
+        "showCloseButton":"true"
+    }
+
+  },
+  "image#gugatrigger": {
+    "props": {
+      "src": "https://tfcuey.vtexassets.com/arquivos/Guga_valente_pg_sobre.png"
+    }
+  },
+  "rich-text#guga": {
+    "props": {
+      "text": "**GUGA VALENTE**  \n \n Cocriador da DM9DDB, agência ícone e referência criativa de excelência de gestão no Brasil, Guga Valente é também fundador, sócio e membro do Conselho Executivo do Grupo ABC, o maior grupo de comunicação brasileiro. Guga uniu-se à BR-ME como sócio-fundador com o intuito de colocar holofotes naquele Brasil do qual todos nós nos orgulhamos. "
+    }
+  },
+
+
+
+  "modal-trigger#karen": {
+    "children": ["image#karentrigger", "modal-layout#karen"]
+  },
+  "modal-layout#karen": {
+    "children": ["modal-header#karen","rich-text#karen"]
+  },
+  "modal-header#karen":{
+    "props": {
+        "showCloseButton":"true"
+    }
+
+  },
+  "image#karentrigger": {
+    "props": {
+      "src": "https://tfcuey.vtexassets.com/arquivos/karen-guedes.png"
+    }
+  },
+  "rich-text#karen": {
+    "props": {
+      "text": "**KAREN GUEDES** \n \n Organicamente inconformada. Sempre viveu rodeada de conhecedores de bebidas, mestres das misturas 'coquetéis', ingredientes regionais e se apaixonou pelo potencial de valorização da nossa cultura através dos sabores. \n \n Engenheira de formação, construiu a carreira em corporações multinacionais e decidiu reescrever sua história, contribuindo com o que aprendeu de estratégia & marketing neste rico universo etílico. \n \n E já deixa o recado, vamos nos unir para valorizar ainda mais o grande privilégio de sermos BRASIL?"
+    }
+  },
+
+
+
+  "modal-trigger#laercio": {
+    "children": ["image#laerciotrigger", "modal-layout#laercio"]
+  },
+  "modal-layout#laercio": {
+    "children": ["modal-header#laercio","rich-text#laercio"]
+  },
+  "modal-header#laercio":{
+    "props": {
+        "showCloseButton":"true"
+    }
+
+  },
+  "image#laerciotrigger": {
+    "props": {
+      "src": "https://tfcuey.vtexassets.com/arquivos/Laercio_cosentino_pg_sobre.png"
+    }
+  },
+  "rich-text#laercio": {
+    "props": {
+      "text": "**LAÉRCIO COSENTINO** \n \n Fundador e presidente do conselho da TOTVS, maior empresa de tecnologia e sistemas do Brasil, Laércio Cosentino é presidente do conselho da Mendelics, empresa destaque no sequenciamento do genoma humano, e investidor em startups no setor da saúde, financeiro e de tecnologia. Como sócio fundador da BR-ME, acredita que o Brasil precisa ser descoberto pelos próprios brasileiros para ser referenciado fora do país. "
+    }
+  },
+
+
+
+  "modal-trigger#rodrigo": {
+    "children": ["image#rodrigotrigger", "modal-layout#rodrigo"]
+  },
+  "modal-layout#rodrigo": {
+    "children": ["modal-header#rodrigo","rich-text#rodrigo"]
+  },
+  "modal-header#rodrigo":{
+    "props": {
+        "showCloseButton":"true"
+    }
+
+  },
+  "image#rodrigotrigger": {
+    "props": {
+      "src": "https://tfcuey.vtexassets.com/arquivos/Rodrigo_vella_pg_sobre.png"
+    }
+  },
+  "rich-text#rodrigo": {
+    "props": {
+      "text": "**RODRIGO VELLA** \n \n Sócio fundador do Vella Pugliese Buosi e Guidoni Advogados, Rodrigo Vella é administrador do escritório e responsável pela parceria estratégica com o Dentons – o maior escritório de advocacia do mundo. Vella é sócio fundador da BR-ME e acredita fielmente no potencial do Brasil para competir em pé de igualdade com os principais países exportadores de alimentos e bebidas gourmet. "
+    }
+  },
+
+
+
+
+
+  
+  "slider-layout#portrasdabrmemobile": {
+    "children": ["modal-trigger#adriano","modal-trigger#alexandre","modal-trigger#caio","modal-trigger#felipe","modal-trigger#guga","modal-trigger#karen","modal-trigger#laercio","modal-trigger#rodrigo"],
+    "props": {
+      "autoplay": {
+        "blockClass": "portrasdabrmobile",
+        "timeout": 5000,
+        "stopOnHover": false
+      },
+      "blockClass": "imagensportrasdabrmobile"
+    }
+  }
+
+
+
+
+
+
+/*end teste modal*/
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+

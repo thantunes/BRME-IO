@@ -1,0 +1,4667 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+    
+      "menu-item#category-vinhos",
+      "menu-item#category-cafes",
+      "menu-item#category-destilados",
+      "menu-item#category-azeites",
+      "menu-item#category-saude",
+      "menu-item#category-chocolate",
+      "menu-item#category-experiencias",
+      "menu-item#category-sobre"
+    ]
+  },
+  "menu-item#category-vinhos": {
+    "props": {
+      "id": "menu-item-category-vinhos",
+      "blockClass": "menuvinhos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "categoryID":"80",
+        "href": "/gastronomia/vinhos",
+        "noFollow": false,
+        "tagTitle": "Vinhos",
+        "text": "Vinhos",
+        "blockClass": "link-menu"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#vinhos"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#vinhos": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-vinhos-more"
+    ]
+  },
+
+  "flex-layout.row#menu-vinhos-more": {
+    "children": [
+      "flex-layout.col#menu-vinhos-preco",
+      "flex-layout.col#menu-vinhos-tipo",
+      "flex-layout.col#menu-vinhos-por-uva",
+      "flex-layout.col#menu-vinhos-por-indicacao"
+
+    ]
+  },
+
+  "flex-layout.col#menu-vinhos-preco": {
+    "children": [
+      "vtex.menu@2.x:menu#vinhos-preco"
+    ]
+  },
+  "vtex.menu@2.x:menu#vinhos-preco": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#vinhoporpreco",
+      "menu-item#vinhoate40",
+      "menu-item#vinhoate40a60",
+      "menu-item#vinhoate60a100",
+      "menu-item#vinhoate100a200",
+      "menu-item#vinhoate200a500",
+      "menu-item#vinhoateacima500",
+      "menu-item#vinhovertodosprecos"
+      
+
+    ]
+  },
+  "menu-item#vinhoporpreco": {
+    "props": {
+      "id": "menu-item-portipo",
+      "blockClass": "title-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "noFollow": true,
+        "tagTitle": "Por preço",
+        "text": "Por preço"
+      }
+    }
+  },
+  "menu-item#vinhoate40": {
+    "props": {
+      "id": "menu-item-vinhoate40",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/vinhos/Tinto?PS=26&fuzzy=0&initialMap=c,c,specificationFilter_41&initialQuery=gastronomia/vinhos/Tinto&map=c,c,specificationFilter_41&operator=and&priceRange=35%20TO%2040&searchState",
+        "noFollow": true,
+        "tagTitle": "até R$40",
+        "text": "até R$40"
+      }
+    }
+  },
+  "menu-item#vinhoate40a60": {
+    "props": {
+      "id": "menu-item-vinhoate40a60",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/vinhos?fuzzy=0&initialMap=c,c&initialQuery=gastronomia/vinhos&operator=and&priceRange=40%20TO%2060&searchState",
+        "noFollow": true,
+        "tagTitle": "De R$40 a R$60",
+        "text": "De R$40 a R$60"
+      }
+    }
+  },
+  "menu-item#vinhoate60a100": {
+    "props": {
+      "id": "menu-item-vinhoate60a100",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/vinhos?fuzzy=0&initialMap=c,c&initialQuery=gastronomia/vinhos&operator=and&priceRange=60%20TO%20100&searchState",
+        "noFollow": true,
+        "tagTitle": "De R$60 a R$100",
+        "text": "De R$60 a R$100"
+      }
+    }
+  },
+  "menu-item#vinhoate100a200": {
+    "props": {
+      "id": "menu-item-vinhoate100a200",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/vinhos?fuzzy=0&initialMap=c,c&initialQuery=gastronomia/vinhos&operator=and&priceRange=100%20TO%20200&searchState",
+        "noFollow": true,
+        "tagTitle": "De R$100 a R$200",
+        "text": "De R$100 a R$200"
+      }
+    }
+  },
+  "menu-item#vinhoate200a500": {
+    "props": {
+      "id": "menu-item-vinhoate200a500",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/vinhos?fuzzy=0&initialMap=c,c&initialQuery=gastronomia/vinhos&operator=and&priceRange=200%20TO%20500&searchState",
+        "noFollow": true,
+        "tagTitle": "De R$200 a R$500",
+        "text": "De R$200 a R$500"
+      }
+    }
+  },
+  "menu-item#vinhoateacima500": {
+    "props": {
+      "id": "menu-item-vinhoateacima500",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/vinhos?fuzzy=0&initialMap=c,c&initialQuery=gastronomia/vinhos&operator=and&priceRange=500%20TO%203000&searchState",
+        "noFollow": true,
+        "tagTitle": "Acima de R$500",
+        "text": "Acima de R$500"
+      }
+    }
+  },
+  "menu-item#vinhovertodosprecos": {
+    "props": {
+      "id": "menu-item-vinhovertodosprecos",
+      "blockClass": "link-megamenu-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/vinhos/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  }, 
+
+  "menu-item#vinhoporindicacao": { 
+    "props": {
+      "id": "menu-item-vinhovertodosprecos",
+      "blockClass": "title-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "noFollow": true,
+        "tagTitle": "Por indicação",
+        "text": "Por indicação"
+      }
+    }
+  },
+  "menu-item#vinhomaisvendidos": {
+    "props": {
+      "id": "menu-item-vinhovertodosprecos",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/vinhos?order=OrderByTopSaleDESC",
+        "noFollow": true,
+        "tagTitle": "Mais Vendidos",
+        "text": "Mais Vendidos"
+      }
+    }
+  },
+  "menu-item#vinhorecomendados": {
+    "props": {
+      "id": "menu-item-vinhovertodosprecos",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/vinhos/recomendado-pelo-comite/recomendado-pelo-comite?initialMap=c&initialQuery=gastronomia&map=category-1,category-2,recomendado-pelo-comite,recomendado-pelo-comite",
+        "noFollow": true,
+        "tagTitle": "Recomendados pelo Comitê",
+        "text": "Recomendados pelo Comitê"
+      }
+    }
+  },
+
+ 
+  "menu-item#vinhonovidades": {
+    "props": {
+      "id": "menu-item-vinhovertodosprecos",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/vinhos?order=OrderByReleaseDateDESC",
+        "noFollow": true,
+        "tagTitle": "Novidades",
+        "text": "Novidades"
+      }
+    }
+  },
+
+  "menu-item#ofertas": {
+    "props": {
+      "id": "menu-item-vinhovertodosprecos",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/vinhos?order=OrderByBestDiscountDESC",
+        "noFollow": true,
+        "tagTitle": "Ofertas",
+        "text": "Ofertas"
+      }
+    }
+  },
+
+  "menu-item#raridades": {
+    "props": {
+      "id": "menu-item-vinhovertodosprecos",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/vinhos?order=OrderByPriceDESC",
+        "noFollow": true,
+        "tagTitle": "Raridades",
+        "text": "Raridades"
+      }
+    }
+  },
+  "menu-item#vertodosporindicacao": {
+    "props": {
+      "id": "menu-item-vinhovertodosprecos",
+      "blockClass": "link-megamenu-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/vinhos",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+
+  "flex-layout.col#menu-vinhos-tipo": {
+    "children": [
+      "vtex.menu@2.x:menu#vinhos-tipo"
+    ]
+  },
+  
+  "vtex.menu@2.x:menu#vinhos-tipo": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#vinhoportipo",
+      "menu-item#vinhotinto",
+      "menu-item#vinhobranco",
+      "menu-item#vinhorose",
+      "menu-item#vinhoespumante",
+      "menu-item#vinholicoroso",
+      "menu-item#tipoacessorios",
+      "menu-item#vertodosvinhos"
+    ]
+  },
+  "menu-item#vinhoportipo": {
+    "props": {
+      "id": "menu-item-portipo",
+      "blockClass": "title-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "noFollow": true,
+        "tagTitle": "Por Tipo",
+        "text": "Por Tipo"
+      }
+    }
+  },
+
+  "menu-item#tipoacessorios": {
+    "props": {
+      "id": "menu-item-vinhotinto",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios",
+        "noFollow": true,
+        "tagTitle": "Acessórios",
+        "text": "Acessórios"
+      }
+    }
+  },
+
+  "menu-item#vinhotinto": {
+    "props": {
+      "id": "menu-item-vinhotinto",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/vinhos/Tinto?PS=26&map=c,c,specificationFilter_41",
+        "noFollow": true,
+        "tagTitle": "Tintos",
+        "text": "Tintos"
+      }
+    }
+  },
+  "menu-item#vinhobranco": {
+    "props": {
+      "id": "menu-item-vinhobranco",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/vinhos/Branco?PS=26&map=c,c,specificationFilter_41",
+        "noFollow": true,
+        "tagTitle": "Brancos",
+        "text": "Brancos"
+      }
+    }
+  },
+  "menu-item#vinhorose": {
+    "props": {
+      "id": "menu-item-vinhorose",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/vinhos/Rosé?PS=26&map=c,c,specificationFilter_41",
+        "noFollow": true,
+        "tagTitle": "Rosés",
+        "text": "Roses"
+      }
+    }
+  },
+  "menu-item#vinhoespumante": {
+    "props": {
+      "id": "menu-item-vinhoespumante",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/vinhos/vinho-espumante",
+        "noFollow": true,
+        "tagTitle": "Espumantes",
+        "text": "Espumantes"
+      }
+    }
+  },
+  "menu-item#vinholicoroso": {
+    "props": {
+      "id": "menu-item-vinholicoroso",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/vinhos/licoroso",
+        "noFollow": true,
+        "tagTitle": "Licorosos",
+        "text": "Licorosos"
+      }
+    }
+  },
+  "menu-item#vertodosvinhos": {
+    "props": {
+      "id": "menu-item-vertodosvinhos",
+      "blockClass": "link-megamenu-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/vinhos/",
+        "noFollow": true,
+        "tagTitle": "Ver todos",
+        "text": "Ver todos"
+      }
+    }
+  },
+  
+
+  "flex-layout.col#menu-vinhos-por-uva": {
+    "children": [
+      "vtex.menu@2.x:menu#vinhos-por-uva"
+    ]
+  },
+  "vtex.menu@2.x:menu#vinhos-por-uva": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#poruva",
+      "menu-item#cabernet",
+      "menu-item#carmenere",
+      "menu-item#chardonnay",
+      "menu-item#malbec",
+      "menu-item#merlot",
+      "menu-item#pinot",
+      "menu-item#sauvigon",
+      "menu-item#shiraz",
+      "menu-item#vertodasuvas"
+    ]
+  },
+  "menu-item#poruva": {
+    "props": {
+      "id": "menu-item-poruva",
+      "blockClass": "title-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Por uva",
+        "text": "Por uva"
+      }
+    }
+  },
+  "menu-item#cabernet": {
+    "props": {
+      "id": "menu-item-cabernet",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/vinhos/CABERNET%20SAUVIGNON?PS=26&map=c,c,specificationFilter_43",
+        "noFollow": true,
+        "tagTitle": "Cabernet Sauvignon",
+        "text": "Cabernet Sauvignon"
+      }
+    }
+  },
+  "menu-item#carmenere": {
+    "props": {
+      "id": "menu-item-carmenere",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/vinhos/CARMENERE?PS=26&map=c,c,specificationFilter_43",
+        "noFollow": true,
+        "tagTitle": "Carménère",
+        "text": "Carménère"
+      }
+    }
+  },
+  "menu-item#chardonnay": {
+    "props": {
+      "id": "menu-item-chardonnay",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/vinhos/CHARDONNAY?PS=26&map=c,c,specificationFilter_43",
+        "noFollow": true,
+        "tagTitle": "Chardonnay",
+        "text": "Chardonnay"
+      }
+    }
+  },
+  "menu-item#malbec": {
+    "props": {
+      "id": "menu-item-malbec",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/vinhos/MALBEC?PS=26&map=c,c,specificationFilter_43",
+        "noFollow": true,
+        "tagTitle": "Malbec",
+        "text": "Malbec"
+      }
+    }
+  },
+  "menu-item#merlot": {
+    "props": {
+      "id": "menu-item-merlot",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/vinhos/MERLOT?PS=26&map=c,c,specificationFilter_43",
+        "noFollow": true,
+        "tagTitle": "Merlot",
+        "text": "Merlot"
+      }
+    }
+  },
+  "menu-item#pinot": {
+    "props": {
+      "id": "menu-item-pinot",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/vinhos/PINOT%20NOIR?PS=26&map=c,c,specificationFilter_43",
+        "noFollow": true,
+        "tagTitle": "Pinot Noir",
+        "text": "Pinot Noir"
+      }
+    }
+  },
+  "menu-item#sauvigon": {
+    "props": {
+      "id": "menu-item-sauvigon",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/vinhos/SAUVIGON%20BLANC?PS=26&map=c,c,specificationFilter_43",
+        "noFollow": true,
+        "tagTitle": "Sauvigon Blanc",
+        "text": "Sauvigon Blanc"
+      }
+    }
+  },
+  "menu-item#shiraz": {
+    "props": {
+      "id": "menu-item-shiraz",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/vinhos/SYRAH?PS=26&map=c,c,specificationFilter_43",
+        "noFollow": true,
+        "tagTitle": "Shyrah",
+        "text": "Shyrah"
+      }
+    }
+  },
+  "menu-item#vertodasuvas": {
+    "props": {
+      "id": "menu-item-ertodasuvas",
+      "blockClass": "link-megamenu-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/vinhos?PS=26",
+        "noFollow": true,
+        "tagTitle": "Ver todos",
+        "text": "Ver todos"
+      }
+    }
+  },
+
+
+  "flex-layout.col#menu-vinhos-por-indicacao": {
+    "children": [
+      "vtex.menu@2.x:menu#vinhos-por-indicacao"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#vinhos-por-indicacao": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#vinhoporindicacao",
+      "menu-item#vinhomaisvendidos",
+      "menu-item#vinhorecomendados",
+      "menu-item#vinhonovidades",
+      "menu-item#ofertas",
+      "menu-item#raridades",
+      "menu-item#vertodosporindicacao"
+    ]
+  },
+
+  "menu-item#vinhosporregiao": {
+    "props": {
+      "id": "menu-item-vinhosporregiao",
+      "blockClass": "title-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Por região",
+        "text": "Por região"
+      }
+    }
+  },
+
+  "menu-item#vinhosaltosmontes": {
+    "props": {
+      "id": "menu-item-vinhosaltosmontes",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/vinhos/MONTE%20BELO%20DO%20SUL%20@slash@%20RS?PS=26&map=c,c,specificationFilter_38",
+        "noFollow": true,
+        "tagTitle": "Altos Montes - RS",
+        "text": "Altos Montes - RS"
+      }
+    }
+  },
+  "menu-item#vinhoscamapanhagaucha": {
+    "props": {
+      "id": "menu-item-vinhoscamapanhagaucha",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/vinhos/CAMPANHA%20GAUCHA%20–%20RS?PS=26&map=c,c,specificationFilter_38",
+        "noFollow": true,
+        "tagTitle": "Campanha Gaúcha - RS",
+        "text": "Campanha Gaúcha - RS"
+      }
+    }
+  },
+  "menu-item#vinhoscamposaltitude": {
+    "props": {
+      "id": "menu-item-vinhoscamposaltitude",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/vinhos/CAMPOS%20DE%20ALTITUDE%20–%20SC?PS=26&map=c,c,specificationFilter_38",
+        "noFollow": true,
+        "tagTitle": "Campos de Altitude - SC",
+        "text": "Campos de Altitude - SC"
+      }
+    }
+  },
+  "menu-item#vinhoscamposdecimadaserra": {
+    "props": {
+      "id": "menu-item-vinhoscamposdecimadaserra",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/vinhos/CAMPOS%20DE%20CIMA%20DA%20SERRA–%20RS?PS=26&map=c,c,specificationFilter_38",
+        "noFollow": true,
+        "tagTitle": "Campos de cima da Serra - RS",
+        "text": "Campos de cima da Serra - RS"
+      }
+    }
+  },
+  "menu-item#vinhospintobandeira": {
+    "props": {
+      "id": "menu-item-vinhospintobandeira",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/vinhos/PINTO%20DOS%20BANDEIRA%20–%20RS?PS=26&map=c,c,specificationFilter_38",
+        "noFollow": true,
+        "tagTitle": "Pinto Bandeira - RS",
+        "text": "Pinto Bandeira - RS"
+      }
+    }
+  },
+  "menu-item#vinhosserracatarinense": {
+    "props": {
+      "id": "menu-item-vinhosserracatarinense",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/vinhos/SERRA%20DOS%20CATARINENSE%20–%20SC?PS=26&map=c,c,specificationFilter_38",
+        "noFollow": true,
+        "tagTitle": "Serra Catarinense - SC",
+        "text": "Serra Catarinense - SC"
+      }
+    }
+  },
+  "menu-item#vinhosserradosudeoestegaucho": {
+    "props": {
+      "id": "menu-item-vinhosserradosudeoestegaucho",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/vinhos/SERRA%20DOS%20SUDOESTE%20GAUCHO%20–%20RS?PS=26&map=c,c,specificationFilter_38",
+        "noFollow": true,
+        "tagTitle": "Serra do Sudoeste Gaúcho - RS",
+        "text": "Serra do Sudoeste Gaúcho - RS"
+      }
+    }
+  },
+  "menu-item#vinhosserragaucha": {
+    "props": {
+      "id": "menu-item-vinhosserragaucha",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/vinhos/SERRA%20DOS%20GAUCHA%20–%20RS?PS=26&map=c,c,specificationFilter_38",
+        "noFollow": true,
+        "tagTitle": "Serra Gaúcha - RS",
+        "text": "Serra Gaúcha - RS"
+      }
+    }
+  },
+  "menu-item#vinhosvaledosvinhedos": {
+    "props": {
+      "id": "menu-item-vinhosserragaucha",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/vinhos/VALE%20DOS%20VINHEDOS%20–%20RS?PS=26&map=c,c,specificationFilter_38",
+        "noFollow": true,
+        "tagTitle": "Vale dos Vinhedos - RS",
+        "text": "Vale dos Vinhedos - RS"
+      }
+    }
+  },
+  "menu-item#vinhosvertodasregioes": {
+    "props": {
+      "id": "menu-item-vinhosvertodasregioes",
+      "blockClass": "link-megamenu-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/vinhos?PS=26",
+        "noFollow": true,
+        "tagTitle": "Ver todos",
+        "text": "Ver todos"
+      }
+    }
+  },
+  
+
+
+     "menu-item#category-cafes": {
+      "props": {
+        "id": "menu-item-category-cafes",
+        "blockClass": "menucafes",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/gastronomia/cafe",
+          "categoryID":"2",
+          "noFollow": false,
+          "tagTitle": "Cafés",
+          "text": "Cafés",
+          "blockClass": "link-menu"
+        }
+       
+      },
+      "blocks": [
+        "vtex.menu@2.x:submenu#cafes"
+      ]
+    },
+  
+    "vtex.menu@2.x:submenu#cafes": {
+      "props": {
+        "width": "100%"
+      },
+      "children": [
+        "flex-layout.row#menu-cafes-more"
+      ]
+    },
+  
+    "flex-layout.row#menu-cafes-more": {
+      "children": [
+        "flex-layout.col#menu-cafes-porpreco",
+        "flex-layout.col#menu-cafes-portipo",
+        "flex-layout.col#menu-cafes-pormetodo",
+        "flex-layout.col#menu-cafes-intensidade",
+        "flex-layout.col#menu-cafes-indicacao"
+      ]
+    },
+
+
+
+
+    "flex-layout.col#menu-cafes-porpreco": {
+      "children": [
+        "vtex.menu@2.x:menu#cafes-porpreco"
+      ]
+    },
+    
+    "vtex.menu@2.x:menu#cafes-porpreco": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#cafeporpreco",
+        "menu-item#cafeate40",
+        "menu-item#cafeate40a60",
+        "menu-item#cafeate60a100",
+        "menu-item#cafeate100a200",
+        "menu-item#cafeacima200",
+        "menu-item#cafeavertodosporpreco"
+
+      ]
+    },
+  
+    "menu-item#cafeporpreco": {
+      "props": {
+        "id": "menu-item-cafeporpreco",
+        "blockClass": "title-megamenu",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "noFollow": true,
+          "tagTitle": "Por preço",
+          "text": "Por preço"
+        }
+      }
+    },
+    "menu-item#cafeate40": {
+      "props": {
+        "id": "menu-item-cafeate40",
+        "blockClass": "link-megamenu",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/gastronomia/cafe?fuzzy=0&initialMap=c,c&initialQuery=gastronomia/cafe&operator=and&priceRange=0%20TO%2040&searchState",
+          "noFollow": true,
+          "tagTitle": "até R$40",
+          "text": "até R$40"
+        }
+      }
+    },
+
+
+    "menu-item#cafeate40a60": {
+      "props": {
+        "id": "menu-item-cafeate40",
+        "blockClass": "link-megamenu",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/gastronomia/cafe?fuzzy=0&initialMap=c,c&initialQuery=gastronomia/cafe&operator=and&priceRange=40%20TO%2060&searchState",
+          "noFollow": true,
+          "tagTitle": "De R$40 a R$60",
+          "text": "De R$40 a R$60"
+        }
+      }
+    },
+
+
+    "menu-item#cafeate60a100": {
+      "props": {
+        "id": "menu-item-cafeate40",
+        "blockClass": "link-megamenu",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/gastronomia/cafe?fuzzy=0&initialMap=c,c&initialQuery=gastronomia/cafe&operator=and&priceRange=60%20TO%20100&searchState",
+          "noFollow": true,
+          "tagTitle": "De R$60 a R$100",
+          "text": "De R$60 a R$100"
+        }
+      }
+    },
+
+
+    "menu-item#cafeate100a200": {
+      "props": {
+        "id": "menu-item-cafeate40",
+        "blockClass": "link-megamenu",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/gastronomia/cafe?fuzzy=0&initialMap=c,c&initialQuery=gastronomia/cafe&operator=and&priceRange=100%20TO%20200&searchState",
+          "noFollow": true,
+          "tagTitle": "De R$100 a R$200",
+          "text": "De R$100 a R$200"
+        }
+      }
+    },
+
+
+
+    "menu-item#cafeacima200": {
+      "props": {
+        "id": "menu-item-cafeate40",
+        "blockClass": "link-megamenu",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/gastronomia/cafe?fuzzy=0&initialMap=c,c&initialQuery=gastronomia/cafe&operator=and&priceRange=200%20TO%201000&searchState",
+          "noFollow": true,
+          "tagTitle": "Acima de R$200",
+          "text": "Acima de R$200"
+        }
+      }
+    },
+
+
+    "menu-item#cafeavertodosporpreco": {
+      "props": {
+        "id": "menu-item-cafeavertodosporpreco",
+        "blockClass": "link-megamenu-ver-todos",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/gastronomia/cafe",
+          "noFollow": true,
+          "tagTitle": "ver todos",
+          "text": "ver todos"
+        }
+      }
+    },
+
+
+
+
+    "menu-item#cafesporindicacao": {
+      "props": {
+        "id": "menu-item-cafesporindicacao",
+        "blockClass": "title-megamenu",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "noFollow": true,
+          "tagTitle": "Por indicação",
+          "text": "Por indicação"
+        }
+      }
+    },
+
+
+    "menu-item#cafemaisvendidos": {
+      "props": {
+        "id": "menu-item-cafemaisvendidos",
+        "blockClass": "link-megamenu",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/gastronomia/cafe?order=OrderByTopSaleDESC",
+          "noFollow": true,
+          "tagTitle": "Mais Vendidos",
+          "text": "Mais Vendidos"
+        }
+      }
+    },
+
+
+
+    "menu-item#caferecomendadospelocomite": {
+      "props": {
+        "id": "menu-item-cafemaisvendidos",
+        "blockClass": "link-megamenu",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/gastronomia/cafe/suave?initialMap=c,c&initialQuery=gastronomia/cafe&map=category-1,category-2,intensidade",
+          "noFollow": true,
+          "tagTitle": "Recomenaddos pelo Comitê",
+          "text": "Recomenaddos pelo Comitê"
+        }
+      }
+    },
+
+
+    "menu-item#cafenovidades": {
+      "props": {
+        "id": "menu-item-cafenovidades",
+        "blockClass": "link-megamenu",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/gastronomia/cafe?order=OrderByReleaseDateDESC",
+          "noFollow": true,
+          "tagTitle": "Novidades",
+          "text": "Novidades"
+        }
+      }
+    },
+
+
+    "menu-item#cafeofertas": {
+      "props": {
+        "id": "menu-item-cafenovidades",
+        "blockClass": "link-megamenu",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/gastronomia/cafe?order=OrderByPriceASC",
+          "noFollow": true,
+          "tagTitle": "Ofertas",
+          "text": "Ofertas"
+        }
+      }
+    },
+
+      
+    "menu-item#caferaridades": {
+      "props": {
+        "id": "menu-item-cafenovidades",
+        "blockClass": "link-megamenu",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/gastronomia/cafe?order=OrderByPriceDESC",
+          "noFollow": true,
+          "tagTitle": "Raridades",
+          "text": "Raridades"
+        }
+      }
+    },
+
+
+    "menu-item#cafeavertodosporindicacao": {
+      "props": {
+        "id": "menu-item-cafeavertodosporindicacao",
+        "blockClass": "link-megamenu-ver-todos",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/gastronomia/cafe",
+          "noFollow": true,
+          "tagTitle": "ver todos",
+          "text": "ver todos"
+        }
+      }
+    },
+
+
+
+    "flex-layout.col#menu-cafes-pormetodo": {
+      "children": [
+        "vtex.menu@2.x:menu#cafes-pormetodo"
+      ]
+    },
+    
+    "vtex.menu@2.x:menu#cafes-pormetodo": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#cafepormetodo",
+        "menu-item#cafegraos",
+        "menu-item#cafemoidos",
+        "menu-item#vertodospormetodo"
+      ]
+    },
+  
+    "menu-item#cafepormetodo": {
+      "props": {
+        "id": "menu-item-cafepormetodo",
+        "blockClass": "title-megamenu",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "noFollow": true,
+          "tagTitle": "Por método",
+          "text": "Por método"
+        }
+      }
+    },
+    "menu-item#cafegraos": {
+      "props": {
+        "id": "menu-item-cafegraos",
+        "blockClass": "link-megamenu",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/gastronomia/cafe/grao?initialMap=c,c&initialQuery=gastronomia/cafe&map=category-1,category-2,metodo",
+          "noFollow": true,
+          "tagTitle": "Grãos",
+          "text": "Grãos"
+        }
+      }
+    },
+
+    "menu-item#cafemoidos": {
+      "props": {
+        "id": "menu-item-cafemoidos",
+        "blockClass": "link-megamenu",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/gastronomia/cafe/moido?initialMap=c,c&initialQuery=gastronomia/cafe&map=category-1,category-2,metodo",
+          "noFollow": true,
+          "tagTitle": "Moídos",
+          "text": "Moídos"
+        }
+      }
+    },
+
+    "menu-item#cafecapsulas": {
+      "props": {
+        "id": "menu-item-cafecapsulas",
+        "blockClass": "link-megamenu",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/gastronomia/cafe/cafe-capsula?__device=desktop&initialMap=c,c&initialQuery=gastronomia/cafe&map=category-1,category-2,tipo",
+          "noFollow": true,
+          "tagTitle": "Cápsulas",
+          "text": "Cápsulas"
+        }
+      }
+    },
+
+   
+    "menu-item#dripcoffe": {
+      "props": {
+        "id": "menu-item-dripcoffe",
+        "blockClass": "link-megamenu",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/gastronomia/cafe/cafe-drip-coffe?__device=desktop&initialMap=c,c&initialQuery=gastronomia/cafe&map=category-1,category-2,tipo",
+          "noFollow": true,
+          "tagTitle": "Drip Coffer",
+          "text": "Drip Coffer"
+        }
+      }
+    },
+
+
+    
+    "menu-item#cafesoluveis": {
+      "props": {
+        "id": "menu-item-cafecoldbrew",
+        "blockClass": "link-megamenu",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/gastronomia/cafe/cafe-coldbrew?__device=desktop&initialMap=c,c&initialQuery=gastronomia/cafe&map=category-1,category-2,tipo",
+          "noFollow": true,
+          "tagTitle": "Solúveis",
+          "text": "Solúveis"
+        }
+      }
+    },
+
+    "menu-item#cafecoldbrew": {
+      "props": {
+        "id": "menu-item-cafecoldbrew",
+        "blockClass": "link-megamenu",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/gastronomia/cafe/cafe-coldbrew?__device=desktop&initialMap=c,c&initialQuery=gastronomia/cafe&map=category-1,category-2,tipo",
+          "noFollow": true,
+          "tagTitle": "Could Brew",
+          "text": "Could Brew"
+        }
+      }
+    },
+
+
+
+    "menu-item#vertodospormetodo": {
+      "props": {
+        "id": "menu-item-cafecoldbrew",
+        "blockClass": "link-megamenu-ver-todos",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/gastronomia/cafe/",
+          "noFollow": true,
+          "tagTitle": "ver todos",
+          "text": "ver todos"
+        }
+      }
+    },
+
+
+
+
+
+    "flex-layout.col#menu-cafes-portipo": {
+      "children": [
+        "vtex.menu@2.x:menu#cafes-portipo"
+      ]
+    },
+    
+    "vtex.menu@2.x:menu#cafes-portipo": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#cafesportipo",
+        "menu-item#tipoacessorios"
+      ]
+    },
+
+
+  
+
+  
+    "flex-layout.col#menu-cafes-intensidade": {
+      "children": [
+        "vtex.menu@2.x:menu#cafes-intensidade"
+      ]
+    },
+    "vtex.menu@2.x:menu#cafes-intensidade": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#cafesporintensidade",
+        "menu-item#cafesuave",
+        "menu-item#cafemedio",
+        "menu-item#cafeintenso",
+        "menu-item#intensidadevertodos"
+      ]
+    },
+
+
+
+
+    "menu-item#cafesporintensidade": {
+      "props": {
+        "id": "menu-item-cafesporintensidade",
+        "blockClass": "title-megamenu",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "noFollow": true,
+          "tagTitle": "Por intensidade",
+          "text": "Por intensidade"
+        }
+      }
+    },
+
+
+    "menu-item#cafesuave": {
+      "props": {
+        "id": "menu-item-cafesuave",
+        "blockClass": "link-megamenu",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/gastronomia/cafe/clara-e-media?initialMap=c,c&initialQuery=gastronomia/cafe&map=category-1,category-2,intensidade-da-torra",
+          "noFollow": true,
+          "tagTitle": "Clara",
+          "text": "Clara"
+        }
+      }
+    },
+
+
+    
+    "menu-item#cafemedio": {
+      "props": {
+        "id": "menu-item-cafemedio",
+        "blockClass": "link-megamenu",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/gastronomia/cafe/media?initialMap=c,c&initialQuery=gastronomia/cafe&map=category-1,category-2,intensidade-da-torra",
+          "noFollow": true,
+          "tagTitle": "Média",
+          "text": "Média"
+        }
+      }
+    },
+
+    "menu-item#cafeintenso": {
+      "props": {
+        "id": "menu-item-cafeintenso",
+        "blockClass": "link-megamenu",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/gastronomia/cafe/alta?initialMap=c,c&initialQuery=gastronomia/cafe&map=category-1,category-2,intensidade-da-torra",
+          "noFollow": true,
+          "tagTitle": "Alta",
+          "text": "Alta"
+        }
+      }
+    },
+
+    "menu-item#intensidadevertodos": {
+      "props": {
+        "id": "menu-item-cafeintenso",
+        "blockClass": "link-megamenu-ver-todos",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/gastronomia/cafe/",
+          "noFollow": true,
+          "tagTitle": "ver todos",
+          "text": "ver todos"
+        }
+      }
+    },
+   
+
+    "flex-layout.col#menu-cafes-indicacao": {
+      "children": [
+        "vtex.menu@2.x:menu#cafes-indicacao"
+      ]
+    },
+    "vtex.menu@2.x:menu#cafes-indicacao": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#cafesporindicacao",
+        "menu-item#cafemaisvendidos",
+        "menu-item#caferecomendadospelocomite",
+        "menu-item#cafenovidades",
+        "menu-item#cafeofertas",
+        "menu-item#caferaridades",
+        "menu-item#cafeavertodosporindicacao"
+      ]
+    },
+
+
+
+
+    "menu-item#cafesportipo": {
+      "props": {
+        "id": "menu-item-cafesportipo",
+        "blockClass": "title-megamenu",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "noFollow": true,
+          "tagTitle": "Por tipo",
+          "text": "Por tipo"
+        }
+      }
+    },
+
+
+    "menu-item#cafearomatizada": {
+      "props": {
+        "id": "menu-item-cafearomatizada",
+        "blockClass": "link-megamenu",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/gastronomia/cafe/",
+          "noFollow": true,
+          "tagTitle": "Aromatizada",
+          "text": "Aromatizada"
+        }
+      }
+    },
+
+
+
+    "menu-item#cafecertificado": {
+      "props": {
+        "id": "menu-item-cafecertificado",
+        "blockClass": "link-megamenu",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/gastronomia/cafe/",
+          "noFollow": true,
+          "tagTitle": "Certificado",
+          "text": "Certificado"
+        }
+      }
+    },
+
+
+    "menu-item#cafedescafeinado": {
+      "props": {
+        "id": "menu-item-cafedescafeinado",
+        "blockClass": "link-megamenu",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/gastronomia/cafe/descafeinado?initialMap=c,c&initialQuery=gastronomia/cafe&map=category-1,category-2,category-3",
+          "noFollow": true,
+          "tagTitle": "Descafeínado",
+          "text": "Descafeínado"
+        }
+      }
+    },
+
+
+
+    "menu-item#cafemaiscafeinado": {
+      "props": {
+        "id": "menu-item-cafedescafeinado",
+        "blockClass": "link-megamenu",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/gastronomia/cafe/",
+          "noFollow": true,
+          "tagTitle": "Mais cafeínado",
+          "text": "Mais cafeínado"
+        }
+      }
+    },
+
+
+
+
+    "menu-item#cafemicrolote": {
+      "props": {
+        "id": "menu-item-cafemicrolote",
+        "blockClass": "link-megamenu",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/gastronomia/cafe/microlote?initialMap=c,c&initialQuery=gastronomia/cafe&map=category-1,category-2,category-3",
+          "noFollow": true,
+          "tagTitle": "Microlote",
+          "text": "Microlote"
+        }
+      }
+    },
+
+    "menu-item#cafeorganico": {
+      "props": {
+        "id": "menu-item-cafeorganico",
+        "blockClass": "link-megamenu",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/gastronomia/cafe/",
+          "noFollow": true,
+          "tagTitle": "Orgâmico",
+          "text": "Orgâmico"
+        }
+      }
+    },
+
+    "menu-item#cafeportipovertodos": {
+      "props": {
+        "id": "menu-item-cafeportipovertodos",
+        "blockClass": "link-megamenu-ver-todos",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/gastronomia/cafe/",
+          "noFollow": true,
+          "tagTitle": "ver todos",
+          "text": "ver todos"
+        }
+      }
+    },
+
+  "menu-item#category-destilados": {
+    "props": {
+      "id": "menu-item-category-destilados",
+      "blockClass": "menudestilados",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "categoryID":"5",
+        "href": "/gastronomia/destilado",
+        "noFollow": false,
+        "tagTitle": "Destilados",
+        "text": "Destilados",
+        "blockClass": "link-menu"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#destilados"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#destilados": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-destilados-more"
+    ]
+  },
+
+  "flex-layout.row#menu-destilados-more": {
+    "children": [
+      "flex-layout.col#menu-destilados-por-preco",
+      "flex-layout.col#menu-destilados-more-1",
+      "flex-layout.col#menu-destilados-por-indicacao"
+    ]
+  },
+
+
+  "flex-layout.col#menu-destilados-por-preco": {
+    "children": [
+      "vtex.menu@2.x:menu#destilados-por-preco"
+    ]
+  },
+  
+  "vtex.menu@2.x:menu#destilados-por-preco": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#destiladoporpreco",
+      "menu-item#destiladoate40",
+      "menu-item#destiladoate40a60",
+      "menu-item#destiladoate60a100",
+      "menu-item#destiladoate100a200",
+      "menu-item#destiladoate200a500",
+      "menu-item#destiladoateacima500",
+      "menu-item#destiladovertodosprecos"
+    ]
+  },
+
+  "menu-item#destiladoporpreco": {
+    "props": {
+      "id": "menu-item-portipo",
+      "blockClass": "title-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "noFollow": true,
+        "tagTitle": "Por preço",
+        "text": "Por preço"
+      }
+    }
+  },
+  "menu-item#destiladoate40": {
+    "props": {
+      "id": "menu-item-destiladoate40",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/destilado?fuzzy=0&initialMap=c,c&initialQuery=gastronomia/destilado&operator=and&priceRange=8%20TO%2040&searchState",
+        "noFollow": true,
+        "tagTitle": "até R$40",
+        "text": "até R$40"
+      }
+    }
+  },
+  "menu-item#destiladoate40a60": {
+    "props": {
+      "id": "menu-item-destiladoate40a60",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/destilado?fuzzy=0&initialMap=c,c&initialQuery=gastronomia/destilado&operator=and&priceRange=40%20TO%2060&searchState",
+        "noFollow": true,
+        "tagTitle": "De R$40 a R$60",
+        "text": "De R$40 a R$60"
+      }
+    }
+  },
+
+  "menu-item#destiladoate60a100": {
+    "props": {
+      "id": "menu-item-destiladoate60a100",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/destilado?fuzzy=0&initialMap=c,c&initialQuery=gastronomia/destilado&operator=and&priceRange=60%20TO%20100&searchState",
+        "noFollow": true,
+        "tagTitle": "De R$60 a R$100",
+        "text": "De R$60 a R$100"
+      }
+    }
+  },
+ 
+  "menu-item#destiladoate100a200": {
+    "props": {
+      "id": "menu-item-destiladoate100a200",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/destilado?fuzzy=0&initialMap=c,c&initialQuery=gastronomia/destilado&operator=and&priceRange=100%20TO%20200&searchState",
+        "noFollow": true,
+        "tagTitle": "De R$100 a R$200",
+        "text": "De R$100 a R$200"
+      }
+    }
+  },
+
+  "menu-item#destiladoate200a500": {
+    "props": {
+      "id": "menu-item-destiladoate200a500",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/destilado?fuzzy=0&initialMap=c,c&initialQuery=gastronomia/destilado&operator=and&priceRange=200%20TO%20500&searchState",
+        "noFollow": true,
+        "tagTitle": "De R$200 a R$500",
+        "text": "De R$200 a R$500"
+      }
+    }
+  },
+
+  "menu-item#destiladoateacima500": {
+    "props": {
+      "id": "menu-item-vateacima500",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/destilado?fuzzy=0&initialMap=c,c&initialQuery=gastronomia/destilado&operator=and&priceRange=500%20TO%202000&searchState",
+        "noFollow": true,
+        "tagTitle": "Acima de R$500",
+        "text": "Acima de R$500"
+      }
+    }
+  },
+
+  "menu-item#destiladovertodosprecos": {
+    "props": {
+      "id": "menu-item-destiladovertodosprecos",
+      "blockClass": "link-megamenu-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/destilado",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+
+  "flex-layout.col#menu-destilados-more-1": {
+    "children": [
+      "vtex.menu@2.x:menu#destilados-more"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#destilados-more": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#cachacaportipo",
+      "menu-item#aguarardente",
+      "menu-item#cachaca",
+      "menu-item#gin",
+      "menu-item#rum",
+      "menu-item#whisky",
+      "menu-item#licores",
+      "menu-item#vodca",
+      "menu-item#barris-e-dornas",
+      "menu-item#tipoacessorios",
+      "menu-item#todascachacas"
+    ]
+  },
+  "menu-item#cachacaportipo": {
+    "props": {
+      "id": "menu-item-cachacaportipo",
+      "blockClass": "title-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+       
+        "noFollow": true,
+        "tagTitle": "Por tipo",
+        "text": "Por tipo"
+      }
+    }
+  },
+
+  "menu-item#aguarardente": {
+    "props": {
+      "id": "menu-item-aguarardente",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/destilado/Aguardente?PS=26&map=c,c,specificationFilter_50",
+        "noFollow": true,
+        "tagTitle": "Aguardente",
+        "text": "Aguardente"
+      }
+    }
+  },
+
+  "menu-item#cachaca": {
+    "props": {
+      "id": "menu-item-cachaca",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/destilado/Cachaça?PS=26&map=c,c,specificationFilter_50",
+        "noFollow": true,
+        "tagTitle": "Cachaça",
+        "text": "Cachaça"
+      }
+    }
+  },
+
+
+
+  
+  "menu-item#barris-e-dornas": {
+    "props": {
+      "id": "menu-item-gin",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/barril-e-dorna",
+        "noFollow": true,
+        "tagTitle": "Barris e Dornas",
+        "text": "Barris e Dornas"
+      }
+    }
+  },
+
+
+
+ 
+  "menu-item#gin": {
+    "props": {
+      "id": "menu-item-gin",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/destilado/Gin?PS=26&map=c,c,specificationFilter_50",
+        "noFollow": true,
+        "tagTitle": "Gin",
+        "text": "Gin"
+      }
+    }
+  },
+
+  "menu-item#rum": {
+    "props": {
+      "id": "menu-item-rum",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/destilado/Rum?PS=26&map=c,c,specificationFilter_50",
+        "noFollow": true,
+        "tagTitle": "Rum",
+        "text": "Rum"
+      }
+    }
+  },
+
+  "menu-item#whisky": {
+    "props": {
+      "id": "menu-item-whisky",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/whisky",
+        "noFollow": true,
+        "tagTitle": "Whisky",
+        "text": "Whisky"
+      }
+    }
+  },
+
+  "menu-item#licores": {
+    "props": {
+      "id": "menu-item-licores",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/destilado/Licores%20e%20Mixers?PS=26&map=c,c,specificationFilter_50",
+        "noFollow": true,
+        "tagTitle": "Licores e Mixers",
+        "text": "Licores e Mixers"
+      }
+    }
+  },
+
+  "menu-item#vodca": {
+    "props": {
+      "id": "menu-item-vodca",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "noFollow": true,
+        "tagTitle": "Vodca",
+        "text": "Vodca"
+      }
+    }
+  },
+
+  "menu-item#todascachacas": {
+    "props": {
+      "id": "menu-item-todascachacas",
+      "blockClass": "link-megamenu-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/destilado",
+        "noFollow": true,
+        "tagTitle": "Ver todos",
+        "text": "Ver todos"
+      }
+    }
+  },
+
+
+
+  "flex-layout.col#menu-destilados-por-indicacao": {
+    "children": [
+      "vtex.menu@2.x:menu#destilados-por-indicacao"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#destilados-por-indicacao": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#destiladoporindicacao",
+      "menu-item#destiladomaisvendidos",
+      "menu-item#destiladorecomendados",
+      "menu-item#destiladonovidades",
+      "menu-item#destiladoaofertas",
+      "menu-item#destiladoraridades",
+      "menu-item#destiladovertodos"
+    ]
+  },
+
+
+  "menu-item#destiladoporindicacao": {
+    "props": {
+      "id": "menu-item-porindicacao",
+      "blockClass": "title-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "noFollow": true,
+        "tagTitle": "Por indicação",
+        "text": "Por indicação"
+      }
+    }
+  },
+  "menu-item#destiladomaisvendidos": {
+    "props": {
+      "id": "menu-item-destiladomaisvendidos",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/destilado",
+        "noFollow": true,
+        "tagTitle": "Mais Vendidos",
+        "text": "Mais Vendidos"
+      }
+    }
+  },
+
+  "menu-item#destiladorecomendados": {
+    "props": {
+      "id": "menu-item-destiladorecomendados",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/destilado/recomendado-pelo-comite?initialMap=c,c&initialQuery=gastronomia/destilado&map=category-1,category-2,recomendado-pelo-comite",
+        "noFollow": true,
+        "tagTitle": "Recomendados pelo Comitê",
+        "text": "Recomendados pelo Comitê"
+      }
+    }
+  },
+
+  "menu-item#destiladonovidades": {
+    "props": {
+      "id": "menu-item-destiladonovidades",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/destilado",
+        "noFollow": true,
+        "tagTitle": "Novidades",
+        "text": "Novidades"
+      }
+    }
+  },
+
+  "menu-item#destiladoaofertas": {
+    "props": {
+      "id": "menu-item-destiladoaofertas",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/destilado",
+        "noFollow": true,
+        "tagTitle": "Ofertas",
+        "text": "Ofertas"
+      }
+    }
+  },
+
+  "menu-item#destiladoraridades": {
+    "props": {
+      "id": "menu-item-destiladoraridades",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/destilado",
+        "noFollow": true,
+        "tagTitle": "Raridades",
+        "text": "Raridades"
+      }
+    }
+  },
+
+  "menu-item#destiladovertodos": {
+    "props": {
+      "id": "menu-item-destiladovertodos",
+      "blockClass": "link-megamenu-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/destilado",
+        "noFollow": true,
+        "tagTitle": "Ver todos",
+        "text": "Ver todos"
+      }
+    }
+  },
+
+
+
+  "flex-layout.col#menu-destilados-por-tipo": {
+    "children": [
+      "vtex.menu@2.x:menu#destilados-por-tipo"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#destilados-por-tipo": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#destiladoportipo",
+      "menu-item#destiladoaromatizada",
+      "menu-item#destiladocertificado",
+      "menu-item#destiladodescafeinado",
+      "menu-item#destiladomaisdescafeinado",
+      "menu-item#destiladomicrolote",
+      "menu-item#destiladomiorganico",
+      "menu-item#tipoacessorios",
+      "menu-item#destiladovertodos"
+    ]
+  },
+
+  "menu-item#destiladoportipo": {
+    "props": {
+      "id": "menu-item-porindicacao",
+      "blockClass": "title-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "noFollow": true,
+        "tagTitle": "Por tipo",
+        "text": "Por tipo"
+      }
+    }
+  },
+  "menu-item#destiladoaromatizada": {
+    "props": {
+      "id": "menu-item-destiladoaromatizada",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/destilado",
+        "noFollow": true,
+        "tagTitle": "Aromatizada",
+        "text": "Aromatizada"
+      }
+    }
+  },
+
+  "menu-item#destiladocertificado": {
+    "props": {
+      "id": "menu-item-destiladorecomendados",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/destilado",
+        "noFollow": true,
+        "tagTitle": "Certificado",
+        "text": "Certificado"
+      }
+    }
+  },
+
+  "menu-item#destiladodescafeinado": {
+    "props": {
+      "id": "menu-item-destiladodescafeinado",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/destilado",
+        "noFollow": true,
+        "tagTitle": "Descafeínado",
+        "text": "Descafeínado"
+      }
+    }
+  },
+
+  "menu-item#destiladomaisdescafeinado": {
+    "props": {
+      "id": "menu-item-destiladomaiscafeinado",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/destilado",
+        "noFollow": true,
+        "tagTitle": "Mais cafeínado",
+        "text": "Mais cafeínado"
+      }
+    }
+  },
+
+  "menu-item#destiladomicrolote": {
+    "props": {
+      "id": "menu-item-destiladomicrolote",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/destilado",
+        "noFollow": true,
+        "tagTitle": "Microlote",
+        "text": "Microlote"
+      }
+    }
+  },
+  
+  "menu-item#destiladomiorganico": {
+    "props": {
+      "id": "menu-item-destiladomiorganico",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/destilado",
+        "noFollow": true,
+        "tagTitle": "Orgânico",
+        "text": "Orgânico"
+      }
+    }
+  },
+
+ 
+ 
+
+"menu-item#category-azeites": {
+  "props": {
+    "id": "menu-item-category-azeites",
+    "blockClass": "menuazeites",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/gastronomia/azeites/",
+      "categoryID":"2",
+      "noFollow": false,
+      "tagTitle": "Azeites",
+      "text": "Azeites",
+      "blockClass": "link-menu"
+    }
+   
+  },
+  "blocks": [
+    "vtex.menu@2.x:submenu#azeites"
+  ]
+},
+
+"vtex.menu@2.x:submenu#azeites": {
+  "props": {
+    "width": "100%"
+  },
+  "children": [
+    "flex-layout.row#menu-azeites-more"
+  ]
+},
+
+"flex-layout.row#menu-azeites-more": {
+  "children": [
+    "flex-layout.col#menu-azeite-porpreco",
+    "flex-layout.col#menu-azeites-indensidade",
+    "flex-layout.col#menu-azeites-poroliva",
+    "flex-layout.col#menu-azeites-indicacao"
+  ]
+},
+
+
+
+"flex-layout.col#menu-azeite-porpreco": {
+  "children": [
+    "vtex.menu@2.x:menu#azeite-porpreco"
+  ]
+},
+
+"vtex.menu@2.x:menu#azeite-porpreco": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "menu-item#azeiteporpreco",
+    "menu-item#azeiteate40",
+    "menu-item#azeiteate40a60",
+    "menu-item#azeiteate60a100",
+    "menu-item#azeiteate100a200",
+    "menu-item#azeiteacima200",
+    "menu-item#vertodosporpreco"
+  ]
+},
+
+"menu-item#azeiteporpreco": {
+  "props": {
+    "id": "menu-item-azeiteporpreco",
+    "blockClass": "title-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "noFollow": true,
+      "tagTitle": "Por preço",
+      "text": "Por preço"
+    }
+  }
+},
+"menu-item#azeiteate40": {
+  "props": {
+    "id": "menu-item-azeiteate40",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/gastronomia/azeites/?fuzzy=0&initialMap=c,c&initialQuery=gastronomia/azeites&operator=and&priceRange=40%20TO%2045&searchState",
+      "noFollow": true,
+      "tagTitle": "até R$40",
+      "text": "até R$40"
+    }
+  }
+},
+
+
+"menu-item#azeiteate40a60": {
+  "props": {
+    "id": "menu-item-azeiteate40",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/gastronomia/azeites/?fuzzy=0&initialMap=c,c&initialQuery=gastronomia/azeites&operator=and&priceRange=44%20TO%2060&searchState",
+      "noFollow": true,
+      "tagTitle": "De R$40 a R$60",
+      "text": "De R$40 a R$60"
+    }
+  }
+},
+
+"menu-item#azeiteate60a100": {
+  "props": {
+    "id": "menu-item-azeiteate40",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/gastronomia/azeites/?fuzzy=0&initialMap=c,c&initialQuery=gastronomia/azeites&operator=and&priceRange=60%20TO%20100&searchState",
+      "noFollow": true,
+      "tagTitle": "De R$60 a R$100",
+      "text": "De R$60 a R$100"
+    }
+  }
+},
+
+"menu-item#azeiteate100a200": {
+  "props": {
+    "id": "menu-item-azeiteate40",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/gastronomia/azeites/?fuzzy=0&initialMap=c,c&initialQuery=gastronomia/azeites&operator=and&priceRange=100%20TO%20168&searchState",
+      "noFollow": true,
+      "tagTitle": "De R$100 a R$200",
+      "text": "De R$100 a R$200"
+    }
+  }
+},
+
+"menu-item#azeiteacima200": {
+  "props": {
+    "id": "menu-item-azeiteate40",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/gastronomia/azeites/?fuzzy=0&initialMap=c,c&initialQuery=gastronomia/azeites&operator=and&priceRange=200%20TO%20500&searchState",
+      "noFollow": true,
+      "tagTitle": "Acima de R$200",
+      "text": "Acima de R$200"
+    }
+  }
+},
+
+
+"menu-item#vertodosporpreco": {
+  "props": {
+    "id": "menu-item-azeiteate40",
+    "blockClass": "link-megamenu-ver-todos",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/gastronomia/azeites/",
+      "noFollow": true,
+      "tagTitle": "ver todos",
+      "text": "ver todos"
+    }
+  }
+},
+
+
+
+"flex-layout.col#menu-azeites-indensidade": {
+  "children": [
+    "vtex.menu@2.x:menu#azeites-indensidade"
+  ]
+},
+
+"vtex.menu@2.x:menu#azeites-indensidade": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "menu-item#azeitesportipo",
+    "menu-item#azeitesextravirgem",
+    "menu-item#azeitesorganico",
+    "menu-item#azeitestrufados",
+    "menu-item#azeitcondimentados",
+    "menu-item#tipoacessorios",
+    "menu-item#vertodosazeitesindensidade"
+   
+  ]
+},
+
+
+
+
+"menu-item#azeitesportipo": {
+  "props": {
+    "id": "menu-item-azeites",
+    "blockClass": "title-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+    
+      "noFollow": true,
+      "tagTitle": "Por tipo",
+      "text": "Por tipo"
+    }
+  }
+},
+
+"menu-item#azeitesextravirgem": {
+  "props": {
+    "id": "menu-item-cafesuave",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/gastronomia/azeites/extra-virgem?initialMap=c,c&initialQuery=gastronomia/azeites&map=category-1,category-2,tipo-de-azeite",
+      "noFollow": true,
+      "tagTitle": "Extra-virgem",
+      "text": "Extra-virgem"
+    }
+  }
+},
+
+"menu-item#azeitesorganico": {
+  "props": {
+    "id": "menu-item-azeitesorganico",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/gastronomia/azeites/organico?initialMap=c,c&initialQuery=gastronomia/azeites&map=category-1,category-2,tipo-de-azeite",
+      "noFollow": true,
+      "tagTitle": "Orgânico",
+      "text": "Orgânico"
+    }
+  }
+},
+
+"menu-item#azeitestrufados": {
+  "props": {
+    "id": "menu-item-azeitestrufados",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/gastronomia/azeites/trufados?initialMap=c,c&initialQuery=gastronomia/azeites&map=category-1,category-2,tipo-de-azeite",
+      "noFollow": true,
+      "tagTitle": "Trufados",
+      "text": "Trufados"
+    }
+  }
+},
+
+"menu-item#azeitcondimentados": {
+  "props": {
+    "id": "menu-item-azeitescondimentados",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/gastronomia/azeites/condimentados?initialMap=c,c&initialQuery=gastronomia/azeites&map=category-1,category-2,tipo-de-azeite",
+      "noFollow": true,
+      "tagTitle": "Condimentados",
+      "text": "Condimentados"
+    }
+  }
+},
+
+"menu-item#vertodosazeitesindensidade": {
+  "props": {
+    "id": "menu-item-vertodosazeitesindensidade",
+    "blockClass": "link-megamenu-ver-todos",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/gastronomia/azeites/",
+      "noFollow": true,
+      "tagTitle": "ver todos",
+      "text": "ver todos"
+    }
+  }
+},
+
+"flex-layout.col#menu-azeites-poroliva": {
+  "children": [
+    "vtex.menu@2.x:menu#azeites-poroliva"
+  ]
+},
+
+"vtex.menu@2.x:menu#azeites-poroliva": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "menu-item#azeitesporoliva",
+    "menu-item#azeitesarauco",
+    "menu-item#azeitesarbequina",
+    "menu-item#azeitesarbosana",
+    "menu-item#azeitesbarnea",
+    "menu-item#azeitesbiancollila",
+    "menu-item#azeiteskoroneiki",
+    "menu-item#azeitesleccino",
+    "menu-item#azeitesmanzanilla",
+    "menu-item#azeitesvertodosporoliva"
+  ]
+},
+
+
+
+
+"menu-item#azeitesporoliva": {
+  "props": {
+    "id": "menu-item-azeitesporoliva",
+    "blockClass": "title-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+    
+      "noFollow": true,
+      "tagTitle": "Por oliva",
+      "text": "Por oliva"
+    }
+  }
+},
+
+"menu-item#azeitesarauco": {
+  "props": {
+    "id": "menu-item-azeitesarauco",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/gastronomia/azeites",
+      "noFollow": true,
+      "tagTitle": "Arauco",
+      "text": "Arauco"
+    }
+  }
+},
+
+
+"menu-item#azeitesarbequina": {
+  "props": {
+    "id": "menu-item-azeitesarbequina",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/gastronomia/azeites",
+      "noFollow": true,
+      "tagTitle": "Arbequina",
+      "text": "Arbequina"
+    }
+  }
+},
+
+"menu-item#azeitesarbosana": {
+  "props": {
+    "id": "menu-item-azeitesarbosana",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/gastronomia/azeites",
+      "noFollow": true,
+      "tagTitle": "Arbosana",
+      "text": "Arbosana"
+    }
+  }
+},
+
+
+"menu-item#azeitesbarnea": {
+  "props": {
+    "id": "menu-item-azeitesbarnea",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/gastronomia/azeites",
+      "noFollow": true,
+      "tagTitle": "Barnea",
+      "text": "Barnea"
+    }
+  }
+},
+
+"menu-item#azeitesbiancollila": {
+  "props": {
+    "id": "menu-item-azeitesbiancollila",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/gastronomia/azeites",
+      "noFollow": true,
+      "tagTitle": "Biancollila",
+      "text": "Biancollila"
+    }
+  }
+},
+
+"menu-item#azeiteskoroneiki": {
+  "props": {
+    "id": "menu-item-azeiteskoroneiki",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/gastronomia/azeites",
+      "noFollow": true,
+      "tagTitle": "Koroneiki",
+      "text": "Koroneiki"
+    }
+  }
+},
+
+
+"menu-item#azeitesleccino": {
+  "props": {
+    "id": "menu-item-azeitesleccino",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/gastronomia/azeites",
+      "noFollow": true,
+      "tagTitle": "Leccino",
+      "text": "Leccino"
+    }
+  }
+},
+
+"menu-item#azeitesmanzanilla": {
+  "props": {
+    "id": "menu-item-azeitesmanzanilla",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/gastronomia/azeites",
+      "noFollow": true,
+      "tagTitle": "Manzanilla",
+      "text": "Manzanilla"
+    }
+  }
+},
+
+
+"menu-item#azeitesvertodosporoliva": {
+  "props": {
+    "id": "menu-item-azeitesvertodosporoliva",
+    "blockClass": "link-megamenu-ver-todos",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/gastronomia/azeites",
+      "noFollow": true,
+      "tagTitle": "ver todos",
+      "text": "ver todos"
+    }
+  }
+},
+
+
+
+"flex-layout.col#menu-azeites-indicacao": {
+  "children": [
+    "vtex.menu@2.x:menu#azeites-indicacao"
+  ]
+},
+
+"vtex.menu@2.x:menu#azeites-indicacao": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "menu-item#azeitesporindicacao",
+    "menu-item#azeitesmaisvendidos",
+    "menu-item#azeitesmaisrecomendados",
+    "menu-item#azeitesnovidades",
+    "menu-item#azeitesofertas",
+    "menu-item#azeitesraridades",
+    "menu-item#azeitesvertodosindicacao"
+    
+  ]
+},
+
+"menu-item#azeitesporindicacao": {
+  "props": {
+    "id": "menu-item-azeites",
+    "blockClass": "title-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+    
+      "noFollow": true,
+      "tagTitle": "Por indicação",
+      "text": "Por indicação"
+    }
+  }
+},
+
+"menu-item#azeitesmaisvendidos": {
+  "props": {
+    "id": "menu-item-azeitesmaisvendidos",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/gastronomia/azeites?PS=26&O=OrderByTopSaleDESC",
+      "noFollow": true,
+      "tagTitle": "Mais Vendidos",
+      "text": "Mais Vendidos"
+    }
+  }
+},
+
+"menu-item#azeitesmaisrecomendados": {
+  "props": {
+    "id": "menu-item-azeitesmaisvendidos",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/gastronomia/azeites/Recomendado%20pelo%20comitê?map=c,specificationFilter_182",
+      "noFollow": true,
+      "tagTitle": "Recomendados pelo comitê",
+      "text": "Recomendados pelo comitê"
+    }
+  }
+},
+
+"menu-item#azeitesnovidades": {
+  "props": {
+    "id": "menu-item-todosazeites",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/gastronomia/azeites/?order=OrderByReleaseDateDESC",
+      "noFollow": true,
+      "tagTitle": "Novidades",
+      "text": "Novidades"
+    }
+  }
+},
+
+"menu-item#azeitesofertas": {
+  "props": {
+    "id": "menu-item-azeitesofertas",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/gastronomia/azeites/?order=OrderByPriceASC",
+      "noFollow": true,
+      "tagTitle": "Ofertas",
+      "text": "Ofertas"
+    }
+  }
+},
+
+"menu-item#azeitesraridades": {
+  "props": {
+    "id": "menu-item-azeitesraridades",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/gastronomia/azeites/?order=OrderByPriceDESC",
+      "noFollow": true,
+      "tagTitle": "Raridades",
+      "text": "Raridades"
+    }
+  }
+},
+
+"menu-item#azeitesvertodosindicacao": {
+  "props": {
+    "id": "menu-item-azeitesvertodosindicacao",
+    "blockClass": "link-megamenu-ver-todos",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/gastronomia/azeites/",
+      "noFollow": true,
+      "tagTitle": "ver todos",
+      "text": "ver todos"
+    }
+  }
+},
+
+ "menu-item#category-saude": {
+  "props": {
+    "id": "menu-item-category-saude",
+    "blockClass": "menusaude",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/saude-e-beleza",
+      "categoryID":"2",
+      "noFollow": false,
+      "tagTitle": "Saúde & Beleza",
+      "text": "Saúde & Beleza",
+      "blockClass": "link-menu"
+    }
+   
+  },
+  "blocks": [
+    "vtex.menu@2.x:submenu#saude"
+  ]
+},
+
+"vtex.menu@2.x:submenu#saude": {
+  "props": {
+    "width": "100%"
+  },
+  "children": [
+    "flex-layout.row#menu-saude-more"
+  ]
+},
+
+"flex-layout.row#menu-saude-more": {
+  "children": [
+    "flex-layout.col#menu-saude-preco",
+    "flex-layout.col#menu-saude-more-1",
+    "flex-layout.col#menu-saude-por-perfil",
+    "flex-layout.col#menu-saude-por-indicacao"
+  ]
+},
+
+
+"flex-layout.col#menu-saude-preco": {
+  "children": [
+    "vtex.menu@2.x:menu#saude-preco"
+  ]
+},
+
+"vtex.menu@2.x:menu#saude-preco": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "menu-item#saudeporpreco",
+    "menu-item#saudeate40",
+    "menu-item#saudeate40a60",
+    "menu-item#saudeate60a100",
+    "menu-item#saudeate100a200",
+    "menu-item#saudeate200a500",
+    "menu-item#saudeateacima500",
+    "menu-item#saudevertodosprecos"
+  ]
+},
+
+"menu-item#saudeporpreco": {
+  "props": {
+    "id": "menu-item-portipo",
+    "blockClass": "title-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "noFollow": true,
+      "tagTitle": "Por preço",
+      "text": "Por preço"
+    }
+  }
+},
+"menu-item#saudeate40": {
+  "props": {
+    "id": "menu-item-saudeate40",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/saude-e-beleza/?fuzzy=0&initialMap=c&initialQuery=saude-e-beleza&operator=and&priceRange=0%20TO%2040&searchState",
+      "noFollow": true,
+      "tagTitle": "até R$40",
+      "text": "até R$40"
+    }
+  }
+},
+"menu-item#saudeate40a60": {
+  "props": {
+    "id": "menu-item-saudeate40a60",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/saude-e-beleza/?fuzzy=0&initialMap=c&initialQuery=saude-e-beleza&operator=and&priceRange=40%20TO%2060&searchState",
+      "noFollow": true,
+      "tagTitle": "De R$40 a R$60",
+      "text": "De R$40 a R$60"
+    }
+  }
+},
+
+"menu-item#saudeate60a100": {
+  "props": {
+    "id": "menu-item-saudeate60a100",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/saude-e-beleza/?fuzzy=0&initialMap=c&initialQuery=saude-e-beleza&operator=and&priceRange=60%20TO%20100&searchState",
+      "noFollow": true,
+      "tagTitle": "De R$60 a R$100",
+      "text": "De R$60 a R$100"
+    }
+  }
+},
+
+"menu-item#saudeate100a200": {
+  "props": {
+    "id": "menu-item-saudeate100a200",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/saude-e-beleza/?fuzzy=0&initialMap=c&initialQuery=saude-e-beleza&operator=and&priceRange=100%20TO%20200&searchState",
+      "noFollow": true,
+      "tagTitle": "De R$100 a R$200",
+      "text": "De R$100 a R$200"
+    }
+  }
+},
+
+"menu-item#saudeate200a500": {
+  "props": {
+    "id": "menu-item-saudeate200a500",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/saude-e-beleza/?fuzzy=0&initialMap=c&initialQuery=saude-e-beleza&operator=and&priceRange=200%20TO%20500&searchState",
+      "noFollow": true,
+      "tagTitle": "De R$200 a R$500",
+      "text": "De R$200 a R$500"
+    }
+  }
+},
+
+"menu-item#saudeateacima500": {
+  "props": {
+    "id": "menu-item-saudeateacima500",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/saude-e-beleza/?fuzzy=0&initialMap=c&initialQuery=saude-e-beleza&operator=and&priceRange=500%20TO%201334&searchState",
+      "noFollow": true,
+      "tagTitle": "Acima de R$500",
+      "text": "Acima de R$500"
+    }
+  }
+},
+
+"menu-item#saudevertodosprecos": {
+  "props": {
+    "id": "menu-item-saudevertodosprecos",
+    "blockClass": "link-megamenu-ver-todos",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/saude-e-beleza/",
+      "noFollow": true,
+      "tagTitle": "ver todos",
+      "text": "ver todos"
+    }
+  }
+},
+
+"flex-layout.col#menu-saude-more-1": {
+  "children": [
+    "vtex.menu@2.x:menu#saude-more"
+  ]
+},
+
+
+"vtex.menu@2.x:menu#saude-more": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "menu-item#saudeportipo",
+    "menu-item#saudetestes",
+    "menu-item#sauderosto",
+    "menu-item#saudecorpo",
+    "menu-item#tsaudecabelos",
+    "menu-item#saudekits",
+    "menu-item#tipoacessorios",
+    "menu-item#saudevertodos"
+    
+  ]
+},
+
+"menu-item#saudeportipo": {
+  "props": {
+    "id": "menu-item-mapeamento",
+    "blockClass": "title-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "noFollow": true,
+      "tagTitle": "Por tipo",
+      "text": "Por tipo"
+    }
+  }
+},
+
+"menu-item#saudetestes": {
+  "props": {
+    "id": "menu-item-saudetestes",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/saude-e-beleza/autoteste",
+      "noFollow": true,
+      "tagTitle": "Testes",
+      "text": "Testes"
+    }
+  }
+},
+"menu-item#sauderosto": {
+  "props": {
+    "id": "menu-item-sauderosto",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/saude-e-beleza/rosto",
+      "noFollow": true,
+      "tagTitle": "Rosto",
+      "text": "Rosto"
+    }
+  }
+},
+
+"menu-item#saudecorpo": {
+  "props": {
+    "id": "menu-item-saudecorpo",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/saude-e-beleza/corpo",
+      "noFollow": true,
+      "tagTitle": "Corpo",
+      "text": "Corpo"
+    }
+  }
+},
+
+"menu-item#tsaudecabelos": {
+  "props": {
+    "id": "menu-item-saudecabelos",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/saude-e-beleza/cabelo",
+      "noFollow": true,
+      "tagTitle": "Cabelos",
+      "text": "Cabelos"
+    }
+  }
+},
+
+"menu-item#saudekits": {
+  "props": {
+    "id": "menu-item-saudekits",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/saude-e-beleza/kits",
+      "noFollow": true,
+      "tagTitle": "Kits",
+      "text": "Kits"
+    }
+  }
+},
+
+"menu-item#saudevertodos": {
+  "props": {
+    "id": "menu-item-saudevertodos",
+    "blockClass": "link-megamenu-ver-todos",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/saude-e-beleza/",
+      "noFollow": true,
+      "tagTitle": "Ver todos",
+      "text": "Ver todos"
+    }
+  }
+},
+
+"flex-layout.col#menu-saude-por-perfil": {
+  "children": [
+    "vtex.menu@2.x:menu#saude-por-perfil"
+  ]
+},
+
+"vtex.menu@2.x:menu#saude-por-perfil": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "menu-item#saudeporperfil",
+    "menu-item#saudeparahomens",
+    "menu-item#saudeparamulheres",
+    "menu-item#saudeperfilvertodos"
+  ]
+},
+
+"menu-item#saudeporperfil": {
+  "props": {
+    "id": "menu-item-portipo",
+    "blockClass": "title-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "noFollow": true,
+      "tagTitle": "Por perfil",
+      "text": "Por perfil"
+    }
+  }
+},
+
+"menu-item#saudeparahomens": {
+  "props": {
+    "id": "menu-item-saudeparahomens",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/saude-e-beleza/",
+      "noFollow": true,
+      "tagTitle": "Para homens",
+      "text": "Para homens"
+    }
+  }
+},
+
+"menu-item#saudeparamulheres": {
+  "props": {
+    "id": "menu-item-saudeparamulheres",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/saude-e-beleza/",
+      "noFollow": true,
+      "tagTitle": "Para mulheres",
+      "text": "Para mulheres"
+    }
+  }
+},
+
+"menu-item#saudeperfilvertodos": {
+  "props": {
+    "id": "menu-item-saudeparamulheres",
+    "blockClass": "link-megamenu-ver-todos",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/saude-e-beleza/",
+      "noFollow": true,
+      "tagTitle": "Ver todos",
+      "text": "Ver todos"
+    }
+  }
+},
+
+"flex-layout.col#menu-saude-por-indicacao": {
+  "children": [
+    "vtex.menu@2.x:menu#saude-por-indicacao"
+  ]
+},
+
+"vtex.menu@2.x:menu#saude-por-indicacao": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "menu-item#saudeporindicacao",
+    "menu-item#saudemaisvendidos",
+    "menu-item#sauderecomendados",
+    "menu-item#saudenovidades",
+    "menu-item#saudeofertas",
+    "menu-item#saudeindicacaovertodos"
+  ]
+},
+
+"menu-item#saudeporindicacao": {
+  "props": {
+    "id": "menu-item-portipo",
+    "blockClass": "title-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "noFollow": true,
+      "tagTitle": "Por indicação",
+      "text": "Por indicação"
+    }
+  }
+},
+
+"menu-item#saudemaisvendidos": {
+  "props": {
+    "id": "menu-item-saudemaisvendidos",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/saude-e-beleza?order=OrderByTopSaleDESC",
+      "noFollow": true,
+      "tagTitle": "Mais Vendidos",
+      "text": "Mais Vendidos"
+    }
+  }
+},
+
+"menu-item#sauderecomendados": {
+  "props": {
+    "id": "menu-item-sauderecomendados",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/saude-e-beleza/",
+      "noFollow": true,
+      "tagTitle": "Recomendados pelo Comitê",
+      "text": "Recomendados pelo Comitê"
+    }
+  }
+},
+
+"menu-item#saudenovidades": {
+  "props": {
+    "id": "menu-item-saudenovidades",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/saude-e-beleza?order=OrderByReleaseDateDESC",
+      "noFollow": true,
+      "tagTitle": "Novidades",
+      "text": "Novidades"
+    }
+  }
+},
+
+"menu-item#saudeofertas": {
+  "props": {
+    "id": "menu-item-saudeofertas",
+    "blockClass": "link-megamenu",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/saude-e-beleza?order=OrderByBestDiscountDESC",
+      "noFollow": true,
+      "tagTitle": "Ofertas",
+      "text": "Ofertas"
+    }
+  }
+},
+
+"menu-item#saudeindicacaovertodos": {
+  "props": {
+    "id": "menu-item-saudeindicacaovertodos",
+    "blockClass": "link-megamenu-ver-todos",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/saude-e-beleza/",
+      "noFollow": true,
+      "tagTitle": "Ver todos",
+      "text": "Ver todos"
+    }
+  }
+},
+
+
+
+
+
+  "menu-item#category-chocolate": {
+    "props": {
+      "id": "menu-item-category-chocolate",
+      "blockClass": "menuchocolate",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "categoryID":"3",
+        "href": "/chocolates/chocolate?_q=chocolate&fuzzy=0&initialMap=ft&initialQuery=chocolate&map=category-2,ft&operator=and",
+        "noFollow": false,
+        "tagTitle": "Chocolates",
+        "text": "Chocolates",
+        "blockClass": "link-menu"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#chocolate"
+    ]
+  },
+
+
+  "vtex.menu@2.x:submenu#chocolate": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-chocolate-more"
+    ]
+  },
+
+  "flex-layout.row#menu-chocolate-more": {
+    "children": [
+      "flex-layout.col#menu-chocolate-preco",
+      "flex-layout.col#menu-chocolate-more",
+      "flex-layout.col#menu-chocolate-porindicacao"
+    ]
+  },
+
+
+  "flex-layout.col#menu-chocolate-preco": {
+    "children": [
+      "vtex.menu@2.x:menu#chocolate-preco"
+    ]
+  },
+  
+  "vtex.menu@2.x:menu#chocolate-preco": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#chocolateporpreco",
+      "menu-item#chocolateate40",
+      "menu-item#chocolateate40a60",
+      "menu-item#chocolateate60a100",
+      "menu-item#chocolatevertodosporpreco"
+    ]
+  },
+
+  "menu-item#chocolateporpreco": {
+    "props": {
+      "id": "menu-item-chocolate-por-preco",
+      "blockClass": "title-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "noFollow": true,
+        "tagTitle": "Por preço",
+        "text": "Por preço"
+      }
+    }
+  },
+  "menu-item#chocolateate40": {
+    "props": {
+      "id": "menu-item-chocolateate40",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/chocolates?fuzzy=0&initialMap=c,c&initialQuery=gastronomia/chocolates&operator=and&priceRange=17%20TO%2040&searchState",
+        "noFollow": true,
+        "tagTitle": "até R$40",
+        "text": "até R$40"
+      }
+    }
+  },
+  "menu-item#chocolateate40a60": {
+    "props": {
+      "id": "menu-item-chocolateate40a60",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/chocolates?fuzzy=0&initialMap=c,c&initialQuery=gastronomia/chocolates&operator=and&priceRange=40%20TO%2060&searchState",
+        "noFollow": true,
+        "tagTitle": "De R$40 a R$60",
+        "text": "De R$40 a R$60"
+      }
+    }
+  },
+
+  "menu-item#chocolateate60a100": {
+    "props": {
+      "id": "menu-item-chocolateate60a100",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/chocolates?fuzzy=0&initialMap=c,c&initialQuery=gastronomia/chocolates&operator=and&priceRange=57%20TO%20100&searchState",
+        "noFollow": true,
+        "tagTitle": "De R$60 a R$100",
+        "text": "De R$60 a R$100"
+      }
+    }
+  },
+  "menu-item#chocolatevertodosporpreco": {
+    "props": {
+      "id": "menu-item-chocolatevertodosporpreco",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/chocolates",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+
+  
+
+  "flex-layout.col#menu-chocolate-more": {
+    "children": [
+      "vtex.menu@2.x:menu#chocolate-more"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#chocolate-more": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#chocolateportipo",
+      "menu-item#chocolateaoleite",
+      "menu-item#chocolatebranco",
+      "menu-item#chocolaintensos",
+      "menu-item#chocolatesaborizados",
+      "menu-item#chocolateorganicos",
+      "menu-item#tipoacessorios",
+      "menu-item#chocolatesvertodos"
+    ]
+  },
+
+  "menu-item#chocolateportipo": {
+    "props": {
+      "id": "menu-item-acaoclaeadora",
+      "blockClass": "title-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+      
+        "noFollow": true,
+        "tagTitle": "Por tipo",
+        "text": "Por tipo"
+      }
+    }
+  },
+
+  "menu-item#chocolateaoleite": {
+    "props": {
+      "id": "menu-item-aoleite",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/chocolates/chocolate?_q=chocolate&fuzzy=0&initialMap=ft&initialQuery=chocolate&map=category-2,ft&operator=and",
+        "noFollow": true,
+        "tagTitle": "Ao leite",
+        "text": "Ao leite"
+      }
+    }
+  },
+  "menu-item#chocolatebranco": {
+    "props": {
+      "id": "menu-item-chocolate",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/chocolates/chocolate?_q=chocolate&fuzzy=0&initialMap=ft&initialQuery=chocolate&map=category-2,ft&operator=and",
+        "noFollow": true,
+        "tagTitle": "Branco",
+        "text": "Branco"
+      }
+    }
+  },
+
+  "menu-item#chocolaintensos": {
+    "props": {
+      "id": "menu-item-chocolaintensos",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/chocolates/chocolate?_q=chocolate&fuzzy=0&initialMap=ft&initialQuery=chocolate&map=category-2,ft&operator=and",
+        "noFollow": true,
+        "tagTitle": "Intensos",
+        "text": "Intensos"
+      }
+    }
+  },
+
+  "menu-item#chocolatesaborizados": {
+    "props": {
+      "id": "menu-item-chocolatesaborizados",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/chocolates/chocolate?_q=chocolate&fuzzy=0&initialMap=ft&initialQuery=chocolate&map=category-2,ft&operator=and",
+        "noFollow": true,
+        "tagTitle": "Saborizados",
+        "text": "Saborizados"
+      }
+    }
+  },
+
+  "menu-item#chocolateorganicos": {
+    "props": {
+      "id": "menu-item-chocolatesaborizados",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/chocolates/chocolate?_q=chocolate&fuzzy=0&initialMap=ft&initialQuery=chocolate&map=category-2,ft&operator=and",
+        "noFollow": true,
+        "tagTitle": "Orgânicos",
+        "text": "Orgânicos"
+      }
+    }
+  },
+
+  "menu-item#chocolatesvertodos": {
+    "props": {
+      "id": "menu-item-chocolatevertodo",
+      "blockClass": "link-megamenu-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/chocolates/chocolate?_q=chocolate&fuzzy=0&initialMap=ft&initialQuery=chocolate&map=category-2,ft&operator=and",
+        "noFollow": true,
+        "tagTitle": "Ver todos",
+        "text": "Ver todos"
+      }
+    }
+  },
+
+
+
+
+
+  "flex-layout.col#menu-chocolate-porindicacao": {
+    "children": [
+      "vtex.menu@2.x:menu#chocolate-porindicacao"
+    ]
+  },
+  
+  "vtex.menu@2.x:menu#chocolate-porindicacao": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#chocolateporindicacao",
+      "menu-item#chocolatemaisvendidos",
+      "menu-item#chocolaterecomendados",
+      "menu-item#chocolatenovidades",
+      "menu-item#chocolateofertas",
+      "menu-item#chocolatevertodos"
+    ]
+  },
+
+  "menu-item#chocolateporindicacao": {
+    "props": {
+      "id": "menu-item-chocolate-mais-vendidos",
+      "blockClass": "title-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "noFollow": true,
+        "tagTitle": "Por indicação",
+        "text": "Por indicação"
+      }
+    }
+  },
+  "menu-item#chocolatemaisvendidos": {
+    "props": {
+      "id": "menu-item-chocolate-mais-vendidos",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/chocolates?order=OrderByTopSaleDESC",
+        "noFollow": true,
+        "tagTitle": "Mais vendidos",
+        "text": "Mais vendidos"
+      }
+    }
+  },
+  "menu-item#chocolaterecomendados": {
+    "props": {
+      "id": "menu-item-chocolaterecomendados",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/chocolates",
+        "noFollow": true,
+        "tagTitle": "Recomendados pelo Comitê",
+        "text": "Recomendados pelo Comitê"
+      }
+    }
+  },
+
+  "menu-item#chocolatenovidades": {
+    "props": {
+      "id": "menu-item-chocolatenovidades",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/chocolates?order=OrderByReleaseDateDESC",
+        "noFollow": true,
+        "tagTitle": "Novidades",
+        "text": "Novidades"
+      }
+    }
+  },
+
+  "menu-item#chocolateofertas": {
+    "props": {
+      "id": "menu-item-chocolateofertas",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/chocolates?order=OrderByBestDiscountDESC",
+        "noFollow": true,
+        "tagTitle": "Ofertas",
+        "text": "Ofertas"
+      }
+    }
+  },
+  
+  "menu-item#chocolatevertodos": {
+    "props": {
+      "id": "menu-item-chocolatevertodos",
+      "blockClass": "link-megamenu-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gastronomia/chocolates",
+        "noFollow": true,
+        "tagTitle": "Ver todos",
+        "text": "Ver todos"
+      }
+    }
+  },
+
+  
+  "menu-item#category-experiencias": {
+    "props": {
+      "id": "menu-item-category-experiencias",
+      "blockClass": "menuexperiencias",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+       
+        "categoryID":"2",
+        "noFollow": false,
+        "tagTitle": "Eventos",
+        "text": "Eventos",
+        "blockClass": "link-menu"
+      }
+     
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#experiencias"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#experiencias": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-experiencias-more"
+    ]
+  },
+
+  "flex-layout.row#menu-experiencias-more": {
+    "children": [
+      "flex-layout.col#menu-experiencias-more-1",
+      "flex-layout.col#menu-experiencias-portipo",
+      "flex-layout.col#menu-experiencias-porindicacao"
+    ]
+  },
+
+  
+
+
+  "flex-layout.col#menu-experiencias-more-1": {
+    "children": [
+      "vtex.menu@2.x:menu#experiencias-more"
+    ]
+  },
+ 
+  "vtex.menu@2.x:menu#experiencias-more": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#porplataforma",
+      "menu-item#online"
+    ]
+  },
+
+  "menu-item#porplataforma": {
+    "props": {
+      "id": "menu-item-aulas",
+      "blockClass": "title-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "noFollow": true,
+        "tagTitle": "Por plataforma",
+        "text": "Por plataforma"
+      }
+    }
+  },
+
+  "menu-item#online": {
+    "props": {
+      "id": "menu-item-online",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/eventos/eventos-online",
+        "noFollow": true,
+        "tagTitle": "Online",
+        "text": "Online"
+      }
+    }
+  },
+
+
+  
+
+  "menu-item#presencial": {
+    "props": {
+      "id": "menu-item-presencial",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/eventos/",
+        "noFollow": true,
+        "tagTitle": "Presencial",
+        "text": "Presencial"
+      }
+    }
+  },
+
+  "menu-item#hibrido": {
+    "props": {
+      "id": "menu-item-hibrido",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/eventos/",
+        "noFollow": true,
+        "tagTitle": "Híbridos",
+        "text": "Híbridos"
+      }
+    }
+  },
+
+
+
+
+
+
+  "flex-layout.col#menu-experiencias-portipo": {
+    "children": [
+      "vtex.menu@2.x:menu#experiencias-portipo"
+    ]
+  },
+ 
+  "vtex.menu@2.x:menu#experiencias-portipo": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#eventosportipo",
+      "menu-item#barbrmeeventos",
+      "menu-item#confrataria",
+      "menu-item#degustacoes",
+      "menu-item#eventocachaca",
+      "menu-item#kitseventoscorporativos"
+    ]
+  },
+
+  "menu-item#eventosportipo": {
+    "props": {
+      "id": "menu-item-eventosportipo",
+      "blockClass": "title-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "noFollow": true,
+        "tagTitle": "Por tipo",
+        "text": "Por tipo"
+      }
+    }
+  },
+
+
+  "menu-item#degustacoes": {
+    "props": {
+      "id": "menu-item-degustacoes",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/eventos/",
+        "noFollow": true,
+        "tagTitle": "Degustações",
+        "text": "Degustações"
+      }
+    }
+  },
+
+
+
+  "menu-item#eventocachaca": {
+    "props": {
+      "id": "menu-item-eventocachaca",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://info.brme.com.br/eventos-cachaca",
+        "noFollow": true,
+        "tagTitle": "Eventos de Cachaça",
+        "text": "Eventos de Cachaça"
+      }
+    }
+  },
+
+
+
+  "menu-item#kitseventoscorporativos": {
+    "props": {
+      "id": "menu-item-kitseventoscorporativos",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://info.brme.com.br/kits-e-eventos-corporativos",
+        "noFollow": true,
+        "tagTitle": "Kits e Eventos corporativos",
+        "text": "Kits e Eventos corporativos"
+      }
+    }
+  },
+
+
+  "menu-item#barbrmeeventos": {
+    "props": {
+      "id": "menu-item-barbrmeeventos",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://info.brme.com.br/bar-br-me",
+        "noFollow": true,
+        "tagTitle": "Bar BR-ME",
+        "text": "Bar BR-ME"
+      }
+    }
+  },
+
+
+
+  "menu-item#confrataria": {
+    "props": {
+      "id": "menu-item-confrataria",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://info.brme.com.br/confraria-brme",
+        "noFollow": true,
+        "tagTitle": "Confraria BR-ME",
+        "text": "Confraria BR-ME"
+      }
+    }
+  },
+
+  
+  "menu-item#aulasgravadas": {
+    "props": {
+      "id": "menu-item-aulasgravadas",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/eventos/",
+        "noFollow": true,
+        "tagTitle": "Aulas gravadas",
+        "text": "Aulas gravadas"
+      }
+    }
+  },
+
+  "menu-item#eventoscorporativos": {
+    "props": {
+      "id": "menu-item-eventoscorporativos",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/eventos/",
+        "noFollow": true,
+        "tagTitle": "Eventos corporativos",
+        "text": "Eventos corporativos"
+      }
+    }
+  },
+
+  "menu-item#vivencias": {
+    "props": {
+      "id": "menu-item-vivencias",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/eventos/",
+        "noFollow": true,
+        "tagTitle": "Vivências",
+        "text": "Vivências"
+      }
+    }
+  },
+  "menu-item#barbrme": {
+    "props": {
+      "id": "menu-item-barbrme",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/eventos/",
+        "noFollow": true,
+        "tagTitle": "Bar BR-ME",
+        "text": "Bar BR-ME"
+      }
+    }
+  },
+     
+  "menu-item#portifoliosdeeventos": {
+    "props": {
+      "id": "menu-item-portifoliosdeeventos",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/eventos/",
+        "noFollow": true,
+        "tagTitle": "Portifólio de eventos",
+        "text": "Portifólio de eventos"
+      }
+    }
+  },
+     
+     
+    
+
+
+
+  "flex-layout.col#menu-experiencias-porindicacao": {
+    "children": [
+      "vtex.menu@2.x:menu#experiencias-porindicacao"
+    ]
+  },
+ 
+  "vtex.menu@2.x:menu#experiencias-porindicacao": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#eventosporindicacao",
+      "menu-item#eventosofertas" 
+    ]
+  },
+
+  "menu-item#eventosporindicacao": {
+    "props": {
+      "id": "menu-item-eventosporindicacao",
+      "blockClass": "title-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "noFollow": true,
+        "tagTitle": "Por indicação",
+        "text": "Por indicação"
+      }
+    }
+  },
+
+
+  "menu-item#eventosmaisvendidos": {
+    "props": {
+      "id": "menu-item-eventosmaisvendidos",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/eventos/",
+        "noFollow": true,
+        "tagTitle": "Mais Vendidos",
+        "text": "Mais Vendidos"
+      }
+    }
+  },
+
+
+
+  "menu-item#eventosrecomendados": {
+    "props": {
+      "id": "menu-item-eventosrecomendados",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/eventos/",
+        "noFollow": true,
+        "tagTitle": "Recomendados pelo Comitê",
+        "text": "Recomendados pelo Comitê"
+      }
+    }
+  },
+
+
+
+  
+
+
+  "menu-item#eventosnovidades": {
+    "props": {
+      "id": "menu-item-eventosrecomendados",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/eventos/",
+        "noFollow": true,
+        "tagTitle": "Novidades",
+        "text": "Novidades"
+      }
+    }
+  },
+
+  
+
+
+  "menu-item#eventosofertas": {
+    "props": {
+      "id": "menu-item-eventosofertas",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/eventos/",
+        "noFollow": true,
+        "tagTitle": "Ver todos",
+        "text": "Ver todos"
+      }
+    }
+  },
+
+
+
+
+
+
+
+
+  "menu-item#category-sobre": {
+    "props": {
+      "id": "menu-item-category-sobre",
+      "blockClass": "menusobre",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+       
+        "categoryID":"2",
+        "noFollow": false,
+        "tagTitle": "Sobre",
+        "text": "Sobre",
+        "blockClass": "link-menu"
+      }
+     
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#sobre"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#sobre": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-sobre-more",
+      "flex-layout.row#menu-sobre-comunidade"
+    ]
+  },
+
+  "flex-layout.row#menu-sobre-more": {
+    "children": [
+      "flex-layout.col#menu-sobre-more-1"
+      
+    ]
+  },
+
+
+
+
+  "flex-layout.row#menu-sobre-comunidade": {
+    "children": [
+      "flex-layout.col#menu-sobre-comunidade"
+    
+    ]
+  },
+
+  
+  "flex-layout.col#menu-sobre-comunidade": {
+    "children": [
+      "vtex.menu@2.x:menu#sobre-nossa-comunidade"
+      
+    ]
+  },
+  
+
+
+
+  "flex-layout.col#menu-sobre-more-1": {
+    "children": [
+      "vtex.menu@2.x:menu#sobre-more"
+    
+    ]
+  },
+
+  "vtex.menu@2.x:menu#sobre-more": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#abrme",
+      "menu-item#sobre",
+      "menu-item#sejaumparceiro",
+      "menu-item#blog",
+    
+      "menu-item#perguntaserespostas"
+    ]
+  },
+
+
+  "menu-item#abrme": {
+    "props": {
+      "id": "menu-item-sobre",
+      "blockClass": "title-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "noFollow": true,
+        "tagTitle": "A BR-ME",
+        "text": "A BR-ME"
+      }
+    }
+  },
+
+
+
+  "menu-item#sobre": {
+    "props": {
+      "id": "menu-item-sobre",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sobre-a-brme",
+        "noFollow": true,
+        "tagTitle": "Sobre a BR-ME",
+        "text": "Sobre a BR-ME"
+      }
+    }
+  },
+
+  "menu-item#sejaumparceiro": {
+    "props": {
+      "id": "menu-item-sobre",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/seja-um-parceiro",
+        "noFollow": true,
+        "tagTitle": "Seja um parceiro",
+        "text": "Seja um parceiro"
+      }
+    }
+  },
+
+
+  "menu-item#blog": {
+    "props": {
+      "id": "menu-item-blog",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://blog.brme.com.br/",
+        "noFollow": true,
+        "tagTitle": "Blog",
+        "text": "Blog"
+      }
+    }
+  },
+  "menu-item#nossoscomites": {
+    "props": {
+      "id": "menu-item-blog",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://blog.brme.com.br/",
+        "noFollow": true,
+        "tagTitle": "Nossos comitês",
+        "text": "Nossos comitês"
+      }
+    }
+  },
+  "menu-item#perguntaserespostas": {
+    "props": {
+      "id": "menu-item-blog",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/perguntas-e-respostas",
+        "noFollow": true,
+        "tagTitle": "Perguntas e respostas",
+        "text": "Perguntas e respostas"
+      }
+    }
+  },
+
+
+
+
+
+
+
+
+  "vtex.menu@2.x:menu#sobre-nossa-comunidade": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#nossacomunidade",
+      "menu-item#assinenossomailing",
+      "menu-item#grupowhats",
+      "menu-item#telegrancachaca",
+      "menu-item#instagrambrme"
+
+      
+ 
+    ]
+  },
+
+
+ 
+  "menu-item#nossacomunidade": {
+    "props": {
+      "id": "menu-item-sobre",
+      "blockClass": "title-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "noFollow": true,
+        "tagTitle": "Nossa Comunidade",
+        "text": "Nossa Comunidade"
+      }
+    }
+  },
+
+  "menu-item#assinenossomailing": {
+    "props": {
+      "id": "menu-item-assinenossomailing",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://info.brme.com.br/mailing",
+        "noFollow": true,
+        "tagTitle": "Assine nosso mailing",
+        "text": "﻿Assine nosso mailing"
+      }
+    }
+  },
+
+
+  "menu-item#grupowhats": {
+    "props": {
+      "id": "menu-item-blog",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://chat.whatsapp.com/DXt4NpRu1UU3HipaUSyjw2",
+        "noFollow": true,
+        "tagTitle": "Grupo do WhatsApp de vinhos",
+        "text": "Grupo do WhatsApp de vinhos"
+      }
+    }
+  },
+
+  
+  "menu-item#telegrancachaca": {
+    "props": {
+      "id": "menu-item-blog",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://t.me/+-J4ck3cdXi85ZjA5",
+        "noFollow": true,
+        "tagTitle": "Grupo do Telegram de cachaça",
+        "text": "Grupo do Telegram de cachaça"
+      }
+    }
+  },
+
+    
+  "menu-item#instagrambrme": {
+    "props": {
+      "id": "menu-item-blog",
+      "blockClass": "link-megamenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.instagram.com/brme.oficial/",
+        "noFollow": true,
+        "tagTitle": "Instagram da BR-ME",
+        "text": "Instagram da BR-ME"
+      }
+    }
+  }
+
+  
+
+
+
+}

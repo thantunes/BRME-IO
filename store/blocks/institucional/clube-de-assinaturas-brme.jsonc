@@ -1,0 +1,578 @@
+{
+    "store.custom#assinaturas": {
+      "blocks": [ 
+        "flex-layout.row#assinaturas-topo",
+      //  "flex-layout.row#assinaturas-beneficios",
+        "flex-layout.row#clube-essencial",
+        "flex-layout.row#clube-essencial-valor",
+        "flex-layout.row#clube-sensacional",
+        "flex-layout.row#clube-sensacional-valor",
+        "flex-layout.row#clube-fenomenal",
+        "flex-layout.row#clube-fenomenal-valor",
+        "flex-layout.row#assinaturas-final",
+        "flex-layout.row#assinaturas-beneficios"
+    ]
+    },
+
+    "flex-layout.row#assinaturas-topo": {
+        "children": ["flex-layout.col#assinaturas-topo"],
+        "props": {
+            "blockClass": "topo-clube-de-assinaturas"
+          }
+      },
+      
+    "flex-layout.col#assinaturas-topo": {
+        "children": ["rich-text#assinaturas-title", "rich-text#assinaturas-content-topo"],
+        "props": {
+          "preventVerticalStretch": true
+        }
+      },
+      "rich-text#assinaturas-title": {
+        "props": {
+          "text": "# Clube BR-ME",
+          "blockClass": "assinaturas-titulo"
+        }
+      },
+      "rich-text#assinaturas-content-topo": {
+        "props": {
+          "text": "Assine nosso Clube e descubra os vinhos brasileiros com a curadoria da BR-ME. \n Uma vez por mês, vamos enviar uma seleção de vinhos nacionais, além de muitos benefícios, conteúdo e exclusividades para os nossos assinantes." }
+      },
+
+
+
+
+
+
+      "flex-layout.row#assinaturas-beneficios": {
+        "children": ["flex-layout.col#beneficios"],
+        "props": {
+            "blockClass": "beneficios-clube-de-assinaturas"
+          }
+      },
+      "flex-layout.col#beneficios": {
+        "children": [
+            "rich-text#beneficioss-title",
+            "rich-text#beneficioss-linha-1",
+            "rich-text#beneficioss-linha-2",
+            "rich-text#beneficioss-linha-3",
+            "rich-text#beneficioss-linha-4",
+            "rich-text#beneficioss-linha-5",
+            "rich-text#beneficioss-linha-6",
+            "rich-text#beneficioss-linha-7",
+            "rich-text#beneficioss-linha-8",
+            "rich-text#beneficioss-linha-9",
+            "rich-text#beneficioss-linha-10",
+            "rich-text#beneficioss-linha-11"
+        
+        ],
+        "props": {
+          "preventVerticalStretch": true
+        }
+      },
+      "rich-text#beneficioss-title": {
+        "props": {
+          "text": "## Os benefícios dos nossos assinantes",
+          "blockClass": "assinaturas-beneficios-titulo"
+        }
+      },
+      "rich-text#beneficioss-linha-1": {
+        "props": {
+          "text": "VINHOS SELECIONADOS PELO ESPECIALISTA BR-ME",
+          "blockClass": "assinaturas-beneficios-linha"
+        }
+      },
+      "rich-text#beneficioss-linha-2": {
+        "props": {
+          "text": "GRUPO DE ASSINANTES **EXCLUSIVO** NO WHATSAPP ",
+          "blockClass": "assinaturas-beneficios-linha"
+        }
+      },
+      "rich-text#beneficioss-linha-3": {
+        "props": {
+          "text": "ACESSO A **LANÇAMENTOS** E **NOVIDADES** DOS PRINCIPAIS PRODUTORES DO BRASIL",
+          "blockClass": "assinaturas-beneficios-linha"
+        }
+      },
+      "rich-text#beneficioss-linha-4": {
+        "props": {
+          "text": "**ENCONTROS EXCLUSIVOS COM NOSSO ESPECIALISTA** APRESENTANDO OS RÓTULOS SELECIONADOS ",
+          "blockClass": "assinaturas-beneficios-linha"
+        }
+      },
+      "rich-text#beneficioss-linha-5": {
+        "props": {
+          "text": "OS ASSINANTES **ECONOMIZAM ATÉ 20%** EM VINHOS, DESTILADOS, CAFÉS, CHOCOLATES, AZEITES E OUTRAS SELEÇÕES NO SITE DA BR-ME ",
+          "blockClass": "assinaturas-beneficios-linha"
+        }
+      },
+      "rich-text#beneficioss-linha-6": {
+        "props": {
+          "text": "**FRETE GRÁTIS** PARA SUDESTE. E FRETE FIXO DE R$ 15 PARA DEMAIS REGIÕES ",
+          "blockClass": "assinaturas-beneficios-linha"
+        }
+      },
+      "rich-text#beneficioss-linha-7": {
+        "props": {
+          "text": "**DESCONTO DE 10%** NOS EVENTOS DA BR-ME ",
+          "blockClass": "assinaturas-beneficios-linha"
+        }
+      },
+      "rich-text#beneficioss-linha-8": {
+        "props": {
+          "text": "**BRINDES ESPECIAIS**",
+          "blockClass": "assinaturas-beneficios-linha"
+        }
+      },
+      "rich-text#beneficioss-linha-9": {
+        "props": {
+          "text": "ASSINANTES QUE QUISEREM ASSINAR DUAS OU MAIS CATEGORIAS DO CLUBE, TERÃO **DESCONTO DE 5%** NAS ASSINATURAS ",
+          "blockClass": "assinaturas-beneficios-linha"
+        }
+      },
+      "rich-text#beneficioss-linha-10": {
+        "props": {
+          "text": "CANCELAMENTO A QUALQUER MOMENTO, **SEM MULTAS**",
+          "blockClass": "assinaturas-beneficios-linha"
+        }
+      },
+
+      "rich-text#beneficioss-linha-11": {
+        "props": {
+          "text": "*condição válida pelos próximos 6 meses (julho 2022 a dezembro 2022)",
+          "blockClass": "assinaturas-beneficios-linha-condicao"
+        }
+      },
+
+
+
+
+
+      "flex-layout.row#clube-essencial": {
+        "children": ["flex-layout.col#clube-essencial-cont","flex-layout.col#clube-essencial-img"],
+        "props": {
+            "blockClass": "bloco-clube-essencial"
+          }
+      },
+
+      "flex-layout.col#clube-essencial-cont": {
+        "children": [
+            "rich-text#clube-essencial-title", 
+            "rich-text#clube-essencial-conteudo",
+            "rich-text#clube-essencial-plano-mensal",
+            "rich-text#clube-essencial-plano-mensal-cont",
+           // "rich-text#clube-essencial-plano-mensal-receba",
+            "rich-text#clube-essencial-plano-mensal-receba-produto-1",
+            "rich-text#clube-essencial-plano-mensal-receba-produto-2"
+           // "rich-text#clube-essencial-plano-mensal-pagamentos"
+
+        ],
+        "props": {
+          "preventVerticalStretch": true
+        }
+      },
+
+      "rich-text#clube-essencial-title": {
+        "props": {
+          "text": "## Clube Essencial",
+          "blockClass": "clube-essencial-titulo"
+        }
+      },
+
+      "rich-text#clube-essencial-conteudo": {
+        "props": {
+          "text": "O consumo, regular e moderado de vinho faz bem à saúde. Por isso, é essencial que você tenha em casa vinhos de ótimo custo benefício. Vinhos muito bem feitos, que entregam qualidade a um preço acessível. Se você quer vinhos para o dia a dia, fáceis de beber e super gostosos, essa categoria é para você. O essencial sempre será beber o vinho que você gosta.",
+          "blockClass": "clube-essencial-conteudo"
+        }
+      },
+
+
+
+
+      "rich-text#clube-essencial-plano-mensal":{
+        "props": {
+            "text": "## PLANO **MENSAL**",
+            "blockClass": "clube-plano-mensal-titulo"
+          }
+      },
+
+      "rich-text#clube-essencial-plano-mensal-cont":{
+        "props": {
+            "text": "adquira seu kit até o dia 27 de cada mês",
+            "blockClass": "clube-plano-mensal-texto"
+          }
+      },
+      "rich-text#clube-essencial-plano-mensal-receba":{
+        "props": {
+            "text": "Receba em Dezembro",
+            "blockClass": "clube-essencial-receba-titulo"
+          }
+    },
+      "rich-text#clube-essencial-plano-mensal-receba-produto-1":{
+        "props": {
+            "text": "VINHO FABIAN MERLOT INTUIÇÃO 750ML",
+            "blockClass": "clube-essencial-produto"
+          }
+    },
+      "rich-text#clube-essencial-plano-mensal-receba-produto-2":{
+        "props": {
+            "text": "ESPUMANTE VIAPIANA BRUT CHAMPENOISE 192 DIAS 750ML",
+            "blockClass": "clube-essencial-produto"
+          }
+    },
+
+    "rich-text#clube-essencial-plano-mensal-pagamentos":{
+      "props": {
+          "text": "Pagamento no boleto \n E no cartão de crédito à vista ou em até 3x com juros",
+          "blockClass": "clube-essencial-pagamentos"
+        }
+  },
+
+
+
+      "flex-layout.col#clube-essencial-img":{
+
+        "children": [
+            "image#clube-essencial-img" 
+        ]
+      },
+      "image#clube-essencial-img": {
+        "props": {
+          "src": "https://tfcuey.vteximg.com.br/arquivos/Dezembro-Essencial.png?v=6378045556468000000",
+          "alt":"VINHO FABIAN MERLOT INTUIÇÃO 750ML e ESPUMANTE VIAPIANA BRUT CHAMPENOISE 192 DIAS 750ML",
+          "maxWidth": "100%"
+        }
+        },
+
+
+
+
+
+        "flex-layout.row#clube-essencial-valor":{
+            "children": ["flex-layout.col#clube-essencial-valores"],
+            "props": {
+                "blockClass": "valores-clube-de-assinaturas"
+              }
+          },
+
+   
+          "flex-layout.col#clube-essencial-valores": {
+            "children": [
+                "rich-text#beneficios-essencial-valor",
+                "rich-text#beneficios-essencial-bt-comprar",
+                "rich-text#valor-fixo-essencial"
+            ],
+            "props": {
+              "preventVerticalStretch": true
+            }
+          },
+
+
+
+          "rich-text#beneficios-essencial-valor": {
+            "props": {
+              "text": "**R$159,99** /mês",
+              "blockClass": "assinaturas-beneficios-titulo"
+            }
+          },
+
+          "rich-text#beneficios-essencial-bt-comprar": {
+            "props": {
+              "text": "[ASSINAR AGORA](https://www.brme.com.br/essencial/p)",
+              "blockClass": "assinaturas-beneficios-botao"
+            }
+          },
+
+
+          "rich-text#valor-fixo-essencial": {
+            "props": {
+              "text": "*valor fixo pelos próximos 12 meses (junho e julho 2023)",
+              "blockClass": "assinaturas-beneficios-valor-fixo"
+            }
+          },
+
+
+        
+      "flex-layout.row#clube-sensacional": {
+        "children": ["flex-layout.col#clube-sensacional-cont","flex-layout.col#clube-sensacional-img"],
+        "props": {
+            "blockClass": "bloco-clube-sensacional"
+          }
+      },
+
+      "flex-layout.col#clube-sensacional-cont": {
+        "children": [
+            "rich-text#clube-sensacional-title", 
+            "rich-text#clube-sensacional-conteudo",
+            "rich-text#clube-sensacional-plano-mensal",
+            "rich-text#clube-sensacional-plano-mensal-cont",
+           // "rich-text#clube-sensacional-plano-mensal-receba",
+            "rich-text#clube-sensacional-plano-mensal-receba-produto-1",
+            "rich-text#clube-sensacional-plano-mensal-receba-produto-2"
+           // "rich-text#clube-sensacional-plano-mensal-pagamentos"
+
+        ],
+        "props": {
+          "preventVerticalStretch": true
+        }
+      },
+
+      "rich-text#clube-sensacional-title": {
+        "props": {
+          "text": "## Clube Sensacional",
+          "blockClass": "clube-sensacional-titulo"
+        }
+      },
+
+      "rich-text#clube-sensacional-conteudo": {
+        "props": {
+          "text": "Nesse plano, além dos vinhos essenciais para o dia a dia, você vai adorar abrir algo mais elaborado, com uma proposta mais sofisticada, sem pagar tanto por isso. Aqui você terá vinhos sensacionais, muitas vezes de produtores pequenos, sem perder a essência de qualidade do vinho brasileiro. Vinhos que vão cativar você, despertando um sentimento que amamos aqui na BR-ME: a brasilidade.",
+          "blockClass": "clube-sensacional-conteudo"
+        }
+      },
+
+      
+      "rich-text#clube-sensacional-plano-mensal":{
+        "props": {
+            "text": "## PLANO **MENSAL**",
+            "blockClass": "clube-plano-mensal-titulo"
+          }
+      },
+
+      "rich-text#clube-sensacional-plano-mensal-cont":{
+        "props": {
+            "text": "adquira seu kit até o dia 27 de cada mês",
+            "blockClass": "clube-plano-mensal-texto"
+          }
+      },
+      "rich-text#clube-sensacional-plano-mensal-receba":{
+        "props": {
+            "text": "Receba em Dezembro",
+            "blockClass": "clube-sensacional-receba-titulo"
+          }
+    },
+      "rich-text#clube-sensacional-plano-mensal-receba-produto-1":{
+        "props": {
+            "text": "ESPUMANTE ARTE VIVA EXTRA BRUT CHARDONNAY RIESLING 750ML",
+            "blockClass": "clube-sensacional-produto"
+          }
+    },
+      "rich-text#clube-sensacional-plano-mensal-receba-produto-2":{
+        "props": {
+            "text": "VINHO MIOLO SEBRUMO CABERNET SAUVIGNON 2020 750ML",
+            "blockClass": "clube-sensacional-produto"
+          }
+    },
+
+
+    "rich-text#clube-sensacional-plano-mensal-pagamentos":{
+      "props": {
+          "text": "Pagamento no boleto \n E no cartão de crédito à vista ou em até 3x com juros",
+          "blockClass": "clube-sensacional-pagamentos"
+        }
+  },
+
+
+
+
+
+      "flex-layout.col#clube-sensacional-img":{
+
+        "children": [
+            "image#clube-sensacional-img" 
+        ]
+      },
+      "image#clube-sensacional-img": {
+        "props": {
+          "src": "https://tfcuey.vteximg.com.br/arquivos/Dezembro-sensacional.png?v=63456464301002680000001",
+          "alt":"ESPUMANTE ARTE VIVA EXTRA BRUT CHARDONNAY RIESLING 750ML e VINHO MIOLO SEBRUMO CABERNET SAUVIGNON 2020 750ML",
+          "maxWidth": "100%"
+        }
+        },
+
+        
+        "flex-layout.row#clube-sensacional-valor":{
+            "children": ["flex-layout.col#clube-sensacional-valores"],
+            "props": {
+                "blockClass": "valores-clube-de-assinaturas"
+              }
+          },
+
+   
+          "flex-layout.col#clube-sensacional-valores": {
+            "children": [
+                "rich-text#beneficios-sensacional-valor",
+                "rich-text#beneficios-sensacional-bt-comprar",
+                "rich-text#valor-fixo-sensacional"
+            ],
+            "props": {
+              "preventVerticalStretch": true
+            }
+          },
+
+
+
+          "rich-text#beneficios-sensacional-valor": {
+            "props": {
+              "text": "**R$259,99** /mês",
+              "blockClass": "assinaturas-beneficios-titulo"
+            }
+          },
+
+          "rich-text#beneficios-sensacional-bt-comprar": {
+            "props": {
+              "text": "[ASSINAR AGORA](https://www.brme.com.br/sensacional/p)",
+              "blockClass": "assinaturas-beneficios-botao"
+            }
+          },
+
+          
+          "rich-text#valor-fixo-sensacional": {
+            "props": {
+              "text": "*valor fixo pelos próximos 12 meses (junho e julho 2023)",
+              "blockClass": "assinaturas-beneficios-valor-fixo"
+            }
+          },
+
+
+      "flex-layout.row#clube-fenomenal": {
+        "children": ["flex-layout.col#clube-fenomenal-cont","flex-layout.col#clube-fenomenal-img"],
+        "props": {
+            "blockClass": "bloco-clube-fenomenal"
+          }
+      },
+
+      "flex-layout.col#clube-fenomenal-cont": {
+        "children": [
+            "rich-text#clube-fenomenal-title", 
+            "rich-text#clube-fenomenal-conteudo",
+            "rich-text#clube-fenomenal-plano-mensal",
+            "rich-text#clube-fenomenal-plano-mensal-cont",
+            //"rich-text#clube-fenomenal-plano-mensal-receba",
+            "rich-text#clube-fenomenal-plano-mensal-receba-produto-1",
+            "rich-text#clube-fenomenal-plano-mensal-receba-produto-2"
+            //"rich-text#clube-fenomenal-plano-mensal-pagamentos"
+
+        ],
+        "props": {
+          "preventVerticalStretch": true
+        }
+      },
+
+      "rich-text#clube-fenomenal-title": {
+        "props": {
+          "text": "## Clube Fenomenal",
+          "blockClass": "clube-fenomenal-titulo"
+        }
+      },
+
+      "rich-text#clube-fenomenal-conteudo": {
+        "props": {
+          "text": "Mais que uma assinatura de vinhos, um plano que te transporta para uma experiência única. Vinhos complexos, estruturados, com estilos completamente diferentes. Vinhos que colocam o Brasil, em termos de qualidade, entre os melhores produtores do mundo. A vida pode ser fenomenal! Por que seu vinho seria diferente?",
+          "blockClass": "clube-fenomenal-conteudo"
+        }
+      },
+
+      "rich-text#clube-fenomenal-plano-mensal":{
+        "props": {
+            "text": "## PLANO **MENSAL**",
+            "blockClass": "clube-plano-mensal-titulo"
+          }
+      },
+
+      "rich-text#clube-fenomenal-plano-mensal-cont":{
+        "props": {
+            "text": "adquira seu kit até o dia 27 de cada mês",
+            "blockClass": "clube-plano-mensal-texto"
+          }
+      },
+      "rich-text#clube-fenomenal-plano-mensal-receba":{
+        "props": {
+            "text": "Receba em Dezembro",
+            "blockClass": "clube-fenomenal-receba-titulo"
+          }
+    },
+      "rich-text#clube-fenomenal-plano-mensal-receba-produto-1":{
+        "props": {
+            "text": "VINHO MARIA MARIA ERICA GRAN RESERVA SYRAH 2018 750ML",
+            "blockClass": "clube-fenomenal-produto"
+          }
+    },
+      "rich-text#clube-fenomenal-plano-mensal-receba-produto-2":{
+        "props": {
+            "text": "ESPUMANTE DON GUERINO BLANC DE BLANCS NATURE 750ML",
+            "blockClass": "clube-fenomenal-produto"
+          }
+    },
+
+    "rich-text#clube-fenomenal-plano-mensal-pagamentos":{
+      "props": {
+          "text": "Pagamento no boleto \n E no cartão de crédito à vista ou em até 3x com juros",
+          "blockClass": "clube-fenomenal-pagamentos"
+        }
+  },
+
+
+
+      "flex-layout.col#clube-fenomenal-img":{
+
+        "children": [
+            "image#clube-fenomenal-img" 
+        ]
+      },
+      "image#clube-fenomenal-img": {
+        "props": {
+          "src": "https://tfcuey.vteximg.com.br/arquivos/Dezembro-fenomenal.png?v=6378055646560080000003",
+          "alt":"VINHO MARIA MARIA ERICA GRAN RESERVA SYRAH 2018 750ML e ESPUMANTE DON GUERINO BLANC DE BLANCS NATURE 750ML",
+          "maxWidth": "100%"
+        }
+        },
+
+        "flex-layout.row#clube-fenomenal-valor":{
+            "children": ["flex-layout.col#clube-fenomenal-valores"],
+            "props": {
+                "blockClass": "valores-clube-de-assinaturas"
+              }
+          },
+
+   
+          "flex-layout.col#clube-fenomenal-valores": {
+            "children": [
+                "rich-text#beneficios-fenomenal-valor",
+                "rich-text#beneficios-fenomenal-bt-comprar",
+                "rich-text#valor-fixo-fenomenal"
+            ],
+            "props": {
+              "preventVerticalStretch": true
+            }
+          },
+
+
+
+          "rich-text#beneficios-fenomenal-valor": {
+            "props": {
+              "text": "**R$409,99** /mês",
+              "blockClass": "assinaturas-beneficios-titulo"
+            }
+          },
+
+          "rich-text#beneficios-fenomenal-bt-comprar": {
+            "props": {
+              "text": "[ASSINAR AGORA](https://www.brme.com.br/fenomenal/p)",
+              "blockClass": "assinaturas-beneficios-botao"
+            }
+          },
+          "rich-text#valor-fixo-fenomenal": {
+            "props": {
+              "text": "*valor fixo pelos próximos 12 meses (junho e julho 2023)",
+              "blockClass": "assinaturas-beneficios-valor-fixo"
+            }
+          },
+
+          "flex-layout.row#assinaturas-final":{
+            "props": {
+              "blockClass": "assinaturas-barra-final"
+            }
+
+          }
+
+}

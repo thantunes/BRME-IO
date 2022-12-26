@@ -1,0 +1,37 @@
+{
+    "store.custom#colecoes": {
+      "blocks": [ "flex-layout.row#colecao","flex-layout.row#shelfprateleiracolecao"]
+    },
+    "flex-layout.row#colecao": {
+      "children": ["flex-layout.col#text-colecao"]
+    },
+
+    "flex-layout.col#text-colecao": {
+      "children": ["rich-text#colecao-title", "rich-text#colecao-content"],
+      "props": {
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#colecao-title": {
+      "props": {
+        "text": "Nome da coleção",
+        "blockClass": "titulo"
+      }
+    },
+    "rich-text#colecao-content": {
+      "props": {
+        "text": "Texto" }
+    },
+    "flex-layout.row#shelfprateleiracolecao": {
+        "children": ["list-context.product-list#prateleiracolecao"]
+      },
+      "list-context.product-list#prateleiracolecao": {
+        "blocks": ["product-summary.shelf"],
+        "children": ["slider-layout#prateleiralancamentos"],
+        "props": {
+          "orderBy": "OrderByReleaseDateDESC",
+          "collection": "148"
+        }
+      }
+
+  }

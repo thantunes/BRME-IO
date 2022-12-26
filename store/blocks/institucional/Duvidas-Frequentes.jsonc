@@ -1,0 +1,129 @@
+{
+    "store.custom#duvidas-frequentes": {
+      "blocks": ["flex-layout.row#duvidas-frequentes"]
+    },
+    "flex-layout.row#duvidas-frequentes": {
+      "children": ["flex-layout.col#text-duvidas-frequentes"]
+    },
+    "flex-layout.col#text-duvidas-frequentes": {
+      "children": [
+        "rich-text#about-title-duvida", 
+        "rich-text#frete-title-duvida",
+        "rich-text#frete-content",
+        "rich-text#troca-title",
+        "rich-text#troca-title-bold",
+        "rich-text#troca-content",
+        "rich-text#troca-title-bold2",
+        "rich-text#troca-content-nao-entregue",
+        "rich-text#desistencia-title",
+        "rich-text#desistencia-content",
+        "rich-text#prazoentrega-title",
+        "rich-text#troca-title-bold3",
+        "rich-text#prazoentrega-sedex-content",
+        "rich-text#troca-title-bold4",
+        "rich-text#prazoentrega-pac-content"
+      ],
+      "props": {
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#about-title-duvida": {
+      "props": {
+        "text": "Dúvidas Frequentes",
+        "blockClass": "titulo"
+      }
+    },
+    "rich-text#frete-title-duvida": {
+      "props": {
+        "text": "Frete",
+        "blockClass": "subtitulo"
+      }
+    },
+    "rich-text#frete-content": {
+      "props": {
+        "text": "texto"
+        
+      }
+    },
+    "rich-text#troca-title": {
+      "props": {
+        "text": "TROCA/DEVOLUÇÃO",
+        "blockClass": "subtitulo"
+      }
+    },
+    "rich-text#troca-title-bold": {
+      "props": {
+        "text": "Para trocas quando o produto já foi entregue:",
+        "blockClass": "subtitulo-bold"
+      }
+    },
+    
+    "rich-text#troca-content": {
+      "props": {
+        "text": "texto"
+       
+      }
+    },
+    "rich-text#troca-title-bold2": {
+      "props": {
+        "text": "Para trocas quando o produto ainda não foi entregue:",
+        "blockClass": "subtitulo-bold"
+      }
+    },
+
+
+    
+    "rich-text#troca-content-nao-entregue": {
+      "props": {
+        "text": "texto"
+      }
+    },
+
+    "rich-text#desistencia-title": {
+      "props": {
+        "text": "DESISTÊNCIA DO PRODUTO/COMPRA",
+        "blockClass": "subtitulo"
+      }
+    },
+
+    "rich-text#desistencia-content": {
+      "props": {
+        "text": "texto"
+      }
+    },
+
+    "rich-text#prazoentrega-title": {
+      "props": {
+        "text": "PRAZO DE ENTREGA",
+        "blockClass": "subtitulo"
+      }
+    },
+
+    "rich-text#troca-title-bold3": {
+      "props": {
+        "text": "Prazo médio de envio via Sedex pelos Correios:",
+        "blockClass": "subtitulo-bold"
+      }
+    },
+
+    "rich-text#prazoentrega-sedex-content": {
+      "props": {
+        "text": "texto"
+      }
+    },
+
+    "rich-text#troca-title-bold4": {
+      "props": {
+        "text": "Prazo médio de envio via PAC pelos Correios:",
+        "blockClass": "subtitulo-bold"
+      }
+    },
+
+
+    "rich-text#prazoentrega-pac-content": {
+      "props": {
+        "text": "texto"
+      }
+    }
+
+  }

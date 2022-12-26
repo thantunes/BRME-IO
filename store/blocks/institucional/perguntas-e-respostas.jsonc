@@ -1,0 +1,604 @@
+{
+    "store.custom#perguntas-e-respostas": {
+      "blocks": ["flex-layout.row#perguntas-e-respostas"]
+    },
+    "flex-layout.row#perguntas-e-respostas": {
+      "children": ["flex-layout.col#text-perguntas-e-respostas"]
+    },
+    "flex-layout.col#text-perguntas-e-respostas": {
+      "children": [
+        
+        "rich-text#perguntas-e-respostas-title-principal", 
+        "rich-text#meuspedidos-prazo-title", 
+        "rich-text#meuspedidos-prazo-subtitle-subtitulo", 
+        "rich-text#meuspedidos-prazo-content-texto",
+        "rich-text#meuspedidos-rastrear-subtitle-subtitulo",
+        "rich-text#meuspedidos-rastrear-content-texto",
+        "rich-text#meuspedidos-busca-subtitle-subtitulo",
+        "rich-text#meuspedidos-busca-content-texto",
+        "rich-text#meuspedidos-alterarend-subtitle-subtitulo",
+        "rich-text#meuspedidos-alterarend-content-texto",
+        "rich-text#meuspedidos-retomarcarrinho-subtitle-subtitulo",
+"rich-text#meuspedidos-retomarcarrinho-content-texto",
+"rich-text#meuspedidos-empresaresponsavel-subtitle-subtitulo",
+"rich-text#meuspedidos-empresaresponsavel-content-texto",
+ "rich-text#meuspedidos-valorfrete-subtitle-subtitulo",
+"rich-text#meuspedidos-valorfrete-content-texto",
+"rich-text#meuspedidos-nao-recebi-subtitle-subtitulo",
+"rich-text#meuspedidos-nao-recebi-content-texto",
+"rich-text#meuspedidos-exclui-produtos-carrinho-subtitle-subtitulo",
+"rich-text#meuspedidos-exclui-produtos-carrinho-content-texto",
+"rich-text#meuspedidos-pedido-telefone-carrinho-subtitle-subtitulo",
+"rich-text#meuspedidos-pedido-telefone-carrinho-content-texto",
+ "rich-text#meuspedidos-pagamentp-title",
+"rich-text#meuspedidos-cupon-desconto-carrinho-subtitle-subtitulo",
+"rich-text#meuspedidos-cupondesconto-carrinho-content-texto",
+"rich-text#meuspedidos-pagamento-nao-aprovado-carrinho-subtitle-subtitulo",
+"rich-text#meuspedidos-pagamento-nao-aprovado-carrinho-content-texto",
+"rich-text#meuspedidos-aprovacao-carrinho-subtitle-subtitulo",
+ "rich-text#meuspedidos-aprovacao-carrinho-content-texto",
+"rich-text#meuspedidos-segundavianota-subtitle-subtitulo",
+ "rich-text#meuspedidos-segundavianota-content-texto",
+ "rich-text#meuspedidos-extorno-subtitle-subtitulo",
+ "rich-text#meuspedidos-extorno-content-texto",
+"rich-text#meuspedidos-produtos-title",
+"rich-text#meuspedidos-semestoque-subtitle-subtitulo",
+"rich-text#meuspedidos-semestoque-content-texto",
+ "rich-text#meuspedidos-troca-subtitle-subtitulo",
+ "rich-text#meuspedidos-troca-content-texto",
+ "rich-text#meuspedidos-especificacao-subtitulo",
+"rich-text#meuspedidos-especificacao-content-texto",
+ "rich-text#meuspedidos-armazenar-subtitulo",
+"rich-text#meuspedidos-armazenar-content-texto",
+"rich-text#meuspedidos-trocas-title",
+"rich-text#meuspedidos-troca-subtitulo",
+"rich-text#meuspedidos-trocaa-content-texto",
+"rich-text#meuspedidos-devolver-subtitulo",
+"rich-text#meuspedidos-devolver-content-texto",
+"rich-text#meuspedidos-trocarproduto-subtitulo",
+ "rich-text#meuspedidos-trocarproduto-content-texto",
+ "rich-text#meuspedidos-errado-subtitulo",
+ "rich-text#meuspedidos-errado-content-texto",
+"rich-text#meuspedidos-cadastrp-cliente-title",
+"rich-text#meuspedidos-criarconta-subtitulo",
+"rich-text#meuspedidos-criarconta-content-texto",
+"rich-text#meuspedidos-senha-subtitulo",
+"rich-text#meuspedidos-senha-content-texto",
+"rich-text#meuspedidos-promocao-subtitulo",
+"rich-text#meuspedidos-promocao-content-texto",
+"rich-text#meuspedidos-alteraremail-subtitulo",
+"rich-text#meuspedidos-alteraremail-content-texto",
+"rich-text#meuspedidos-senhasegura-subtitulo",
+"rich-text#meuspedidos-senhasegura-content-texto",
+"rich-text#meuspedidos-esquecisenha-subtitulo",
+"rich-text#meuspedidos-esquecisenha-content-texto",
+"rich-text#meuspedidos-outros-cliente-title",
+"rich-text#meuspedidos-oqueebrme-subtitulo",
+"rich-text#meuspedidos-oqueebrme-content-texto",
+"rich-text#meuspedidos-socios-subtitulo",
+"rich-text#meuspedidos-socios-content-texto",
+"rich-text#meuspedidos-lojafisica-subtitulo",
+ "rich-text#meuspedidos-lojafisica-content-texto",
+"rich-text#meuspedidos-produtosvendidos-subtitulo",
+"rich-text#meuspedidos-produtosvendidos-content-texto",
+"rich-text#meuspedidos-adega-subtitulo",
+"rich-text#meuspedidos-adegaa-content-texto",
+"rich-text#meuspedidos-adega-content-texto"
+
+      ],
+      "props": {
+        "preventVerticalStretch": true
+      }
+    },
+
+    "rich-text#perguntas-e-respostas-title-principal" : {
+        "props": {
+          "text": "PERGUNTAS E RESPOSTAS",
+          "blockClass": "titulo-principal"
+        }
+      },
+
+    "rich-text#meuspedidos-prazo-title": {
+      "props": {
+        "text": "Meus pedidos",
+        "blockClass": "titulo-perguntas-e-respostas"
+      }
+    },
+
+    "rich-text#meuspedidos-prazo-subtitle-subtitulo": {
+      "props": {
+        "text": "1.Qual o prazo de entrega para o meu pedido? ",
+        "blockClass": "subtitulo-perguntas-e-respostas"
+      }
+    },
+    "rich-text#meuspedidos-prazo-content-texto": {
+      "props": {
+        "text": "Para compras efetuadas na Grande São Paulo até às 15 horas, consideramos o prazo de entrega de até 24 horas, havendo a possibilidade de seu pedido chegar antes disso. Compras realizadas após às 15 horas, prevemos entrega em até 48 horas. Para demais localidades, consideramos um prazo acima de 2 dias úteis, a depender do local de destino.",
+        "blockClass": "texto-perguntas-e-respostas"
+      }
+    },
+
+    "rich-text#meuspedidos-rastrear-subtitle-subtitulo": {
+        "props": {
+          "text": "2.Como rastrear meu pedido/minha compra? ",
+          "blockClass": "subtitulo-perguntas-e-respostas"
+        }
+      },
+      "rich-text#meuspedidos-rastrear-content-texto": {
+        "props": {
+          "text": "Você poderá rastrear seu pedido por meio do link recebido via WhatsApp ou e-mail cadastrado em nossa loja, pelo qual você poderá acompanhar todo o trajeto de seu pedido*. *válido para a Grande São Paulo. ",
+          "blockClass": "texto-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-busca-subtitle-subtitulo": {
+        "props": {
+          "text": "3.Posso fazer minha compra no site e buscar os produtos pessoalmente? ",
+          "blockClass": "subtitulo-perguntas-e-respostas"
+        }
+      },
+      "rich-text#meuspedidos-busca-content-texto": {
+        "props": {
+          "text": "Atualmente não possuímos a opção de retirada pessoalmente em espaço físico. Porém, estamos nos adequando para em breve estar atendendo esta demanda. ",
+          "blockClass": "texto-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-alterarend-subtitle-subtitulo": {
+        "props": {
+          "text": "4.Posso alterar o endereço de entrega? ",
+          "blockClass": "subtitulo-perguntas-e-respostas"
+        }
+      },
+      "rich-text#meuspedidos-alterarend-content-texto": {
+        "props": {
+          "text": "Sim, se a compra foi efetuada no mesmo dia, você poderá realizar a alteração de endereço até às 17:00. Caso esteja fora deste horário, entre em contato com o atendimento da BR-ME pelo e-mail contato@brme.com.br ou pelo WhatsApp (11) 94220-7805, para que assim possamos atendê-lo da melhor maneira possível. ",
+          "blockClass": "texto-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-retomarcarrinho-subtitle-subtitulo": {
+        "props": {
+          "text": "5.Posso retomar meu carrinho de compras? ",
+          "blockClass": "subtitulo-perguntas-e-respostas"
+        }
+      },
+      "rich-text#meuspedidos-retomarcarrinho-content-texto": {
+        "props": {
+          "text": "Sim, suas escolhas ficam salvas em nosso sistema por tempo indeterminado. Elas só serão excluídas caso você limpe o seu carrinho. ",
+          "blockClass": "texto-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-addoutroproduto-subtitle-subtitulo": {
+        "props": {
+          "text": "6.Posso adicionar outro produto na minha compra, depois de concluída? ",
+          "blockClass": "subtitulo-perguntas-e-respostas"
+        }
+      },
+      "rich-text#meuspedidos-addoutroproduto-content-texto": {
+        "props": {
+          "text": "Caso você já tenha inserido seus dados e efetivado o pagamento, não é possível adicionar outro item à sua lista de compras. Você terá de dar início a um novo processo de compra. ",
+          "blockClass": "texto-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-empresaresponsavel-subtitle-subtitulo": {
+        "props": {
+          "text": "7.Qual a empresa responsável pela entrega da minha compra? ",
+          "blockClass": "subtitulo-perguntas-e-respostas"
+        }
+      },
+      "rich-text#meuspedidos-empresaresponsavel-content-texto": {
+        "props": {
+          "text": "Para atender à Grande São Paulo, contamos com a empresa Abbiamo Log, que faz entregas em até 24 horas. Para demais localidades, vamos ser atendidos pela transportadora Carriers, que terá prazos acima de 2 dias úteis para entrega, a depender do destino. ",
+          "blockClass": "texto-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-valorfrete-subtitle-subtitulo": {
+        "props": {
+          "text": "8.Qual o valor do frete? ",
+          "blockClass": "subtitulo-perguntas-e-respostas"
+        }
+      },
+      "rich-text#meuspedidos-valorfrete-content-texto": {
+        "props": {
+          "text": "O valor do frete é calculado no momento da compra, baseado em seu CEP e no peso total de seu pedido. ",
+          "blockClass": "texto-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-nao-recebi-subtitle-subtitulo": {
+        "props": {
+          "text": "9.Não recebi todos os itens da minha compra. O que faço?  ",
+          "blockClass": "subtitulo-perguntas-e-respostas"
+        }
+      },
+      "rich-text#meuspedidos-nao-recebi-content-texto": {
+        "props": {
+          "text": "Entre em contato com o atendimento da BR-ME, através do nosso WhatsApp (11) 94220-7805 ou pelo e-mail contato@brme.com.br, para tratarmos do seu caso prontamente, buscando a melhor e mais rápida solução.  ",
+          "blockClass": "texto-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-exclui-produtos-carrinho-subtitle-subtitulo": {
+        "props": {
+          "text": "10.Posso incluir ou excluir produtos do meu carrinho?  ",
+          "blockClass": "subtitulo-perguntas-e-respostas"
+        }
+      },
+      "rich-text#meuspedidos-exclui-produtos-carrinho-content-texto": {
+        "props": {
+          "text": "Sim, enquanto seu pagamento não for finalizado, você poderá excluir ou adicionar produtos em seu carrinho. Para exclusão de itens do seu carrinho, basta clicar no ícone de “X”, que aparece ao lado do preço do produto dentro do carrinho. ",
+          "blockClass": "texto-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-pedido-telefone-carrinho-subtitle-subtitulo": {
+        "props": {
+          "text": "11.Como faço meu pedido por telefone?  ",
+          "blockClass": "subtitulo-perguntas-e-respostas"
+        }
+      },
+      "rich-text#meuspedidos-pedido-telefone-carrinho-content-texto": {
+        "props": {
+          "text": "O nosso contato por WhatsApp está disponível de segunda a sexta, das 9:00 às 18:00 horas, para auxiliá-lo em compras no nosso site. Entre em contato conosco pelo número (11) 94220-7805. ",
+          "blockClass": "texto-perguntas-e-respostas"
+        }
+      },
+
+    "rich-text#meuspedidos-pagamentp-title": {
+      "props": {
+        "text": "Pagamentos",
+        "blockClass": "titulo-perguntas-e-respostas"
+      }
+    },
+
+    "rich-text#meuspedidos-cupon-desconto-carrinho-subtitle-subtitulo": {
+        "props": {
+          "text": "12.Tenho cupom de desconto. Como uso?  ",
+          "blockClass": "subtitulo-perguntas-e-respostas"
+        }
+      },
+      "rich-text#meuspedidos-cupondesconto-carrinho-content-texto": {
+        "props": {
+          "text": "Assim que você fechar seu pedido e visualizar os itens em sua sacola, haverá a opção de “Adicionar cupom de desconto”. Basta inserir seu cupom neste campo, para recálculo do preço final de sua compra. ",
+          "blockClass": "texto-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-pagamento-nao-aprovado-carrinho-subtitle-subtitulo": {
+        "props": {
+          "text": "13.Como proceder se meu pagamento não for aprovado?   ",
+          "blockClass": "subtitulo-perguntas-e-respostas"
+        }
+      },
+      "rich-text#meuspedidos-pagamento-nao-aprovado-carrinho-content-texto": {
+        "props": {
+          "text": "O nosso contato por WhatsApp ou e-mail está disponível de segunda a sexta, das 9:00 às 18:00 horas, para auxiliá-lo com qualquer dificuldade para finalizar suas compras em nosso site. Entre em contato conosco pelo WhatsApp (11) 94220-7805 ou pelo e-mail contato@brme.com.br ",
+          "blockClass": "texto-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-aprovacao-carrinho-subtitle-subtitulo": {
+        "props": {
+          "text": "14.Qual é o prazo de aprovação da compra?  ",
+          "blockClass": "subtitulo-perguntas-e-respostas"
+        }
+      },
+      "rich-text#meuspedidos-aprovacao-carrinho-content-texto": {
+        "props": {
+          "text": "No caso de compras realizadas por cartão de crédito ou débito, a aprovação está diretamente ligada à operadora de seu cartão, podendo demorar de 1 a 10 minutos normalmente. Caso seu pagamento seja reprovado, você receberá um aviso em até 24 horas. Para pagamentos via boleto, o prazo para compensação é de 1 a 3 dias úteis. E no caso de PIX, a confirmação do pagamento é imediata. ",
+          "blockClass": "texto-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-segundavianota-subtitle-subtitulo": {
+        "props": {
+          "text": "15.Como solicitar a segunda via da Nota Fiscal?   ",
+          "blockClass": "subtitulo-perguntas-e-respostas"
+        }
+      },
+      "rich-text#meuspedidos-segundavianota-content-texto": {
+        "props": {
+          "text": "O nosso contato por WhatsApp ou e-mail está disponível de segunda a sexta, das 9:00 às 18:00 horas, para auxiliá-lo com qualquer dúvida em relação às suas compras em nosso site. Entre em contato conosco pelo número (11) 94220-7805 ou pelo e-mail contato@brme.com.br. ",
+          "blockClass": "texto-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-extorno-subtitle-subtitulo": {
+        "props": {
+          "text": "16.Qual o prazo para solicitar cancelamento e obter estorno?  ",
+          "blockClass": "subtitulo-perguntas-e-respostas"
+        }
+      },
+      "rich-text#meuspedidos-extorno-content-texto": {
+        "props": {
+          "text": "Para qualquer tipo de pagamento, você tem até 1 (uma) hora para entrar em contato com nosso atendimento e cancelar seu pedido com reembolso imediato. Lembrando que nosso atendimento funciona de segunda a sexta, das 9:00 às 18:00 horas. Caso você não consiga entrar em contato com nosso atendimento dentro deste período, pedimos que envie um e-mail para contato@brme.com.br ",
+          "blockClass": "texto-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-produtos-title": {
+        "props": {
+          "text": "Produtos",
+          "blockClass": "titulo-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-semestoque-subtitle-subtitulo": {
+        "props": {
+          "text": "17.É possível encomendar um produto que não esteja disponível no estoque?   ",
+          "blockClass": "subtitulo-perguntas-e-respostas"
+        }
+      },
+      "rich-text#meuspedidos-semestoque-content-texto": {
+        "props": {
+          "text": "Não é possível encomendar um produto indisponível em nosso estoque, mas estamos implementando a opção te avisar assim que ele chegar. Enquanto isso, se houver necessidade, entre em contato conosco pelo WhatsApp (11) 94220-7805, para saber a previsão do produto de retornar ao estoque.  ",
+          "blockClass": "texto-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-troca-subtitle-subtitulo": {
+        "props": {
+          "text": "18.Como trocar um produto que comprei na loja online?  ",
+          "blockClass": "subtitulo-perguntas-e-respostas"
+        }
+      },
+      "rich-text#meuspedidos-troca-content-texto": {
+        "props": {
+          "text": "O nosso contato por telefone ou e-mail está disponível de segunda a sexta, das 9:00 às 18:00 horas, para auxiliá-lo com qualquer dúvida em relação à troca de produtos. Entre em contato conosco pelo , pelo WhatsApp (11) 94220-7805 ou pelo e-mail contato@brme.com.br  ",
+          "blockClass": "texto-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-especificacao-subtitulo": {
+        "props": {
+          "text": "19.Onde encontro as especificações do produto?  ",
+          "blockClass": "subtitulo-perguntas-e-respostas"
+        }
+      },
+      "rich-text#meuspedidos-especificacao-content-texto": {
+        "props": {
+          "text": "Em nossa loja dispomos de todas as informações necessárias a respeito de todos os produtos. Caso persista alguma dúvida, entre em contato conosco pelo WhatsApp (11) 94220-7805 ou pelo e-mail contato@brme.com.br. Nosso horário de atendimento é de segunda a sexta, das 9:00 às 18:00 horas. ",
+          "blockClass": "texto-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-armazenar-subtitulo": {
+        "props": {
+          "text": "20.Qual a melhor forma de armazenar meus produtos? ",
+          "blockClass": "subtitulo-perguntas-e-respostas"
+        }
+      },
+      "rich-text#meuspedidos-armazenar-content-texto": {
+        "props": {
+          "text": "Cada produto carrega em si uma alma, e cada alma tem sua maneira particular de ser cuidada. No caso de vinhos, é preciso estar atento à temperatura e local de armazenamento, evitando locais não arejados ou com umidade e/ou mofo e que estejam expostos à luz do sol ou a temperaturas acima de 20ºC.  ",
+          "blockClass": "texto-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-trocas-title": {
+        "props": {
+          "text": "Trocas, devoluções ou cancelamentos ",
+          "blockClass": "titulo-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-troca-subtitulo": {
+        "props": {
+          "text": "21.E se o produto que eu quiser trocar não estiver mais no estoque?  ",
+          "blockClass": "subtitulo-perguntas-e-respostas"
+        }
+      },
+      "rich-text#meuspedidos-trocaa-content-texto": {
+        "props": {
+          "text": "Podemos conceder um crédito em nossa loja para futuras compras, gerando um cupom válido por 30 dias.  ",
+          "blockClass": "texto-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-devolver-subtitulo": {
+        "props": {
+          "text": "22.Como devolver um produto? ",
+          "blockClass": "subtitulo-perguntas-e-respostas"
+        }
+      },
+      "rich-text#meuspedidos-devolver-content-texto": {
+        "props": {
+          "text": "Se você está na região da Grande SP, podemos fazer a coleta em sua casa dentro de até 5 dias úteis, ou você pode devolver o produto direto em Centro de Distribuição, localizado no bairro Vila Maria (São Paulo – SP), de segunda à sexta, das 8:00h às 16h30. Em caso de dúvidas, entre em contato conosco pelo WhatsApp (11) 94220-7805 ou pelo e-mail contato@brme.com.br ",
+          "blockClass": "texto-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-trocarproduto-subtitulo": {
+        "props": {
+          "text": "23.Como trocar um produto?  ",
+          "blockClass": "subtitulo-perguntas-e-respostas"
+        }
+      },
+      "rich-text#meuspedidos-trocarproduto-content-texto": {
+        "props": {
+          "text": "Você tem até 3 dias úteis para trocar seu produto sem custo após entrega, passado este período a troca será cobrada. Para efetivar a troca, entre em contato conosco pelo WhatsApp (11) 94220-7805 ou pelo e-mail contato@brme.com.br  ",
+          "blockClass": "texto-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-errado-subtitulo": {
+        "props": {
+          "text": "24.Meu pedido veio errado, como prosseguir?  ",
+          "blockClass": "subtitulo-perguntas-e-respostas"
+        }
+      },
+      "rich-text#meuspedidos-errado-content-texto": {
+        "props": {
+          "text": "Entre em contato conosco pelo nosso WhatsApp (11) 94220-7805 ou pelo e-mail contato@brme.com.br e solicite a troca de seu produto.  ",
+          "blockClass": "texto-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-cadastrp-cliente-title": {
+        "props": {
+          "text": "Cadastro do cliente ",
+          "blockClass": "titulo-perguntas-e-respostas"
+        }
+      },
+ 
+      "rich-text#meuspedidos-criarconta-subtitulo": {
+        "props": {
+          "text": "24.Como criar minha conta de acesso?   ",
+          "blockClass": "subtitulo-perguntas-e-respostas"
+        }
+      },
+      "rich-text#meuspedidos-criarconta-content-texto": {
+        "props": {
+          "text": "É simples e fácil, basta inserir os dados solicitados na finalização da compra, criar uma senha e pronto, sua conta de acesso está pronta para uso. ",
+          "blockClass": "texto-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-senha-subtitulo": {
+        "props": {
+          "text": "25.Esqueci minha senha. O que devo fazer?   ",
+          "blockClass": "subtitulo-perguntas-e-respostas"
+        }
+      },
+      "rich-text#meuspedidos-senha-content-texto": {
+        "props": {
+          "text": "Não se preocupe. Acessando nosso site, basta você apresentar seu e-mail, que é sua chave de cadastro, e será enviado um código de acesso no mesmo e-mail, sem que você precise cadastrar uma nova senha. ",
+          "blockClass": "texto-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-promocao-subtitulo": {
+        "props": {
+          "text": "26.Como faço para receber promoções/ofertas da BR-ME?  ",
+          "blockClass": "subtitulo-perguntas-e-respostas"
+        }
+      },
+      "rich-text#meuspedidos-promocao-content-texto": {
+        "props": {
+          "text": "Basta se cadastrar em nosso site, em nossa home page há um espaço destinado para isso. ",
+          "blockClass": "texto-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-alteraremail-subtitulo": {
+        "props": {
+          "text": "27.É possível alterar o e-mail cadastrado? ",
+          "blockClass": "subtitulo-perguntas-e-respostas"
+        }
+      },
+      "rich-text#meuspedidos-alteraremail-content-texto": {
+        "props": {
+          "text": "Sim, acesse sua conta e poderá alterar o seu e-mail de cadastro. ",
+          "blockClass": "texto-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-senhasegura-subtitulo": {
+        "props": {
+          "text": "28.Como posso ter certeza de que é seguro fornecer meus dados pessoais?  ",
+          "blockClass": "subtitulo-perguntas-e-respostas"
+        }
+      },
+      "rich-text#meuspedidos-senhasegura-content-texto": {
+        "props": {
+          "text": "A BR-ME caminha junto com a nova Lei Geral de Proteção de Dados (LGPD) e nos responsabilizamos pelo sigilo absoluto de seus dados pessoais.  ",
+          "blockClass": "texto-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-esquecisenha-subtitulo": {
+        "props": {
+          "text": "29.Esqueci o e-mail cadastrado e não consigo acessar minha conta. Como proceder?   ",
+          "blockClass": "subtitulo-perguntas-e-respostas"
+        }
+      },
+      "rich-text#meuspedidos-esquecisenha-content-texto": {
+        "props": {
+          "text": "Entre em contato conosco pelo WhatsApp (11) 94220-7805 ou pelo e-mail contato@brme.com.br ",
+          "blockClass": "texto-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-outros-cliente-title": {
+        "props": {
+          "text": "Outros  ",
+          "blockClass": "titulo-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-oqueebrme-subtitulo": {
+        "props": {
+          "text": "30.O que é a BR-ME?  ",
+          "blockClass": "subtitulo-perguntas-e-respostas"
+        }
+      },
+      "rich-text#meuspedidos-oqueebrme-content-texto": {
+        "props": {
+          "text": "A BR-ME é uma empresa nacional com propósito de elevar o reconhecimento de produtos e serviços nacionais, proporcionando ao consumidor experiências com o que há de melhor no Brasil. Nossa operação acontece por meio de uma curadoria única e qualificada, revelando verdadeiros tesouros escondidos por este país afora com o objetivo de fomentar o consumo de bens e serviços de qualidade. Inicialmente, nossas atividades estão voltadas ao mercado de vinhos e com entregas no estado de São Paulo.",
+          "blockClass": "texto-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-socios-subtitulo": {
+        "props": {
+          "text": "31.Quem são os sócios? ",
+          "blockClass": "subtitulo-perguntas-e-respostas"
+        }
+      },
+      "rich-text#meuspedidos-socios-content-texto": {
+        "props": {
+          "text": "Os sócios da BR-ME têm bagagens e trajetórias distintas, o que agrega ainda mais na estratégia e formulação da empresa. Alexandre Fialho, empresário, consultor e professor, teve sua trajetória mudada pelo envolvimento com vinhos nacionais há mais de 3 anos, depois de décadas visitando vinícolas ao redor do mundo e degustando preponderantemente vinhos de outros países, trazendo para BR-ME seu conhecimento profundo sobre Brasilidade. Guga Valente, co-criador da DM9DDB, agência ícone e referência criativa e excelência de gestão no Brasil, é sócio-fundador e membro do Conselho Executivo do Grupo ABC, o maior grupo de comunicação brasileiro, agregando à BR-ME com estratégias e vertentes de Comunicação. Laércio Cosentino, fundador e presidente do conselho da TOTVS, além de investidor de startups, acredita que o Brasil precisa ser descoberto pelos próprios brasileiros para ser referenciado fora do país. E Rodrigo Vella, sócio fundador do Vella Pugliese Buosi e Guidoni Advogados, acredita fielmente no potencial do Brasil para competir em pé de igualdade com os principais países exportadores de alimentos e bebidas gourmet. ",
+          "blockClass": "texto-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-lojafisica-subtitulo": {
+        "props": {
+          "text": "32.Vocês têm loja física?  ",
+          "blockClass": "subtitulo-perguntas-e-respostas"
+        }
+      },
+      "rich-text#meuspedidos-lojafisica-content-texto": {
+        "props": {
+          "text": "Temos algumas metas como empresa e com certeza ter uma loja conceito física é uma delas, enquanto trabalhamos na concretização disso, você pode adquirir seus produtos em nossa loja virtual www.brme.com.br e conferir novidades por nossas redes sociais: Instagram: @brme.oficial, Facebook: BR-ME e no nosso canal no YouTube. ",
+          "blockClass": "texto-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-produtosvendidos-subtitulo": {
+        "props": {
+          "text": "33.Quais produtos são vendidos?  ",
+          "blockClass": "subtitulo-perguntas-e-respostas"
+        }
+      },
+      "rich-text#meuspedidos-produtosvendidos-content-texto": {
+        "props": {
+          "text": "A BR-ME traz em seu portfólio verdadeiros achados dentro do mercado de vinhos, café, azeites, destilados, incluindo cachaça, gin e até mesmo whisky. Futuramente, temos a intenção de abranger outros produtos alimentícios e bebidas, além de têxteis, cosméticos, tecnológicos e serviços. ",
+          "blockClass": "texto-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-adega-subtitulo": {
+        "props": {
+          "text": "34.A BR-ME é uma adega? ",
+          "blockClass": "subtitulo-perguntas-e-respostas"
+        }
+      },
+      "rich-text#meuspedidos-adegaa-content-texto": {
+        "props": {
+          "text": "Não, a BR-ME é uma curadoria que tem por objetivo evidenciar o reconhecimento de diversos tipos de produtos brasileiros, dentre eles, o vinho, cachaça, azeites, cafés. Nosso objetivo é ir expandindo cada vez mais nossa diversidade de aromas e sabores deste Brasil que você precisa experimentar.  ",
+          "blockClass": "texto-perguntas-e-respostas"
+        }
+      },
+
+      "rich-text#meuspedidos-adega-content-texto": {
+        "props": {
+          "text": "Para mais dúvidas, entre em contato conosco através do nosso WhatsApp (11) 94220-7805 ou pelo nosso e-mail: contato@brme.com.br  ",
+          "blockClass": "texto-perguntas-e-respostas-bold"
+        }
+      } 
+  }

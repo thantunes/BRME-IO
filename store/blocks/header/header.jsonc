@@ -1,0 +1,627 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#1-desktop",
+      "flex-layout.row#2-desktop",
+      "flex-layout.row#3-desktop",
+      "sticky-layout#4-desktop",
+      "search-bar"
+    ]
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://tfcuey.vtexassets.com/arquivos/logo-brme-io.png",
+      "width": "167"
+    }
+  },
+
+  "flex-layout.row#1-desktop": {
+    "children": ["telemarketing"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.row#2-desktop": {
+    "children": ["notification.bar#home"],
+    "props": {
+      "fullWidth": "true"
+    }
+  },
+  "notification.bar#home": {
+    "props": {
+     "content": ""
+   }
+  },
+  "flex-layout.row#3-desktop": {
+    "props": {
+      "blockClass": "menu-link",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "vtex.menu@2.x:menu#websites",
+      "AgeModalComp",
+      "vtex.menu@2.x:menu#institutional"
+    ]
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "sticky-layout#4-desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#4-desktop"]
+  },
+  "flex-layout.row#4-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#category-menu",
+      "flex-layout.col#spacer",
+      "locale-switcher"
+    ]
+  },
+
+  "flex-layout.col#category-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu"]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://tfcuey.vtexassets.com/arquivos/logo-brme-io.png",
+      "width": "180"
+    }
+  },
+  "header-layout.mobile": {
+    "children": ["sticky-layout#1-mobile"]
+  },
+
+
+  "sticky-layout#1-mobile": {
+    "children": ["flex-layout.row#1-mobile","flex-layout.row#botoestopomobile","search-bar"]
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "drawer",
+      "flex-layout.col#spacer",
+      "logo#mobile",
+      "AgeModalComp",
+      "flex-layout.col#spacer",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+
+  "drawer": {
+    "children": ["menu#drawer"]
+  },
+
+
+  "menu#drawer": {
+    "children": [   
+     "vtex.menu@2.x:menu#vinhos-mobile",
+     "vtex.menu@2.x:menu#cafe-mobile",
+     "vtex.menu@2.x:menu#destilados-mobile",
+     "vtex.menu@2.x:menu#azeites-mobile",
+     "vtex.menu@2.x:menu#saudebeleza-mobile",
+     "vtex.menu@2.x:menu#chocolate-mobile",
+     "vtex.menu@2.x:menu#experiencias-mobile",
+     "vtex.menu@2.x:menu#sobre-mobile"
+    ],
+
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "flex-layout.row#botoestopomobile":{
+    "props": {
+      "blockClass": "botoes-topo-mobile"
+    },
+
+    "children": [
+      "menu-item#clubedeassinaturasmobile",
+      "menu-item#botaoselecoesmobile"
+    ]
+  },
+  "menu-item#clubedeassinaturasmobile": {
+    "props": {
+      "id": "menu-item-clubedeassinaturas",
+      "blockClass": "menu-top-clubedeassinaturas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clube-br-me",
+        "noFollow": false,
+        "tagTitle": "Clube de assinaturas",
+        "text": "Clube de assinaturas"
+      }
+    }
+  },
+  "menu-item#botaoselecoesmobile": {
+    "props": {
+      "id": "menu-item-botaoselecoes",
+      "blockClass": "menu-top-botaoselecoes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/1299?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "DESCONTOS",
+        "text": "DESCONTOS"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#vinhos-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"menu-vinhos-mobile"
+    },
+    "children": [
+     
+      "menu-item#vinhos-mobile"
+    ]
+  },
+
+ "menu-item#vinhos-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Vinhos",
+        "text": "Vinhos"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#vinhos"]
+  },
+  "vtex.menu@2.x:submenu.accordion#vinhos": {
+    "children": ["vtex.menu@2.x:menu#footer-vinhos-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-vinhos-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#vinhoporpreco",
+      "menu-item#vinhoate40",
+      "menu-item#vinhoate40a60",
+      "menu-item#vinhoate60a100",
+      "menu-item#vinhoate100a200",
+      "menu-item#vinhoate200a500",
+      "menu-item#vinhoateacima500",
+      "menu-item#vinhovertodosprecos",
+      "menu-item#vinhoportipo",
+      "menu-item#vinhotinto",
+      "menu-item#vinhobranco",
+      "menu-item#vinhorose",
+      "menu-item#vinhoespumante",
+      "menu-item#vinholicoroso",
+      "menu-item#tipoacessorios",
+      "menu-item#vertodosvinhos",
+      "menu-item#poruva",
+      "menu-item#cabernet",
+      "menu-item#carmenere",
+      "menu-item#chardonnay",
+      "menu-item#malbec",
+      "menu-item#merlot",
+      "menu-item#pinot",
+      "menu-item#sauvigon",
+      "menu-item#shiraz",
+      "menu-item#vertodasuvas",
+      "menu-item#vinhoporindicacao",
+      "menu-item#vinhomaisvendidos",
+      "menu-item#vinhorecomendados",
+      "menu-item#vinhonovidades",
+      "menu-item#ofertas",
+      "menu-item#raridades",
+      "menu-item#vertodosporindicacao"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#cafe-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"menu-cafe-mobile"
+    },
+    "children": [
+     
+      "menu-item#cafe-mobile"
+    ]
+  },
+  
+  "menu-item#cafe-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Café",
+        "text": "Café"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#cafe"]
+  },
+  "vtex.menu@2.x:submenu.accordion#cafe": {
+    "children": ["vtex.menu@2.x:menu#footer-cafe-mobile"]
+  },
+  
+  "vtex.menu@2.x:menu#footer-cafe-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#cafeporpreco",
+      "menu-item#cafeate40",
+      "menu-item#cafeate40a60",
+      "menu-item#cafeate60a100",
+      "menu-item#cafeate100a200",
+      "menu-item#cafeacima200",
+      "menu-item#cafeavertodosporpreco",
+      "menu-item#cafepormetodo",
+      "menu-item#cafegraos",
+      "menu-item#cafemoidos",
+      "menu-item#vertodospormetodo",
+      "menu-item#cafesporintensidade",
+      "menu-item#cafesuave",
+      "menu-item#cafemedio",
+      "menu-item#cafeintenso",
+      "menu-item#intensidadevertodos",
+      "menu-item#cafesportipo",
+      "menu-item#cafearomatizada",
+      "menu-item#cafecertificado",
+      "menu-item#cafedescafeinado",
+      "menu-item#cafemaiscafeinado",
+      "menu-item#cafemicrolote",
+      "menu-item#cafeorganico",
+      "menu-item#tipoacessorios",
+      "menu-item#cafeportipovertodos",
+      "menu-item#cafesporindicacao",
+      "menu-item#cafemaisvendidos",
+      "menu-item#caferecomendadospelocomite",
+      "menu-item#cafenovidades",
+      "menu-item#cafeofertas",
+      "menu-item#caferaridades",
+      "menu-item#cafeavertodosporindicacao"  
+    ]
+  },
+  
+  "vtex.menu@2.x:menu#destilados-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"menu-destilados-mobile"
+    },
+    "children": [
+     
+      "menu-item#destilados-mobile"
+    ]
+  },
+
+ "menu-item#destilados-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Destilados",
+        "text": "Destilados"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#destilados"]
+  },
+  "vtex.menu@2.x:submenu.accordion#destilados": {
+    "children": ["vtex.menu@2.x:menu#footer-destilados-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-destilados-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#destiladoporpreco",
+      "menu-item#destiladoate40",
+      "menu-item#destiladoate40a60",
+      "menu-item#destiladoate60a100",
+      "menu-item#destiladoate100a200",
+      "menu-item#destiladoate200a500",
+      "menu-item#destiladoateacima500",
+      "menu-item#destiladovertodosprecos",
+      "menu-item#cachacaportipo",
+      "menu-item#aguarardente",
+      "menu-item#cachaca",
+      "menu-item#gin",
+      "menu-item#rum",
+      "menu-item#whisky",
+      "menu-item#licores",
+      "menu-item#vodca",
+      "menu-item#barris-e-dornas",
+      "menu-item#tipoacessorios",
+      "menu-item#todascachacas",
+      "menu-item#destiladoporindicacao",
+      "menu-item#destiladomaisvendidos",
+      "menu-item#destiladorecomendados",
+      "menu-item#destiladonovidades",
+      "menu-item#destiladoaofertas",
+      "menu-item#destiladoraridades",
+      "menu-item#destiladovertodos"
+   
+    ]
+  },
+
+  "vtex.menu@2.x:menu#azeites-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"menu-azeites-mobile"
+    },
+    "children": [
+     
+      "menu-item#azeites-mobile"
+    ]
+  },
+  
+  "menu-item#azeites-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Azeites",
+        "text": "Azeites"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#azeites"]
+  },
+  "vtex.menu@2.x:submenu.accordion#azeites": {
+    "children": ["vtex.menu@2.x:menu#footer-azeites-mobile"]
+  },
+  
+  "vtex.menu@2.x:menu#footer-azeites-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#azeiteporpreco",
+      "menu-item#azeiteate40",
+      "menu-item#azeiteate40a60",
+      "menu-item#azeiteate60a100",
+      "menu-item#azeiteate100a200",
+      "menu-item#azeiteacima200",
+      "menu-item#vertodosporpreco",
+      "menu-item#azeitesportipo",
+      "menu-item#azeitesextravirgem",
+      "menu-item#azeitesorganico",
+      "menu-item#azeitestrufados",
+      "menu-item#azeitcondimentados",
+      "menu-item#tipoacessorios",
+      "menu-item#vertodosazeitesindensidade",
+      "menu-item#azeitesporoliva",
+      "menu-item#azeitesarauco",
+      "menu-item#azeitesarbequina",
+      "menu-item#azeitesarbosana",
+      "menu-item#azeitesbarnea",
+      "menu-item#azeitesbiancollila",
+      "menu-item#azeiteskoroneiki",
+      "menu-item#azeitesleccino",
+      "menu-item#azeitesmanzanilla",
+      "menu-item#azeitesvertodosporoliva",  
+      "menu-item#azeitesporindicacao",
+      "menu-item#azeitesmaisvendidos",
+      "menu-item#azeitesmaisrecomendados",
+      "menu-item#azeitesnovidades",
+      "menu-item#azeitesofertas",
+      "menu-item#azeitesraridades",
+      "menu-item#azeitesvertodosindicacao"
+      
+      
+    ]
+  },
+  
+  "vtex.menu@2.x:menu#saudebeleza-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"menu-saudebeleza-mobile"
+    },
+    "children": [
+     
+      "menu-item#saudebeleza-mobile"
+    ]
+  },
+  
+  "menu-item#saudebeleza-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Saúde e Beleza",
+        "text": "Saúde e Beleza"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#saudebeleza"]
+  },
+  "vtex.menu@2.x:submenu.accordion#saudebeleza": {
+    "children": ["vtex.menu@2.x:menu#footer-saudebeleza-mobile"]
+  },
+  
+  "vtex.menu@2.x:menu#footer-saudebeleza-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#saudeportipo",
+      "menu-item#saudetestes",
+      "menu-item#sauderosto",
+      "menu-item#saudecorpo",
+      "menu-item#tsaudecabelos",
+      "menu-item#saudekits",
+      "menu-item#tipoacessorios",
+      "menu-item#saudevertodos",
+    "menu-item#saudeporperfil",
+      "menu-item#saudeparahomens",
+      "menu-item#saudeparamulheres",
+      "menu-item#saudeperfilvertodos",
+      "menu-item#saudeporindicacao",
+      "menu-item#saudemaisvendidos",
+      "menu-item#sauderecomendados",
+      "menu-item#saudenovidades",
+      "menu-item#saudeofertas",
+      "menu-item#saudeindicacaovertodos"
+    ]
+  },
+  
+  "vtex.menu@2.x:menu#chocolate-mobile": {
+  "props": {
+    "orientation": "vertical",
+    "blockClass":"menu-chocolate-mobile"
+  },
+  "children": [
+   
+    "menu-item#chocolate-mobile"
+  ]
+},
+
+"menu-item#chocolate-mobile": {
+  "props": {
+    "itemProps": {
+      "tagTitle": "Chocolate",
+      "text": "Chocolate"
+    }
+  },
+  "blocks": ["vtex.menu@2.x:submenu.accordion#chocolate"]
+},
+"vtex.menu@2.x:submenu.accordion#chocolate": {
+  "children": ["vtex.menu@2.x:menu#footer-chocolate-mobile"]
+},
+
+"vtex.menu@2.x:menu#footer-chocolate-mobile": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "menu-item#chocolateporpreco",
+    "menu-item#chocolateate40",
+    "menu-item#chocolateate40a60",
+    "menu-item#chocolateate60a100",
+    "menu-item#chocolatevertodosporpreco",
+    "menu-item#chocolateportipo",
+    "menu-item#chocolateaoleite",
+    "menu-item#chocolatebranco",
+    "menu-item#chocolaintensos",
+    "menu-item#chocolatesaborizados",
+    "menu-item#chocolateorganicos",
+    "menu-item#tipoacessorios",
+    "menu-item#chocolatesvertodos",
+    "menu-item#chocolateporindicacao",
+    "menu-item#chocolatemaisvendidos",
+    "menu-item#chocolaterecomendados",
+    "menu-item#chocolatenovidades",
+    "menu-item#chocolateofertas",
+    "menu-item#chocolatevertodos"
+  ]
+},
+
+"vtex.menu@2.x:menu#experiencias-mobile": {
+  "props": {
+    "orientation": "vertical",
+    "blockClass":"menu-experiencias-mobile"
+  },
+  "children": [
+   
+    "menu-item#experiencias-mobile"
+  ]
+},
+
+"menu-item#experiencias-mobile": {
+  "props": {
+    "itemProps": {
+      "tagTitle": "Eventos",
+      "text": "Eventos"
+    }
+  },
+  "blocks": ["vtex.menu@2.x:submenu.accordion#experiencias"]
+},
+"vtex.menu@2.x:submenu.accordion#experiencias": {
+  "children": ["vtex.menu@2.x:menu#footer-experiencias-mobile"]
+},
+
+"vtex.menu@2.x:menu#footer-experiencias-mobile": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "menu-item#porplataforma",
+    "menu-item#online",
+  
+    "menu-item#eventosportipo",
+    "menu-item#barbrmeeventos",
+    "menu-item#confrataria",
+    "menu-item#degustacoes",
+    "menu-item#eventocachaca",
+    "menu-item#kitseventoscorporativos",
+  
+    "menu-item#eventosporindicacao",
+  
+    "menu-item#eventosofertas" 
+  ]
+},
+
+"vtex.menu@2.x:menu#sobre-mobile": {
+  "props": {
+    "orientation": "vertical",
+    "blockClass":"menu-sobre-mobile"
+  },
+  "children": [
+   
+    "menu-item#sobre-mobile"
+  ]
+},
+
+"menu-item#sobre-mobile": {
+  "props": {
+    "itemProps": { 
+      "tagTitle": "Sobre",
+      "text": "Sobre"
+    }
+  },
+  "blocks": ["vtex.menu@2.x:submenu.accordion#sobre"]
+},
+"vtex.menu@2.x:submenu.accordion#sobre": {
+  "children": ["vtex.menu@2.x:menu#footer-sobre-mobile"]
+},
+
+"vtex.menu@2.x:menu#footer-sobre-mobile": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "menu-item#sobre",
+    "menu-item#sejaumparceiro",
+    "menu-item#blog",
+    "menu-item#perguntaserespostas",
+    "menu-item#nossacomunidade",
+    "menu-item#assinenossomailing",
+    "menu-item#grupowhats",
+    "menu-item#telegrancachaca",
+    "menu-item#instagrambrme"
+  ]
+}
+}

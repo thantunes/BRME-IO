@@ -1,0 +1,122 @@
+{
+    "store.custom#trocas-e-devolucoes": {
+      "blocks": ["flex-layout.row#trocas-e-devolucoes"]
+    },
+    "flex-layout.row#trocas-e-devolucoes": {
+      "children": ["flex-layout.col#text-trocas-e-devolucoes"]
+    },
+    "flex-layout.col#text-trocas-e-devolucoes": {
+      "children": [
+        "rich-text#about-title", 
+        "rich-text#duvidas",
+        "rich-text#email",
+        "rich-text#whats",
+        "rich-text#title-trocas-foi-entregue", 
+        "rich-text#text-trocas-foi-entregue",
+        "rich-text#title-trocas-nao-foi-entregue", 
+        "rich-text#text-trocas-nao-foi-entregue",
+        "rich-text#title-desistencia", 
+        "rich-text#text-desistencia",
+        "rich-text#title-ausente", 
+        "rich-text#text-ausente",
+        "rich-text#title-pedido-erro", 
+        "rich-text#text-pedido-erro"
+      ],
+      "props": {
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#about-title": {
+      "props": {
+        "text": "Trocas e Devoluções",
+        "blockClass": "titulo"
+      }
+    },
+    "rich-text#duvidas": {
+      "props": {
+        "text": "Para dúvidas, informações e cancelamentos entre em contato com o nosso atendimento:"
+      }
+    },
+    "rich-text#email": {
+      "props": {
+        "text": "sac@brme.com.br"
+      }
+    },
+    "rich-text#whats": {
+      "props": {
+        "text": "WhatsApp: (11) 0000-000"
+      }
+    },
+    "rich-text#title-trocas-foi-entregue": {
+      "props": {
+        "text": "PARA TROCAS QUANDO O PRODUTO JÁ FOI ENTREGUE:",
+        "blockClass": "subtitulo"
+      }
+    },
+
+    "rich-text#text-trocas-foi-entregue": {
+      "props": {
+        "text": "texto"
+      }
+    },
+
+    "rich-text#title-trocas-nao-foi-entregue": {
+      "props": {
+        "text": "PARA TROCAS QUANDO O PRODUTO AINDA NÃO FOI ENTREGUE:",
+        "blockClass": "subtitulo"
+      }
+    },
+
+    "rich-text#text-trocas-nao-foi-entregue": {
+      "props": {
+        "text": "texto"
+      }
+    },
+
+
+
+    "rich-text#title-desistencia": {
+      "props": {
+        "text": "DESISTÊNCIA DA COMPRA DO PRODUTO:",
+        "blockClass": "subtitulo"
+      }
+    },
+
+
+    "rich-text#text-desistencia": {
+      "props": {
+        "text": "texto"
+      }
+    },
+
+
+    
+
+
+    "rich-text#title-ausente": {
+      "props": {
+        "text": "CLIENTE AUSENTE PARA O RECEBIMENTO:",
+        "blockClass": "subtitulo"
+      }
+    },
+
+    "rich-text#text-ausente": {
+      "props": {
+        "text": "texto"
+      }
+    },
+    "rich-text#title-pedido-erro": {
+      "props": {
+        "text": "PEDIDO COM ERRO NO CADASTRO DE ENDEREÇO:",
+        "blockClass": "subtitulo"
+      }
+    },
+
+    "rich-text#text-pedido-erro": {
+      "props": {
+        "text": "texto"
+      }
+    }
+
+ 
+  }

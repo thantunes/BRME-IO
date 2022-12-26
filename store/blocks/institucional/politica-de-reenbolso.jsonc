@@ -1,0 +1,25 @@
+{
+    "store.custom#politica-de-reembolso": {
+      "blocks": ["flex-layout.row#politica-de-reembolso"]
+    },
+    "flex-layout.row#politica-de-reembolso": {
+      "children": ["flex-layout.col#text-politica-de-reembolso"]
+    },
+    "flex-layout.col#text-politica-de-reembolso": {
+      "children": ["rich-text#about-title-2", "rich-text#about-content-2"],
+      "props": {
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#about-title-2": {
+      "props": {
+        "text": "Política de Reembolso",
+        "blockClass": "titulo-institucional"
+      }
+    },
+    "rich-text#about-content-2": {
+      "props": {
+        "text": "Para qualquer tipo de pagamento, você tem até 1 (uma) hora para entrar em contato com nosso atendimento e cancelar seu pedido com reembolso imediato. Lembrando que nosso atendimento funciona de segunda a sexta, das 9:00 às 18:00 horas. Caso você não consiga entrar em contato com nosso atendimento dentro deste período, pedimos que envie um e-mail para contato@brme.com.br" }
+    }
+
+  }
