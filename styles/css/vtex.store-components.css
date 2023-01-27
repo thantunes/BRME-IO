@@ -1355,7 +1355,7 @@
       position: initial!important;
   }
   :global(.vtex-flex-layout-0-x-flexRow--topo-clube-de-assinaturas){padding: 0px 20px;}
-  :global(.vtex-flex-layout-0-x-flexRow--beneficios-clube-de-assinaturas){    padding: 0px 20px;}
+  :global(.vtex-flex-layout-0-x-flexRow--beneficios-clube-de-assinaturas){    padding: 35px 10px;}
   :global(.vtex-rich-text-0-x-headingLevel2--assinaturas-beneficios-titulo){padding-top: 25px;}
   :global(.vtex-rich-text-0-x-paragraph--assinaturas-beneficios-linha)::before{    margin-left: 0px!important; margin-right: 12px!important;    margin-bottom: 0px!important;}
   :global(.vtex-rich-text-0-x-paragraph--assinaturas-beneficios-linha){    padding-bottom: 20px!important;}
