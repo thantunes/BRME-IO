@@ -11,6 +11,7 @@
         "flex-layout.row#clube-fenomenal-valor",
         "flex-layout.row#assinaturas-final",
         "flex-layout.row#assinaturas-beneficios"
+      //  "flex-layout.row#bannerclubebrmecuradoria"
     ]
     },
 
@@ -51,18 +52,20 @@
       },
       "flex-layout.col#beneficios": {
         "children": [
-            "rich-text#beneficioss-title",
-            "rich-text#beneficioss-linha-1",
-            "rich-text#beneficioss-linha-2",
-            "rich-text#beneficioss-linha-3",
-            "rich-text#beneficioss-linha-4",
-            "rich-text#beneficioss-linha-5",
-            "rich-text#beneficioss-linha-6",
-            "rich-text#beneficioss-linha-7",
-            "rich-text#beneficioss-linha-8",
-            "rich-text#beneficioss-linha-9",
-            "rich-text#beneficioss-linha-10",
-            "rich-text#beneficioss-linha-11"
+          "image#bannerclubebrmecuradoria"
+
+          //  "rich-text#beneficioss-title",
+          //  "rich-text#beneficioss-linha-1",
+          //  "rich-text#beneficioss-linha-2",
+          //  "rich-text#beneficioss-linha-3",
+          //  "rich-text#beneficioss-linha-4",
+          //  "rich-text#beneficioss-linha-5",
+          //  "rich-text#beneficioss-linha-6",
+          //  "rich-text#beneficioss-linha-7",
+          //  "rich-text#beneficioss-linha-8",
+          //  "rich-text#beneficioss-linha-9",
+           // "rich-text#beneficioss-linha-10",
+           // "rich-text#beneficioss-linha-11"
         
         ],
         "props": {
@@ -209,13 +212,13 @@
     },
       "rich-text#clube-essencial-plano-mensal-receba-produto-1":{
         "props": {
-            "text": "VINHO FABIAN MERLOT INTUIÇÃO 750ML",
+            "text": "VINHO DON GUERINO MALBEC VINTAGE 2020 750ML",
             "blockClass": "clube-essencial-produto"
           }
     },
       "rich-text#clube-essencial-plano-mensal-receba-produto-2":{
         "props": {
-            "text": "ESPUMANTE VIAPIANA BRUT CHAMPENOISE 192 DIAS 750ML",
+            "text": "VINHO ZANELLA VILLA ROSE 2021 750ML",
             "blockClass": "clube-essencial-produto"
           }
     },
@@ -237,7 +240,7 @@
       },
       "image#clube-essencial-img": {
         "props": {
-          "src": "https://tfcuey.vteximg.com.br/arquivos/Dezembro-Essencial.png?v=6378045556468000000",
+          "src": "https://tfcuey.vteximg.com.br/arquivos/essencial-fevereiro-2023.png?v=6378045556468000000",
           "alt":"VINHO FABIAN MERLOT INTUIÇÃO 750ML e ESPUMANTE VIAPIANA BRUT CHAMPENOISE 192 DIAS 750ML",
           "maxWidth": "100%"
         }
@@ -352,13 +355,13 @@
     },
       "rich-text#clube-sensacional-plano-mensal-receba-produto-1":{
         "props": {
-            "text": "ESPUMANTE ARTE VIVA EXTRA BRUT CHARDONNAY RIESLING 750ML",
+            "text": "ESPUMANTE GARBO PRIMOGENITO BRUT 60 MESES - CHARDONNAY E PINOT NOIR 750ML",
             "blockClass": "clube-sensacional-produto"
           }
     },
       "rich-text#clube-sensacional-plano-mensal-receba-produto-2":{
         "props": {
-            "text": "VINHO MIOLO SEBRUMO CABERNET SAUVIGNON 2020 750ML",
+            "text": "VINHO VALDUGA TERROIR EXC. VIOGNIER 750ML",
             "blockClass": "clube-sensacional-produto"
           }
     },
@@ -383,7 +386,7 @@
       },
       "image#clube-sensacional-img": {
         "props": {
-          "src": "https://tfcuey.vteximg.com.br/arquivos/Dezembro-sensacional.png?v=63456464301002680000001",
+          "src": "https://tfcuey.vteximg.com.br/arquivos/Sensacional-fevereiro-2023.png?v=63456464301002680000001",
           "alt":"ESPUMANTE ARTE VIVA EXTRA BRUT CHARDONNAY RIESLING 750ML e VINHO MIOLO SEBRUMO CABERNET SAUVIGNON 2020 750ML",
           "maxWidth": "100%"
         }
@@ -493,13 +496,13 @@
     },
       "rich-text#clube-fenomenal-plano-mensal-receba-produto-1":{
         "props": {
-            "text": "VINHO MARIA MARIA ERICA GRAN RESERVA SYRAH 2018 750ML",
+            "text": "VINHO VALMARINO CHURCHILL CABERNET FRANC 2019 750ML",
             "blockClass": "clube-fenomenal-produto"
           }
     },
       "rich-text#clube-fenomenal-plano-mensal-receba-produto-2":{
         "props": {
-            "text": "ESPUMANTE DON GUERINO BLANC DE BLANCS NATURE 750ML",
+            "text": "VINHO LUIZ ARGENTA CAVE CABERNET FRANC 750ML",
             "blockClass": "clube-fenomenal-produto"
           }
     },
@@ -521,7 +524,7 @@
       },
       "image#clube-fenomenal-img": {
         "props": {
-          "src": "https://tfcuey.vteximg.com.br/arquivos/Dezembro-fenomenal.png?v=6378055646560080000003",
+          "src": "https://tfcuey.vteximg.com.br/arquivos/Fenomenal-fevereiro-2023.png?v=6378055646560080000003",
           "alt":"VINHO MARIA MARIA ERICA GRAN RESERVA SYRAH 2018 750ML e ESPUMANTE DON GUERINO BLANC DE BLANCS NATURE 750ML",
           "maxWidth": "100%"
         }
@@ -573,6 +576,20 @@
               "blockClass": "assinaturas-barra-final"
             }
 
+          },
+
+          "flex-layout.row#bannerclubebrmecuradoria":{
+            "props": {
+              "blockClass": "banner-clube-brme-final"
+            },
+            "children": ["image#bannerclubebrmecuradoria"]
+          },
+          "image#bannerclubebrmecuradoria": {
+            "props": {
+              "src": "/arquivos/Banner_Clube_Rodape.png"
+            }
           }
 
 }
+
+
