@@ -1,7 +1,7 @@
 {
   "vendor": "tfcuey",
   "name": "minimumtheme",
-  "version": "3.1.261",
+  "version": "3.1.262",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
