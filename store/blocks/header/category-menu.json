@@ -11,7 +11,8 @@
       "menu-item#category-azeites",
       "menu-item#category-saude",
       "menu-item#category-chocolate",
-      "menu-item#category-experiencias",
+    
+      "menu-item#category-presentes",
       "menu-item#category-sobre"
     ]
   },
@@ -4360,6 +4361,26 @@
   },
 
 
+
+
+
+  "menu-item#category-presentes": {
+    "props": {
+      "id": "menu-item-category-vinhos",
+      "blockClass": "presentes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/presentes",
+        "noFollow": false,
+        "tagTitle": "Presentes",
+        "text": "Presentes",
+        "blockClass": "link-menu"
+      }
+    }
+  },
 
 
 
