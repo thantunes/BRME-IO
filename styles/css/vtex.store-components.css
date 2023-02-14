@@ -8,8 +8,22 @@
     text-decoration: underline;
   }
 
+
+  :global(.vtex-menu-2-x-styledLinkContent--presentes){text-align: center;display: block;}
+
+
+  :global(.vtex-store-drawer-0-x-childrenContainer)
+  :global(.vtex-menu-2-x-styledLinkContent--presentes){text-align: left;display: block;    margin-left: 13px;
+    font-size: 22px;
+    padding-bottom: 0px;
+    font-family: 'Noto Serif Display',serif;
+    font-weight: 900;
+    font-style: italic;}
+
+  
   :global(.vtex-flex-layout-0-x-flexRow--beneficios-clube-de-assinaturas)
   :global(.vtex-store-components-3-x-container){max-width: 100%!important;width: 100%!important;}
+
 
 :global(.vtex-store-components-3-x-productDescriptionTitle){    font-family: Roboto,sans-serif;
   margin-left: 14px;
@@ -1166,7 +1180,7 @@
   background: url(https://tfcuey.vtexassets.com/arquivos/bg-bloco-beneficios-topo.png) center top no-repeat, url(https://tfcuey.vtexassets.com/arquivos/bg-bloco-beneficios-rodape.png) center bottom no-repeat;
   background-size: contain;
   background-color: #E4CAC1;
-  padding-top: 50px;
+  padding-top: 80px;
   padding-bottom: 115px;
 }
 
@@ -1337,6 +1351,8 @@
       color: #000;
       padding-top: 53px;}
 
+  
+
 
     @media (max-width: 769px){
     :global(.vtex-flex-layout-0-x-flexRow--titulo-nome-colecao-busca-personalizada)
@@ -1356,7 +1372,7 @@
       position: initial!important;
   }
   :global(.vtex-flex-layout-0-x-flexRow--topo-clube-de-assinaturas){padding: 0px 20px;}
-  :global(.vtex-flex-layout-0-x-flexRow--beneficios-clube-de-assinaturas){    padding: 35px 10px;}
+  :global(.vtex-flex-layout-0-x-flexRow--beneficios-clube-de-assinaturas){    padding:35px 10px;}
   :global(.vtex-rich-text-0-x-headingLevel2--assinaturas-beneficios-titulo){padding-top: 25px;}
   :global(.vtex-rich-text-0-x-paragraph--assinaturas-beneficios-linha)::before{    margin-left: 0px!important; margin-right: 12px!important;    margin-bottom: 0px!important;}
   :global(.vtex-rich-text-0-x-paragraph--assinaturas-beneficios-linha){    padding-bottom: 20px!important;}
