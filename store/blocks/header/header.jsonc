@@ -135,7 +135,11 @@
      "vtex.menu@2.x:menu#azeites-mobile",
      "vtex.menu@2.x:menu#saudebeleza-mobile",
      "vtex.menu@2.x:menu#chocolate-mobile",
-     "vtex.menu@2.x:menu#experiencias-mobile",
+    
+
+     "menu-item#category-presentes",
+
+
      "vtex.menu@2.x:menu#sobre-mobile"
     ],
 
