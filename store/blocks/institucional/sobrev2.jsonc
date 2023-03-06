@@ -731,22 +731,22 @@
     "props": {
       "height": 650,
       "images": [
-        {
-          "image": "https://tfcuey.vteximg.com.br/arquivos/adriano-soncini.png",
-          "description": "Adriano Soncini"
-        },
-        {
-          "image": "https://tfcuey.vteximg.com.br/arquivos/Alexandre_fialho_pg_sobre.png",
-          "description": "Alexandre Fialho"
-        },
+     //   {
+     //     "image": "https://tfcuey.vteximg.com.br/arquivos/adriano-soncini.png",
+     //     "description": "Adriano Soncini"
+     //   },
+     //   {
+     //     "image": "https://tfcuey.vteximg.com.br/arquivos/Alexandre_fialho_pg_sobre.png",
+     //     "description": "Alexandre Fialho"
+     //   },
         {
           "image": "https://tfcuey.vteximg.com.br/arquivos/felipe-jannuzzi.png",
           "description": "Felipe Jannuzzi"
         },
-        {
-          "image": "https://tfcuey.vteximg.com.br/arquivos/Guga_valente_pg_sobre.png",
-          "description": "Guga Valente"
-        },
+      //  {
+      //    "image": "https://tfcuey.vteximg.com.br/arquivos/Guga_valente_pg_sobre.png",
+      //    "description": "Guga Valente"
+      //  },
         {
           "image": "https://tfcuey.vteximg.com.br/arquivos/karen-guedes.png",
           "description": "Karen Guedes"
@@ -816,13 +816,23 @@
   },
 
   "flex-layout.row#portrasdabrmebloco1":{
-    "children": ["modal-trigger#adriano","modal-trigger#alexandre","modal-trigger#caio","modal-trigger#felipe"],
+    "children": [
+    //  "modal-trigger#adriano",
+   //   "modal-trigger#alexandre",
+    //  "modal-trigger#caio",
+      "modal-trigger#laercio",
+      "modal-trigger#felipe",
+      "modal-trigger#karen",
+      
+      "modal-trigger#rodrigo"],
     "props": {
         "blockClass": "portrasdabrmebloco1"
       }
   },
   "flex-layout.row#portrasdabrmebloco2":{
-    "children": ["modal-trigger#guga","modal-trigger#karen","modal-trigger#laercio","modal-trigger#rodrigo"],
+    "children": [
+     // "modal-trigger#guga",
+     ],
     "props": {
         "blockClass": "portrasdabrmebloco2"
       }
@@ -1058,7 +1068,14 @@
 
   
   "slider-layout#portrasdabrmemobile": {
-    "children": ["modal-trigger#adriano","modal-trigger#alexandre","modal-trigger#caio","modal-trigger#felipe","modal-trigger#guga","modal-trigger#karen","modal-trigger#laercio","modal-trigger#rodrigo"],
+    "children": [//"modal-trigger#adriano",
+               //  "modal-trigger#alexandre",
+                // "modal-trigger#caio",
+                 "modal-trigger#felipe",
+                // "modal-trigger#guga",
+                 "modal-trigger#karen",
+                 "modal-trigger#laercio",
+                 "modal-trigger#rodrigo"],
     "props": {
       "autoplay": {
         "blockClass": "portrasdabrmobile",
