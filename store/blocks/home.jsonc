@@ -3,20 +3,23 @@
     "blocks": [
       "list-context.image-list#demo",
       //"info-card#home",
-      "flex-layout.row#informativos",
-      "flex-layout.row#informativos-mobile",
+      "slider-layout#slider-categorias-brme-2033",
+      //"flex-layout.row#informativos",
+      //"flex-layout.row#informativos-mobile",
       "rich-text#shelf-title-lancamentos",
-    //  "flex-layout.row#shelfprateleiralancamentos",
+      //"flex-layout.row#shelfprateleiralancamentos",
       "flex-layout.row#shelfprateleiranovidadeshome",
       "flex-layout.row#shelfprateleiranovidadeshome2",
       "flex-layout.row#bannercurso",
       "flex-layout.row#bannercursomobile",
-      "list-context.image-list#slider-produtos-home",
-      "rich-text#shelf-title-maisvendidos",
-      "tab-layout#colecoesmaisvendidos",
+      //"list-context.image-list#slider-produtos-home",
+      //"rich-text#shelf-title-maisvendidos",
+      //"tab-layout#colecoesmaisvendidos",
       "rich-text#shelf-title-editoriais",
-      "slider-layout#editoriais", 
-      "slider-layout#categoriasbaixo"
+      "slider-layout#editoriais",
+      "rich-text#shelf-title-ofertas",
+      "flex-layout.row#shelfprateleiraofertashome"
+      //"slider-layout#categoriasbaixo"
     ]
   },
 
@@ -52,9 +55,103 @@
 
 
 
+  
+  "slider-layout#slider-categorias-brme-2033": {
+    "children": ["info-card#vinhos-cat-2023", "info-card#cafes-cat-2023", "info-card#destilados-cat-2023", "info-card#azeites-cat-2023", "info-card#saude-cat-2023","info-card#chocolate-cat-2023"],
+    "props": {
+      "blockClass": "categorias-infocard-home-2023-area",
+      "itemsPerPage": {
+        "desktop":6,
+        "tablet": 4,
+        "phone": 4
+      },
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+      },
+
+"centerMode": {
+  "desktop":"disabled",
+  "tablet": "to-the-left",
+ "phone": "to-the-left"
+}
+
+    }
+  },
+
+  "info-card#vinhos-cat-2023": {
+    "props": {
+      "imageUrl": "https://tfcuey.vteximg.com.br/arquivos/icone-vinho-brme-2023.png",
+      "isFullModeStyle": true,
+      "callToActionText": "Vinhos",
+      "callToActionUrl": "/sale/d",
+      "textPosition": "center",
+      "blockClass": "categorias-infocard-home-2023"
+    }
+  },
+
+  "info-card#cafes-cat-2023": {
+    "props": {
+      "imageUrl": "https://tfcuey.vteximg.com.br/arquivos/icone-cafe-brme-2023.png",
+      "isFullModeStyle": true,
+      "callToActionText": "Cafés",
+      "callToActionUrl": "/sale/d",
+      "textPosition": "center",
+      "blockClass": "categorias-infocard-home-2023"
+    }
+  },
+
+  "info-card#destilados-cat-2023": {
+    "props": {
+      "imageUrl": "https://tfcuey.vteximg.com.br/arquivos/icone-destilados-brme-2023.png",
+      "isFullModeStyle": true,
+      "callToActionText": "Destilados",
+      "callToActionUrl": "/sale/d",
+      "textPosition": "center",
+      "blockClass": "categorias-infocard-home-2023"
+    }
+  },
+
+  "info-card#azeites-cat-2023": {
+    "props": {
+      "imageUrl": "https://tfcuey.vteximg.com.br/arquivos/icone-azeite-brme-2023.png",
+      "isFullModeStyle": true,
+      "callToActionText": "Azeites",
+      "callToActionUrl": "/sale/d",
+      "textPosition": "center",
+      "blockClass": "categorias-infocard-home-2023"
+    }
+  },
+
+  
+  "info-card#saude-cat-2023": {
+    "props": {
+      "imageUrl": "https://tfcuey.vteximg.com.br/arquivos/icone-saude-brme-2023.png",
+      "isFullModeStyle": true,
+      "callToActionText": "Saúde e Beleza",
+      "callToActionUrl": "/sale/d",
+      "textPosition": "center",
+      "blockClass": "categorias-infocard-home-2023"
+    }
+  },
+
+  "info-card#chocolate-cat-2023": {
+    "props": {
+      "imageUrl": "https://tfcuey.vteximg.com.br/arquivos/icone-barra-de-chocolate-2023-home.png",
+      "isFullModeStyle": true,
+      "callToActionText": "Chocolates",
+      "callToActionUrl": "/sale/d",
+      "textPosition": "center",
+      "blockClass": "categorias-infocard-home-2023"
+    }
+  },
+
+
 
   "flex-layout.row#shelfprateleiranovidadeshome": {
-    "children": ["list-context.product-list#prateleiranovidadeshome"]
+    "children": ["list-context.product-list#prateleiranovidadeshome"],
+    "props": {
+      "blockClass": "prateleira-novidades-home"}
   },
   "list-context.product-list#prateleiranovidadeshome": {
     "blocks": ["product-summary.shelf"],
@@ -71,6 +168,13 @@
         "tablet": 2,
         "phone": 2
       },
+
+      "centerMode": {
+        "desktop":"disabled",
+        "tablet": "disabled",
+        "phone": "disabled"
+      },
+
       "infinite": true,
       "fullWidth": false,
       "blockClass": "shelf"
@@ -468,14 +572,14 @@
   },
 
   "children": [
-    "image#bannercursomobile"
+    "image#bannercursomobile2023"
 
   ]
 },
 
-"image#bannercursomobile": {
+"image#bannercursomobile2023": {
   "props": {
-    "src": "https://tfcuey.vteximg.com.br/arquivos/banner-curso-mobile-io.png?v=637805301268000000",
+    "src": "https://tfcuey.vteximg.com.br/arquivos/Banner-curso-mobile-2023.png?v=637805301268000000",
     "maxWidth": "100%",
     "blockClass": "bloco-home-imagem-banner-curso-mobile"
   }
@@ -1099,7 +1203,7 @@
 
   "rich-text#shelf-title-editoriais": {
     "props": {
-      "text": "\n**Por Ocasião** \n as melhores bebidas, selecionadas pelos melhores especialistas.",
+      "text": "As melhores bebidas, selecionadas para \n**sua melhor ocasião**",
       "blockClass": "titulo-vitrines-verao"
     }
   },
@@ -1111,9 +1215,14 @@
   "slider-layout#editoriais": {
     "props": {
       "itemsPerPage": {
-        "desktop": 4,
+        "desktop": 5,
         "tablet": 4,
-        "phone": 1
+        "phone": 2
+      },
+      "centerMode": {
+        "desktop":"disabled",
+        "tablet": "to-the-left",
+        "phone": "to-the-left"
       },
       "autoplay":{
         "timeout":5000,
@@ -1514,6 +1623,39 @@
     "props": {
       "src": "/arquivos/banner-cafe-io.jpg?v=637805301268000000",
       "maxWidth": "100%"
+    }
+  },
+
+
+  "rich-text#shelf-title-ofertas": {
+    "props": {
+      "text": "## Ofertas:",
+      "blockClass": "shelfTitle"
+    }
+  },
+
+
+  "flex-layout.row#shelfprateleiraofertashome": {
+    "children": ["list-context.product-list#prateleiraofertashome"]
+  },
+  "list-context.product-list#prateleiraofertashome": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#prateleiraofertashome"],
+    "props": {
+      "orderBy": "OrderByReleaseDateDESC",
+      "collection": "202"
+    }
+  },
+  "slider-layout#prateleiraofertashome": {
+    "props": {
+      "itemsPerPage": {
+        "desktop":4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
     }
   }
 
