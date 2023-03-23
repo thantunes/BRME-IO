@@ -1,8 +1,8 @@
 {
   "vtex.menu@2.x:menu#websites": {
     "children": [
-     "flex-layout.col#logo-desktop",
-     "flex-layout.col#spacerlogo"
+     "flex-layout.col#logo-desktop"
+  
     ]
   },
   "flex-layout.col#logo-desktop": {
@@ -46,8 +46,8 @@
 
   "vtex.menu@2.x:menu#institutional": {
     "children": [
-      "menu-item#clubedeassinaturas",
-      "menu-item#botaoselecoes",
+
+      "menu-item#favoritos",
       "menu-item#minhaconta",
     
       "rich-text#institutional",
@@ -135,6 +135,24 @@
         "noFollow": false,
         "tagTitle": "Minha Conta",
         "text": "Minha Conta"
+       
+      }
+    }
+  },
+
+  "menu-item#favoritos": {
+    "props": {
+      "id": "menu-item-favoritos",
+      "blockClass": "menu-top-favoritos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account#/profile",
+        "noFollow": false,
+        "tagTitle": "Favoritos",
+        "text": "Favoritos"
        
       }
     }
