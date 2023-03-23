@@ -10,9 +10,11 @@
       "flex-layout.row#espacamento-footer",
       "flex-layout.row#footer-3-desktop",
       "flex-layout.row#espacamento-footer",
+
+
+
       "flex-layout.row#footer-aviso-desktop",
-      "flex-layout.row#footer-4-desktop",
-      "flex-layout.row#espacamento-footer",
+
       "flex-layout.row#footer-5-desktop",
       "flex-layout.row#developers"
       
@@ -21,8 +23,8 @@
   },
   "flex-layout.row#footer-1-desktop": {
     "children": [
-      "flex-layout.row#bloconews",
-      "vtex.menu@2.x:menu#Products"
+      "flex-layout.row#bloconews"
+ 
      
     ],
     "props": {
@@ -63,18 +65,70 @@
     },
   
     "children": [
-      "rich-text#title-news",
+      "flex-layout.row#bloconewscont"
+    ]
+  },
+
+
+  "flex-layout.row#bloconewscont":{
+    "children": [
+      "flex-layout.col#bloconewscont",
+      "flex-layout.col#bloconewscont-2"
+     
+    ]
+
+  },
+
+
+  "flex-layout.col#bloconewscont":{
+    "children": [
+      "rich-text#title-news"
+     
+    ]
+
+  },
+
+  
+  "flex-layout.col#bloconewscont-2":{
+    "children": [
       "newsletter-input-name",
       "newsletter-input-email",
       "newsletter-hidden-field",
-      "newsletter-submit",
+      "flex-layout.row#bloconewscontnews"
+     
+    ],
+    "props": {
+      "blockClass": "bloconewscont-2-brme-2023"
+      
+    }
+
+  },
+
+  "flex-layout.row#bloconewscontnews":{
+    "children": [
+      "flex-layout.col#bloconewscontnews",
+      "flex-layout.col#bloconewscontnews-2"
+    ]
+  },
+
+
+  "flex-layout.col#bloconewscontnews":{
+    "children": [
       "newsletter-checkbox-confirmation"
     ]
   },
 
+  "flex-layout.col#bloconewscontnews-2":{
+    "children": [
+      "newsletter-submit"
+    ]
+  },
+
+
+
   "rich-text#title-news":{
     "props": {
-      "text": "### Receba novidades e promoções:",
+      "text": "### Novidades e promoções:",
       "textPosition": "center",
       "textAlignment": "center",
       "blockClass": "titulo-news"
@@ -178,19 +232,29 @@
 
   "flex-layout.row#footer-2-desktop": {
     "children": [
+      "rich-text#grupobrmefooter",
       "social-networks",
       "flex-layout.row#whatsapp-footer"
-    
-    
-      
     ],
-
-
-
     "props": {
       "blockClass": "payment-methods"
     }
   },
+
+
+  "rich-text#grupobrmefooter": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Grupo BR-ME",
+      "blockClass": "grupo-brme-title-footer"
+    }
+  },
+
+
+
+
+
   "accepted-payment-methods": {
     "props": {
       "blockClass": "payment-methods-title",
@@ -203,12 +267,54 @@
 
  
   "flex-layout.row#footer-3-desktop": {
-    "children": ["rich-text#footer"],
+    "children": [
+      "flex-layout.col#footer-3-desktop-1",
+      "flex-layout.col#footer-3-desktop-2",
+      "flex-layout.col#footer-3-desktop-3"
+    
+    ],
     "props": {
       "blockClass": "area-central-de-atendimento"
       
     }
   },
+
+
+
+  "flex-layout.col#footer-3-desktop-1":{
+    "children": [
+      "rich-text#footerhorarios"
+    
+    ]
+  },
+
+
+  "flex-layout.col#footer-3-desktop-2":{
+    "children": [
+      "menu-item#QuemSomos",
+      "menu-item#Blog",
+      "menu-item#faqfooter",
+      "menu-item#politicafooter"
+    
+    ],
+    "props": {
+      "blockClass": "menu-footer-links"
+      
+    }
+  },
+
+  "flex-layout.col#footer-3-desktop-3":{
+    "children": [
+      "rich-text#footer",
+      "rich-text#footeratendimento"
+    
+    ]
+  },
+
+
+
+
+
   
   "rich-text#footer": {
     "props": {
@@ -216,6 +322,15 @@
       "blockClass": "central-atendimento"
     }
   },
+
+  "rich-text#footeratendimento": {
+    "props": {
+      "text": "Atendimento de segunda a sexta-feira, das 9h às 18h, exceto feriados.",
+      "blockClass": "central-atendimento-texto"
+    }
+  },
+
+
 
 
 
@@ -252,7 +367,7 @@
   
   "rich-text#footerhorarios": {
     "props": {
-      "text": "Rua Augusta, 2840 - 2º andar - Cerqueira Cesar - São Paulo/SP \n CNPJ: 18.994.127/0001-39 \n Email: contato@brme.com.br \n **WhatsApp: [(11) 94220-7805](https://api.whatsapp.com/send/?phone=%2B5511942207805&text&app_absent=0)** \n **Atendimento de segunda a sexta-feira, das 9h às 18h, exceto feriados.**",
+      "text": "CNPJ: 18.994.127/0001-39 \n Rua Augusta, 2840 - 2º andar \n Cerqueira Cesar - São Paulo/SP \n \n **Email: contato@brme.com.br** \n **WhatsApp: [(11) 94220-7805](https://api.whatsapp.com/send/?phone=%2B5511942207805&text&app_absent=0)**",
       "blockClass": "footer-aling-center"
     }
   },
@@ -267,11 +382,41 @@
 
 
   "flex-layout.row#footer-5-desktop": {
-    "children": ["image#logofooter", "rich-text#selosdeseguranca", "image#letencrypt","image#kontudo","rich-text#formasdepagamento","image#bandeiraspagamento"],
+    "children": [
+      "flex-layout.col#footer-5-desktop-1",
+       "flex-layout.col#footer-5-desktop"
+    ],
     "props": {
       "blockClass": "rodape-final-brme"
     }
   },
+
+  "flex-layout.col#footer-5-desktop":{
+    "children": ["flex-layout.row#footer-5-desktop-1-1", "flex-layout.row#footer-5-desktop-1-2"]
+  },
+
+  "flex-layout.row#footer-5-desktop-1-1":{
+    "children": ["rich-text#selosdeseguranca"]
+  },
+  "flex-layout.row#footer-5-desktop-1-2":{
+    "children": ["image#letencrypt","image#kontudo"]
+  },
+
+
+
+  "flex-layout.col#footer-5-desktop-1":{
+    "children": ["flex-layout.row#footer-5-desktop-2-1","flex-layout.row#footer-5-desktop-2-2"]
+  },
+
+
+  "flex-layout.row#footer-5-desktop-2-1":{
+    "children": ["rich-text#formasdepagamento"]
+  },
+
+  "flex-layout.row#footer-5-desktop-2-2":{
+    "children": ["image#bandeiraspagamento"]
+  },
+
   
  
   "image#logofooter": {
@@ -288,7 +433,7 @@
 
   "rich-text#selosdeseguranca": {
     "props": {
-      "text": "Selos \n de segurança",
+      "text": "Selos de segurança",
       "blockClass": "selos-de-seguranca-text-footer"
     }
   },
@@ -298,7 +443,7 @@
     "props": {
       "type": "external",
       "text": "Let Encrypt", 
-      "src":"https://tfcuey.vtexassets.com/arquivos/selo-lets-2021.png?v=637643186869730000",
+      "src":"https://tfcuey.vtexassets.com/arquivos/lets-encrypt-2023.png?v=637643186869730000",
       "blockClass": "selo-let-encrypt"
     }
   },
@@ -309,7 +454,7 @@
     "props": {
       "type": "external",
       "text": "Kontudo", 
-      "src":"https://tfcuey.vtexassets.com/arquivos/selo-kontudo-2021.png?v=637643186868000000",
+      "src":"https://tfcuey.vtexassets.com/arquivos/konduto-logotipo-2023.png?v=637643186868000000",
       "blockClass": "selo-Kontudo"
     }
   },
@@ -319,7 +464,7 @@
 
   "rich-text#formasdepagamento": {
     "props": {
-      "text": "Formas \n de pagamento",
+      "text": "Formas de pagamento",
       "blockClass": "footer-formas-pagamento-text"
     }
   },
@@ -329,7 +474,7 @@
   "image#bandeiraspagamento": {
     "props": {
       "text": "Bandeiras", 
-      "src": "https://tfcuey.vtexassets.com/arquivos/formas-de-pagamento.png?v=637502097776030000",
+      "src": "https://tfcuey.vtexassets.com/arquivos/formas-de-pagamento-footer-2023.png?v=637502097776030000",
       "blockClass": "imagem-formas-de-pagamento"
     }
   },
@@ -490,62 +635,56 @@
   "footer-layout.mobile": {
     "children": [
       "flex-layout.row#bloconews",
-      "flex-layout.row#1-footer-mobile",
-      "flex-layout.row#2-footer-mobile",
-      "flex-layout.row#footer-3-desktop",
-
+      "flex-layout.row#footer-mobile-area",
       "flex-layout.row#footer-aviso-desktop",
-
-      "flex-layout.row#footer-4-desktop",
-      "flex-layout.row#footer-5-mobile",
+      "flex-layout.row#footer-5-desktop",
       "flex-layout.row#developers"
+
     ]
   },
-  "flex-layout.row#2-footer-mobile": {
-    "children": ["flex-layout.col#footer-1-mobile"],
-    "props": {
-      "blockClass": "payment-methods-mobile",
-      "paddingTop": 4,
-      "paddingBottom": 4
-    }
-  },
-  "flex-layout.col#footer-1-mobile": {
+
+
+  
+  "flex-layout.row#footer-mobile-area": {
     "children": [
-      "flex-layout.row#social-mobile",
-      "rich-text#footer-mobile"
+      "flex-layout.col#footer-mobile-area-1",
+      "flex-layout.col#footer-mobile-area-2"
+
     ],
     "props": {
-      "blockClass": "payment-methods-mobile-content",
-      "paddingTop": 4,
-      "paddingBottom": 4,
-      "rowGap": 4
+      "blockClass": "footer-mobile-divisor-2023"
+
     }
   },
 
-  "flex-layout.row#social-mobile":{
-    
-    "children": ["flex-layout.col#social-mobile"]
-  },
 
-  "flex-layout.col#social-mobile":{
-    "children": ["social-networks","image#whatsapp-footer"]
+  "flex-layout.col#footer-mobile-area-1": {
+    "children": [
+      "rich-text#grupobrmefooter",
+      "rich-text#footerhorarios",
+      "rich-text#footer"
 
-  },
-
- 
-
-
-  "flex-layout.row#1-footer-mobile": {
+    ],
     "props": {
-      "paddingTop": 4,
-      "paddingBottom": 4
-    },
-    "children": ["vtex.menu@2.x:menu#footer-mobile"]
+      "blockClass": "footer-mobile-divisor-2023-area-1"
+
+    }
   },
-  "rich-text#footer-mobile": {
+
+  "flex-layout.col#footer-mobile-area-2": {
+    "children": [
+      "social-networks",
+      "flex-layout.col#footer-3-desktop-2",
+      "rich-text#footeratendimento"
+
+    ],
     "props": {
-      "text": "BR-ME © | Todos os direitos reservados",
-      "blockClass": "footer-aling-center"
+      "blockClass": "footer-mobile-divisor-2023-area-2"
+
     }
   }
+
+
+
+
 }
