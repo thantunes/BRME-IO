@@ -13,7 +13,7 @@
       "menu-item#category-chocolate",
     
       "menu-item#category-presentes",
-      "menu-item#category-sobre"
+      "menu-item#clube-brme-menu-2023"
     ]
   },
   "menu-item#category-vinhos": {
@@ -4679,6 +4679,28 @@
         "text": "Instagram da BR-ME"
       }
     }
+  },
+
+
+
+  "menu-item#clube-brme-menu-2023": {
+    "props": {
+      "id": "menu-item-category-menu-2023",
+      "blockClass": "clube-br-me-menu-2023",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "categoryID":"80",
+        "href": "/clube-br-me",
+        "noFollow": false,
+        "tagTitle": "Clube BR-ME",
+        "text": "Clube BR-ME",
+        "blockClass": "link-menu"
+      }
+    }
+ 
   }
 
   
