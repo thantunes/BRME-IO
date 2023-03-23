@@ -30,7 +30,28 @@
       "product-summary-space",
       "product-summary-price",
       "product-identifier.summary",
-      "add-to-cart-button"
+      "product-summary-sku-selector",
+      "flex-layout.col#botaocomprarshelf"
     ]
+  },
+
+  "flex-layout.col#botaocomprarshelf":{
+    "children": [
+      "flex-layout.row#botaocomprarshelf"],
+      "props": {
+        "blockClass": "bloco-bt-comprar-quantidade-vitrine"
+      }
+
+  },
+
+  "flex-layout.row#botaocomprarshelf":{
+    "children": [
+      "product-summary-quantity",
+      "add-to-cart-button"],
+      "props": {
+        "blockClass": "bloco-bt-comprar-quantidade-vitrine"
+      }
+
   }
+
 }
