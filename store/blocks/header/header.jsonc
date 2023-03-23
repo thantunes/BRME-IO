@@ -10,8 +10,8 @@
       "flex-layout.row#1-desktop",
       "flex-layout.row#2-desktop",
       "flex-layout.row#3-desktop",
-      "sticky-layout#4-desktop",
-      "search-bar"
+      "sticky-layout#4-desktop"
+      
     ]
   },
   "logo#mobile": {
@@ -52,9 +52,24 @@
     "children": [
       "vtex.menu@2.x:menu#websites",
       "AgeModalComp",
+
+      "flex-layout.col#busca-desktop",
       "vtex.menu@2.x:menu#institutional"
     ]
   },
+
+
+
+  "flex-layout.col#busca-desktop": {
+    "props": {
+      "width": "grow",
+      "blockClass":"search-bar-mobile"
+    },
+    "children": ["search-bar"]
+  },
+
+
+
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"
@@ -102,15 +117,19 @@
 
 
   "sticky-layout#1-mobile": {
-    "children": ["flex-layout.row#1-mobile","flex-layout.row#botoestopomobile","search-bar"]
+    "children": ["flex-layout.row#1-mobile","search-bar"]
   },
   "flex-layout.row#1-mobile": {
     "children": [
       "drawer",
       "flex-layout.col#spacer",
       "logo#mobile",
+
+
+      
       "AgeModalComp",
       "flex-layout.col#spacer",
+      "menu-item#favoritos",
       "login",
       "minicart.v2"
     ],
