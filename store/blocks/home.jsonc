@@ -57,11 +57,11 @@
 
   
   "slider-layout#slider-categorias-brme-2033": {
-    "children": ["info-card#vinhos-cat-2023", "info-card#cafes-cat-2023", "info-card#destilados-cat-2023", "info-card#azeites-cat-2023", "info-card#saude-cat-2023","info-card#chocolate-cat-2023"],
+    "children": ["info-card#vinhos-cat-2023", "info-card#cafes-cat-2023", "info-card#destilados-cat-2023", "info-card#azeites-cat-2023", "info-card#saude-cat-2023","info-card#chocolate-cat-2023","info-card#barris-cat-2023"],
     "props": {
       "blockClass": "categorias-infocard-home-2023-area",
       "itemsPerPage": {
-        "desktop":6,
+        "desktop":7,
         "tablet": 4,
         "phone": 4
       },
@@ -84,7 +84,7 @@
       "imageUrl": "https://tfcuey.vteximg.com.br/arquivos/icone-vinho-brme-2023.png",
       "isFullModeStyle": true,
       "callToActionText": "Vinhos",
-      "callToActionUrl": "/sale/d",
+      "callToActionUrl": "/gastronomia/vinhos",
       "textPosition": "center",
       "blockClass": "categorias-infocard-home-2023"
     }
@@ -95,7 +95,7 @@
       "imageUrl": "https://tfcuey.vteximg.com.br/arquivos/icone-cafe-brme-2023.png",
       "isFullModeStyle": true,
       "callToActionText": "Cafés",
-      "callToActionUrl": "/sale/d",
+      "callToActionUrl": "/gastronomia/cafe",
       "textPosition": "center",
       "blockClass": "categorias-infocard-home-2023"
     }
@@ -106,7 +106,7 @@
       "imageUrl": "https://tfcuey.vteximg.com.br/arquivos/icone-destilados-brme-2023.png",
       "isFullModeStyle": true,
       "callToActionText": "Destilados",
-      "callToActionUrl": "/sale/d",
+      "callToActionUrl": "/gastronomia/destilado",
       "textPosition": "center",
       "blockClass": "categorias-infocard-home-2023"
     }
@@ -117,7 +117,7 @@
       "imageUrl": "https://tfcuey.vteximg.com.br/arquivos/icone-azeite-brme-2023.png",
       "isFullModeStyle": true,
       "callToActionText": "Azeites",
-      "callToActionUrl": "/sale/d",
+      "callToActionUrl": "/gastronomia/azeites/",
       "textPosition": "center",
       "blockClass": "categorias-infocard-home-2023"
     }
@@ -129,7 +129,7 @@
       "imageUrl": "https://tfcuey.vteximg.com.br/arquivos/icone-saude-brme-2023.png",
       "isFullModeStyle": true,
       "callToActionText": "Saúde e Beleza",
-      "callToActionUrl": "/sale/d",
+      "callToActionUrl": "/saude-e-beleza",
       "textPosition": "center",
       "blockClass": "categorias-infocard-home-2023"
     }
@@ -140,7 +140,19 @@
       "imageUrl": "https://tfcuey.vteximg.com.br/arquivos/icone-barra-de-chocolate-2023-home.png",
       "isFullModeStyle": true,
       "callToActionText": "Chocolates",
-      "callToActionUrl": "/sale/d",
+      "callToActionUrl": "/gastronomia/chocolates",
+      "textPosition": "center",
+      "blockClass": "categorias-infocard-home-2023"
+    }
+  },
+
+
+  "info-card#barris-cat-2023": {
+    "props": {
+      "imageUrl": "https://tfcuey.vteximg.com.br/arquivos/icones-dormas-e-barris.png",
+      "isFullModeStyle": true,
+      "callToActionText": "Dornas e Barris",
+      "callToActionUrl": "/gastronomia/barril-e-dorna",
       "textPosition": "center",
       "blockClass": "categorias-infocard-home-2023"
     }
@@ -562,6 +574,7 @@
 "image#bannercurso": {
   "props": {
     "src": "https://tfcuey.vteximg.com.br/arquivos/banner-curso-io-v2.png?v=637805301268000000",
+    "link": "/sobre-a-brme",
     "maxWidth": "100%",
     "blockClass": "bloco-home-banner-curso-desk"
   }
@@ -580,6 +593,7 @@
 "image#bannercursomobile2023": {
   "props": {
     "src": "https://tfcuey.vteximg.com.br/arquivos/Banner-curso-mobile-2023.png?v=637805301268000000",
+    "link": "/sobre-a-brme",
     "maxWidth": "100%",
     "blockClass": "bloco-home-imagem-banner-curso-mobile"
   }
