@@ -1355,9 +1355,12 @@ display: block!important;
   :global(.vtex-add-to-cart-button-0-x-buttonText), 
   :global(.render-route-store-search-brand) 
   :global(.vtex-button__label) span {
-    color: #b48736!important;
+    color: #b48736;
     opacity: 1!important;
 }
+
+:global(.render-route-store-search-brand) 
+:global(.vtex-product-summary-2-x-nameContainer){min-height: 80px!important;}
 
 :global(.vtex-product-summary-2-x-element):hover
 :global(.vtex-add-to-cart-button-0-x-buttonText){background-color: #b48736!important;color:#fff!important;}
@@ -2843,6 +2846,42 @@ display: block!important;
   :global(.render-route-store-search-category)
   :global(.vtex-product-summary-2-x-element) 
   :global(.vtex-product-price-1-x-installmentValue--summary){font-size:16px;}
+
+
+
+
+
+  :global(.render-route-store-search-brand)
+  :global(.vtex-product-summary-2-x-element) 
+  :global(.vtex-product-price-1-x-installments){/*order:7;*/color: #000;
+    font-family: Roboto,sans-serif;font-size:0px;
+    margin-top: 4px;}
+  
+  
+    :global(.render-route-store-search-brand)
+    :global(.vtex-product-summary-2-x-element) 
+    :global(.vtex-product-price-1-x-installmentsNumber--summary){font-size:16px;}
+  
+    :global(.render-route-store-search-brand)
+    :global(.vtex-product-summary-2-x-element) 
+    :global(.vtex-product-price-1-x-installmentsNumber--summary)::after {
+      content: " x ";
+      font-size:16px;
+    }
+    :global(.render-route-store-search-brand)
+    :global(.vtex-product-summary-2-x-element) 
+    :global(.vtex-product-price-1-x-installmentValue--summary){font-size:16px;}
+  
+
+
+
+    :global(.render-route-store-search-brand)
+    :global(.vtex-add-to-cart-button-0-x-buttonText) {
+      color: #fff!important;
+      opacity: 1!important;
+  }
+
+
 
 
 :global(.vtex-slider-layout-0-x-sliderRightArrow){    color: #b48736;
